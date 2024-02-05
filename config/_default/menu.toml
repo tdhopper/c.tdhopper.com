@@ -4,7 +4,7 @@ identifier = "resume"
 name = "Resumé"
 url = "https://resume.tdhopper.com"
 [main.params]
-icon = ""
+icon = "user"
 newtab = false 
 
 [[social]]
