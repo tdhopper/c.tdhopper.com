@@ -3,7 +3,8 @@ title: Shortcut to Switch to Previous Git Branch
 slug: shortcut-to-switch-to-previous-git-branch
 aliases: [/blog/2014/Sep/10/shortcut-to-switch-to-previous-git-branch/]
 date: 2014-09-10
-category: Today I Learned
+categories:
+    - Today I Learned
 ---
 
 

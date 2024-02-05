@@ -7,7 +7,8 @@ tags:
  - watch
 description: Talk on challenges of applying machine learning to cybersecurity
 Thumbnail: /projects/bsides2018.png
-category: Personal Update
+categories:
+    - Personal Update
 youtube: OS6j1Y2tJLY
 ---
 

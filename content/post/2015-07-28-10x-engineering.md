@@ -1,6 +1,7 @@
 ---
 title: 10x Engineering
-category: Quote
+categories:
+    - Quote
 date: 2015-07-28
 slug: 10x-engineering
 aliases: [/blog/2015/Jul/28/10x-engineering/]

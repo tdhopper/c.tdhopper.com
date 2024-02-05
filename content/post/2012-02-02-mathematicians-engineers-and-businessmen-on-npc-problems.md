@@ -1,6 +1,7 @@
 ---
 title: Mathematicians, Engineers, and Businessmen on NPC Problems
-category: Article
+categories:
+    - Article
 date: 2012-02-02
 Author: Tim
 slug: mathematicians-engineers-and-businessmen-on-npc-problems

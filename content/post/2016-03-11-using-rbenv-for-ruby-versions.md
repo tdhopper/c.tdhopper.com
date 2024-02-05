@@ -2,7 +2,8 @@
 title: Using rbenv for Ruby Versions
 slug: using-rbenv-for-ruby-versions
 aliases: [/blog/2016/Mar/11/using-rbenv-for-ruby-versions/]
-category: Today I Learned
+categories:
+    - Today I Learned
 date: 2016-03-11
 ---
 

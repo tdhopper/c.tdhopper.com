@@ -1,6 +1,7 @@
 ---
 title: Build a Real Time Machine Learning System
-category: Personal Update
+categories:
+    - Personal Update
 date: 2017-05-17
 slug: realtime-machine-learning
 portfolio: true

@@ -2,7 +2,8 @@
 title: Searching the tweets of people you follow
 slug: searching-the-tweets-of-people-you-follow
 aliases: [/blog/2016/May/02/searching-the-tweets-of-people-you-follow/]
-category: Today I Learned
+categories:
+    - Today I Learned
 date: 2016-05-02
 ---
 

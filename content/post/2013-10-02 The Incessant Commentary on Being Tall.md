@@ -4,7 +4,8 @@ slug: the-incessant-commentary-on-being-tall
 aliases: [/blog/2013/Oct/02/the-incessant-commentary-on-being-tall/]
 date: 2013-10-02
 
-category: Quote
+categories:
+    - Quote
 ---
 
 Ralph Keyes, [The Height of Your Life](http://www.ralphkeyes.com/height/):

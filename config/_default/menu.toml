@@ -10,7 +10,7 @@ newtab = true
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/tdhopper.com"
+url = "https://github.com/tdhopper"
 
 [social.params]
 icon = "brand-github"

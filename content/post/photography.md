@@ -1,6 +1,7 @@
 ---
 title: dothopper photography
-category: Personal Update
+categories:
+    - Personal Update
 date: 2018-02-09
 slug: dothopper-photography
 portfolio: true

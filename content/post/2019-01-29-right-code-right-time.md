@@ -7,7 +7,8 @@ tags:
  - read
 description: Why companies building machine learning products under-invest in engineering and architecture.
 Thumbnail: /projects/rightcode.png
-category: Personal Update
+categories:
+    - Personal Update
 youtube: BvqLgeNVg0Y
 ---
 

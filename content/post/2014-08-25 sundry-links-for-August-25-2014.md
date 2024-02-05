@@ -3,7 +3,8 @@ title: Sundry Links for August 25, 2014
 slug: sundry-links-for-August-25-2014
 aliases: [/blog/2014/Aug/25/sundry-links-for-August-25-2014/]
 date: 2014-08-25
-category: Sundry Link
+categories:
+    - Sundry Link
 ---
 
 [How can I pretty-print JSON at the command line?](http://stackoverflow.com/questions/352098/how-can-i-pretty-print-json/1920585#1920585): I needed to pretty print some JSON at the command line earlier today. The easiest way might be to pipe it through `python -m json.tool`.
@@ -14,4 +15,4 @@ category: Sundry Link
 
 [TextExpander Tools](http://brettterpstra.com/projects/te-tools/): Brett Terpstra, the king of Mac hacks, has some really handy tools for TextExpander.
 
-[GNU Parallel](http://www.gnu.org/software/parallel/): GNU parallel is a shell tool for executing jobs in parallel using one or more computers using xargs-like syntax. Pretty cool. HT [http://www.twitter.com/oceankidbilly](@oceankidbilly).
+[GNU Parallel](http://www.gnu.org/software/parallel/): GNU parallel is a shell tool for executing jobs in parallel using one or more computers using xargs-like syntax. Pretty cool. HT [@oceankidbilly](http://www.twitter.com/oceankidbilly).

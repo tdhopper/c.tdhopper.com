@@ -1,6 +1,7 @@
 ---
 title: Sundry Links for November 24, 2014
-category: Sundry Link
+categories:
+    - Sundry Link
 slug: sundry-links-for-November-24-2014
 aliases: [/blog/2014/Nov/25/sundry-links-for-November-24-2014/]
 date: 2014-11-24

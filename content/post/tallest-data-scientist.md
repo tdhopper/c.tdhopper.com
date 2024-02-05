@@ -1,6 +1,7 @@
 ---
 title: Tallest Data Scientist
-category: Personal Update
+categories:
+    - Personal Update
 date: 2016-12-08
 slug: tallest-data-scientist
 portfolio: true

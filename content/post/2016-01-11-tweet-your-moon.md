@@ -1,6 +1,7 @@
 ---
 title: Tweet Your Moon
-category: Personal Update
+categories:
+    - Personal Update
 date: 2016-01-11
 slug: tweet-your-moon
 aliases: [/blog/2016/Jan/11/tweet-your-moon/]

@@ -2,7 +2,8 @@
 title: Installing Python on Mohave with pyenv
 date: 2019-05-30
 slug: installing-python
-category: Article
+categories:
+    - Article
 description: How to install Python with pyenv on MacOS Mohave
 ---
 
@@ -28,4 +29,3 @@ export LDFLAGS="-L/usr/local/opt/zlib/lib -L/usr/local/opt/sqlite/lib"
 export CPPFLAGS="-I/usr/local/opt/zlib/include -I/usr/local/opt/sqlite/include"
 pyenv install 3.7.0
 ```
-

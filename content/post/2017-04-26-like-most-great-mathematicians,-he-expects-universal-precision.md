@@ -4,7 +4,8 @@ date: 2017-04-26
 slug: like-most-great-mathematicians-he-expects-universal-precision
 aliases: [/blog/2017/Apr/26/like-most-great-mathematicians-he-expects-universal-precision/]
 Tags:
-category: Quote
+categories:
+    - Quote
 ---
 
 From the [Autobiography of Benjamin Franklin](http://amzn.to/2qe0hRp):

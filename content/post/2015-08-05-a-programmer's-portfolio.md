@@ -1,6 +1,7 @@
 ---
 title: A Programmer's Portfolio
-category: Quote
+categories:
+    - Quote
 date: 2015-08-05
 slug: a-programmer's-portfolio
 aliases: [/blog/2015/Aug/05/a-programmers-portfolio/]

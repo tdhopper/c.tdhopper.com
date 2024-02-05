@@ -1,6 +1,7 @@
 ---
 title: High Quality Code at Quora
-category: Article
+categories:
+    - Article
 date: 2015-07-30
 slug: high-quality-code-at-quora
 aliases: [/blog/2015/Jul/30/high-quality-code-at-quora/]

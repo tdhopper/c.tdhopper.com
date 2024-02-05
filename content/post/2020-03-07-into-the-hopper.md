@@ -2,7 +2,8 @@
 title: Into the Hopper Podcast
 date: 2020-03-07
 slug: into-the-hopper
-category: Personal Update
+categories:
+    - Personal Update
 description: An occasional podcast about machine learning, data science, software engineering, and more.
 ---
 

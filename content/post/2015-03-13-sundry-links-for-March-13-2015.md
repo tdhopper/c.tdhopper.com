@@ -1,6 +1,7 @@
 ---
 title: Sundry Links for March 13, 2015
-category: Sundry Link
+categories:
+    - Sundry Link
 slug: sundry-links-for-March-13-2015
 aliases: [/blog/2015/Mar/13/sundry-links-for-March-13-2015/]
 date: 2015-03-13

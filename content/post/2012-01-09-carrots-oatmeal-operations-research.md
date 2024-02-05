@@ -4,7 +4,8 @@ date: 2012-01-09
 Author: Tim
 slug: carrots-oatmeal-operations-research
 aliases: [/blog/2012/Jan/09/carrots-oatmeal-operations-research/]
-category: Article
+categories:
+    - Article
 math: true
 ---
 

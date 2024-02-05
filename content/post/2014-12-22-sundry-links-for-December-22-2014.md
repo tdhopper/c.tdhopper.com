@@ -1,6 +1,7 @@
 ---
 title: Sundry Links for December 22, 2014
-category: Sundry Link
+categories:
+    - Sundry Link
 slug: sundry-links-for-December-22-2014
 aliases: [/blog/2014/Dec/22/sundry-links-for-December-22-2014/]
 date: 2014-12-22
@@ -20,4 +21,3 @@ date: 2014-12-22
 [10th Conference on Bayesian Nonparametrics](https://stat.duke.edu/bnp10/index.html%3Fpage_id=1.html): This is coming up in my own back yard. I’m excited!
 
 [Machine Learning: The High-Interest Credit Card of Technical Debt](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf): I haven’t read this in detail, but the premise makes tons of sense to me: "It is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning."
-

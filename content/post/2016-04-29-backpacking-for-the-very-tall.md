@@ -1,6 +1,7 @@
 ---
 title: Ultralight Backpacking for the Ultratall
-category: Personal Update
+categories:
+    - Personal Update
 date: 2016-04-29
 slug: backpacking-for-the-very-tall
 aliases: [/blog/2016/Apr/29/backpacking-for-the-very-tall/]

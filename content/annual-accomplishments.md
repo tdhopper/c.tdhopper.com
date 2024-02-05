@@ -70,7 +70,7 @@ date: Tue, 10 Jan 2023 20:47:17 +0000
 
   * Took a long talked about trip to Yellowstone with my dad
 
-  * [Had a tweet quoted in a Nature article](https://nature.com/articles/d41586-019-02046-0)
+  * [Had a tweet quoted in a Nature article](https://www.nature.com/articles/d41586-019-02046-0)
 
   * [Took some photos I'm proud of](https://photos.tdhopper.com/2019-best-of)
 

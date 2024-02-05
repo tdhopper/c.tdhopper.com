@@ -1,6 +1,7 @@
 ---
 title: Notes on Dirichlet Processes
-category: Article
+categories:
+    - Article
 tags: []
 date: 2015-10-16
 slug: wrapping-up-on-nonparametric-bayes

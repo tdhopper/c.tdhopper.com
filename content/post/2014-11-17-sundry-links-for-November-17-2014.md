@@ -1,6 +1,7 @@
 ---
 title: Sundry Links for November 17, 2014
-category: Sundry Link
+categories:
+    - Sundry Link
 slug: sundry-links-for-November-17-2014
 aliases: [/blog/2014/Nov/17/sundry-links-for-November-17-2014/]
 date: 2014-11-17
@@ -15,6 +16,3 @@ date: 2014-11-17
 [Q: Setting User-Agent Field?](https://groups.google.com/forum/#!msg/comp.lang.java/aSPAJO05LIU/ushhUIQQ-ogJ): A 1996 question in comp.lang.java on how to set the user agent field for a Java crawler. The signature on the question? _Thanks, Larry Page_
 
 [alecthomas/importmagic](https://github.com/alecthomas/importmagic): Python tool and Sublime extension for automatically adding imports.
-
-
-

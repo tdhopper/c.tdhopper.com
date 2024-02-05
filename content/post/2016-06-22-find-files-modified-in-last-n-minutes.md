@@ -2,7 +2,8 @@
 title: Find Files Modified in last N Minutes
 slug: find-files-modified-in-last-n-minutes
 aliases: [/blog/2016/Jun/22/find-files-modified-in-last-n-minutes/]
-category: Today I Learned
+categories:
+    - Today I Learned
 date: 2016-06-22
 ---
 

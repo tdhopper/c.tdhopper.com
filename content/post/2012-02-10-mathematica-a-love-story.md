@@ -1,6 +1,7 @@
 ---
 title: "Mathematica: A Love Story"
-category: Article
+categories:
+    - Article
 date: 2012-02-10
 Author: Tim
 slug: mathematica-a-love-story
@@ -93,7 +94,7 @@ since % returns the last line evaluated.
 
 This is only a simple example of a functional operation in Mathematica. Expressions can become much more complex. All my Mathematica code is littered with functional expressions, but rarely will you see a for-loop or a while-loop in my code. And I like it that way.
 
-Oh, and if you want to parallelize these operations: [not a problem](products/mathematica/newin7/content/BuiltInParallelComputing/).
+Oh, and if you want to parallelize these operations: [not a problem](https://reference.wolfram.com/language/guide/ParallelComputing.html).
 
 ### 3. Optimization
 

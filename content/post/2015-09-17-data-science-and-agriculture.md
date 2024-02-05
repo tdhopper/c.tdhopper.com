@@ -1,6 +1,7 @@
 ---
 title: Data Science and Agriculture
-category: Article
+categories:
+    - Article
 date: 2015-09-17
 slug: data-science-and-agriculture
 aliases: [/blog/2015/Sep/17/data-science-and-agriculture/]

@@ -1,6 +1,7 @@
 ---
 title: Logistic Regression Rules Everything Around Me
-category: Quote
+categories:
+    - Quote
 date: 2017-02-21
 slug: logistic-regression-rules-everything-around-me
 aliases: [/blog/2017/Feb/21/logistic-regression-rules-everything-around-me/]

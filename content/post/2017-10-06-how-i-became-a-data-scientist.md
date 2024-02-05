@@ -3,7 +3,8 @@ title: "How I Became a Data Scientist Despite Having Been a Math Major: The Talk
 date: 2017-10-06
 slug: how-i-became-a-data-scientist-the-talk
 aliases: [/blog/2017/Oct/06/how-i-became-a-data-scientist-the-talk/]
-category: Personal Update
+categories:
+    - Personal Update
 portfolio: true
 tags:
  - watch

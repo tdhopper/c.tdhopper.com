@@ -3,7 +3,8 @@ title: Neal Ford on Companies Ignoring Developer Costs
 date: 2017-10-16
 slug: neal-ford-on-companies-ignoring-developer-costs
 aliases: [/blog/2017/Oct/16/neal-ford-on-companies-ignoring-developer-costs/]
-category: Quote
+categories:
+    - Quote
 description: Quote from Neal Ford on the insane financial of tech management.
 ---
 

@@ -4,7 +4,8 @@ date: 2017-06-06
 slug: condahttperror:-http-401-unauthorized-for-url
 aliases: ["/blog/2017/Jun/06/condahttperror:-http-401-unauthorized-for-url/"]
 Tags:
-category: Article
+categories:
+    - Article
 Description: A Conda error I found and how I solved it.
 ---
 

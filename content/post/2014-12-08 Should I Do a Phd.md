@@ -1,6 +1,7 @@
 ---
 title: ShouldIGetAPhD.com
-category: Personal Update
+categories:
+    - Personal Update
 slug: shouldigetaphdcom
 aliases: [/blog/2014/Dec/08/shouldigetaphdcom/]
 date: 2014-12-08

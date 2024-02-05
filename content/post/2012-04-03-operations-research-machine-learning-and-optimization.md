@@ -1,6 +1,7 @@
 ---
 title: Operations Research, Machine Learning, and Optimization
-category: Article
+categories:
+    - Article
 date: 2012-04-03
 Author: Tim
 slug: operations-research-machine-learning-and-optimization

@@ -4,7 +4,8 @@ date: 2012-01-16
 Author: Tim
 slug: what-do-all-or-folks-know
 aliases: [/blog/2012/Jan/16/what-do-all-or-folks-know/]
-category: Article
+categories:
+    - Article
 ---
 
 My friend [John Cook](http://www.johndcook.com/blog/) asked me an interesting question recently:

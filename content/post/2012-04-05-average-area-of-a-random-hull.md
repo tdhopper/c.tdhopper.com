@@ -1,6 +1,7 @@
 ---
 title: Average Area of a Random Hull
-category: Article
+categories:
+    - Article
 date: 2012-04-05
 Author: Tim
 slug: average-area-of-a-random-hull

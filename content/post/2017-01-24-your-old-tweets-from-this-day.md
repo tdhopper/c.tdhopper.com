@@ -1,6 +1,7 @@
 ---
 title: Your Old Tweets from This Day
-category: Personal Update
+categories:
+    - Personal Update
 date: 2017-01-24
 slug: your-old-tweets-from-this-day
 aliases: [/blog/2017/Jan/24/your-old-tweets-from-this-day/]

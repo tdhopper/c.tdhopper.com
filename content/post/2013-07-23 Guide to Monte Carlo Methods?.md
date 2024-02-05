@@ -3,7 +3,8 @@ title: Guide to Monte Carlo Methods?
 slug: guide-to-monte-carlo-methods
 aliases: [/blog/2013/Jul/23/guide-to-monte-carlo-methods/]
 date: 2013-07-23
-category: Article
+categories:
+    - Article
 Author: Tim
 ---
 

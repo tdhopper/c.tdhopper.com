@@ -1,6 +1,7 @@
 ---
 title: My Email Analytics
-category: Article
+categories:
+    - Article
 date: 2012-04-05
 Author: Tim
 slug: my-email-analytics

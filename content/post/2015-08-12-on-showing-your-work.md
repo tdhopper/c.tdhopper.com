@@ -1,6 +1,7 @@
 ---
 title: On Showing Your Work
-category: Quote
+categories:
+    - Quote
 date: 2015-08-12
 slug: on-showing-your-work
 aliases: [/blog/2015/Aug/12/on-showing-your-work/]

@@ -2,7 +2,8 @@
 title: Setting Up supervisord
 slug: setting-up-supervisord
 aliases: [/blog/2016/Sep/20/setting-up-supervisord/]
-category: Today I Learned
+categories:
+    - Today I Learned
 date: 2016-09-20
 ---
 

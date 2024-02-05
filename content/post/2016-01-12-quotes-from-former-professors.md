@@ -1,6 +1,7 @@
 ---
 title: Quotes from Former Professors
-category: Quote
+categories:
+    - Quote
 date: 2016-01-12
 slug: quotes-from-former-professors
 aliases: [/blog/2016/Jan/12/quotes-from-former-professors/]

@@ -4,7 +4,8 @@ date: 2017-05-26
 slug: choice-of-the-name-dynamic-programming
 aliases: [/blog/2017/May/26/choice-of-the-name-dynamic-programming/]
 Tags:
-category: Quote
+categories:
+    - Quote
 ---
 
 [Richard Bellman quoted by Stuart Dreyfus](http://smo.sogang.ac.kr/doc/dy_birth.pdf) via [Garrett Jones](http://economics.gmu.edu/people/gjonesb):

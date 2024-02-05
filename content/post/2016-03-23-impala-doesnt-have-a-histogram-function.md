@@ -2,7 +2,8 @@
 title: Impala Doesn't Have a histogram() function
 slug: impala-doesn't-have-a-histogram()-function
 aliases: [/blog/2016/Mar/23/impala-doesnt-have-a-histogram-function/]
-category: Today I Learned
+categories:
+    - Today I Learned
 date: 2016-03-23
 ---
 

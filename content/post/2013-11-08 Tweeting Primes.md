@@ -1,6 +1,7 @@
 ---
 title: Tweeting Primes
-category: Article
+categories:
+    - Article
 slug: tweeting-primes
 aliases: [/blog/2013/Nov/08/tweeting-primes/]
 date: 2013-11-08

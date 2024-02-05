@@ -2,7 +2,8 @@
 title: Access a IPython repl from pdb
 date: 2019-02-13
 slug: ipython-pdb
-category: Article
+categories:
+    - Article
 description: How to drop into an IPython repl from the Python debugger
 ---
 

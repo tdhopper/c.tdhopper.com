@@ -1,6 +1,7 @@
 ---
 title: Bringing Operations Research into the 21st Century with Online Video
-category: Personal Update
+categories:
+    - Personal Update
 date: 2012-12-01
 slug: orvideo
 portfolio: true

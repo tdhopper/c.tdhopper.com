@@ -3,7 +3,8 @@ title: Python Plotting for Exploratory Data Analysis
 date: 2017-06-26
 slug: python-plotting-for-exploratory-data-analysis
 aliases: [/blog/2017/Jun/26/python-plotting-for-exploratory-data-analysis/]
-category: Personal Update
+categories:
+    - Personal Update
 portfolio: true
 tags:
  - read

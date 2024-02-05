@@ -2,11 +2,12 @@
 title: Configuring Impala Query Results with impalarc
 slug: configuring-impala-query-results-with-impalarc
 aliases: [/blog/2016/Jun/15/configuring-impala-query-results-with-impalarc/]
-category: Today I Learned
+categories: 
+     - Today I Learned
 date: 2016-06-15
 ---
 
-I routinely run Impala queries on a [remote machine](http://til.tdhopper.com/notes/faster-ssh-access-to-remote-computers) and want the results to save to a CSV file on that machine.
+I routinely run Impala queries on a [remote machine](http://tdhopper.com/notes/faster-ssh-access-to-remote-computers) and want the results to save to a CSV file on that machine.
 
 I recently realized that I should setup an Impala config file on that machine to configure the connection to the Impala cluster and the output file format.
 

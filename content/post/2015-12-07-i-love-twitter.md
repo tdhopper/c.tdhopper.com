@@ -1,6 +1,7 @@
 ---
 title: I Love Twitter
-category: Quote
+categories:
+    - Quote
 date: 2015-12-07
 slug: i-love-twitter
 aliases: [/blog/2015/Dec/07/i-love-twitter/]

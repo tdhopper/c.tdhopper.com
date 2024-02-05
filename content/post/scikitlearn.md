@@ -1,6 +1,7 @@
 ---
 title: Introduction to Scikit-Learn
-category: Personal Update
+categories:
+    - Personal Update
 date: 2013-01-21
 slug: scikit
 portfolio: true

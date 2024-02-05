@@ -1,6 +1,7 @@
 ---
 title: Sundry Links for December 6, 2014
-category: Sundry Link
+categories:
+    - Sundry Link
 slug: sundry-links-for-December-06-2014
 aliases: [/blog/2014/Dec/06/sundry-links-for-December-06-2014/]
 date: 2014-12-06

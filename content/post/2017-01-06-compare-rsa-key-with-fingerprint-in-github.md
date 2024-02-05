@@ -2,7 +2,8 @@
 title: Compare RSA Key with Fingerprint in Github
 slug: compare-rsa-key-with-fingerprint-in-github
 aliases: [/blog/2017/Jan/06/compare-rsa-key-with-fingerprint-in-github/]
-category: Today I Learned
+categories:
+    - Today I Learned
 date: 2017-01-06
 ---
 

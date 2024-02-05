@@ -1,6 +1,7 @@
 ---
 title: Keeping IPython Notebooks Running in the Background
-category: Tutorial
+categories:
+    - Tutorial
 slug: keeping-ipython-notebooks-running-in-the-background
 aliases: [/blog/2014/Aug/28/keeping-ipython-notebooks-running-in-the-background/]
 date: 2014-08-28
