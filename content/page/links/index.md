@@ -1,5 +1,5 @@
 ---
-title: Other Pages 
+title: My Other Pages 
 links:
   - title: GitHub
     description: 

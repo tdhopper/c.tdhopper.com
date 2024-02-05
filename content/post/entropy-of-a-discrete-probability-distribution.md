@@ -30,7 +30,7 @@ In general, Shannon wanted to devise a function \\(H(p_1, p_2, \ldots, p_n)\\) d
 
     \\[ H(\mathbf{p})=H(p_1, 1-p_1)+(1-p_1)H\left(\frac{p_2}{1-p_1}, \frac{p_3}{1-p_1}, \ldots, \frac{p_n}{1-p_1}\right).\\]
 
-Shannon showed that given these three assumptions, there is unique for that \\(H\\) must take:
+Shannon showed that given these three assumptions, there is unique form that \\(H\\) must take:
 
 $$ H\propto -\sum_{i=1}^n p_i \log p_i=\sum_{i=1}^n p_i \log \frac{1}{p_i}. $$
 
