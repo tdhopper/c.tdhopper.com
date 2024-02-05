@@ -6,6 +6,7 @@ categories:
     - Article
 tags:
     - python
+image: learning-python.jpeg
 ---
 On January 7, 2011, [I
 tweeted](https://twitter.com/tdhopper/status/23515755127508993), "Trying to

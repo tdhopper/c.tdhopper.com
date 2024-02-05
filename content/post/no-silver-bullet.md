@@ -3,6 +3,7 @@ title: No Silver Bullet
 date: Fri, 18 Nov 2022 20:15:17 +0000
 categories:
      - article
+image: silver_bullet.png
 ---
 
 In 1986, Fred Brooks published "No Silver Bullet—Essence and Accident in Software Engineering" where he argues that there is no silver bullet that "to make software costs drop as rapidly as computer hardware costs do".
@@ -76,3 +77,7 @@ order-of-magnitude improvement. There is no royal road, but there is a road.
 
 [Read all of Brooks' "No Silver Bullet"
 here](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf).
+
+---
+
+<small>[silver bullet](https://flickr.com/photos/eschipul/4160817135 "silver bullet") flickr photo by [eschipul](https://flickr.com/people/eschipul) shared under a [Creative Commons (BY-SA) license](https://creativecommons.org/licenses/by-sa/2.0/)</small>

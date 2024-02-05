@@ -6,6 +6,7 @@ categories:
   - How To
 tags:
     - python
+image: keyboard.png
 ---
 Over the last 6 years, I've been able to help the teams I have been part of
 develop guidelines for code review. Many teams require "code review" without
@@ -87,3 +88,9 @@ Code review has multiple benefits and objectives including:
   * [Thoughtbot Code Review Guidelines](https://github.com/thoughtbot/guides/tree/master/code-review)
 
   * [Code reviews at Slack](https://slack.engineering/how-about-code-reviews/)
+
+--- 
+
+<small>
+[Computers](https://flickr.com/photos/duanestorey/2721991488 "Computers") flickr photo by [Duane Storey](https://flickr.com/people/duanestorey) shared under a [Creative Commons (BY-NC-ND) license](https://creativecommons.org/licenses/by-nc-nd/2.0/)
+</small>
