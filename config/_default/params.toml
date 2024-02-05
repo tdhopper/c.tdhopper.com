@@ -22,7 +22,7 @@ src = "headshot.jpg"
 
 [article]
 math = false
-readingTime = true
+readingTime = false
 
 [article.license]
 enabled = false 

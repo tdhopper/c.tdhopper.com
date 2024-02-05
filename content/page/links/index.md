@@ -1,33 +1,33 @@
 ---
-title: Links
+title: Other Pages 
 links:
   - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    description: 
+    website: https://github.com/tdhopper
+  - title: Do You Play Ball?
+    description: 
+    website: https://instagram.com/doyouplayball
+  - title: Free Disk Space
+    description: 
+    website: https://freespace.tdhopper.com/
+  - title: dothopper photography
+    description: 
+    website: https://photos.tdhopper.com  
+  - title: Notes on Dirichlet Processes 
+    description: 
+    website: https://dp.tdhopper.com/ 
+  - title: Python Plotting    
+    description: 
+    website: https://pythonplot.com/
+  - title: Should I Get a Phd?    
+    description: 
+    website: https://shouldigetaphd.com/    
+
 menu:
     main: 
         weight: 4
         params:
             icon: link
-
+description: Links to my other websites and social media profiles.
 comments: false
 ---
-
-To use this feature, add `links` section to frontmatter.
-
-This page's frontmatter:
-
-```yaml
-links:
-  - title: GitHub
-    description: GitHub is the world's largest software development platform.
-    website: https://github.com
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
-  - title: TypeScript
-    description: TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
-    website: https://www.typescriptlang.org
-    image: ts-logo-128.jpg
-```
-
-`image` field accepts both local and external images.

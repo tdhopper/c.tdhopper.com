@@ -23,7 +23,7 @@ I wrote this post in a Jupyter notebook with a Bash kernel. You can find the
 notebook, Ansible files, and installation directions on [my
 Github](https://github.com/tdhopper/automating_python).
 
-### Ansible¶
+### Ansible
 
 Ansible provides "human readable automation" for "app deployment" and
 "configuration management". Unlike tools like Chef, it doesn't require an
@@ -33,7 +33,7 @@ YAML files into shell commands and runs them on your machines over SSH.
 Ansible is backed by Red Hat and has a great
 [website](https://www.ansible.com/).
 
-### Installing Ansible with Homebrew¶
+### Installing Ansible with Homebrew
 
 First, you'll need to [install
 Ansible](http://docs.ansible.com/ansible/intro_installation.html). On a Mac, I
@@ -51,7 +51,7 @@ recommend doing this with [Homebrew](https://brew.sh/).
     You may encounter build failures or other breakages.
     
 
-### Quickstart¶
+### Quickstart
 
 Soon, I'll show you how to put write an Ansible YAML file. However, Ansible
 also allows you specify tasks from the command line.
@@ -92,7 +92,7 @@ Bourne shell `sh`.
     ansible all -i 'localhost, ' -c local -a "/bin/echo hello"
     
 
-### Setting up an Ansible Inventory¶
+### Setting up an Ansible Inventory
 
 Instead of specifying our inventory with the `-i` flag each time, we should
 specify an Ansible inventory file. This file is a text file specifying
@@ -207,7 +207,7 @@ found`, this is because your VPS doesn't have Python installed on it. You can
 [install it with Ansible](http://stackoverflow.com/questions/32429259/ansible-fails-with-bin-sh-1-usr-bin-python-not-found), but you may just want to
 manually run `sudo apt-get -y install python` on the VPS to get started.
 
-### Writing our first Playbook¶
+### Writing our first Playbook
 
 While adhoc commands will often be useful, the real power of Ansible comes
 from creating repeatable sets of instructions called
@@ -299,7 +299,7 @@ host.
 
 Let's work now on installing the dependencies for our Python project.
 
-### Installing supervisord¶
+### Installing supervisord
 
 "Supervisor is a client/server system that allows its users to monitor and
 control a number of processes on UNIX-like operating systems." We'll use it to
@@ -461,7 +461,7 @@ simple playbook to run the role.
     
     
 
-### Installing Conda with Ansible Galaxy¶
+### Installing Conda with Ansible Galaxy
 
 Next we want to ensure that Conda installed on our system. We could write our
 own role to follow the [recommended
@@ -570,7 +570,7 @@ Python.
     
     
 
-#### Overriding Ansible Variables¶
+#### Overriding Ansible Variables
 
 Once a role is installed locally, you can add it to a play just like you can
 with roles you wrote. Installing Miniconda is now as simple as:
@@ -609,7 +609,7 @@ I added this to
 We now know how to use Ansible to start and run supervisord and to install
 Miniconda. Let's see how to use it to deploy and start our application.
 
-### Deploy Python Application¶
+### Deploy Python Application
 
 There are countless ways to deploy a Python application. We're going to see
 how to use Ansible to deploy from Github.
@@ -632,7 +632,7 @@ We're going to use Ansible to
   3. Create a supervisord file for running the program.
   4. Start the supervisord job.
 
-#### Clone the repository¶
+#### Clone the repository
 
 Cloning a repository with Ansible is easy. We just use the [`git`
 module](http://docs.ansible.com/ansible/git_module.html). This play will clone
@@ -653,7 +653,7 @@ update the repository from the remote if it has already been cloned.
             dest: "{{ project_location }}"
             update: yes
 
-#### Creating the Conda Environment¶
+#### Creating the Conda Environment
 
 Since we've now installed conda and cloned the repository with an
 `environment.yml` file, we just need to run `conda env update` from the
@@ -675,7 +675,7 @@ It uses the [`command`
 module](http://docs.ansible.com/ansible/command_module.html) which just
 executes a shell command in the desired directory.
 
-#### Create a Supervisord File¶
+#### Create a Supervisord File
 
 By default, supervisord will [look in `/etc/supervisor/conf.d/` for
 configuration](http://supervisord.org/configuration.html) on which programs to
@@ -724,7 +724,7 @@ The play for this would look like:
             dest: "{{ supervisord_configs_path }}/run_process.conf"
             owner: root
 
-#### Start the supevisord job¶
+#### Start the supevisord job
 
 Finally, we just need to tell supervisord on our remote machine to start the
 job described by `run_process.conf`.
@@ -745,7 +745,7 @@ is just:
 new config. Because our config has `autostart=true`, supervisor will start it
 as soon as the task is added.
 
-### The Big Playbook!¶
+### The Big Playbook!
 
 We can take everything we've described above and put it in one playbook.
 
@@ -911,7 +911,7 @@ on your own system. Moreover, you could use this exact same command to start
 this program on an arbitrary number of machines by simply adding more hosts to
 your inventory and play spec!
 
-### Conclusion¶
+### Conclusion
 
 Ansible is a powerful, customizable tool. Unlike some similar tools, it
 requires very little setup to start using it. As I've learned more about it,
