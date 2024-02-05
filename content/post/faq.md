@@ -5,6 +5,7 @@ featured: true
 slug: faq
 categories:
     - articles
+image: becoming.png
 ---
 [Three years ago](/blog/how-i-became-a-data-scientist/), I
 wrote a post called "How I Became a Data Scientist Despite Being a Math
