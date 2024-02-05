@@ -5,6 +5,14 @@ name = "Resumé"
 url = "https://resume.tdhopper.com"
 [main.params]
 icon = "user"
+newtab = true 
+
+[[main]]
+identifier = "talks"
+name = "My Talks"
+url = "https://tdhopper.com/talks"
+[main.params]
+icon = "infinity"
 newtab = false 
 
 [[social]]
