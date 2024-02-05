@@ -1,6 +1,7 @@
 ---
 title: Companies I've interviewed with but was not extended an offer by
 slug: rejected
+image: rejected.png
 ---
 
 This list is a follow up to my popular post [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
