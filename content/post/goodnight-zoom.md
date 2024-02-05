@@ -3,7 +3,7 @@ title: Goodnight Zoom
 date: Tue, 23 Jun 2020 11:30:43 +0000
 categories:
     - Humor
-image: workstation.jpg
+image: goodnight-zoom.png 
 description: A parody of the children's book "Goodnight Moon" for the modern tech worker.
 ---
 In the great #general room  
@@ -43,7 +43,3 @@ And a loud young salesman who was typing “@here”
 Goodnight Github stars  
 Goodnight asserts  
 Good night pager duty alerts
-
----
-
-<small>[the office workstation setup](https://flickr.com/photos/blakespot/2376240918 "the office workstation setup") flickr photo by [blakespot](https://flickr.com/people/blakespot) shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)</small>

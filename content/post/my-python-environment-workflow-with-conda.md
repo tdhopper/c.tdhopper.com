@@ -5,6 +5,7 @@ categories:
   - article
 tags:
     - python
+image: conda.png
 ---
 Many new Python programmers rely on their system install of Python to run
 their scripts. There are several good reasons to stop using the system Python.
