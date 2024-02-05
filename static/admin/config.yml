@@ -11,6 +11,8 @@ collections:
     folder: "content/post"
     sort: "date: desc"
     create: true
+    editor:
+      preview: false
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
