@@ -2,6 +2,7 @@
 baseurl = "https://tdhopper.com"
 languageCode = "en-us"
 paginate = 15
+enableGitInfo = true
 title = "tdhopper.com"
 
 # Theme i18n support

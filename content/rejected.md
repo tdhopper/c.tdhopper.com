@@ -1,8 +1,7 @@
 ---
-title: Companies that have turned me down
-date: Thu, 08 Sep 2022 20:43:18 +0000
+title: Companies I've interviewed with but was not extended an offer by
+slug: rejected
 ---
-#### Companies I've interviewed with but was not extended an offer by
 
 This list is a follow up to my popular post [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](https://tdhopper.com/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
 
