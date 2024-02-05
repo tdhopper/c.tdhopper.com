@@ -1,5 +1,4 @@
 ---
----
 title: Faster SSH Access to Remote Computers
 slug: faster-ssh-access-to-remote-computers
 aliases: [/blog/2016/Jun/15/faster-ssh-access-to-remote-computers/]
