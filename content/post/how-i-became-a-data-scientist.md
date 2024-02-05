@@ -1,6 +1,7 @@
 ---
 title: How I Became a Data Scientist Despite Having Been a Math Major
 date: Thu, 23 Apr 2020 12:36:56 +0000
+slug: how-i-became-a-data-scientist
 ---
 Caution: the following post is laden with qualitative extrapolation of
 anecdotes and impressions. Perhaps ironically (though perhaps not), it is not

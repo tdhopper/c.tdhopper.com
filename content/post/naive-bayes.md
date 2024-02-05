@@ -1,6 +1,7 @@
 ---
 title: Naive Bayes Meme
 date: Tue, 14 Mar 2017 21:29:00 +0000
+slug: naive-bayes
 ---
 ![](https://images.squarespace-cdn.com/content/v1/5ea0e0117d85a34f661e1b52/1588282232668-RGTBZEHWQBNPFT87L0Y3/nb1.jpg)
 

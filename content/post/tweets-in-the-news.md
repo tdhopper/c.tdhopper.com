@@ -1,6 +1,7 @@
 ---
 title: My Tweets in the News
 date: Mon, 01 Jul 2019 13:40:00 +0000
+slug: tweets-in-the-news
 ---
 A few weeks back, I was browsing Google Maps and noticed the word "DEMO"
 written in faint green letters in rural South Sudan. A journalist came across
@@ -24,4 +25,3 @@ open source software](https://www.nature.com/articles/d41586-019-02046-0).
 >
 > — Tim Hopper 🗑🦝 (@tdhopper) [November 3,
 > 2015](https://twitter.com/tdhopper/status/661551195291574272?ref_src=twsrc%5Etfw)
-

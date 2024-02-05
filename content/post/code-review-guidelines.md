@@ -1,6 +1,7 @@
 ---
 title: Code Review Guidelines for Data Science Teams
 date: Fri, 03 Dec 2021 15:37:00 +0000
+slug: code-review-guidelines
 ---
 Over the last 6 years, I've been able to help the teams I have been part of
 develop guidelines for code review. Many teams require "code review" without
@@ -82,4 +83,3 @@ Code review has multiple benefits and objectives including:
   * [Thoughtbot Code Review Guidelines](https://github.com/thoughtbot/guides/tree/master/code-review)
 
   * [Code reviews at Slack](https://slack.engineering/how-about-code-reviews/)
-
