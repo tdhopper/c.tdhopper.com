@@ -33,7 +33,7 @@ jobs](/rejected). I've spent a good bit of time reflecting
 on why I wasn't offered this job or that. Several folks have asked me if I had
 any advice to share on the experience, and I hope to offer that here.
 
-### You never really know
+## You never really know
 
 I learned with graduate school applications years ago: you rarely truly know
 why you were turned down. Maybe my GRE scores weren't high enough, or maybe
@@ -47,7 +47,7 @@ rarely (if ever) know the real reasons why you weren't offered a job. I try to
 use the reasons I hear as a way to help me refine my skills and better present
 myself, but I don't put too much weight in them.
 
-### Some advice anyway
+## Some advice anyway
 
 That said, here are a few takeaways from interviewing for probably 20 data
 science jobs since 2012.
@@ -60,7 +60,7 @@ science jobs since 2012.
   * **There's little consistency as to what you might be asked in a data science interview.** I've been asked about Java design patterns, how to solve combinatorics problems, to describe my favorite machine learning model, to explain the [SMO algorithm](https://en.wikipedia.org/wiki/Sequential_minimal_optimization), my opinions about the TensorFlow API, how I do software testing, to analyze a never-before-seen dataset and prepare a presentation in a 4 hour window, the list goes on. I spent a flight to the west coast reading up on the statistics of A/B testing only to be asked largely soft-skills type questions for an entire interview. I've largely given up attempting any special preparation for interviews.
   * **Networking is still king.** Hiring is hard, and interviewing is hard; having a prior relationship with an applicant is attractive and reduces hiring uncertainty. In my own experience, my friendships and connections with the data science community on Twitter has [shaped my career](https://twitter.com/tdhopper/status/760109403383144448). Don't downplay the benefits of networking.
 
-### Conclusion
+## Conclusion
 
 So how do you get a data science job? I don't know.
 
@@ -78,7 +78,7 @@ job, and they'll help you present yourself well in an interview. (With the
 exception of Stack Overflow. Using Stack Overflow in an interview is strangely
 taboo.)
 
-### Further Reading
+## Further Reading
 
   * [Trey Causey: What it's like to be on the data science job market](http://treycausey.com/data_science_interviews.html)
   * [Trey Causey: Hiring data scientists](http://treycausey.com/hiring_data_scientists.html)
