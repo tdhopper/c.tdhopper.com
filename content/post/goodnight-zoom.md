@@ -4,6 +4,7 @@ date: Tue, 23 Jun 2020 11:30:43 +0000
 categories:
     - Humor
 image: workstation.jpg
+description: A parody of the children's book "Goodnight Moon" for the modern tech worker.
 ---
 In the great #general room  
 There was idle chatter  

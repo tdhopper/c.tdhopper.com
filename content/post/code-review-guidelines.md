@@ -7,6 +7,7 @@ categories:
 tags:
     - python
 image: keyboard.png
+description: A proposed code review guideline for data science teams, emphasizing the benefits of code reviews, what they are not intended for, and offering detailed advice for both submitting and reviewing pull requests.
 ---
 Over the last 6 years, I've been able to help the teams I have been part of
 develop guidelines for code review. Many teams require "code review" without

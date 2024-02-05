@@ -7,6 +7,7 @@ categories:
 tags:
     - python
 image: learning-python.jpeg
+description: The post recounts the my journey with Python, highlighting how "Learning Python" by Mark Lutz significantly impacted my career.
 ---
 On January 7, 2011, [I
 tweeted](https://twitter.com/tdhopper/status/23515755127508993), "Trying to
