@@ -3,7 +3,6 @@ title: George Washington's Struggle for Inbox Zero
 date: Tue, 06 Mar 2018 13:34:00 +0000
 slug: george-washington-inbox-zero
 ---
-![](https://images.squarespace-cdn.com/content/v1/5ea0e0117d85a34f661e1b52/1589978416558-TOZ1ITUS30DOF1ROKLH6/George_Washington%2C_1776.jpg)
 
 [Ron Chernow](https://amzn.to/3e3NppS) on George Washington's struggle with
 mail:
