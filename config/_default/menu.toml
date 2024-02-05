@@ -1,11 +1,11 @@
 # Configure main menu and social menu
 [[main]]
-identifier = "home"
-name = "Home"
-url = "/"
+identifier = "resume"
+name = "Resumé"
+url = "https://resume.tdhopper.com"
 [main.params]
-icon = "home"
-newtab = true
+icon = ""
+newtab = false 
 
 [[social]]
 identifier = "github"

@@ -240,8 +240,8 @@ post](https://www.youtube.com/watch?v=Q_UrZ4pmKmI)
 so I wrote [FAQ](/blog/faq/) post trying to answer some of
 them.
 
-  1. At the same time, my academic training in operations research failed me, in some aspects, for a successful career in operations research. For example, practical math modeling was not sufficiently emphasized and the skills of computer programming and software development were undervalued. [return]
-  2. Of course, I have plenty of data science skills left to learn. My knowledge of experimental design is still pretty fuzzy. I still struggle with effective mathematical modeling. I haven't deployed a large scale machine learning system to production. I suck at software logging. I have no idea how deep learning works. [return]
-  3. I have successfully answered more than one interview question by regurgitating knowledge gleaned from tweets. [return]
-  4. Among other reasons, I didn't really plan to get where I am today. I changed majors no fewer than three times in college (physics, CS, and math) and essentially dropped out of two PhD programs! [return]
-  5. For example, install [Anaconda](https://store.continuum.io/cshop/anaconda/) and start playing with some of [these IPython notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks). [return]
+  1. At the same time, my academic training in operations research failed me, in some aspects, for a successful career in operations research. For example, practical math modeling was not sufficiently emphasized and the skills of computer programming and software development were undervalued. 
+  2. Of course, I have plenty of data science skills left to learn. My knowledge of experimental design is still pretty fuzzy. I still struggle with effective mathematical modeling. I haven't deployed a large scale machine learning system to production. I suck at software logging. I have no idea how deep learning works. 
+  3. I have successfully answered more than one interview question by regurgitating knowledge gleaned from tweets. 
+  4. Among other reasons, I didn't really plan to get where I am today. I changed majors no fewer than three times in college (physics, CS, and math) and essentially dropped out of two PhD programs! 
+  5. For example, install [Anaconda](https://store.continuum.io/cshop/anaconda/) and start playing with some of [these IPython notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks). 
