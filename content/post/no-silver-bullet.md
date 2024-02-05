@@ -1,6 +1,8 @@
 ---
 title: No Silver Bullet
 date: Fri, 18 Nov 2022 20:15:17 +0000
+categories:
+     - article
 ---
 
 In 1986, Fred Brooks published "No Silver Bullet—Essence and Accident in Software Engineering" where he argues that there is no silver bullet that "to make software costs drop as rapidly as computer hardware costs do".

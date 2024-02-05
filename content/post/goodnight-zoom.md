@@ -1,6 +1,8 @@
 ---
 title: Goodnight Zoom
 date: Tue, 23 Jun 2020 11:30:43 +0000
+categories:
+    - Humor
 ---
 In the great #general room  
 There was idle chatter  
@@ -39,4 +41,3 @@ And a loud young salesman who was typing “@here”
 Goodnight Github stars  
 Goodnight asserts  
 Good night pager duty alerts
-

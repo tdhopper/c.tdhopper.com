@@ -1,6 +1,8 @@
 ---
 title: Mentions of John Cook on Github
 date: Thu, 14 Jan 2016 02:59:00 +0000
+categories:
+  - article
 ---
 People mention [John Cook's blog](http://www.johndcook.com) a lot [in Github
 repos](https://github.com/search?q=johndcook.com&type=Code&utf8=%E2%9C%93).
@@ -26,4 +28,3 @@ Here are top 12 pages from his site most linked in Github:
   10. [What’s so hard about finding a hypotenuse?](http://www.johndcook.com/blog/2010/06/02/whats-so-hard-about-finding-a-hypotenuse) (19 mentions)
   11. [Random number generation in C++](http://www.johndcook.com/simplerng.cpp) (19 mentions)
   12. [R language for programmers](http://www.johndcook.com/r_language_for_programmers.html) (19 mentions)
-

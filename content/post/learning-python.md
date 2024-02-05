@@ -2,6 +2,10 @@
 title: The Programming Book That Made My Career
 date: Wed, 20 Jan 2021 13:58:16 +0000
 slug: learning-python
+categories:
+    - Article
+tags:
+    - python
 ---
 On January 7, 2011, [I
 tweeted](https://twitter.com/tdhopper/status/23515755127508993), "Trying to

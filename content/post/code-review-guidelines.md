@@ -2,6 +2,10 @@
 title: Code Review Guidelines for Data Science Teams
 date: Fri, 03 Dec 2021 15:37:00 +0000
 slug: code-review-guidelines
+categories: 
+  - How To
+tags:
+    - python
 ---
 Over the last 6 years, I've been able to help the teams I have been part of
 develop guidelines for code review. Many teams require "code review" without

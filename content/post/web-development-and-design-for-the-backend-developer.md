@@ -1,6 +1,8 @@
 ---
 title: Web Development and Design for the Backend Developer
 date: Fri, 31 Mar 2017 18:42:00 +0000
+categories:
+    - articles
 ---
 I've been tinkering with websites for nearly 20 years. My friend Hunter and I
 were big into making terrible Angelfire sites as pre-teens. In high school, my
@@ -37,7 +39,7 @@ more about and links to the resources I've found valuable in learning about
 them. If you think there are gaps I haven't yet filled or better resources
 than I've listed below, I'd love your feedback.
 
-### What I Knew Going In
+## What I Knew Going In
 
 I've been a professional software developer and data scientist since 2012. I
 mostly write Python, but I've programmed in a number of different languages.
@@ -62,7 +64,7 @@ I had some idea of what [node.js](https://nodejs.org/en/ "Node.js") and
 
 I'm a committed Sublime Text user.
 
-### A Meta Tutorial on Web Development
+## A Meta Tutorial on Web Development
 
 A great place to start is Andrew Montalenti's lengthy tutorial on using
 Python, Flask, Bootstrap, and Mongo to rapidly prototype a website. The
@@ -75,7 +77,7 @@ front-end development. "It is specifically written with the intention of being
 a professional resource for potential and currently practicing front-end
 developers to equip themselves with learning materials and development tools."
 
-#### Chrome Developer Tools
+### Chrome Developer Tools
 
 One of the most important tools for me in learning more about web development
 has been the [Chrome Developer Tools](https://developer.chrome.com/devtools).
@@ -83,7 +85,7 @@ You can live edit the DOM elements and style sheets and watch how a website
 changes. I've mostly learned Developer Tools through exploring it myself, but
 there are lots of tutorials for it on Youtube.
 
-#### HTML, CSS, and Bootstrap
+### HTML, CSS, and Bootstrap
 
 Many modern websites are
 [responsive](https://en.wikipedia.org/wiki/Responsive_web_design): they
@@ -123,7 +125,7 @@ UI](http://www.coreservlets.com/javascript-jquery-tutorial/) tutorial). I was
 able to skip big chunks where I already understood certain parts, but it
 helped me fill in lots of gaps.
 
-#### Advanced Stylesheets (LESS, SASS, and Flexbox)
+### Advanced Stylesheets (LESS, SASS, and Flexbox)
 
 There are several alternatives to writing raw CSS. Two popular ones are
 [Less](http://lesscss.org/) and [SASS](http://sass-lang.com/). These
@@ -142,7 +144,7 @@ Learning has a great [tutorial](http://stoneriverelearning.com/p/css-flexbox)
 on Flexbox ([Safari](https://www.safaribooksonline.com/library/view/css-flexbox/100000006A0444/)). It seems that Flexbox is the future of CSS-based
 layouts, and it's worth learning about.
 
-#### Advanced JavaScript (Elm, React, Angular, Backbone, Ember)
+### Advanced JavaScript (Elm, React, Angular, Backbone, Ember)
 
 The JavaScript web framework space has exploded. Many of these are
 implementations of the [Model, View, Controller
@@ -150,7 +152,7 @@ pattern](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
 "Model-view-controller - Wikipedia"), including React, Angular, and Ember.
 These tools allow the creation of complex web apps (as well as mobile apps).
 
-#### Web Server Operations and DNS
+### Web Server Operations and DNS
 
 I learned a ton form [Linux Web
 Operations](http://shop.oreilly.com/product/0636920006066.do)
@@ -165,9 +167,9 @@ Liu's [Learning DNS](http://shop.oreilly.com/product/0636920040088.do) series
 complex DNS infrastructure, but I can now configure my own sites DNS with a
 little more understanding.
 
-#### Development Automation
+### Development Automation
 
-##### Package Managers
+#### Package Managers
 
 It's likely that any modern web project will have some external Javascript
 dependencies. Package managers (analogous to Pypi or Anaconda.org on Python)
@@ -178,7 +180,7 @@ using. There is a nice [Flask extension](https://pypi.python.org/pypi/Flask-Bowe
 writing this, [Yarn](https://yarnpkg.com/en/) has come to dominate this
 scene.)
 
-##### Task Automation
+#### Task Automation
 
 Web development comes with lots of build-style tasks that have to happen
 repeatedly. For example, before you can render a webpage in the browser, you
@@ -193,9 +195,9 @@ following the documentation would be the best way to get started.
 
 [Gulp](http://gulpjs.com/) is a popular alternative to Grunt.
 
-#### Design
+### Design
 
-##### Visual Design
+#### Visual Design
 
 Design has never been my strong point. One way to compensate for that is to
 rely on the work of others. There are copious [Bootstrap themes
@@ -205,14 +207,14 @@ available](https://www.google.com/search?q=bootstrap+theme), and some are even
 I enjoyed [Software Engineering Daily's interview with Tracy Osborn on Design for Non-designers](https://softwareengineeringdaily.com/2016/02/18/design-non-designers-tracy-osborn/). She has some [blog posts](https://medium.com/@limedaring/design-for-non-designers-part-1-6559ed93ff91) on the topic. Tracy recommends
 [COLOURLovers](http://www.colourlovers.com/) for color ideas and [Font Pair](http://fontpair.co/) for selecting fonts from [Google Fonts](https://fonts.google.com/about).
 
-##### User Experience Design
+#### User Experience Design
 
 On the topic of UX, I finally read Steve Krug's classic [Don't Make Me Think](http://amzn.to/2opg3ZG)
 ([Safari](https://www.safaribooksonline.com/library/view/dont-make-me/0321344758/)); it's great. Ginny Redish's [Letting Go of
 Words](http://amzn.to/2oDl0NY)
 ([Safari](https://www.safaribooksonline.com/library/view/letting-go-of/9780123859303/)) is similarly excellent.
 
-### Conclusion
+## Conclusion
 
 I've learned a lot in the past few months. I've filled in some gaps about how
 CSS works. I've gotten a better grasp on the Javascript prototype model. I've

@@ -1,6 +1,9 @@
 ---
 title: Querying data on S3 with Amazon Athena
 date: Wed, 28 Dec 2016 02:51:00 +0000
+draft: true
+categories:
+    - How To
 ---
 ## Athena Setup and Quick Start
 

@@ -3,16 +3,18 @@ title: Parallelizing a Python Function for the Extremely Lazy
 date: 2017-06-07
 slug: parallelizing-a-python-function-for-the-extremely-lazy
 aliases: [/blog/2017/Jun/07/parallelizing-a-python-function-for-the-extremely-lazy/]
-category:
+categories:
   - Articles
 Description: How to use a simple Python CLI and GNU Parallel to quickly run a Python process on multiple cores.
+tags:
+    - python
 ---
 
 Do you ever want to be able to run a Python function in parallel on a set of inputs? Have you ever gotten frustrated with the GIL, the multiprocessing library, or joblib?
 
 Try this:
 
-#### Install Python Fire to run your command from the command line
+## Install Python Fire to run your command from the command line
 
 Install [Python Fire](https://github.com/google/python-fire) with `$ pip install fire`.
 
@@ -24,11 +26,11 @@ if __name__ == '__main__':
     fire.Fire()
 ```
 
-#### Install GNU Parallel
+## Install GNU Parallel
 
 `$ brew install parallel` or ``$ sudo apt-get install parallel`` may work for you. Otherwise, see [this](https://www.gnu.org/software/parallel/).
 
-#### Run your function from the command line
+## Run your function from the command line
 
 `$ parallel -j3 "python python_file.py function_name {1} " ::: input1 input2 input3 input4 input5`
 
@@ -36,7 +38,7 @@ if __name__ == '__main__':
 * `-j3` tells Parallel to run at most 3 processes at once.
 * `{1}` fills in each item after the `:::` as an argument to the `function_name`.
 
-#### For example
+## For example
 
 ```text
 (lazy) ~ $ cat python_file.py

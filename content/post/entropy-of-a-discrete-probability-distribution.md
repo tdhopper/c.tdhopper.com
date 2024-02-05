@@ -2,6 +2,10 @@
 title: Entropy of a Discrete Probability Distribution
 date: Mon, 05 Sep 2016 16:05:00 +0000
 math: true
+tags:
+    - math
+categories: 
+    - article
 ---
 
 Supposed we have a discrete set of possible events \\(1,\ldots, n\\) that occur with probabilities \\( (p_1, p_2, \ldots, p_n)\\). Claude Shannon asked the question

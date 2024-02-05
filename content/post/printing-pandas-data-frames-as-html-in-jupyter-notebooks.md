@@ -1,6 +1,10 @@
 ---
 title: Printing Pandas Data Frames as HTML in Jupyter Notebooks
 date: Wed, 23 Mar 2016 14:18:00 +0000
+categories:
+    - How To
+tags:
+    - python
 ---
 Jupyter notebooks nicely render Pandas data frames if they're the last line in
 a cell. It renders the HTML version of the data frame returned by
@@ -13,8 +17,8 @@ a way around this. However, the solution is easy.
 Instead of `print(df)` you use
 
     
-    
-    from IPython.display import display
-    
-    display(df)
+```python
+from IPython.display import display
 
+display(df)
+```

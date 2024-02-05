@@ -13,6 +13,8 @@ tags:
  - read
  - technical
 external: https://dp.tdhopper.com
+categories:
+    - python
 ---
 
 I have published some [notes on the Dirichlet distribute, Dirichlet processes, Gibbs sampling for mixture models and nonparametric mixture models, and the Gibbs sampler for nonparametric Latent Dirichlet Allocation](https://dp.tdhopper.com).

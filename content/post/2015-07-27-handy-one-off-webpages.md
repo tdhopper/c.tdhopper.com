@@ -5,6 +5,8 @@ categories:
 date: 2015-07-27
 slug: handy-one-off-webpages
 aliases: [/blog/2015/Jul/27/handy-one-off-webpages/]
+categories:
+    - python
 ---
 
 I'm starting to love single-page informational websites. For example:

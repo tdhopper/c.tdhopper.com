@@ -1,6 +1,8 @@
 ---
 title: Filter by date in a Pandas MultiIndex
 date: Tue, 08 Nov 2016 22:17:00 +0000
+categories:
+    - How To
 ---
 I always forget how to do this.
 

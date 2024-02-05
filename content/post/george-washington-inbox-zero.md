@@ -2,6 +2,8 @@
 title: George Washington's Struggle for Inbox Zero
 date: Tue, 06 Mar 2018 13:34:00 +0000
 slug: george-washington-inbox-zero
+categories:
+    - Quote
 ---
 
 [Ron Chernow](https://amzn.to/3e3NppS) on George Washington's struggle with

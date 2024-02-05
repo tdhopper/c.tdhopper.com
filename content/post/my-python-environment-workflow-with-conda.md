@@ -1,6 +1,10 @@
 ---
 title: My Python Environment Workflow with Conda
 date: Tue, 24 Nov 2015 14:41:00 +0000
+categories:
+  - article
+tags:
+    - python
 ---
 Many new Python programmers rely on their system install of Python to run
 their scripts. There are several good reasons to stop using the system Python.

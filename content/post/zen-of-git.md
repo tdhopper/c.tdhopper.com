@@ -1,6 +1,8 @@
 ---
 title: Zen of Git
 date: Sat, 30 Sep 2017 00:26:00 +0000
+categories:
+    - humor
 ---
 
     $ git checkout this
@@ -22,4 +24,3 @@ date: Sat, 30 Sep 2017 00:26:00 +0000
     If the documentation is easy to understand, it's probably for another tool.
 
 (With apologies to [Tim Peters](https://www.python.org/dev/peps/pep-0020/).)
-

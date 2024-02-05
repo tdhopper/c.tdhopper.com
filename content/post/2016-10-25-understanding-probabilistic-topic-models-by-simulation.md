@@ -12,7 +12,10 @@ tags:
  - watch
  - technical
  - presentation
-description: Presentation on understanding probabilistic topic models by simulating the generative model.
+description: Presentation on understanding probabilistic topic models by simulating the generative model
+tags:
+    - python
+
 ---
 
 I gave a talk last week at Research Triangle Analysts on understanding probabilistic topic models (specificly LDA) by using Python for simulation. Here's the description:

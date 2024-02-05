@@ -5,6 +5,8 @@ aliases: [/blog/2016/Nov/08/speeding-up-pymc3-nuts-sampler/]
 categories:
     - Today I Learned
 date: 2016-11-08
+tags:
+    - python
 ---
 
 I'm trying to use the [NUTS sampler](https://pymc-devs.github.io/pymc3/api.html?highlight=nuts#module-pymc3.step_methods.nuts) in [PyMC3](https://github.com/pymc-devs/pymc3 "GitHub - pymc-devs/pymc3: Probabilistic Programming in Python. Uses Theano as a backend, supports NUTS and ADVI.")

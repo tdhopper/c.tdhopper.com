@@ -2,6 +2,8 @@
 title: John Cook’s Ten Year Blogging Endeavour
 date: Wed, 10 Jan 2018 01:28:00 +0000
 slug: ten-year-endeavor
+categories: 
+  - article
 ---
 Ten years ago today, [John Cook](https://www.johndcook.com) published his
 first blog post entitled [Moore’s law and software bloat](https://www.johndcook.com/blog/2008/01/09/moores-law-and-software-bloat/), a brief observation on how "Software bloat has increased at roughly
