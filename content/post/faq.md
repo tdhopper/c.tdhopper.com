@@ -3,7 +3,7 @@ title: A Subjective and Anecdotal FAQ on Becoming a Data Scientist
 date: Mon, 05 Mar 2018 16:59:00 +0000
 slug: faq
 ---
-[Three years ago](https://tdhopper.com/blog/how-i-became-a-data-scientist/), I
+[Three years ago](/blog/how-i-became-a-data-scientist/), I
 wrote a post called "How I Became a Data Scientist Despite Being a Math
 Major".
 
@@ -46,7 +46,7 @@ European countries), go for it!
 **Will a masters degree help me become/be a data scientist?**
 
 I don't know, but it has helped me. As I said in [my earlier
-post](https://tdhopper.com/blog/how-i-became-a-data-scientist/), I learned a
+post](/blog/how-i-became-a-data-scientist/), I learned a
 lot about algorithms, probability models, math, and machine learning that has
 been invaluable. Grad school also gave me the time and inspiration to learn R
 and Python which have played important roles in my career?
@@ -116,9 +116,9 @@ schooling interfere with your education.
 
 **Can you evaluate my qualifications for being a data scientist?**
 
-Not very well. In fact, [I think it's pretty challenging](https://tdhopper.com/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/) even for people who interview data science
+Not very well. In fact, [I think it's pretty challenging](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/) even for people who interview data science
 candidates. [I have tried to share the things that helped qualify
-me](https://tdhopper.com/blog/how-i-became-a-data-scientist/), and I imagine
+me](/blog/how-i-became-a-data-scientist/), and I imagine
 those things would be valuable for you as well.
 
 I would suggest trying to evaluate your qualifications against specific jobs
@@ -160,13 +160,13 @@ sure how you develop it.
 
 I don't know the answer to that question. I have tried to share the things
 that have been valuable for me in the preceding answer and [in my blog
-post](https://tdhopper.com/blog/how-i-became-a-data-scientist/).
+post](/blog/how-i-became-a-data-scientist/).
 
 **I'm in a career as a teacher/developer/analyst/etc. Can you advise me on how
 I can transition to be a data scientist?**
 
 I have tried [to share the things that worked for
-me](https://tdhopper.com/blog/how-i-became-a-data-scientist/); you might be
+me](/blog/how-i-became-a-data-scientist/); you might be
 able to emulate them, but I can't guarantee they'll work for you. I would
 encourage you to stay curious, keep learning, network (via the internet and
 face to face), and keep applying for jobs.

@@ -94,7 +94,7 @@ date: Tue, 10 Jan 2023 20:47:17 +0000
 
   * Started [instagram.com/doyouplayball ](http://instagram.com/doyouplayball)
 
-  * Published [A Subjective and Anecdotal FAQ on Becoming a Data Scientist](https://tdhopper.com/blog/faq/)
+  * Published [A Subjective and Anecdotal FAQ on Becoming a Data Scientist](/blog/faq/)
 
   * Bought my first house
 
@@ -106,7 +106,7 @@ date: Tue, 10 Jan 2023 20:47:17 +0000
 
   * Better understood Linux user account model
 
-  * Wrote [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](https://tdhopper.com/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/)
+  * Wrote [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/)
 
   * Second time on [Adversarial Learning](https://adversariallearning.com)
 

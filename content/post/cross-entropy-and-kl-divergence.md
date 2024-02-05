@@ -3,7 +3,7 @@ title: Cross Entropy and KL Divergence
 date: Mon, 05 Sep 2016 14:12:00 +0000
 math: true
 ---
-[As we saw in an earlier post](https://tdhopper.com/blog/entropy-of-a-discrete-probability-distribution/), the entropy of a discrete probability
+[As we saw in an earlier post](/blog/entropy-of-a-discrete-probability-distribution/), the entropy of a discrete probability
 distribution is defined to be
 
 ![](https://images.squarespace-cdn.com/content/v1/5ea0e0117d85a34f661e1b52/1588343149060-T9GA37DIMC8HT35OT165/eq0.png)

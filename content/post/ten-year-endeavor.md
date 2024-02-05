@@ -87,7 +87,7 @@ One of John’s areas of expertise is implementing numerical algorithms in code.
 On his website, he has a [handful of technical
 notes](https://www.johndcook.com/blog/notes/) on this that many people have
 found invaluable. Two years ago, I did [a quick
-survey](https://tdhopper.com/blog/mentions-of-john-cook-on-github/) of John’s
+survey](/blog/mentions-of-john-cook-on-github/) of John’s
 articles mentioned in Github repos. Hundreds of repos cited his [Accurately
 computing running
 variance](https://www.johndcook.com/blog/standard_deviation/) article. No

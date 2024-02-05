@@ -2,7 +2,7 @@
 title: Automating Python with Ansible
 date: Thu, 23 Mar 2017 15:11:00 +0000
 ---
-I wrote [a few months back](http://tdhopper.com/blog/data-scientists-need-more-automation/) about how data scientists need more automation. In
+I wrote [a few months back](/blog/data-scientists-need-more-automation/) about how data scientists need more automation. In
 particular, I suggested that data scientists would be wise to learn more about
 automated system configuration and automated deployments.
 

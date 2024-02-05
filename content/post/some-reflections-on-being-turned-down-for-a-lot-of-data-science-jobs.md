@@ -27,7 +27,7 @@ turning me down.
 
 In the last five years, I've clearly interviewed for a lot of data science
 jobs, and I've also been [turned down for a lot of data science
-jobs](http://tdhopper.com/rejected). I've spent a good bit of time reflecting
+jobs](/rejected). I've spent a good bit of time reflecting
 on why I wasn't offered this job or that. Several folks have asked me if I had
 any advice to share on the experience, and I hope to offer that here.
 
@@ -64,7 +64,7 @@ So how do you get a data science job? I don't know.
 
 I've been unbelievably fortunate to be continuously employed since college,
 but I'm not sure how to tell you to repeat that. The best I have to offer is
-to reiterate the conclusion of [my recent talk about data science as a career](http://tdhopper.com/blog/how-i-quit-my-ph.d.-and-learned-to-love-data-science/). Learn and know the hard stuff: linear algebra, probability,
+to reiterate the conclusion of [my recent talk about data science as a career](/blog/how-i-quit-my-ph.d.-and-learned-to-love-data-science/). Learn and know the hard stuff: linear algebra, probability,
 statistics, machine learning, math modeling, data structures, algorithms,
 distributed systems, etc. You probably won't use this knowledge every day in
 your job, but interviewers love to ask about it anyway.

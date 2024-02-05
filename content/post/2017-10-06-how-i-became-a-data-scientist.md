@@ -14,7 +14,7 @@ Description: Video of talk I gave about my path from studying math in undergrad 
 
 ---
 
-A few years ago, I wrote a posted called [https://tdhopper.com/how/](How I Became a Data Scientist Despite Having Been a Math Major: The Talk). I recently gave a talk on the same topic at the [Demystify Data Science Conference](https://www.thisismetis.com/demystifying-data-science).
+A few years ago, I wrote a posted called [/how/](How I Became a Data Scientist Despite Having Been a Math Major: The Talk). I recently gave a talk on the same topic at the [Demystify Data Science Conference](https://www.thisismetis.com/demystifying-data-science).
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q_UrZ4pmKmI?rel=0" frameborder="0" allowfullscreen></iframe>

@@ -57,7 +57,7 @@ platforms, [writing Gibbs samplers for nonparametric Bayes](https://dp.tdhopper.
 testing, etc.
 
 I use Python almost every single day for work and a lot of personal projects.
-I've been able [to speak](https://tdhopper.com/talks) at 3 PyData conferences,
+I've been able [to speak](/talks) at 3 PyData conferences,
 a Scipy conference, and a number [Triangle Python Users Groups](https://www.meetup.com/tripython/). I had a [contribution merged into CPython in 2019](https://github.com/python/cpython/pull/11847) and have
 contributed to many other open source projects.
 

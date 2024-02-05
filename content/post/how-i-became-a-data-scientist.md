@@ -2,6 +2,7 @@
 title: How I Became a Data Scientist Despite Having Been a Math Major
 date: Thu, 23 Apr 2020 12:36:56 +0000
 slug: how-i-became-a-data-scientist
+aliases: [/how/]
 ---
 Caution: the following post is laden with qualitative extrapolation of
 anecdotes and impressions. Perhaps ironically (though perhaps not), it is not
@@ -236,7 +237,7 @@ the extent of your education. There is so much more to learn!5
 post](https://www.youtube.com/watch?v=Q_UrZ4pmKmI)
 
 **Update (Mar. 2018)** : I get a lot of emails with questions about this post,
-so I wrote [FAQ](https://tdhopper.com/blog/faq/) post trying to answer some of
+so I wrote [FAQ](/blog/faq/) post trying to answer some of
 them.
 
   1. At the same time, my academic training in operations research failed me, in some aspects, for a successful career in operations research. For example, practical math modeling was not sufficiently emphasized and the skills of computer programming and software development were undervalued. [return]

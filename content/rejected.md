@@ -3,7 +3,7 @@ title: Companies I've interviewed with but was not extended an offer by
 slug: rejected
 ---
 
-This list is a follow up to my popular post [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](https://tdhopper.com/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
+This list is a follow up to my popular post [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
 
 People talk freely about jobs they've been offered but are naturally hesitant
 to mention rejections.
@@ -57,4 +57,4 @@ My goal here is to make it clear that even someone with a sucessful career of
 
 ---  
   
-Read my [reflections on being turned down from a lot of data science jobs](https://tdhopper.com/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs).
+Read my [reflections on being turned down from a lot of data science jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs).
