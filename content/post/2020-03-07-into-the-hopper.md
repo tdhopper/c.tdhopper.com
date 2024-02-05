@@ -5,6 +5,7 @@ slug: into-the-hopper
 categories:
     - Personal Update
 description: An occasional podcast about machine learning, data science, software engineering, and more.
+aliases: ["/blog/into-the-hopper-podcast/"]
 ---
 
 I started a new podcast for the sake of getting two friends, Josh Wills and Oscar Boykin, to talk for an hour about the last ten years of data science. I enjoyed the discussion, and I imagine you will too.
