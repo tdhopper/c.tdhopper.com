@@ -11,7 +11,7 @@ teams. Of course, you don't have to adopt _my_ guidelines for review, but I
 would encourage your team to set aside some time to make sure you all mean the
 same thing by "code review".
 
-### What is a code review for?
+## What is a code review for?
 
 Code review has multiple benefits and objectives including:
 
@@ -25,7 +25,7 @@ Code review has multiple benefits and objectives including:
 
   * **Regression protection** : future contributors to the code base have checks against breaking essential functionality; importantly, _this reduces fear of making necessary improvements to the code_.
 
-### What code reviews aren't
+## What code reviews aren't
 
   * An opportunity for the reviewer to impose their idiosyncrasies.
 
@@ -33,7 +33,7 @@ Code review has multiple benefits and objectives including:
 
   * An opportunity to demand perfection (Per [Google’s Code Review Guidelines](https://google.github.io/eng-practices/review/reviewer/standard.html): _A key point here is that there is no such thing as "perfect" code—there is only better code_ ).
 
-### Opening Pull Requests
+## Opening Pull Requests
 
   * Take care to write informative commit messages. This helps your reviewer understand the decisions you made.
 
@@ -46,7 +46,7 @@ Code review has multiple benefits and objectives including:
     * If you have a particularly complex PR, consider doing a code walk-through with a reviewer first.
   * New code should ordinarily come with new tests.
 
-### Reviewing Pull Requests
+## Reviewing Pull Requests
 
   * Have a positive, constructive, helpful attitude.
 
@@ -70,7 +70,7 @@ Code review has multiple benefits and objectives including:
 
   * If a PR is too large for you to reasonably review, you can ask the author to split it into multiple PRs.
 
-### Additional Reading
+## Additional Reading
 
   * [Google 's excellent guide to code review](https://google.github.io/eng-practices/review/reviewer/standard.html) (Note: CL=change list=pull request)
 
