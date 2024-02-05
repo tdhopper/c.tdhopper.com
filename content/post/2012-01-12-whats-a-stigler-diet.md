@@ -1,3 +1,4 @@
+---
 title: What's a Stigler Diet?
 date: 2012-01-12
 tags: []
@@ -7,7 +8,7 @@ aliases: ['/blog/2012/Jan/12/whats-a-stigler-diet/']
 description: A look at economist George Stigler's application of mathematical optimization to eating.
 Thumbnail: /uploads/ibm701.jpg
 featured: True
-markup: "mmark"
+math: true
 ---
 
 In 1945, Nobel Laureate economist George Stigler posed a problem:

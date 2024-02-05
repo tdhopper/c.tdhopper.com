@@ -5,6 +5,7 @@ date: 2012-02-02
 Author: Tim
 slug: mathematicians-engineers-and-businessmen-on-npc-problems
 aliases: [/blog/2012/Feb/02/mathematicians-engineers-and-businessmen-on-npc-problems/]
+math: true
 ---
 
 I assume most people who are nerdy enough to read this blog are nerdy enough to know about the [$\mathcal{P}$ vs $\mathcal{NP}$ problem](http://www.claymath.org/millennium/P_vs_NP/)[^1engineers]. I first learned about this problem taking computer science classes in college, and it all seemed very theoretical at the time. Now that I study operations research, the problem is very real. Operations researchers are often limited in their pursuits by the challenges of $\mathcal{NP}$-hard [problems](http://en.wikipedia.org/wiki/Integer_program), and many operations researchers spend their careers trying to solve hard problems. Last semester, I came across [Laurence Wolsey](http://www.core.ucl.ac.be/~wolsey/)'s beautiful description of how various people might view this problem. (Of course, the inimitable Randall Munroe has offered [a similar look](http://xkcd.com/664) at the issue.)

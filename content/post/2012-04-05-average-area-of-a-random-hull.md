@@ -5,6 +5,7 @@ date: 2012-04-05
 Author: Tim
 slug: average-area-of-a-random-hull
 aliases: [/blog/2012/Apr/05/average-area-of-a-random-hull/]
+math: true
 ---
 
 Yesterday, someone on MathOverflow asked
