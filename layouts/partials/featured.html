@@ -1,7 +1,7 @@
 {{ $related := (where .Site.RegularPages "Params.featured" true) | first 5 }}
 {{ with $related }}
 <aside class="related-content--wrapper">
-    <h2 class="section-title">{{ T "article.relatedContent" }}</h2>
+    <h2 class="section-title">Featured Content</h2>
     <div class="related-content">
         <div class="flex article-list--tile">
             {{ range . }}
