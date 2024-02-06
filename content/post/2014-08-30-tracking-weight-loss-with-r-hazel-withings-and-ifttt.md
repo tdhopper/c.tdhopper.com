@@ -110,11 +110,11 @@ I want this script to be run every time my weight is updated, so I created a sec
 
 My Hazel rule looks like this:
 
-![](/uploads/2014/08/hazel-weight-1.png)
+{{< figure src="/uploads/2014/08/hazel-weight-1.png" >}}
 
 The 'embedded script' that is run is the R script above; I just have to tell Hazel to use the `Rscript` shell.[^install-R]
 
-![](/uploads/2014/08/r-script-from-hazel.png)
+{{< figure src="/uploads/2014/08/r-script-from-hazel.png" >}}
 
 At this point, every time I step on my scale, a text file with readable statistics about my smoothed weight appear in my Dropbox folder.
 
@@ -122,7 +122,7 @@ Of course, I want this updated information to be pushed directly too me. Hazel i
 
 I have a Twitter account called [@hopsfitness](https://twitter.com/hopsfitness) where I've recently been tracking my fitness progress. On my Mac Mini, I have [t](https://github.com/sferik/t "t GitHub") configured to access @hopsfitness from the command line. Thus, tweeting my updated statistics is just a matter of a little shell script executed by Hazel:
 
-![](/uploads/2014/08/hazel-weight-2.png)
+{{< figure src="/uploads/2014/08/hazel-weight-2.png" >}}
 
 Since this data goes to Twitter, I can get it painlessly pushed to my phone: Twitter still allows you subscribe to accounts via text message, which I've done with @hopsfitness. A minute or so after I step on my scale, I get a text with useful information about where I am and where I'm going; this is much preferable to the noisy weight I see on my scale.
 

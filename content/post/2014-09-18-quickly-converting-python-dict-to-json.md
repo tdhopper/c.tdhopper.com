@@ -13,7 +13,7 @@ I created a [TextExpander](http://smilesoftware.com/TextExpander/index.html) sni
 
 Here are the details:
 
-![](/uploads/2014/09/textexpander.png)
+{{< figure src="/uploads/2014/09/textexpander.png" >}}
 
 ```python
 #!/usr/bin/env python

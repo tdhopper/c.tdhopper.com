@@ -21,6 +21,6 @@ Someone quickly cited [2004 paper](http://www.math.kth.se/~johanph/area12.pdf) 
 
 This is certainly a nontrivial result. However, the value can be approximated by generating a large number of random points, finding the area of the convex hull, and averaging the areas. Of course, finding the convex hull and the area of the convex hull of a set of points requires a little work. Mathematica provides functions for generating random points and finding the area of the convex hull of a set of points quickly. As a result, I was able to perform a Monte Carlo simulation for the $n=3$ and $n=4$ case in a couple of lines of Mathematica code:
 
-[![](/uploads/2012/04/Screen-Shot-2012-04-04-at-11.29.04-AM.png)](/uploads/2012/04/Screen-Shot-2012-04-04-at-11.29.04-AM.png)
+[{{< figure src="/uploads/2012/04/Screen-Shot-2012-04-04-at-11.29.04-AM.png" >}}](/uploads/2012/04/Screen-Shot-2012-04-04-at-11.29.04-AM.png)
 
 Sampling 5000 cases for each returned results fairly close to the predicted average.

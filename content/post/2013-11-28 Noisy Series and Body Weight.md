@@ -13,15 +13,15 @@ I continue to be fascinated with how noisy my weight time series is. While I've 
 
 Here's a plot of the time series of my change in weight. Note how often the change is positive, i.e. I appear to have gained weight:
 
-![](/uploads/2013/11/weight_change1.png)
+{{< figure src="/uploads/2013/11/weight_change1.png" >}}
 
 This volatility can hide the fact that I'm making progress! When I put a regression line through the points, you can see that the average change slightly below zero:[^investing]
 
-![](/uploads/2013/11/weight_change2.png)
+{{< figure src="/uploads/2013/11/weight_change2.png" >}}
 
 I have wondered recently if my average change in weight is correlated with the day of the week. My hypothesis is that my weight tends to go up over the weekends, so I created a boxplot of my change in weight categorized by day.
 
-![](/uploads/2013/11/weight_box.png)
+{{< figure src="/uploads/2013/11/weight_box.png" >}}
 
 Indeed, on Sundays and Mondays (i.e. weight change from Saturday morning to Sunday morning and Sunday morning to Monday morning) my median weight change is slightly above zero. This makes sense to me: on Saturdays, I'm more likely to be doing things with friends, and thus I have less control over my meals.[^beer]
 

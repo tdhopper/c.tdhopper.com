@@ -124,7 +124,7 @@ Last semester, I wanted to demonstrate a Monte Carlo algorithm for navigating a 
 
 Working straight from the output of the solver, in about twenty lines of code, I output a grid showing candidate solution every other iteration (the green cells indicate cells where the action is optimal). Followed by an Export function, the graphic was ready to be included in my ![alovestory_27.gif](/uploads/2012/02/alovestory_27.gif) file. All of this without having to open another program or import any graphics packages.
 
-[![](/uploads/2012/02/maze-249x300.png)](/uploads/2012/02/maze.png)
+[{{< figure src="/uploads/2012/02/maze-249x300.png" >}}](/uploads/2012/02/maze.png)
 
 ### 5. Documentation
 

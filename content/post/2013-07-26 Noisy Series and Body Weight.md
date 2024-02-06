@@ -22,12 +22,12 @@ An interesting aspect of my weight time series is how noisy it is. (No doubt thi
 On many mornings, my weight is up from the day before (despite a fairly consistent net caloric deficit).
 As you can see from the plot, my weight jumps up and down daily even though the overall trend is downward.
 
-![](/uploads/2013/07/weightseries.png)
+{{< figure src="/uploads/2013/07/weightseries.png" >}}
 
 I have been wondering what percentage of days I actually lose weight, so I decided to find out.
 The plot below is a histogram of my weight change from day to day.[^weight]
 
-![](/uploads/2013/07/weighthist.png)
+{{< figure src="/uploads/2013/07/weighthist.png" >}}
 
 The data appears nearly Gaussian around 0! (In fact, the p-value on the Shapiro-Wilk normality test is 0.11, arguably not small enough to reject the null hypothesis that the data are *not* normally distributed.) Fortunately the mean of the differences is actually about -0.24 (pounds/day), and my progress is downward.
 

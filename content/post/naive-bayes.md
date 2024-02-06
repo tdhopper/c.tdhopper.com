@@ -6,14 +6,14 @@ categories:
     - article
 ---
 
-![](/uploads/naivebayes/nb1.jpg)
+{{< figure src="/uploads/naivebayes/nb1.jpg" >}}
 
-![](/uploads/naivebayes/nb2.jpg)
+{{< figure src="/uploads/naivebayes/nb2.jpg" >}}
 
-![](/uploads/naivebayes/nb3.jpg)
+{{< figure src="/uploads/naivebayes/nb3.jpg" >}}
 
-![](/uploads/naivebayes/nb4.jpg)
+{{< figure src="/uploads/naivebayes/nb4.jpg" >}}
 
-![](/uploads/naivebayes/nb5.jpg)
+{{< figure src="/uploads/naivebayes/nb5.jpg" >}}
 
-![](/uploads/naivebayes/nb6.jpg)
+{{< figure src="/uploads/naivebayes/nb6.jpg" >}}
