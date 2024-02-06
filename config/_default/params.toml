@@ -30,7 +30,10 @@ default = "Licensed under CC BY-NC-SA 4.0"
 
 ## Widgets
 [[widgets.homepage]]
-type = "archives"
+type = "search"
+
+# [[widgets.homepage]]
+# type = "archives"
 
 
 [widgets.homepage.params]
