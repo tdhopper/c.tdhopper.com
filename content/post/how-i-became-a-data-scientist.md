@@ -6,7 +6,7 @@ aliases: [/how/]
 featured: true
 categories: 
   - Article
-image: abstract-algebra.jpg
+image: math-class.png 
 ---
 Caution: the following post is laden with qualitative extrapolation of
 anecdotes and impressions. Perhaps ironically (though perhaps not), it is not
