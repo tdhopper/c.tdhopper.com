@@ -4,7 +4,6 @@ date: 2019-01-29
 slug: right-code
 portfolio: true
 tags:
- - read
 description: Why companies building machine learning products under-invest in engineering and architecture.
 Thumbnail: /projects/rightcode.png
 categories:

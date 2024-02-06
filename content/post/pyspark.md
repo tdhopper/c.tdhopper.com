@@ -6,7 +6,6 @@ date: 2015-02-28
 slug: intro-to-pyspark
 portfolio: true
 tags:
- - read
  - technical
  - presentation
 description: Talk from Research Triangle Analysts about Pyspark for data science

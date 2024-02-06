@@ -8,7 +8,6 @@ portfolio: true
 tags:
  - presentation
  - technical
- - watch
 description: Presentation from the Southern Data Science meetup on real time machine learning with Kafka, Streamparse, and Storm.
 Thumbnail: /projects/building.png
 youtube: inB33qWugMw

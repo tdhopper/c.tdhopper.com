@@ -7,7 +7,6 @@ categories:
     - Personal Update
 portfolio: true
 tags:
- - watch
  - presentation
 Thumbnail: /projects/how.png
 youtube: Q_UrZ4pmKmI

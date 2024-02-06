@@ -7,7 +7,6 @@ categories:
     - Personal Update
 portfolio: true
 tags:
- - read
  - technical
 Thumbnail: /projects/pythonplot.png
 Description: A new website providing a rosetta stone for various Python plotting libraries.

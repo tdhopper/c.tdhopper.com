@@ -6,7 +6,6 @@ date: 2012-10-22
 slug: pickle-and-redis
 portfolio: true
 tags:
- - read
  - presentation
  - technical
 description: A 2012 talk from PyCarolinas about persisting data with Python

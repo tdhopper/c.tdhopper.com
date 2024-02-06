@@ -9,7 +9,6 @@ youtube: Wy-XhT2sHgM
 Thumbnail: projects/simulation.png
 Portfolio: true
 tags:
- - watch
  - technical
  - presentation
 description: Presentation on understanding probabilistic topic models by simulating the generative model

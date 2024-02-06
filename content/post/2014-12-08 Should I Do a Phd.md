@@ -6,7 +6,6 @@ slug: shouldigetaphdcom
 aliases: [/blog/2014/Dec/08/shouldigetaphdcom/]
 date: 2014-12-08
 tags:
- - read
  - technical
 Thumbnail: /projects/phd.png
 ---

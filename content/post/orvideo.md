@@ -7,7 +7,6 @@ slug: orvideo
 portfolio: true
 tags:
  - presentation
- - watch
 description: Presentation from INFORMS 2012 on the value of sharing videos of technical content on Youtube
 Thumbnail: /projects/orvideo.png
 youtube: 0gfBH4mC_iU

@@ -10,7 +10,6 @@ description: Summary of my work developing a high-performance Python library for
 Thumbnail: /projects/dirichlet.png
 Portfolio: true
 tags:
- - read
  - technical
 external: https://dp.tdhopper.com
 categories:

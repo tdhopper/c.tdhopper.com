@@ -4,7 +4,6 @@ date: 2018-06-23
 slug: ml-for-security
 portfolio: true
 tags:
- - watch
 description: Talk on challenges of applying machine learning to cybersecurity
 Thumbnail: /projects/bsides2018.png
 categories:
