@@ -5,6 +5,7 @@ categories:
     - How To
 tags:
     - python
+image: panda.png
 ---
 Jupyter notebooks nicely render Pandas data frames if they're the last line in
 a cell. It renders the HTML version of the data frame returned by
