@@ -1,7 +1,7 @@
 ---
 title: Econtalk
 categories:
-  - articles
+  - Article
 date: Wed, 13 Apr 2016 01:42:00 +0000
 ---
 Listening to Russ Roberts' [Econtalk](http://www.econtalk.org/) podcast for

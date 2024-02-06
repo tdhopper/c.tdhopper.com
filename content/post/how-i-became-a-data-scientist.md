@@ -5,7 +5,7 @@ slug: how-i-became-a-data-scientist
 aliases: [/how/]
 featured: true
 categories: 
-  - articles
+  - Article
 image: abstract-algebra.jpg
 ---
 Caution: the following post is laden with qualitative extrapolation of

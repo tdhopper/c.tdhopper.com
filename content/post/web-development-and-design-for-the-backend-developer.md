@@ -2,7 +2,7 @@
 title: Web Development and Design for the Backend Developer
 date: Fri, 31 Mar 2017 18:42:00 +0000
 categories:
-    - articles
+    - Article
 ---
 I've been tinkering with websites for nearly 20 years. My friend Hunter and I
 were big into making terrible Angelfire sites as pre-teens. In high school, my

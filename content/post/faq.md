@@ -4,7 +4,7 @@ date: Mon, 05 Mar 2018 16:59:00 +0000
 featured: true
 slug: faq
 categories:
-    - articles
+    - Article
 image: becoming.png
 ---
 [Three years ago](/blog/how-i-became-a-data-scientist/), I
