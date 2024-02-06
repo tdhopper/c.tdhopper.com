@@ -5,6 +5,7 @@ categories:
     - How To
 tags:
     - python
+    - pandas
 ---
 Joining two Pandas DataFrames with an equal number of rows is slightly harder
 than it appears. In R, you just use the `cbind` function.

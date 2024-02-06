@@ -5,6 +5,7 @@ categories:
     - How To
 tags:
     - python
+    - pandas
 image: panda.png
 ---
 Jupyter notebooks nicely render Pandas data frames if they're the last line in
