@@ -25,7 +25,7 @@ more training.
 
 ## "There has never been a better time to be a mathematician"?
 
-When I was in college [Business Week published an article](http://www.bloomberg.com/bw/stories/2006-01-22/math-will-rock-your-world) declaring "There has never been a better time to be a mathematician."
+When I was in college [Business Week published an article](https://web.archive.org/web/20160315082911/https://www.bloomberg.com/news/articles/2006-01-22/math-will-rock-your-world) declaring "There has never been a better time to be a mathematician."
 At the time, I saw an enormous disconnect between the piece and what I was
 being taught in math classes (and thus what I considered to be a
 "mathematician"). I have come across other pieces lauding this as the age of
