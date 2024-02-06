@@ -249,8 +249,3 @@ them.
   3. I have successfully answered more than one interview question by regurgitating knowledge gleaned from tweets. 
   4. Among other reasons, I didn't really plan to get where I am today. I changed majors no fewer than three times in college (physics, CS, and math) and essentially dropped out of two PhD programs! 
   5. For example, install [Anaconda](https://store.continuum.io/cshop/anaconda/) and start playing with some of [these IPython notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks). 
-
-
----
-
-<small>[Abstract Algebra](https://flickr.com/photos/kirbyurner/3176286128 "Abstract Algebra") flickr photo by [thekirbster](https://flickr.com/people/kirbyurner) shared under a [Creative Commons (BY) license](https://creativecommons.org/licenses/by/2.0/)</small>
