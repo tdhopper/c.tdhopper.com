@@ -14,7 +14,7 @@ When I'm trying to develop new ideas, sitting at my desk staring at my computer 
 I'm inspired by stories of brilliant people coming up with ideas at surprising times:
 
 * [Hirotugu Akaike said](http://garfield.library.upenn.edu/classics1981/A1981MS54100001.pdf) the idea for his eponymous [Akaike Information Criterion](https://en.wikipedia.org/wiki/Akaike_information_criterion) while taking his seat on the bus.
-* Grant Wood, most famous for painting American Gothic, once said "All the really good ideas I've ever had came to me while I was milking a cow"
+* Grant Wood, most famous for painting American Gothic, once said "All the really good ideas I've ever had came to me while I was milking a cow."
 * [Stanisław Ulam, a key physicist in the Manhattan Project, recounted how he thought](https://permalink.lanl.gov/object/tr?what=info:lanl-repo/lareport/LA-UR-88-9068) of Monte Carlo methods while home sick and playing solitaire. (Monte Carlo methods essential in modern artificial intelligence model training!)
 * [Paul Dirac, a founder of quantum mechanics, said,](https://www.worldscientific.com/doi/10.1142/9789814434430_0002) "I would like to mention that I found the best ideas usually came, not when one was actively striving for them, but when one was in a more relaxed state."
 
