@@ -1,6 +1,6 @@
 ---
 title: How I Became a Data Scientist Despite Having Been a Math Major
-date: Thu, 23 Apr 2020 12:36:56 +0000
+date: 2015-05-11
 slug: how-i-became-a-data-scientist
 aliases: [/how/]
 featured: true
