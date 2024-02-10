@@ -9,12 +9,7 @@ date: 2016-05-04
 
 I'm trying out the beautiful [Fish shell](https://fishshell.com/). I've been a Bash user up until now.
 
-I was bummed to see that `source activate ENV` (for activating [Conda environments](http://conda.[widgets.homepage.params]
-limit = 5
-
-[[widgets.homepage]]
-type = "categories"
-.org/docs/using/envs.html "Managing environments &mdash; Conda   documentation")) didn't work natively in Fish.
+I was bummed to see that `source activate ENV` (for activating [Conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) didn't work natively in Fish.
 
 Apparently the [Conda team is adding native support for Fish](https://groups.google.com/a/continuum.io/d/msg/conda/8aaYESlLZI8/Ov1UcFhWCAAJ), but it's not available as of 2016-05-04.
 
