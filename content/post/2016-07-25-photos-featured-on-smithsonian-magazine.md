@@ -16,6 +16,6 @@ I shared some of my best pictures from the trip on Flicker under a Creative Comm
 
 You can find more of my photography on [photos.tdhopper.com](https://photos.tdhopper.com) or [Instagram](https://www.instagram.com/tdhopper/).
 
-{{< figure src="uploads/grayson1.png" title="Ponies at Grayson Highlands State Park" >}}
+{{< figure src="/uploads/grayson1.png" title="Ponies at Grayson Highlands State Park" >}}
 
-{{< figure src="uploads/grayson2.png" title="Ponies at Grayon Highlands State Park" >}}
+{{< figure src="/uploads/grayson2.png" title="Ponies at Grayon Highlands State Park" >}}
