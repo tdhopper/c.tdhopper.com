@@ -10,7 +10,7 @@ Thumbnail: /projects/lda.png
 Portfolio: true
 tags:
  - technical
-    - python
+ - python
 ---
 
 Today is my last day at [Qadium](http://qadium.com). Next week, I am joining the data science team at [Distil Networks](http://distilnetworks.com).
