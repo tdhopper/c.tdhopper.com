@@ -8,6 +8,8 @@ description: Why companies building machine learning products under-invest in en
 Thumbnail: /projects/rightcode.png
 categories:
     - Personal Update
+tags:
+    - Presentation
 youtube: BvqLgeNVg0Y
 ---
 
