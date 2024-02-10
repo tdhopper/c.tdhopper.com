@@ -1,8 +1,10 @@
 ---
 title: Zen of Git
 date: Sat, 30 Sep 2017 00:26:00 +0000
+description: '"In the face of ambiguity, copy and paste from Stack Overflow."'
 categories:
-    - humor
+  - humor
+image: /images/zen.png
 ---
 
     $ git checkout this
