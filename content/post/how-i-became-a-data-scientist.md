@@ -161,7 +161,7 @@ handful of programming languages.
 math PhD student convinced me pure math wasn't for me).** This provided me
 with experience in math modeling, a broad knowledge of mathematical
 optimization (central to machine learning), and the opportunity to take
-graduate-level machine learning classes.1
+graduate-level machine learning classes.[^1]
 
 **Fifth, my insatiable curiosity in computers and problem solving has played a
 key role in my career success.** Eager to learn something about computer
@@ -185,7 +185,7 @@ always be sure you're not the smartest one in the room. I am very thankful for
 three jobs where I've been surrounded by smart people who have taught me a
 lot, and for supervisors who trust me enough to let me learn on my own.
 
-**Finally,2 it would be hard for me to overvalue the four and a half years of
+**Finally,[^2] it would be hard for me to overvalue the four and a half years of
 participation in the data science community on Twitter.** Through Twitter, I
 have the ear of some of data science's brightest minds (most of whom I've
 never met in person), and I've built a peer network that has helped me find my
@@ -195,11 +195,11 @@ for data science, the best new blog posts for our field, and the musings of of
 some of my data science heros. Of course, I don't read every blog post or
 learn every software tool. But Twitter helps me to recognize which posts are
 most worth my time, and because of Twitter, I know _something_ instead of
-_nothing_ about Theano, Scalding, and dplyr.3
+_nothing_ about Theano, Scalding, and dplyr.[^3]
 
 ## Conclusions
 
-I don't know to what extent my experience generalizes4, in either the
+I don't know to what extent my experience generalizes[^4], in either the
 limitations of my education or my analysis of my success, but I am obviously
 not going to let that stop me from drawing some general conclusions.
 
@@ -235,7 +235,7 @@ marketable when combined skills such as programming and machine learning;
 there are a wealth of good books, MOOCs, and blog posts that can help you
 learn these things. More over, the barrier to entry for getting started with
 production quality tools has never been lower. Don't let your coursework be
-the extent of your education. There is so much more to learn!5
+the extent of your education. There is so much more to learn![^5]
 
 **Update (Oct. 2017)** : [I gave a talk based on this
 post](https://www.youtube.com/watch?v=Q_UrZ4pmKmI)
@@ -244,8 +244,8 @@ post](https://www.youtube.com/watch?v=Q_UrZ4pmKmI)
 so I wrote [FAQ](/blog/faq/) post trying to answer some of
 them.
 
-  1. At the same time, my academic training in operations research failed me, in some aspects, for a successful career in operations research. For example, practical math modeling was not sufficiently emphasized and the skills of computer programming and software development were undervalued. 
-  2. Of course, I have plenty of data science skills left to learn. My knowledge of experimental design is still pretty fuzzy. I still struggle with effective mathematical modeling. I haven't deployed a large scale machine learning system to production. I suck at software logging. I have no idea how deep learning works. 
-  3. I have successfully answered more than one interview question by regurgitating knowledge gleaned from tweets. 
-  4. Among other reasons, I didn't really plan to get where I am today. I changed majors no fewer than three times in college (physics, CS, and math) and essentially dropped out of two PhD programs! 
-  5. For example, install [Anaconda](https://store.continuum.io/cshop/anaconda/) and start playing with some of [these IPython notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks). 
+[^1]: At the same time, my academic training in operations research failed me, in some aspects, for a successful career in operations research. For example, practical math modeling was not sufficiently emphasized and the skills of computer programming and software development were undervalued.
+[^2]: Of course, I have plenty of data science skills left to learn. My knowledge of experimental design is still pretty fuzzy. I still struggle with effective mathematical modeling. I haven't deployed a large scale machine learning system to production. I suck at software logging. I have no idea how deep learning works.
+[^3]: I have successfully answered more than one interview question by regurgitating knowledge gleaned from tweets.
+[^4]: Among other reasons, I didn't really plan to get where I am today. I changed majors no fewer than three times in college (physics, CS, and math) and essentially dropped out of two PhD programs!
+[^5]: For example, install [Anaconda](https://store.continuum.io/cshop/anaconda/) and start playing with some of [these IPython notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
