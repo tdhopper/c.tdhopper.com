@@ -1,15 +1,16 @@
 ---
-title: dothopper photography
-categories:
-    - Personal Update
-tags:
-    - Photography
-date: 2018-02-09
-slug: dothopper-photography
 portfolio: true
-description: A website devoted to my photography
-Thumbnail: /projects/beach.jpg
+slug: dothopper-photography
 external: https://photos.tdhopper.com
+Thumbnail: /projects/beach.jpg
+title: dothopper photography
+date: 2018-02-09
+description: A website devoted to my photography
+tags:
+  - Photography
+categories:
+  - Personal Update
+image: /images/camera.png
 ---
 
 [I created a new website](https://photos.tdhopper.com) devoted to my photography.
