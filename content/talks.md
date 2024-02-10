@@ -4,6 +4,8 @@ slug: talks
 type: talks
 description: Here are the talks that I've given that were recorded.
 image: preso.png
+tag:
+    - presentation
 ---
 
 ## Five semesters of linear algebra and all I do is solve Python dependency problems (Dec. 15, 2022)
