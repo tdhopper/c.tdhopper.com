@@ -4,11 +4,12 @@ date: 2017-05-22
 slug: stories-of-degradation-and-humiliation
 aliases: ["/blog/2017/May/22/adversarial-learning:-stories-of-degradation-and-humiliation/"]
 portfolio: true
-tags:
 description: Roundtable on the Adversarial Learning podcast about bad intervew experiences.
 Thumbnail: /projects/al10.png
 categories:
     - Personal Update
+tags:
+    - Interview with me
 external: http://adversariallearning.com/episode-10-stories-of-degradation-and-humiliation.html
 ---
 

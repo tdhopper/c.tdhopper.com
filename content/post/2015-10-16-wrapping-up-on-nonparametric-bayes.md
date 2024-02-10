@@ -2,7 +2,6 @@
 title: Nonparametric Latent Dirichlet Allocation
 categories:
     - Article
-tags: []
 date: 2015-10-16
 slug: wrapping-up-on-nonparametric-bayes
 aliases: [/blog/2015/Oct/16/wrapping-up-on-nonparametric-bayes/]
@@ -11,7 +10,6 @@ Thumbnail: /projects/lda.png
 Portfolio: true
 tags:
  - technical
-categories:
     - python
 ---
 

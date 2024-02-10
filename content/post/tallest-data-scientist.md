@@ -7,7 +7,6 @@ tags:
 date: 2016-12-08
 slug: tallest-data-scientist
 portfolio: true
-tags:
 description: An interview with me on the Adversarial Learning podcast about being the tallest data scientist and other things.
 Thumbnail: /projects/al02.png
 external: http://adversariallearning.com/episode-2-the-tallest-data-scientist.html

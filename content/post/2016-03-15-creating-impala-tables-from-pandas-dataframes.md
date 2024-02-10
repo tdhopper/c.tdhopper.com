@@ -5,7 +5,7 @@ aliases: [/blog/2016/Mar/15/creating-impala-tables-from-pandas-dataframes/]
 categories:
     - Today I Learned
 date: 2016-03-15
-categories:
+tags:
     - python
     - pandas
 ---

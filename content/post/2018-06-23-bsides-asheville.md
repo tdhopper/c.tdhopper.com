@@ -3,12 +3,11 @@ title: "Challenges in Applying Machine Learning to Cybersecurity"
 date: 2018-06-23
 slug: ml-for-security
 portfolio: true
-tags:
 description: Talk on challenges of applying machine learning to cybersecurity
 Thumbnail: /projects/bsides2018.png
 categories:
     - Personal Update
-youtube: OS6j1Y2tJLY
+    - Presentation
 ---
 
 I gave a talk called _Challenges in Applying Machine Learning to Cybersecurity_ at [BSides Asheville](http://bsidesasheville.com). Here are my slides:

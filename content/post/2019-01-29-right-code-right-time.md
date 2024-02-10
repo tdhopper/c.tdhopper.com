@@ -3,14 +3,12 @@ title: "Right Code, Right Place, Right Time"
 date: 2019-01-29
 slug: right-code
 portfolio: true
-tags:
 description: Why companies building machine learning products under-invest in engineering and architecture.
 Thumbnail: /projects/rightcode.png
 categories:
     - Personal Update
 tags:
     - Presentation
-youtube: BvqLgeNVg0Y
 ---
 
 I gave a talk at Pydata DC 2018 where I tried to articulate some reasons why companies building machine 

@@ -5,7 +5,7 @@ aliases: [/blog/2016/Apr/26/dont-buffer-pythons-stdout/]
 categories:
     - Today I Learned
 date: 2016-04-26
-categories:
+tags:
     - python
 ---
 

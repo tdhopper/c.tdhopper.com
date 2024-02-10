@@ -3,7 +3,6 @@ title: Like most great mathematicians, he expects universal precision
 date: 2017-04-26
 slug: like-most-great-mathematicians-he-expects-universal-precision
 aliases: [/blog/2017/Apr/26/like-most-great-mathematicians-he-expects-universal-precision/]
-Tags:
 categories:
     - Quote
 ---

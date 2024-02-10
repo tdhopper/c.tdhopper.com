@@ -6,14 +6,13 @@ aliases: [/blog/2017/Jun/26/python-plotting-for-exploratory-data-analysis/]
 categories:
     - Personal Update
 portfolio: true
-tags:
- - technical
 Thumbnail: /projects/pythonplot.png
 Description: A new website providing a rosetta stone for various Python plotting libraries.
 external: http://pythonplot.com
 tags:
     - python
     - pandas
+    - technical
 ---
 
 Plotting is an essential component of data analysis. As a data scientist, I spend a significant amount of my time making simple plots to understand complex data sets (exploratory data analysis) and help others understand them (presentations).

@@ -8,7 +8,6 @@ date: 2015-09-01
 slug: profile-in-computational-imagination
 aliases: [/blog/2015/Sep/01/profile-in-computational-imagination/]
 portfolio: true
-tags:
 Thumbnail: /projects/profile_in_comp.png
 description: A 2015 interview with me on my wandering road to data science and my love of remote work.
 external: https://web.archive.org/web/20160304120901/http://computationalimagination.com/interview_tim_hopper.php

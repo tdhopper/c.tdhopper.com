@@ -5,7 +5,7 @@ categories:
 slug: keeping-ipython-notebooks-running-in-the-background
 aliases: [/blog/2014/Aug/28/keeping-ipython-notebooks-running-in-the-background/]
 date: 2014-08-28
-categories:
+tags:
     - python
 ---
 

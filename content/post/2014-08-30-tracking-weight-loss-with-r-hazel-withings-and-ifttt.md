@@ -5,7 +5,7 @@ aliases: [/blog/2014/Aug/30/tracking-weight-loss-with-r-hazel-withings-and-ifttt
 date: 2014-08-30
 categories:
     - Article
-categories:
+tags:
     - python
     - pandas
 ---

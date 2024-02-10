@@ -2,7 +2,6 @@
 title: Notes on Dirichlet Processes
 categories:
     - Article
-tags: []
 date: 2015-10-16
 slug: wrapping-up-on-nonparametric-bayes
 aliases: [/blog/2015/Oct/16/wrapping-up-on-nonparametric-bayes/]
@@ -11,9 +10,8 @@ Thumbnail: /projects/dirichlet.png
 Portfolio: true
 tags:
  - technical
+ - python
 external: https://dp.tdhopper.com
-categories:
-    - python
 ---
 
 I have published some [notes on the Dirichlet distribute, Dirichlet processes, Gibbs sampling for mixture models and nonparametric mixture models, and the Gibbs sampler for nonparametric Latent Dirichlet Allocation](https://dp.tdhopper.com).

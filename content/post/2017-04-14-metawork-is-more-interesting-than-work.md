@@ -3,7 +3,6 @@ title: Metawork is more interesting than work
 date: 2017-04-14
 slug: metawork-is-more-interesting-than-work
 aliases: [/blog/2017/Apr/14/metawork-is-more-interesting-than-work/]
-Tags:
 categories:
     - Quote 
 ---

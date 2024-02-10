@@ -3,7 +3,6 @@ title: Choice of the Name Dynamic Programming
 date: 2017-05-26
 slug: choice-of-the-name-dynamic-programming
 aliases: [/blog/2017/May/26/choice-of-the-name-dynamic-programming/]
-Tags:
 categories:
     - Quote
 ---
