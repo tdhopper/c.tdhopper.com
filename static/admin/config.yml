@@ -25,7 +25,7 @@ collections:
       - {label: "Featured", name: "featured", widget: "boolean", required: false}
   - name: "til"
     label: TIL
-    folder: "content/post/til"
+    folder: "content/post/TIL"
     sort: "date: desc"
     create: true
     editor:
