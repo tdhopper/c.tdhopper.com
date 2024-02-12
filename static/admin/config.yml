@@ -31,11 +31,12 @@ collections:
     editor:
       preview: false
     slug: "{{slug}}"
+    filter: {field: "Categories", value: "Today I Learned"}
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "list", default: ["Today I Learned"], hidden: true}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "hidden", default: ["Today I Learned"]}
+      - {label: "Image", name: "image", widget: "image", default: "/images/til.png"}
