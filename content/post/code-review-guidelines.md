@@ -8,7 +8,7 @@ description: A proposed code review guideline for data science teams,
 tags:
   - python
 categories:
-  - How To
+  - Article 
 image: /images/code-review.png
 ---
 Over the last 6 years, I've been able to help the teams I have been part of

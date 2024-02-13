@@ -4,7 +4,8 @@ date: 2024-02-10T16:31:16.906Z
 description: "Coming soon: a free ebook about Python developer tooling!"
 tags:
   - python
-categories: []
+categories:
+  - Personal Update
 image: /images/pydevtools-announcement.png
 ---
 I’ve been a professional Python developer for over a decade. Like many Python developers, I’ve faced the many challenges of Python packaging and dependency management. I’ve also come to love helping developers find the right tools to make their work easier and more productive.
