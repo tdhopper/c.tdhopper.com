@@ -1,6 +1,6 @@
 ---
 title: "Article"
-description: "This is an example category"
+description: ""
 slug: "article"
 image: "article.png"
 style:
