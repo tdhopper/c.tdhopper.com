@@ -1,5 +1,5 @@
 ---
-title: "Article"
+title: "Articles"
 description: ""
 slug: "article"
 image: "article.png"
