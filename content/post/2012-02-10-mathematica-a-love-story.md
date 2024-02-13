@@ -16,7 +16,7 @@ I admit that I primarily use Mathematica as a glorified calculator. Most of my c
 
 One other note to the Redditors and cynics (but I repeat myself): I'm not recommending or encouraging programmers to jump ship from their main languages to Mathematica. I’m not suggesting that Mathematica doesn’t have any shortcomings. I’m not arguing that Mathematica is good for everything. I’m well aware that Mathematica is an expensive, closed platform. I’m well aware that Mathematic has the worst undo ever. I’m not writing an advertisement or getting paid by Wolfram. I’m simply shared the story of a program that has become an invaluable part of my schooling.
 
-### 1. Powerful Symbolic Computations
+## 1. Powerful Symbolic Computations
 
 Perhaps the thing Mathematica is most well-known for is symbolic computations. The oldest Mathematica file I have on my computer is a single line of code that I apparently used on a differential equations quiz in 2005. In it, I did a partial fraction decomposition: the bane of calculus 2 students, but easy for a computer.
 
@@ -44,7 +44,7 @@ The output is messy because Mathematica tried to solve the integral as generally
 
 ![alovestory_8.gif](/uploads/2012/02/alovestory_8.gif)
 
-### 2. Functional Programming
+## 2. Functional Programming
 
 Like R, Mathematica allows procedural programming.
 
@@ -96,7 +96,7 @@ This is only a simple example of a functional operation in Mathematica. Expressi
 
 Oh, and if you want to parallelize these operations: [not a problem](https://reference.wolfram.com/language/guide/ParallelComputing.html).
 
-### 3. Optimization
+## 3. Optimization
 
 As a student of operations research, I spend a lot of time solving optimization problems. Solving optimization problems of many flavors is built right into Mathematica. Solving linear programs given the matrices is easy with the LinearProgramming function. Because most of the problems I’ve solved up to this point have been “toy” problems for class, I can’t attest to Mathematica’s ability to handle large-scale problems, but they [claim](http://reference.wolfram.com/mathematica/tutorial/ConstrainedOptimizationLinearProgramming.html) to be able to handle large problems. Mathematica’s ExampleData function gives easy access to many data sets, including [NetLib.org](http://www.netlib.org/lp/data/readme)’s LP problems. Mathematica could solve this problem with 6072 rows and 12230 columns in 60 seconds on my 11-inch Macbook Air.
 
@@ -116,7 +116,7 @@ In the future, I hope to do a post on using Mathematica as a pseudo-modeling lan
 
 Recently, I’ve been working with stochastic dynamic programming problems (i.e. Markov decision processes). Mathematica offers [the easiest memoization I’ve ever seen in any language](http://reference.wolfram.com/mathematica/tutorial/FunctionsThatRememberValuesTheyHaveFound.html). Combined with functional aspects, I can solve dynamic programs with relatively little code.
 
-### 4. Graphics
+## 4. Graphics
 
 When I am doing school work, I want to be able to do complicated computations and then visualize the results quickly. Because of how tightly knit the native Mathematica graphics are built into the core language, I don’t have to go out of my way to do this.
 
@@ -126,11 +126,11 @@ Working straight from the output of the solver, in about twenty lines of code, I
 
 [{{< figure src="/uploads/2012/02/maze-249x300.png" >}}](/uploads/2012/02/maze.png)
 
-### 5. Documentation
+## 5. Documentation
 
 Wolfram has been careful to write readable and thorough documentation for Mathematica. Though Mathematica is not free software, its 10,000+ pages of documentation are [available online](http://reference.wolfram.com/mathematica/guide/Mathematica.html). Not only does the documentation for every function (usually including bullet points with Basic Examples, Scope, Generalizations & Extensions, Applications, Properties & Relations, and Neat Examples), it’s full of tutorials on various aspects of the language. Of you read the help inside of Mathematica, the files are simply notebooks, so the code can be evaluated within the documentation. I think you’d be hard pressed to find a language with better documentation.
 
-### 6. Naming Conventions
+## 6. Naming Conventions
 
 If Mathematica wins one debate hands down, its naming conventions. By their own [standards](http://reference.wolfram.com/mathematica/tutorial/NamingConventions.html), “As with most Mathematica functions, the names are usually complete English words, fully spelled out.” If you know the mathematical name for something, you can probably guess the Mathematica form.
 
@@ -142,7 +142,7 @@ I think this has paid off.
 
 Some people would complain about a language such an enormous number of named expressions, but Wolfram (the man and the company) have been so careful in constructing it that it doesn’t feel bloated.
 
-### 7. Interactivity
+## 7. Interactivity
 
 In version 7, Wolfram introduced interactivity into Mathematica. The Manipulate function is one I have found extremely valuable. It allows you to parametrize an expression and adjust the parameters while seeing results in real-time. For example, you could use Manipulate to adjust the region over which a function is plotted:
 
@@ -162,7 +162,7 @@ Or Table for that matter:
 
 ![alovestory_33.gif](/uploads/2012/02/alovestory_33.gif)
 
-### 8. Continual Development
+## 8. Continual Development
 
 Thankfully, Wolfram hasn’t given up on Mathematica. It’s been in development now for nearly 24 years. Mathematica 7 (released in November 2008) introduced interactivity features, access to many data sets, and built-in parallel computing, among [other things](http://www.wolfram.com/products/mathematica/newin7/).
 
@@ -180,13 +180,13 @@ Mathematica 8 also brought incredible probability computations. What’s the pro
 
 The [list of things new in version 8](http://www.wolfram.com/mathematica/new-in-8/) goes on.
 
-### 9. Comprehensiveness
+## 9. Comprehensiveness
 
 A feature of Mathematica that is hard to articulate is the comprehensiveness of the features I’ve already mentioned plus many more. It’s a full featured programming language, but the core language also extends to the depths of applied and pure mathematics. Symbolic manipulation? Check. Numerical methods? Check. [Abstract algebra](http://www.wolfram.com/mathematica/new-in-8/group-theory-algorithms/)? Check. [Graph theory](http://reference.wolfram.com/mathematica/guide/GraphsAndNetworks.html)? [Statistics](http://reference.wolfram.com/mathematica/tutorial/BasicStatistics.html)? [Visualization](http://reference.wolfram.com/mathematica/howto/CustomizePlotsAndGraphics.html)? [Optimization](http://reference.wolfram.com/mathematica/guide/Optimization.html)? [String Processing](http://reference.wolfram.com/mathematica/guide/ProcessingTextualData.html)? [Differential equations](http://reference.wolfram.com/mathematica/guide/DifferentialEquations.html)? [Computational chemistry](http://reference.wolfram.com/mathematica/ref/ChemicalData.html)? [Calculus](http://reference.wolfram.com/mathematica/guide/Calculus.html)? Check. Check. Check.
 
 The comprehensiveness of _Mathematica_'s functionality along with dynamic typing and functional programming allows me to write code to do complicated tasks very quickly. I love it.
 
-### Conclusion
+## Conclusion
 
 No doubt, Mathematica has its limitations[^1mathematica]: Worlds worst undo. Not object-oriented. Closed platform. Expensive. No autosave. No data frame structure.
 
