@@ -1,5 +1,5 @@
 ---
-title: "Quote"
+title: "Link"
 description: ""
-image: "images/reading.png"
+# image: "images/reading.png"
 ---
