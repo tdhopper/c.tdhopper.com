@@ -4,7 +4,6 @@ backend:
 media_folder: "static/images/"
 public_folder: "/images/"
 
-
 collections:
   - name: "blog"
     label: Blog
@@ -15,14 +14,33 @@ collections:
       preview: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "list"}
-      - {label: "Image", name: "image", widget: "image"}
-      - {label: "Featured", name: "featured", widget: "boolean", required: false}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "select",
+          "options":
+            [
+              "Humor",
+              "Today I Learned",
+              "Article",
+              "Personal Update",
+              "Quote",
+              "Link",
+              "Presentation",
+            ],
+        }
+      - { label: "Image", name: "image", widget: "image" }
+      - {
+          label: "Featured",
+          name: "featured",
+          widget: "boolean",
+          required: false,
+        }
   - name: "til"
     label: TIL
     folder: "content/post/til"
@@ -31,13 +49,23 @@ collections:
       preview: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "hidden", default: ["Today I Learned"]}
-      - {label: "Image", name: "image", widget: "image", default: "/images/til.png"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "hidden",
+          default: ["Today I Learned"],
+        }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          default: "/images/til.png",
+        }
   - name: "links"
     label: Link Post
     folder: "content/post/links"
@@ -46,10 +74,20 @@ collections:
       preview: false
     slug: "{{slug}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Tags", name: "tags", widget: "list"}
-      - {label: "Categories", name: "categories", widget: "hidden", default: ["Links"]}
-      - {label: "Image", name: "image", widget: "image", default: "/images/til.png"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "hidden",
+          default: ["Links"],
+        }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          default: "/images/til.png",
+        }
