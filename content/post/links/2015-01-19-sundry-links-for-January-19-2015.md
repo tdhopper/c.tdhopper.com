@@ -1,7 +1,7 @@
 ---
-title: Sundry Links for January 19, 2015
+title: Links for January 19, 2015
 categories:
-    - Sundry Link
+    - Link
 slug: sundry-links-for-January-19-2015
 aliases: [/blog/2015/Jan/19/sundry-links-for-January-19-2015/]
 date: 2015-01-19

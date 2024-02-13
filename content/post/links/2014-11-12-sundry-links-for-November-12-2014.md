@@ -1,10 +1,10 @@
 ---
-title: Sundry Links for November 12, 2014
+title: Links for November 12, 2014
 slug: sundry-links-for-November-12-2014
 aliases: [/blog/2014/Nov/12/sundry-links-for-November-12-2014/]
 date: 2014-11-12
 categories:
-    - Sundry Link
+    - Link
 ---
 
 [Amazon Picking Challenge](http://amazonpickingchallenge.org/): Kiva Systems (where I interned in 2011) is setting up a robotics challenging for picking items off warehouse shelves.

@@ -1,10 +1,10 @@
 ---
-title: Sundry Links for September 25, 2014
+title: Links for September 25, 2014
 slug: sundry-links-for-September-25-2014
 aliases: [/blog/2014/Sep/25/sundry-links-for-September-25-2014/]
 date: 2014-09-25
 categories:
-    - Sundry Link
+    - Link
 ---
 
 [Philosophy of Statistics (Stanford Encyclopedia of Philosophy)](http://plato.stanford.edu/entries/statistics/): I suspect that a lot of the Bayesian vs Frequentist debates ignore the important epistemological underpinnings of statistics. I haven’t finished reading this yet, but I wonder if it might help.
