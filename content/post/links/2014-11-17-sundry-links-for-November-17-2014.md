@@ -1,7 +1,7 @@
 ---
-title: Sundry Links for November 17, 2014
+title: Links for November 17, 2014
 categories:
-    - Sundry Link
+    - Link
 slug: sundry-links-for-November-17-2014
 aliases: [/blog/2014/Nov/17/sundry-links-for-November-17-2014/]
 date: 2014-11-17

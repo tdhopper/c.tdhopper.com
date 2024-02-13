@@ -1,7 +1,7 @@
 ---
-title: Sundry Links for August 28, 2014
+title: Links for August 28, 2014
 categories:
-    - Sundry Link
+    - Link
 slug: sundry-links-for-August-28-2014
 aliases: [/blog/2014/Aug/28/sundry-links-for-August-28-2014/]
 date: 2014-08-28

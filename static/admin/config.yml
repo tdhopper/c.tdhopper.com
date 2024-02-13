@@ -38,3 +38,18 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Categories", name: "categories", widget: "hidden", default: ["Today I Learned"]}
       - {label: "Image", name: "image", widget: "image", default: "/images/til.png"}
+  - name: "links"
+    label: Link Post
+    folder: "content/post/links"
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Categories", name: "categories", widget: "hidden", default: ["Links"]}
+      - {label: "Image", name: "image", widget: "image", default: "/images/til.png"}

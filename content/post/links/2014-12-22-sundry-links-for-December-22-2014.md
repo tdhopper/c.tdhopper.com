@@ -1,7 +1,7 @@
 ---
-title: Sundry Links for December 22, 2014
+title: Links for December 22, 2014
 categories:
-    - Sundry Link
+    - Link
 slug: sundry-links-for-December-22-2014
 aliases: [/blog/2014/Dec/22/sundry-links-for-December-22-2014/]
 date: 2014-12-22
