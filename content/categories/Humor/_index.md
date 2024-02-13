@@ -1,5 +1,5 @@
 ---
 title: "Humor"
 description: ""
-image: "humor.png"
+image: "images/humor.png"
 ---
