@@ -6,6 +6,7 @@ categories:
 tags:
     - python
 image: conda.png
+aliases: ["/conda"]
 ---
 Many new Python programmers rely on their system install of Python to run
 their scripts. There are several good reasons to stop using the system Python.

@@ -6,4 +6,5 @@ menu:
         params:
             icon: home
 image: main.png
+aliases: ["/home"]
 ---
