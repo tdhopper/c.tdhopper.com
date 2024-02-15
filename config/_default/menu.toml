@@ -23,7 +23,6 @@ url = "https://tdhopper.com/categories/podcast/"
 icon = "hash"
 newtab = false 
 
-[[main]]
 
 [[social]]
 identifier = "github"
