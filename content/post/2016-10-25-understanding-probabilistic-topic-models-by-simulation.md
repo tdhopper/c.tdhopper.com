@@ -9,6 +9,7 @@ Thumbnail: projects/simulation.png
 Portfolio: true
 tags:
  - python
+ - math
 description: Presentation on understanding probabilistic topic models by simulating the generative model
 ---
 
