@@ -15,6 +15,16 @@ url = "https://tdhopper.com/talks"
 icon = "infinity"
 newtab = false 
 
+[[main]]
+identifier = "podcast"
+name = "Podcast"
+url = "https://tdhopper.com/categories/podcast/"
+[main.params]
+icon = "hash"
+newtab = false 
+
+[[main]]
+
 [[social]]
 identifier = "github"
 name = "GitHub"
