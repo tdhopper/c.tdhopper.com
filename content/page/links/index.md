@@ -5,7 +5,7 @@ links:
     description: View my code and projects. 
     website: https://github.com/tdhopper
   - title: Do You Play Ball?
-    description: Instagram account about life 
+    description: Instagram account about life at 81".
     website: https://instagram.com/doyouplayball
   - title: Free Disk Space
     description: Tools for cleaning up your system and freeing up space, especially for developers. 
@@ -25,6 +25,16 @@ links:
   - title: LinkedIn
     description: My professional profile. 
     website: https://www.linkedin.com/in/tdhopper/
+  - title: Twitter
+    description: My Twitter profile. 
+    website: https://twitter.com/tdhopper
+  - title: Stack Overflow
+    description: My Stack Overflow profile. 
+    website: https://stackoverflow.com/users/982745/tim-hopper
+  - title: Instagram
+    description: My Instagram profile. 
+    website: https://instagram.com/tdhopper
+  
 
 menu:
     main: 
