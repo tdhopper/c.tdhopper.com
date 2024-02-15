@@ -8,7 +8,7 @@ aliases: [/blog/2015/Nov/06/my-first-publication/]
 Thumbnail: /projects/ecig.png
 Portfolio: true
 tags:
- description: My paper in the Journal of Internet Medical Research about discussion of electronic cigarettes on Twitter.
+description: My paper in the Journal of Internet Medical Research about discussion of electronic cigarettes on Twitter.
 external: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642798/
 ---
 
