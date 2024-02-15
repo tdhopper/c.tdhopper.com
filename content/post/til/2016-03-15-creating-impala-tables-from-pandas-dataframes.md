@@ -6,7 +6,7 @@ categories:
     - Today I Learned
 date: 2016-03-15
 tags:
-    - python
+    - Python
     - pandas
 ---
 

@@ -4,7 +4,7 @@ date: Wed, 23 Mar 2016 14:18:00 +0000
 categories:
     - How To
 tags:
-    - python
+    - Python
     - pandas
 image: panda.png
 ---

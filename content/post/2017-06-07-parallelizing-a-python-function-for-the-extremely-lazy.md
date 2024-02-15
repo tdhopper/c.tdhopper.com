@@ -7,7 +7,7 @@ categories:
   - Article
 Description: How to use a simple Python CLI and GNU Parallel to quickly run a Python process on multiple cores.
 tags:
-    - python
+    - Python
 ---
 
 Do you ever want to be able to run a Python function in parallel on a set of inputs? Have you ever gotten frustrated with the GIL, the multiprocessing library, or joblib?

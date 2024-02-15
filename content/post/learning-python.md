@@ -5,7 +5,7 @@ slug: learning-python
 categories:
     - Article
 tags:
-    - python
+    - Python
 image: learning-python.jpeg
 description: The post recounts the my journey with Python, highlighting how "Learning Python" by Mark Lutz significantly impacted my career.
 ---

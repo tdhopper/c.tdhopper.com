@@ -10,7 +10,7 @@ Thumbnail: /projects/pythonplot.png
 Description: A new website providing a rosetta stone for various Python plotting libraries.
 external: http://pythonplot.com
 tags:
-    - python
+    - Python
     - pandas
 ---
 

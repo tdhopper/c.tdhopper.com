@@ -4,7 +4,7 @@ date: Tue, 24 Nov 2015 14:41:00 +0000
 categories:
   - article
 tags:
-    - python
+    - Python
 image: conda.png
 aliases: ["/conda"]
 ---

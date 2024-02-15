@@ -6,7 +6,7 @@ date: 2014-08-30
 categories:
     - Article
 tags:
-    - python
+    - Python
     - pandas
 ---
 

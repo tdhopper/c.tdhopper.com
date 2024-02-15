@@ -4,7 +4,7 @@ date: Mon, 11 Apr 2016 20:56:00 +0000
 categories: 
     - How To
 tags:
-    - python
+    - Python
     - pandas
 ---
 Joining two Pandas DataFrames with an equal number of rows is slightly harder
