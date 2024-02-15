@@ -3,9 +3,9 @@ title: My Tweets in the News
 date: Mon, 01 Jul 2019 13:40:00 +0000
 slug: tweets-in-the-news
 tags:
-    - humor
 categories: 
     - Personal Update
+    - Humor
 image: /images/computer-fishing.png
 ---
 A few weeks back, I was browsing Google Maps and noticed the word "DEMO"
