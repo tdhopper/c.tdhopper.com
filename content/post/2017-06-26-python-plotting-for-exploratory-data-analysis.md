@@ -12,7 +12,7 @@ external: http://pythonplot.com
 tags:
     - python
     - pandas
-    ---
+---
 
 Plotting is an essential component of data analysis. As a data scientist, I spend a significant amount of my time making simple plots to understand complex data sets (exploratory data analysis) and help others understand them (presentations).
 
