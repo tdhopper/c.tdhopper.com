@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "https://tdhopper.com"
+baseurl = "https://tdhopper.com/"
 languageCode = "en-us"
 paginate = 5
 enableGitInfo = true
