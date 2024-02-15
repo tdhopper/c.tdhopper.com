@@ -2,8 +2,11 @@
 title: George Washington's Struggle for Inbox Zero
 date: Tue, 06 Mar 2018 13:34:00 +0000
 slug: george-washington-inbox-zero
+description: 'Ron Chernow: "Washington devoted far more time to the onerous task
+  of draft letters than leading men into battle."'
 categories:
-    - Quote
+  - Quote
+image: /images/george-washington.png
 ---
 
 [Ron Chernow](https://amzn.to/3e3NppS) on George Washington's struggle with
