@@ -3,6 +3,7 @@ title: Notes on the Derivation of Least Squares Policy Iteration
 date: 2012-06-18 
 categories:
   - Article 
+image: /images/lspi.png
 tags:
     - math 
 ---
