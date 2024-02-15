@@ -1,15 +1,13 @@
 ---
 title: Understanding Probabilistic Topic Models By Simulation
 categories:
-    - Personal Update
+    - Presentation 
 date: 2016-10-25
 slug: understanding-probabilistic-topic-models-by-simulation
 aliases: [/blog/2016/Oct/25/understanding-probabilistic-topic-models-by-simulation/]
 Thumbnail: projects/simulation.png
 Portfolio: true
 tags:
- - technical
- - presentation
  - python
 description: Presentation on understanding probabilistic topic models by simulating the generative model
 ---

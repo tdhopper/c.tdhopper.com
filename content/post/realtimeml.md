@@ -1,13 +1,11 @@
 ---
 title: Build a Real Time Machine Learning System
 categories:
-    - Personal Update
+   - Presentation 
 date: 2017-05-17
 slug: realtime-machine-learning
 portfolio: true
 tags:
- - presentation
- - technical
 description: Presentation from the Southern Data Science meetup on real time machine learning with Kafka, Streamparse, and Storm.
 Thumbnail: /projects/building.png
 youtube: inB33qWugMw

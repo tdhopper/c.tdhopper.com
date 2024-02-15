@@ -1,13 +1,11 @@
 ---
 title: Introduction to Scikit-Learn
 categories:
-    - Personal Update
+    - Presentation 
 date: 2013-01-21
 slug: scikit
 portfolio: true
 tags:
- - presentation
- - technical
  - python
 description: Talk from the Research Triangle Analysts meetup on Scikit-Learn
 Thumbnail: /projects/scikitlearn.png

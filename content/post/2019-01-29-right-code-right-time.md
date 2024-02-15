@@ -6,9 +6,8 @@ portfolio: true
 description: Why companies building machine learning products under-invest in engineering and architecture.
 Thumbnail: /projects/rightcode.png
 categories:
-    - Personal Update
-tags:
     - Presentation
+tags:
 ---
 
 I gave a talk at Pydata DC 2018 where I tried to articulate some reasons why companies building machine 
