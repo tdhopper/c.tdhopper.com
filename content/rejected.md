@@ -4,16 +4,14 @@ slug: rejected
 image: rejected.png
 ---
 
-This list is a follow up to my popular post [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
+This list is a follow-up to my popular post Some Reflections on [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
 
-People talk freely about jobs they've been offered but are naturally hesitant
-to mention rejections.
+People talk freely about jobs they’ve been offered but are naturally hesitant to mention rejections.
 
-For those new to the industry, it gives the impression that those who are more
-senior are drowning in job offers.
+For those new to the industry, it gives the impression that those more senior are drowning in job offers.
 
-My goal here is to make it clear that even someone with a sucessful career of
-10+ years receives rejections, and all of us need to keep persevering.
+My goal is to make it clear that even someone with a successful career of 10+ years receives rejections, and we all need to keep persevering.
+
 
 | Year     | Company                |                          | Reason Given                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------|------------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
