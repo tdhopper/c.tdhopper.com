@@ -4,7 +4,7 @@ slug: from-nuclear-weapons-to-operations-research
 title: From Nuclear Weapons to Operations Research
 date: 2012-01-25
 description: How Von Neumann used mathematical methods developed for the atomic
-  bomb were used to schedule oil tankers
+  bomb to schedule oil tankers
 categories:
   - Article
 image: /images/tanker.png
