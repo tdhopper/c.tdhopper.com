@@ -4,6 +4,7 @@ slug: speeding-up-pymc3-nuts-sampler
 aliases: [/blog/2016/Nov/08/speeding-up-pymc3-nuts-sampler/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-11-08
 tags:
     - Python

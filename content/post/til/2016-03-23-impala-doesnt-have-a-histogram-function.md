@@ -4,6 +4,7 @@ slug: impala-doesn't-have-a-histogram()-function
 aliases: [/blog/2016/Mar/23/impala-doesnt-have-a-histogram-function/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-03-23
 ---
 

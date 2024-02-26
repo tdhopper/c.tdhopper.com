@@ -5,6 +5,7 @@ aliases: [/blog/2014/Sep/10/shortcut-to-switch-to-previous-git-branch/]
 date: 2014-09-10
 categories:
     - Today I Learned
+image: /images/til.png
 ---
 
 

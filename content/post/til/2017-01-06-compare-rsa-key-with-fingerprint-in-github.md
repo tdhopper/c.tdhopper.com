@@ -4,6 +4,7 @@ slug: compare-rsa-key-with-fingerprint-in-github
 aliases: [/blog/2017/Jan/06/compare-rsa-key-with-fingerprint-in-github/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2017-01-06
 ---
 

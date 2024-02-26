@@ -4,6 +4,7 @@ slug: faster-ssh-access-to-remote-computers
 aliases: [/blog/2016/Jun/15/faster-ssh-access-to-remote-computers/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-06-15
 ---
 

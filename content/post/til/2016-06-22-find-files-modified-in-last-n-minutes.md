@@ -4,6 +4,7 @@ slug: find-files-modified-in-last-n-minutes
 aliases: [/blog/2016/Jun/22/find-files-modified-in-last-n-minutes/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-06-22
 ---
 

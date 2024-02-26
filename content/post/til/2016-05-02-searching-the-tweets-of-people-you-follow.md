@@ -4,6 +4,7 @@ slug: searching-the-tweets-of-people-you-follow
 aliases: [/blog/2016/May/02/searching-the-tweets-of-people-you-follow/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-05-02
 ---
 

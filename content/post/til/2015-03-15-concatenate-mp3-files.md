@@ -4,6 +4,7 @@ slug: concatenate-mp3-files
 aliases: [/blog/2015/Mar/15/concatenate-mp3-files/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2015-03-15
 ---
 

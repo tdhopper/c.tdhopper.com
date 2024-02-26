@@ -4,6 +4,7 @@ slug: creating-impala-tables-from-pandas-dataframes
 aliases: [/blog/2016/Mar/15/creating-impala-tables-from-pandas-dataframes/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-03-15
 tags:
     - Python

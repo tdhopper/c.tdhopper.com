@@ -4,6 +4,7 @@ slug: using-conda-with-the-fish-shell
 aliases: [/blog/2016/May/04/using-conda-with-the-fish-shell/]
 categories:
     - Today I Learned
+image: /images/til.png
 date: 2016-05-04
 ---
 
