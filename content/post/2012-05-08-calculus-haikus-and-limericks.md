@@ -1,11 +1,13 @@
 ---
-title: Calculus Haikus and Limericks
-categories:
-    - Quote
-date: 2012-05-08
 Author: Tim
 slug: calculus-haikus-and-limericks
-aliases: [/blog/2012/May/08/calculus-haikus-and-limericks/]
+title: Calculus Haikus and Limericks
+date: 2012-05-08
+description: Limericks and haikus written by my calculus students
+categories: Article
+image: /images/poems.png
+aliases:
+  - /blog/2012/May/08/calculus-haikus-and-limericks/
 ---
 
 I offered my calculus students bonus points to write a limerick or haiku on their final exam. I got some great answers! And the students seem to enjoy it. My favorite limerick (on improper integrals):
