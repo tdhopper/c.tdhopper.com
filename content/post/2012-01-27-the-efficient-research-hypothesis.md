@@ -1,11 +1,13 @@
 ---
-title: The Efficient Research Hypothesis
-categories:
-    - Article
-date: 2012-01-27
 Author: Tim
 slug: the-efficient-research-hypothesis
-aliases: [/blog/2012/Jan/27/the-efficient-research-hypothesis/]
+title: The Efficient Research Hypothesis
+date: 2012-01-27
+description: The progression of knowledge isn't efficient!
+categories: Article
+image: /images/money.png
+aliases:
+  - /blog/2012/Jan/27/the-efficient-research-hypothesis/
 ---
 
 In economics, some have asserted the [efficient market hypothesis](http://en.wikipedia.org/wiki/Efficient_market_hypothesis). The idea is that market prices take into account all the information currently available. If the efficient market hypothesis holds, an investor couldn't consistently beat the market because his knowledge about the markets is no better than anyone else's. An accompanying "joke" is that an economist would never bend over to pick up a \$20 bill on the street. If there was really \$20 to be taken, someone would have taken it already.
