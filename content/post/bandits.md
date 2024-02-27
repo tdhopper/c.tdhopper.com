@@ -1,10 +1,14 @@
 ---
-title: "Bandit Algorithms for Website Optimization"
-date: 2013-01-29 
-categories:
-  - Personal Update 
+title: Bandit Algorithms for Website Optimization
+date: 2013-01-29
+description: "I had the honor of being a technical reviewer for John Myles
+  White's outstanding book, \"Bandit Algorithms for Website Optimization:
+  Developing, Deploying, and Debugging.\" "
 tags:
-    - math 
+  - math
+categories:
+  - Personal Update
+image: /images/bandit.png
 ---
 
 I had the honor of being a technical reviewer for John Myles White's outstanding book, "Bandit Algorithms for Website Optimization: Developing, Deploying, and Debugging." I strongly suggest it to anyone curious about the subject. This book is an excellent start to understanding the field and provides practical advice on applying these algorithms effectively.
