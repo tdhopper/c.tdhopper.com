@@ -1,15 +1,19 @@
 ---
-title: Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use
-categories:
-    - Personal Update
-date: 2015-11-06
-slug: my-first-publication
-aliases: [/blog/2015/Nov/06/my-first-publication/]
-Thumbnail: /projects/ecig.png
 Portfolio: true
-tags:
-description: My paper in the Journal of Internet Medical Research about discussion of electronic cigarettes on Twitter.
+slug: my-first-publication
 external: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4642798/
+Thumbnail: /projects/ecig.png
+title: Using Twitter Data to Gain Insights into E-cigarette Marketing and
+  Locations of Use
+date: 2015-11-06
+description: My paper in the Journal of Internet Medical Research about
+  discussion of electronic cigarettes on Twitter.
+tags: []
+categories:
+  - Personal Update
+image: /images/ecig.png
+aliases:
+  - /blog/2015/Nov/06/my-first-publication/
 ---
 
 When I worked at [RTI International](http://www.rti.org/ "RTI International"), I worked on an exploratory analysis of Twitter discussion of electronic cigarettes. A paper on our work was just published in the [Journal of Internet Medical Research](http://www.jmir.org/ "JMIR-Journal of Medical Internet Research"): [Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use: An Infoveillance Study](http://www.jmir.org/2015/11/e251/).[^Infoveillance]
