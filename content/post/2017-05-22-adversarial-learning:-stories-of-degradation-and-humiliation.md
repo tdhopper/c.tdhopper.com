@@ -1,16 +1,18 @@
 ---
+portfolio: true
+slug: stories-of-degradation-and-humiliation
+external: http://adversariallearning.com/episode-10-stories-of-degradation-and-humiliation.html
+Thumbnail: /projects/al10.png
 title: "Adversarial Learning: Stories of Degradation and Humiliation"
 date: 2017-05-22
-slug: stories-of-degradation-and-humiliation
-aliases: ["/blog/2017/May/22/adversarial-learning:-stories-of-degradation-and-humiliation/"]
-portfolio: true
 description: Roundtable on the Adversarial Learning podcast about bad intervew experiences.
-Thumbnail: /projects/al10.png
-categories:
-    - Personal Update
 tags:
-    - Interview with me
-external: http://adversariallearning.com/episode-10-stories-of-degradation-and-humiliation.html
+  - Interview with me
+categories:
+  - Personal Update
+image: /images/interview.png
+aliases:
+  - /blog/2017/May/22/adversarial-learning:-stories-of-degradation-and-humiliation/
 ---
 
 My friends [Andrew](http://www.twitter.com/akm) and [Joel](http://www.twitter.com/joelgrus) were kind enough to have me back on their podcast [Adversarial Learning](http://adversariallearning.com/episode-10-stories-of-degradation-and-humiliation.html). We shared our tales of bad data science interviews. Enjoy!
