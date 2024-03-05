@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Links on Tim Hopper</title><link>https://tdhopper.com/categories/link/</link><description>Recent content in Links on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdhopper.com/categories/link/index.xml" rel="self" type="application/rss+xml"/><item><title>Links for March 23, 2015</title><link>https://tdhopper.com/blog/sundry-links-for-march-23-2015/</link><pubDate>Mon, 23 Mar 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-march-23-2015/</guid><description>&lt;p>&lt;a class="link" href="https://aws.amazon.com/blogs/aws/start-using-landsat-on-aws/" target="_blank" rel="noopener"
+>Start Using Landsat on AWS&lt;/a>: &amp;ldquo;The Landsat program has been running since 1972 and is the longest ongoing project to collect such imagery. Landsat 8 is the newest Landsat satellite and it gathers data based on visible, infrared, near-infrared, and thermal-infrared light. … You can now access over 85,000 Landsat 8 scenes&amp;rdquo; on AWS.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.lurklurk.org/linkers/linkers.html" target="_blank" rel="noopener"
+>Beginner&amp;rsquo;s Guide to Linkers&lt;/a>: I’m getting back into doing a little C++ programming. Having spent the last 5 years in scripting languages, this was a helpful refresher on compilation.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.labnol.org/internet/auto-forward-gmail-messages/20665/" target="_blank" rel="noopener"
+>How to Auto-Forward your Gmail Messages in Bulk&lt;/a>: Use Google App Scripts to autoforward emails by simply adding a label. I use this to add things to my &lt;a class="link" href="https://support.omnigroup.com/omnifocus-mail-drop" target="_blank" rel="noopener"
+>Omnifocus task link&lt;/a>.&lt;/p>
+&lt;p>&lt;a class="link" href="http://math.stackexchange.com/questions/2949/which-one-result-in-mathematics-has-surprised-you-the-most" target="_blank" rel="noopener"
+>Which one result in mathematics has surprised you the most?&lt;/a>: On Mathematics Stack Exchange. It might have been &lt;a class="link" href="http://en.wikipedia.org/wiki/Huffman_coding" target="_blank" rel="noopener"
+>Huffman Coding&lt;/a> for me.&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=3OHNYIg6N5Y&amp;amp;feature=youtube_gdata_player" target="_blank" rel="noopener"
+>Ruby Midwest 2013 The Most Important Optimization: Happiness&lt;/a>: Ernie Miller explains why he doesn’t let his career trump his happiness.&lt;/p>
+&lt;p>&lt;a class="link" href="http://tonyfischetti.github.io/sake/" target="_blank" rel="noopener"
+>Sake by tonyfischetti&lt;/a>: Something of a modern GNU Make: &amp;ldquo;Sake is a way to easily design, share, build, and visualize workflows with intricate interdependencies. Sake is self-documenting because the instructions for building a project also serve as the documentation of the project&amp;rsquo;s workflow.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/n1k0/SublimeHighlight" target="_blank" rel="noopener"
+>n1k0/SublimeHighlight&lt;/a>: &amp;ldquo;An humble SublimeText package for exporting highlighted code as RTF or HTML.&amp;rdquo;&lt;/p></description></item><item><title>Links for March 13, 2015</title><link>https://tdhopper.com/blog/sundry-links-for-march-13-2015/</link><pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-march-13-2015/</guid><description>&lt;p>&lt;a class="link" href="http://stackoverflow.com/questions/21360361/how-to-dynamically-update-a-plot-in-a-loop-in-ipython-notebook-within-one-cell" target="_blank" rel="noopener"
+>Dynamically Update a Plot in IPython&lt;/a>: One thing I miss about Mathematica is &lt;a class="link" href="http://reference.wolfram.com/language/ref/Animate.html" target="_blank" rel="noopener"
+>Animate&lt;/a> and &lt;a class="link" href="http://reference.wolfram.com/language/ref/Manipulate.html" target="_blank" rel="noopener"
+>Manipulate&lt;/a>. IPython is slowing getting similar functionality. Here’s how to dynamically update a plot.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/jiahao/ipython-profile" target="_blank" rel="noopener"
+>Jiahao&amp;rsquo;s IPython Notebook customizations&lt;/a>: Drop this CSS file on your machine, and suddenly your IPython notebooks look quite beautiful!&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.duetdisplay.com/" target="_blank" rel="noopener"
+>Duet Display&lt;/a>: I tried Air Display a few years ago, and it wasn’t worth the hassle. But Duet Display is a fantastic way to turn your iPad into an external display.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/jbmouret/matplotlib_for_papers" target="_blank" rel="noopener"
+>Creating publication-quality figures with Matplotlib&lt;/a>: Plotting in Python frustrates me to no end. But here’s a nice tutorial on creating nice figures in with Matplotlib.&lt;/p>
+&lt;p>&lt;a class="link" href="https://pypi.python.org/pypi/retrying" target="_blank" rel="noopener"
+>retrying 1.3.3 : Python Package Index&lt;/a>: Python decorators &amp;ldquo;to simplify the task of adding retry behavior to just about anything.&amp;rdquo; These work like a charm!&lt;/p></description></item><item><title>Links for January 19, 2015</title><link>https://tdhopper.com/blog/sundry-links-for-january-19-2015/</link><pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-january-19-2015/</guid><description>&lt;p>&lt;a class="link" href="http://www.mattblodgett.com/2015/01/but-where-do-people-work-in-this-office.html" target="_blank" rel="noopener"
+>Matt Blodgett: But Where Do People Work in This Office?&lt;/a>: &amp;ldquo;After looking through tons of cool office photos of many of the hottest companies in the Valley, I started to play a fun game I made up called &amp;lsquo;spot the desks’. I’ll show you what I mean.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="http://blog.stackoverflow.com/2015/01/why-we-still-believe-in-private-offices/" target="_blank" rel="noopener"
+>Why We (Still) Believe in Private Offices&lt;/a>: Joel Spolsky and Fog Creek Software have been relentless defenders of quite, private offices for developers. They continue that here.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.alfredforum.com/topic/4686-pandoctor-an-alfred-gui-for-pandoc/" target="_blank" rel="noopener"
+>Pandoctor: An Alfred GUI for Pandoc&lt;/a>: If you use &lt;a class="link" href="http://johnmacfarlane.net/pandoc/" target="_blank" rel="noopener"
+>Pandoc&lt;/a> and &lt;a class="link" href="http://alfredapp.com/" target="_blank" rel="noopener"
+>Alfred&lt;/a>, this is worth trying.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/tdhopper/alfred-hop" target="_blank" rel="noopener"
+>Alfred Hop&lt;/a>: I use a little bash tool called &lt;a class="link" href="https://github.com/Cue/hop" target="_blank" rel="noopener"
+>Hop&lt;/a> to bookmark frequently used directories. I made this tool to give me quick access to my bookmarks from Alfred.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/realpython/discover-flask" target="_blank" rel="noopener"
+>Discover Flask&lt;/a>: Flask, the lightweight Python framework, is a joy to use. Here’s a nice introduction to it.&lt;/p>
+&lt;p>&lt;a class="link" href="http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html" target="_blank" rel="noopener"
+>Introduction to dplyr&lt;/a>: I haven’t used R much since leaving my last job, but the ecosystem has been booming with great tools; dplyr is one of them.&lt;/p></description></item><item><title>Links for December 29, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-december-29-2014/</link><pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-december-29-2014/</guid><description>&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=gurZp2JoD-s" target="_blank" rel="noopener"
+>Sublime: Nice Features &amp;amp; Plugins&lt;/a>: A brief talk introducing my favorite editor.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/spamwax/alfred-pinboard" target="_blank" rel="noopener"
+>Alfred Workflow for Pinboard&lt;/a>: I&amp;rsquo;ve started using &lt;a class="link" href="http://pinboard.in/" target="_blank" rel="noopener"
+>Pinboard&lt;/a> a bit for organizing links. Here&amp;rsquo;s something that has the chance of getting me much deeper into pinboard: a powerful Alfred Workflow for interacting with Pinboard from your Mac&amp;rsquo;s keyboard. HT &lt;a class="link" href="http://www.bachyaproductions.com/link-mash-december-23-2014/" target="_blank" rel="noopener"
+>Aaron Bachya&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/alvarotrigo/fullPage.js" target="_blank" rel="noopener"
+>fullPage.js&lt;/a>: I&amp;rsquo;ve been using this jquery plugin in a forthcoming project. It makes it really easy to create slide-like single page websites.&lt;/p>
+&lt;p>&lt;a class="link" href="http://benkurtovic.com/2014/06/01/obfuscating-hello-world.html" target="_blank" rel="noopener"
+>Obfuscating &amp;ldquo;Hello world!&amp;rdquo;&lt;/a>: The author attempts to write the worst &amp;lsquo;hello world&amp;rsquo; possibe in Python. He does a good job.&lt;/p>
+&lt;p>&lt;a class="link" href="http://ryanmo.co/2014/05/10/show-time-in-multiple-time-zones-with-textexpander/" target="_blank" rel="noopener"
+>Show Time in Multiple Time Zones with TextExpander&lt;/a>: As I spend more time working with people in different time zones, tools like this help remove the cognitive challenge of translating time.&lt;/p></description></item><item><title>Links for December 22, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-december-22-2014/</link><pubDate>Mon, 22 Dec 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-december-22-2014/</guid><description>&lt;p>&lt;a class="link" href="http://unix4lyfe.org/time/?v=1" target="_blank" rel="noopener"
+>Time&lt;/a>: Programmers all hate time, timezones, etc. Here are some helpful &amp;ldquo;notes about time&amp;rdquo;.&lt;/p>
+&lt;p>&lt;a class="link" href="http://strftime.org/" target="_blank" rel="noopener"
+>Python strftime reference&lt;/a>: Speaking of time: &amp;ldquo;A quick reference for Python&amp;rsquo;s strftime formatting directives.&amp;rdquo; I have to look this stuff each time I need it.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/earwig/git-repo-updater" target="_blank" rel="noopener"
+>gitup&lt;/a>: &amp;ldquo;A console script that allows you to easily update multiple git repositories at once&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.slate.com/articles/podcasts/working/2014/12/google_software_engineer_nina_kang_talks_about_the_differences_between_writing.html" target="_blank" rel="noopener"
+>The “How Does a Google Coder Work?” Edition
+&lt;/a>: I enjoyed this interview. My favorite quote? &amp;ldquo;When you&amp;rsquo;re reading code is it as clear as reading English?&amp;rdquo; &amp;ldquo;If I&amp;rsquo;m reading C++ code, it&amp;rsquo;s clearer.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="http://www-stat.wharton.upenn.edu/~steele/HoldingPen/SunsetSalvo.pdf" target="_blank" rel="noopener"
+>Sunset Salvo&lt;/a>: John Turkey discusses practical data analysis and statistical humility.&lt;/p>
+&lt;p>&lt;a class="link" href="https://stat.duke.edu/bnp10/index.html%3Fpage_id=1.html" target="_blank" rel="noopener"
+>10th Conference on Bayesian Nonparametrics&lt;/a>: This is coming up in my own back yard. I’m excited!&lt;/p>
+&lt;p>&lt;a class="link" href="http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/43146.pdf" target="_blank" rel="noopener"
+>Machine Learning: The High-Interest Credit Card of Technical Debt&lt;/a>: I haven’t read this in detail, but the premise makes tons of sense to me: &amp;ldquo;It is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning.&amp;rdquo;&lt;/p></description></item><item><title>Links for December 6, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-december-06-2014/</link><pubDate>Sat, 06 Dec 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-december-06-2014/</guid><description>&lt;p>&lt;a class="link" href="http://researcher.watson.ibm.com/researcher/files/us-dpwoodru/journal.pdf" target="_blank" rel="noopener"
+>Sketching as a Tool for Numerical Linear Algebra&lt;/a>: A neat paper on sketching algorithms for linear algebra. No, not that kind of sketching. &amp;ldquo;One first compresses it to a much smaller matrix by multiplying it by a (usually) random matrix with certain properties. Much of the expensive computation can then be performed on the smaller matrix, thereby accelerating the solution for the original problem.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.coursera.org/course/maps" target="_blank" rel="noopener"
+>Maps and the Geospatial Revolution&lt;/a>: Coursera is teaching a class in the spring on how geospatical technology has changed our world.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.gis.usu.edu/~chrisg/python/2009/" target="_blank" rel="noopener"
+>Geoprocessing with Python using Open Source GIS&lt;/a>: Speaking of geospatial technology, here are some slides and problems from a class on &amp;ldquo;Geoprocessing with Python&amp;rdquo;.&lt;/p>
+&lt;p>&lt;a class="link" href="http://blog.pluralsight.com/how-to-use-bash-command-line-history" target="_blank" rel="noopener"
+>How to use the bash command line history&lt;/a>: Bash&amp;rsquo;s history can do more than I realized!&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.visiondummy.com/2014/04/geometric-interpretation-covariance-matrix/" target="_blank" rel="noopener"
+>A geometric interpretation of the covariance matrix&lt;/a>: Superb little post explaning covariance matrices with pictures and geometry.&lt;/p></description></item><item><title>Links for December 4, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-december-04-2014/</link><pubDate>Thu, 04 Dec 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-december-04-2014/</guid><description>&lt;p>&lt;a class="link" href="http://mathematica.stackexchange.com/questions/66538/how-do-i-draw-a-pair-of-buttocks" target="_blank" rel="noopener"
+>How do I draw a pair of buttocks?&lt;/a>: Have you ever wondered how to plot a pair of buttocks in Mathematica? Of course you have.&lt;/p>
+&lt;p>&lt;a class="link" href="http://arxiv.org/abs/1411.5018" target="_blank" rel="noopener"
+>Frequentism and Bayesianism: A Python-driven Primer&lt;/a>: Jake Vanderplas wrote a &amp;ldquo;brief, semi-technical comparison&amp;rdquo; of frequentist and Bayesian statistical inference using examples in Python.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/EducationalTestingService/skll" target="_blank" rel="noopener"
+>skll&lt;/a>: Dan Blanchard released version 1.0 of his very cool command line tool for doing experiments with scikit-learn.&lt;/p>
+&lt;p>&lt;a class="link" href="https://codeascraft.com/2014/11/17/personalized-recommendations-at-etsy/" target="_blank" rel="noopener"
+>Personalized Recommendations at Etsy&lt;/a>: A fantastic post from Etsy&amp;rsquo;s engineering blog on building scalable, personalized recommendations using linear algebra and locally sensitive hashing. I like math.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.pixelmonkey.org/2014/11/02/clojonic" target="_blank" rel="noopener"
+>Pythonic Clojure&lt;/a>: Andrew Montalenti wrote a post analyzing Clojure from a Python programmer&amp;rsquo;s perspective. It&amp;rsquo;s great.&lt;/p></description></item><item><title>Links for November 24, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-november-24-2014/</link><pubDate>Mon, 24 Nov 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-november-24-2014/</guid><description>&lt;p>&lt;a class="link" href="https://github.com/stripe/brushfire" target="_blank" rel="noopener"
+>brushfire&lt;/a>: Avi Bryant has been building a &amp;lsquo;Brushfire is a framework for distributed supervised learning of decision tree ensemble models in Scala.&amp;rsquo; Fun stuff!&lt;/p>
+&lt;p>&lt;a class="link" href="http://stackoverflow.com/questions/500607/what-are-the-lesser-known-but-useful-data-structures" target="_blank" rel="noopener"
+>What are the lesser known but useful data structures?&lt;/a>: I always enjoy StackOverflow questions like this, &lt;strong>but it is not considered a good, on-topic question for this site&lt;/strong>, of course.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md" target="_blank" rel="noopener"
+>Free Programming Books&lt;/a>: A huge, crowd-sourced list of free programming books by language and topic.&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.ml.cmu.edu/research/phd-dissertations.html" target="_blank" rel="noopener"
+>PhD Dissertations-Machine Learning Department&lt;/a>: Seven years of ML PhD dissertations from Carnegie Mellon University. I wish I had time to read &lt;a class="link" href="http://reports-archive.adm.cs.cmu.edu/anon/cald/CMU-CALD-05-107.pdf" target="_blank" rel="noopener"
+>Tools for Large Graph Mining&lt;/a>.&lt;/p></description></item><item><title>Links for November 17, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-november-17-2014/</link><pubDate>Mon, 17 Nov 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-november-17-2014/</guid><description>&lt;p>&lt;a class="link" href="https://www.hackerschool.com/blog/14-there-is-no-magic-virtualenv-edition" target="_blank" rel="noopener"
+>There&amp;rsquo;s no magic: virtualenv edition&lt;/a>: I didn&amp;rsquo;t really get virtualenvs until long after I started programming Python, though they&amp;rsquo;re now an essential part of my toolkit. This is a great post explaining how they work.&lt;/p>
+&lt;p>&lt;a class="link" href="http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html" target="_blank" rel="noopener"
+>Traps for the Unwary in Python’s Import System&lt;/a>: &amp;ldquo;Python’s import system is powerful, but also quite complicated.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/Psycojoker/pyfmt" target="_blank" rel="noopener"
+>pyfmt&lt;/a>: I recently learned about &lt;a class="link" href="https://golang.org/cmd/gofmt/" target="_blank" rel="noopener"
+>gofmt&lt;/a> for auto-formatting Go code. Here&amp;rsquo;s a similar tool for Python.&lt;/p>
+&lt;p>&lt;a class="link" href="https://groups.google.com/forum/#!msg/comp.lang.java/aSPAJO05LIU/ushhUIQQ-ogJ" target="_blank" rel="noopener"
+>Q: Setting User-Agent Field?&lt;/a>: A 1996 question in comp.lang.java on how to set the user agent field for a Java crawler. The signature on the question? &lt;em>Thanks, Larry Page&lt;/em>&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/alecthomas/importmagic" target="_blank" rel="noopener"
+>alecthomas/importmagic&lt;/a>: Python tool and Sublime extension for automatically adding imports.&lt;/p></description></item><item><title>Links for November 12, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-november-12-2014/</link><pubDate>Wed, 12 Nov 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-november-12-2014/</guid><description>&lt;p>&lt;a class="link" href="http://amazonpickingchallenge.org/" target="_blank" rel="noopener"
+>Amazon Picking Challenge&lt;/a>: Kiva Systems (where I interned in 2011) is setting up a robotics challenging for picking items off warehouse shelves.&lt;/p>
+&lt;p>&lt;a class="link" href="https://pypi.python.org/pypi/contexttimer/0.3.1" target="_blank" rel="noopener"
+>contexttimer 0.3.1&lt;/a>: A handy Python context manger and decorator for timing things.&lt;/p>
+&lt;p>&lt;a class="link" href="http://blog.cloudera.com/blog/2014/09/how-to-translate-from-mapreduce-to-apache-spark/" target="_blank" rel="noopener"
+>How-to: Translate from MapReduce to Apache Spark&lt;/a>: This is a helpful bit from Cloudera on moving algorithms from Mapreduce to Spark.&lt;/p>
+&lt;p>&lt;a class="link" href="https://pypi.python.org/pypi/combinatorics/1.4.3" target="_blank" rel="noopener"
+>combinatorics 1.4.3&lt;/a>: Here&amp;rsquo;s a Python module adding some combinatorial functions to the language.&lt;/p>
+&lt;p>&lt;a class="link" href="https://mail.python.org/pipermail/python-3000/2006-November/004643.html" target="_blank" rel="noopener"
+>Special methods and interface-based type system&lt;/a>: Guido van Rossum explains (in 2006) why Python uses &lt;code>len(x)&lt;/code> instead of &lt;code>x.len()&lt;/code>.&lt;/p></description></item><item><title>Links for November 3, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-november-03-2014/</link><pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-november-03-2014/</guid><description>&lt;p>&lt;a class="link" href="https://aws.amazon.com/datasets" target="_blank" rel="noopener"
+>Public Data Sets : Amazon Web Services&lt;/a>: Amazon hosts a number of publicly datasets on AWS (including the common crawl corpus and the &amp;ldquo;Marvel Universe Social Graph&amp;rdquo;).&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.youtube.com/watch?v=muMRNYPmQxE" target="_blank" rel="noopener"
+>Rapid Web Prototyping with Lightweight Tools&lt;/a>: I&amp;rsquo;ve shared this before, but my boss Andrew did a fantastic tutorial last year on Flask, Jinja2, MongoDB, and Twitter Bootstrap. Combined with Heroku, it&amp;rsquo;s surprisingly easy to get a website running these days.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/wichert/rest_toolkit" target="_blank" rel="noopener"
+>rest_toolkit&lt;/a>: REST has been my obsession of late. Here&amp;rsquo;s a little Python package for quickly writing RESTful APIs.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.davar.net/PROGRAM/EXTRACTS/CRAFTJOY.HTM" target="_blank" rel="noopener"
+>The Joys of the Craft&lt;/a>: A quote from Fred Brooks&amp;rsquo; &lt;em>The Mythical Man-Month&lt;/em> on why programming is fun.&lt;/p>
+&lt;p>&lt;a class="link" href="http://unix.stackexchange.com/questions/77077/how-do-i-use-pushd-and-popd-commands" target="_blank" rel="noopener"
+>How do I use pushd and popd commands?&lt;/a>: I recently learned bash has push and popd commands for temporarily changing directories. This is very handy for scripting.&lt;/p></description></item><item><title>Links for November 1, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-november-01-2014/</link><pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-november-01-2014/</guid><description>&lt;p>&lt;a class="link" href="http://www.joelonsoftware.com/articles/Unicode.html" target="_blank" rel="noopener"
+>The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)&lt;/a>: I guess the title says it all. By Joel Spolsky.&lt;/p>
+&lt;p>&lt;a class="link" href="http://hyperpolyglot.org/unix-shells" target="_blank" rel="noopener"
+>Unix Shells - Hyperpolyglot&lt;/a>: Very cool comparison of basic command syntax in Bash, Fish, Ksh, Tcsh, and Zsh.&lt;/p>
+&lt;p>&lt;a class="link" href="http://blog.sanctum.geek.nz/better-bash-history/" target="_blank" rel="noopener"
+>Better Bash history&lt;/a>: I&amp;rsquo;m pretty stuck on Bash at the moment. Here&amp;rsquo;s a way to get a better history in Bash. (Other shells often improve on Bash&amp;rsquo;s history.)&lt;/p>
+&lt;p>&lt;a class="link" href="http://usaddress.readthedocs.org/en/latest/" target="_blank" rel="noopener"
+>usaddress 0.1&lt;/a>: I always love seeing a Python library for something I&amp;rsquo;ve tried to do poorly on my own: &amp;ldquo;usaddress is a python library for parsing unstructured address strings into address components, using advanced NLP methods.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="https://pythonhosted.org/more-itertools/api.html" target="_blank" rel="noopener"
+>more-itertools&lt;/a>: A great extension to the helpful &lt;a class="link" href="https://docs.python.org/2/library/itertools.html" target="_blank" rel="noopener"
+>itertools&lt;/a> module in Python. Some particularly helpful functions: &lt;code>chunked&lt;/code>, &lt;code>first&lt;/code>, &lt;code>peekaboo&lt;/code>, and &lt;code>take&lt;/code>. Unfortunately, it doesn&amp;rsquo;t have Python 3 support at the moment.&lt;/p></description></item><item><title>Links for September 30, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-september-30-2014/</link><pubDate>Tue, 30 Sep 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-september-30-2014/</guid><description>&lt;p>&lt;a class="link" href="https://github.com/kadirpekel/hammock/blob/master/README.rst" target="_blank" rel="noopener"
+>Hammock&lt;/a>: A lightweight wrapper around the Python requests module to convert REST APIs into &amp;ldquo;dead simple programmatic APIs&amp;rdquo;. It&amp;rsquo;s a clever idea. I&amp;rsquo;ll have to play around with it before I can come up with a firm opinion.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/mitsuhiko/pipsi#readme" target="_blank" rel="noopener"
+>pipsi&lt;/a>: Pipsi wraps pip and virtualenv to allow you to install Python command line utilities without polluting your global environment.&lt;/p>
+&lt;p>&lt;a class="link" href="http://nvie.com/posts/writing-a-cli-in-python-in-under-60-seconds/" target="_blank" rel="noopener"
+>Writing a Command-Line Tool in Python&lt;/a>: Speaking of Python command line utilities, here&amp;rsquo;s a little post from Vincent Driessen on writing them.&lt;/p>
+&lt;p>&lt;a class="link" href="http://nvie.com/posts/iterators-vs-generators/" target="_blank" rel="noopener"
+>Iterables vs. Iterators vs. Generators&lt;/a>: Vincent has been on a roll lately. He also wrote this &amp;ldquo;little pocket reference on iterables, iterators and generators&amp;rdquo; in Python.&lt;/p>
+&lt;p>&lt;a class="link" href="http://mcfunley.com/design-for-continuous-experimentation" target="_blank" rel="noopener"
+>Design for Continuous Experimentation: Talk and Slides&lt;/a>: I didn&amp;rsquo;t watch the lecture, but Dan McKinley&amp;rsquo;s slides on web experimentation are excellent.&lt;/p>
+&lt;p>&lt;a class="link" href="http://blog.cloudera.com/blog/2014/03/apache-spark-a-delight-for-developers/" target="_blank" rel="noopener"
+>Apache Spark: A Delight for Developers&lt;/a>: I&amp;rsquo;ve been playing with PySpark lately, and it really is fun.&lt;/p></description></item><item><title>Links for September 25, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-september-25-2014/</link><pubDate>Thu, 25 Sep 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-september-25-2014/</guid><description>&lt;p>&lt;a class="link" href="http://plato.stanford.edu/entries/statistics/" target="_blank" rel="noopener"
+>Philosophy of Statistics (Stanford Encyclopedia of Philosophy)&lt;/a>: I suspect that a lot of the Bayesian vs Frequentist debates ignore the important epistemological underpinnings of statistics. I haven’t finished reading this yet, but I wonder if it might help.&lt;/p>
+&lt;p>&lt;a class="link" href="https://ifttt.com/sunlightfoundation" target="_blank" rel="noopener"
+>Connect Sunlight Foundation to anything&lt;/a>: “The Sunlight Foundation is a nonpartisan non-profit organization that uses the power of the Internet to catalyze greater U.S. Government openness and transparency.” They now of an &lt;a class="link" href="https://ifttt.com" target="_blank" rel="noopener"
+>IFTTT&lt;/a> channel. Get push notifications when the president signs a bill!&lt;/p>
+&lt;p>&lt;a class="link" href="http://furbo.org/2014/09/03/the-terminal/" target="_blank" rel="noopener"
+>furbo.org · The Terminal&lt;/a>: &lt;a class="link" href="http://www.twitter.com/chockenberry" target="_blank" rel="noopener"
+>Craig Hockenberry&lt;/a> wrote a massive post on how he uses the Terminal on OS X for fun and profit. You will learn things.&lt;/p>
+&lt;p>&lt;a class="link" href="http://snapsnapsnap.photos/a-sneak-peek-at-camera-6-manual-controls-are-coming-soon-to-you/" target="_blank" rel="noopener"
+>A sneak peek at Camera+ 6… manual controls are coming soon to you! &lt;/a>: I’ve been a Camera+ user on iOS for a long time. The new version coming out soon is very exciting.&lt;/p>
+&lt;p>&lt;a class="link" href="http://githut.info/" target="_blank" rel="noopener"
+>GitHut - Programming Languages and GitHub&lt;/a>: A very clever visualization of various languages represented on Github and of the properties of their respective repositories.&lt;/p></description></item><item><title>Links for September 20, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-september-20-2014/</link><pubDate>Sat, 20 Sep 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-september-20-2014/</guid><description>&lt;p>&lt;a class="link" href="http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/" target="_blank" rel="noopener"
+>Open Sourcing a Python Project the Right Way&lt;/a>: Great stuff that should be taught in school: “Most Python developers have written at least one tool, script, library or framework that others would find useful. My goal in this article is to make the process of open-sourcing existing Python code as clear and painless as possible.”&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/elasticsearch/elasticsearch-dsl-py/blob/master/README.rst" target="_blank" rel="noopener"
+>elasticsearch/elasticsearch-dsl-py&lt;/a>: Elasticsearch is an incredible datastore. Unfortunately, its JSON-based query language is tedious, at best. Here’s a nice higher-level Python DSL being developed for it. It’s great!&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.podcastinghandbook.co/podcasting-equipment-guide/" target="_blank" rel="noopener"
+>Equipment Guide — The Podcasting Handbook&lt;/a>: Dan Benjamin of 5by5 podcasting fame is writing a book on podcasting. Here’s his brief equipment guide.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/bachya/pinpress" target="_blank" rel="noopener"
+>bachya/pinpress&lt;/a>: Aaron Bach
+put together a neat Ruby script that he uses to generate his link posts. This is similar to but better than my &lt;a class="link" href="https://github.com/tdhopper/sundry" target="_blank" rel="noopener"
+>sundry&lt;/a> tool.&lt;/p>
+&lt;p>&lt;a class="link" href="http://there4development.com/markdown-resume/" target="_blank" rel="noopener"
+>Markdown Resume Builder&lt;/a>: I haven’t tried this yet, but I like the idea: a Markdown based resume format that can be converted into HTML or PDF.&lt;/p>
+&lt;p>&lt;a class="link" href="http://git-scm.com/book/en/Git-Basics-Tips-and-Tricks#Auto-Completion" target="_blank" rel="noopener"
+>Git - Tips and Tricks&lt;/a>: Enabling autocomplete in Git is something I should have done long ago.&lt;/p>
+&lt;p>&lt;a class="link" href="http://hortonworks.com/blog/apache-storm-design-pattern-micro-batching/" target="_blank" rel="noopener"
+>Apache Storm Design Pattern—Micro Batching&lt;/a>: Micro batching is a valuable tool when doing stream processing. Horton Works put up a helpful post outlining three ways of doing it.&lt;/p></description></item><item><title>Links for September 10, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-september-10-2014/</link><pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-september-10-2014/</guid><description>&lt;p>&lt;a class="link" href="http://textract.readthedocs.org/en/latest/" target="_blank" rel="noopener"
+>textract&lt;/a>: textract is a Python module and a command line tool for text extraction from many file formats. It cleverly pulls together many libraries into a consistent API.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/semirook/flask-kit" target="_blank" rel="noopener"
+>Flask Kit&lt;/a>: I&amp;rsquo;ve been reading a lot about Flask (the Python web server) lately. Flask Kit is a little tool to give some structure to new Flask projects.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/audreyr/cookiecutter" target="_blank" rel="noopener"
+>cookiecutter&lt;/a>: I was looking for this recently, but it I couldn&amp;rsquo;t find it. &amp;ldquo;A command-line utility that creates projects from cookiecutters (project templates). E.g. Python package projects, jQuery plugin projects.&amp;rdquo; There&amp;rsquo;s even a &lt;a class="link" href="https://github.com/sloria/cookiecutter-flask" target="_blank" rel="noopener"
+>Flask template&lt;/a>!&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.sciencedaily.com/releases/2010/08/100830094930.htm" target="_blank" rel="noopener"
+>Over 50? You Probably Prefer Negative Stories About Young People&lt;/a>: A research paper from a few years ago show that older people prefer to read negative news about young people. &amp;ldquo;In fact, older readers who chose to read negative stories about young individuals actually get a small boost in their self-esteem.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.npr.org/blogs/money/2014/08/29/344034815/episode-564-the-signature" target="_blank" rel="noopener"
+>Episode 564: The Signature&lt;/a>: The fantastic Planet Money podcast explains why signatures are meaningless in a modern age. My scribbles have become even worse since listening to this.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/thieman/github-selfies" target="_blank" rel="noopener"
+>github-selfies&lt;/a>: Here&amp;rsquo;s a Chrome and Firefox extension that allows you to quickly embed gif selfies in Github posts. Caution: &lt;a class="link" href="http://www.threechords.org/blog/how-animated-gif-selfies-fixed-our-teams-morale/" target="_blank" rel="noopener"
+>may lead to improved team morale&lt;/a>.&lt;/p></description></item><item><title>Links for August 30, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-august-30-2014/</link><pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-august-30-2014/</guid><description>&lt;p>&lt;a class="link" href="http://jimhester.github.io/ggplot2ToGgvis/" target="_blank" rel="noopener"
+>Ggplot2 To Ggvis&lt;/a>: I&amp;rsquo;m a huge fan of ggplot2 for data visualization in R. Here&amp;rsquo;s a brief tutorial for ggplot2 users to learn ggvis for generating &lt;em>interactive&lt;/em> plots in R using the grammar of graphics.&lt;/p>
+&lt;p>&lt;a class="link" href="http://danielfrg.com/blog/2014/08/01/storm-sklearn/" target="_blank" rel="noopener"
+>From zero to storm cluster for scikit-learn classification | Daniel Rodriguez&lt;/a>: This is a very cool, if brief, blog post on using &lt;a class="link" href="https://github.com/Parsely/streamparse" title="Parsely/streamparse Âˇ GitHub"
+target="_blank" rel="noopener"
+>streamparse&lt;/a>, my company&amp;rsquo;s open source wrapper for &lt;a class="link" href="https://storm.incubator.apache.org/" title="Storm, distributed and fault-tolerant realtime computation"
+target="_blank" rel="noopener"
+>Apache Storm&lt;/a>, and &lt;a class="link" href="http://scikit-learn.org/stable/" title="scikit-learn: machine learning in Python &amp;amp;mdash; scikit-learn 0.15.1 documentation"
+target="_blank" rel="noopener"
+>scikit-learn&lt;/a>, &lt;a class="link" href="https://www.youtube.com/watch?v=2kx19t8bNMU" title="An Introduction to Scikit-Learn - YouTube"
+target="_blank" rel="noopener"
+>my favorite machine learning library&lt;/a>, to do machine learning on data streams.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.pixelmonkey.org/2010/11/03/pythonic-means-idiomatic-and-tasteful" target="_blank" rel="noopener"
+>Pythonic means idiomatic and tasteful&lt;/a>: My boss Andrew recently shared an old blogpost he wrote on what it means for code to be Pythonic; I think he&amp;rsquo;s right on track.&lt;/p>
+&lt;blockquote>
+&lt;p>Pythonic isn’t just idiomatic Python — it’s tasteful Python. It’s less an objective property of code, more a compliment bestowed onto especially nice Python code.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="link" href="https://github.com/deanishe/alfred-repos" target="_blank" rel="noopener"
+>git workflow&lt;/a>: In my ever continuing attempt to be able to run my entire life from &lt;a class="link" href="http://www.alfredapp.com/" title="Alfred App - Productivity App for Mac OS X"
+target="_blank" rel="noopener"
+>Alfred&lt;/a>, I recently installed this workflow that makes git repositories on my computer easily searchable.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.deanishe.net/alfred-workflow/index.html" target="_blank" rel="noopener"
+>Alfred-Workflow&lt;/a>: Speaking of Alfred, here&amp;rsquo;s a handy Python library that makes it easy to write your own (if you&amp;rsquo;re a Python programmer).&lt;/p>
+&lt;p>&lt;a class="link" href="http://gitready.com/advanced/2009/02/10/squashing-commits-with-rebase.html" target="_blank" rel="noopener"
+>Squashing commits with rebase&lt;/a>: Turns out you can use git rebase to clean up your commits before you push them to a remote repository. This can be a great way to make the commits your team sees more meaningful; don&amp;rsquo;t abuse it.&lt;/p></description></item><item><title>Links for August 28, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-august-28-2014/</link><pubDate>Thu, 28 Aug 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-august-28-2014/</guid><description>&lt;p>&lt;a class="link" href="http://stackoverflow.com/questions/2161406/how-do-i-generate-a-uniform-random-integer-partition" target="_blank" rel="noopener"
+>How do I generate a uniform random integer partition?&lt;/a>: This week, I wanted to generate random partitions of integers. Unsurprisingly, stackoverflow pulled through with a Python snippet to do just that.&lt;/p>
+&lt;p>&lt;a class="link" href="http://support.alfredapp.com/kb:firefox-chrome-bookmarks" target="_blank" rel="noopener"
+>Firefox and Chrome Bookmarks&lt;/a>: I love &lt;a class="link" href="http://www.alfredapp.org" target="_blank" rel="noopener"
+>Alfred&lt;/a> as a launcher in OS X. I use it many, many times a day. I just found this helpful workflow for quickly searching and opening my Chrome bookmarks.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.youneedabudget.com/blog/2014/ynab-for-ipad-is-here/" target="_blank" rel="noopener"
+>YNAB for iPad is Here&lt;/a>: YNAB has been the best thing to ever happen to my financial life. I use it to track all my finances. They just released a beautiful iPad app. Importantly, it brings the ability to modify a budget to mobile!&lt;/p>
+&lt;p>&lt;a class="link" href="http://the-paper-trail.org/blog/distributed-systems-theory-for-the-distributed-systems-engineer/" target="_blank" rel="noopener"
+>Distributed systems theory for the distributed systems engineer&lt;/a>: I work on distributed systems these days. I need to read some of these papers.&lt;/p></description></item><item><title>Links for August 25, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-august-25-2014/</link><pubDate>Mon, 25 Aug 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-august-25-2014/</guid><description>&lt;p>&lt;a class="link" href="http://stackoverflow.com/questions/352098/how-can-i-pretty-print-json/1920585#1920585" target="_blank" rel="noopener"
+>How can I pretty-print JSON at the command line?&lt;/a>: I needed to pretty print some JSON at the command line earlier today. The easiest way might be to pipe it through &lt;code>python -m json.tool&lt;/code>.&lt;/p>
+&lt;p>&lt;a class="link" href="http://blog.iansinnott.com/integrating-alfred-and-keyboard-maestro/" target="_blank" rel="noopener"
+>Integrating Alfred &amp;amp; Keyboard Maestro&lt;/a>: I love &lt;a class="link" href="http://www.keyboardmaestro.com/main/" target="_blank" rel="noopener"
+>Keyboard Maestro&lt;/a> for automating all kinds of things on my Mac, but I&amp;rsquo;m reaching a limit of keyboard shortcuts I can remember. Here&amp;rsquo;s an Alfred workflow for launching macros instead.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/Parsely/streamparse/releases/tag/v1.0.0" target="_blank" rel="noopener"
+>streamparse 1.0.0&lt;/a>: My team at &lt;a class="link" href="http://www.parsely.com" target="_blank" rel="noopener"
+>Parsely&lt;/a> is building a tool for easily writing Storm topologies (for processing large volumes of streaming data) in Python. We just released 1.0.0!&lt;/p>
+&lt;p>&lt;a class="link" href="http://brettterpstra.com/projects/te-tools/" target="_blank" rel="noopener"
+>TextExpander Tools&lt;/a>: Brett Terpstra, the king of Mac hacks, has some really handy tools for TextExpander.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.gnu.org/software/parallel/" target="_blank" rel="noopener"
+>GNU Parallel&lt;/a>: GNU parallel is a shell tool for executing jobs in parallel using one or more computers using xargs-like syntax. Pretty cool. HT &lt;a class="link" href="http://www.twitter.com/oceankidbilly" target="_blank" rel="noopener"
+>@oceankidbilly&lt;/a>.&lt;/p></description></item><item><title>Links for August 23, 2014</title><link>https://tdhopper.com/blog/sundry-links-for-august-23-2014/</link><pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/sundry-links-for-august-23-2014/</guid><description>&lt;p>&lt;a class="link" href="http://crsmithdev.com/arrow/" target="_blank" rel="noopener"
+>Arrow: better dates and times for Python&lt;/a>: Arrow is a slick Python library &amp;ldquo;that offers a sensible, human-friendly approach to creating, manipulating, formatting and converting dates, times, and timestamps&amp;rdquo;. It&amp;rsquo;s a friendly alternative to datetime.&lt;/p>
+&lt;p>&lt;a class="link" href="http://penandpants.com/2014/03/09/docker-via-homebrew/" target="_blank" rel="noopener"
+>Docker via Homebrew&lt;/a>: I&amp;rsquo;m starting to use Docker (&amp;ldquo;Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications&amp;rdquo;) on occasion. Here are easy install instructions for Mac users.&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.coursera.org/course/mmds" target="_blank" rel="noopener"
+>Mining Massive Datasets MOOC&lt;/a>: I&amp;rsquo;m terrible at completing MOOCs, but I&amp;rsquo;m &lt;em>really&lt;/em> interested in this new on on Mining Massive Datasets.&lt;/p>
+&lt;p>&lt;a class="link" href="https://chrome.google.com/webstore/detail/url-pinner/lchefjdnocignejmkklgakfmnjhiimjh" target="_blank" rel="noopener"
+>URL Pinner - Chrome Web Store&lt;/a>: URL Pinner is one of my favorite Chrome Extensions. I use it to automatically pin my Gmail and Rdio windows (which I almost always have open).&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.seengee.co.uk/2012/09/08/using-multitail-for-monitoring-multiple-log-files/" target="_blank" rel="noopener"
+>Using multitail for monitoring multiple log files&lt;/a>: If you work with distributed systems, you&amp;rsquo;re probably used to SSH-ing into multiple machines to access logs. Multitool might save you some time.&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.smbc-comics.com/?id=3454" target="_blank" rel="noopener"
+>Saturday Morning Breakfast Cereal&lt;/a>: SBMC shows how job interviews would go if we were more honest.&lt;/p></description></item></channel></rss>
