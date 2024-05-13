@@ -12,7 +12,9 @@ Here are some of the things I do to be productive:
 
 ## Write things down
 
-I loosely follow the [Getting Things Done](https://getdrafts.com) method developed by David Allen. The most important aspect to me has been capturing tasks in a single inbox. I use the [Drafts](https://getdrafts.com) app on iOS and macOS, which lets me capture notes with zero friction. If it's a task I'm writing down, I use a Drafts action to send it to my [Omnifocus](https://www.omnigroup.com/omnifocus) inbox. I regularly triage my inbox to organize my tasks into relevant projects and contexts (e.g., tasks that can be done on the computer, tasks to do at home). 
+I loosely follow the [Getting Things Done](https://getdrafts.com) method developed by David Allen. The most important aspect to me has been capturing tasks into a single inbox. Capturing tasks means I don't try to keep them in my head (which is unreliable and burns a lot of brain power trying to remember things). Capturing to a single inbox means tasks won't get lost in piles of Post-Its and napkins. 
+
+I use the [Drafts](https://getdrafts.com) app on iOS and macOS, which lets me capture notes with zero friction. If it's a task I'm writing down, I use a Drafts action to send it to my [Omnifocus](https://www.omnigroup.com/omnifocus) inbox. I regularly triage my inbox to organize my tasks into relevant projects and contexts (e.g., tasks that can be done on the computer and tasks to do at home). 
 
 ## Using nagging reminders
 
