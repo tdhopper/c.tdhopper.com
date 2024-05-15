@@ -1,6 +1,6 @@
 ---
 title: Tips for Working from Home
-date: 2020-05-16T12:04:00.000Z
+date: 2020-03-16T08:04:00.000Z
 description: Some tips for working from home
 categories: Humor
 image: /images/office_ping_pong_game_illustration.png
