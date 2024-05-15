@@ -10,7 +10,7 @@ I've been working remotely for tech startups for six years, so I am sharing some
 1. **Start Working Early**\
    If you can't find someone to chat with for 30 minutes while making coffee, consider starting your workday instead.
 2. **Simulate Office Noise**\
-   If you miss the background noise of your office, try listening to 8 hours of power drill noises [here](https://youtube.com/watch?v=7Xomg2zge-8). For a more realistic ambiance, you can overlay it with the most annoying laugh ever [here](https://youtube.com/watch?v=9WcSaIAa5Ac).
+   If you miss the background noise of your office, try listening to 8 hours of power drill noises [here](https://www.youtube.com/watch?v=mNu4cNgJ-Hs). For a more realistic ambiance, you can overlay it with the most annoying laugh ever [here](https://youtube.com/watch?v=9WcSaIAa5Ac).
 3. **Afternoon Activities**\
    Without a ping-pong table at home, you might find yourself with nothing to do but work in the afternoons.
 4. **Familiarize Yourself with Remote Tools**\
