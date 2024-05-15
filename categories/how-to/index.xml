@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>How Tos on Tim Hopper</title><link>https://tdhopper.com/categories/how-to/</link><description>Recent content in How Tos on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdhopper.com/categories/how-to/index.xml" rel="self" type="application/rss+xml"/><item><title>Filter by date in a Pandas MultiIndex</title><link>https://tdhopper.com/blog/filter-by-date-in-a-pandas-multiindex/</link><pubDate>Tue, 08 Nov 2016 22:17:00 +0000</pubDate><guid>https://tdhopper.com/blog/filter-by-date-in-a-pandas-multiindex/</guid><description>&lt;p>I always forget how to do this.&lt;/p>
+&lt;p>The pandas &lt;code>DataFrame.loc&lt;/code> method allows for &lt;em>label&lt;/em> -based filtering of data
+frames. The &lt;a class="link" href="http://pandas.pydata.org/pandas-docs/stable/advanced.html#advanced-indexing-with-hierarchical-index" target="_blank" rel="noopener"
+>Pandas docs&lt;/a> show how
+it can be used to filter a &lt;code>MultiIndex&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">In [39]: df
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Out[39]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> A B C
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">first second
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bar one 0.895717 0.410835 -1.413681
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two 0.805244 0.813850 1.607920
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">baz one -1.206412 0.132003 1.024180
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two 2.565646 -0.827317 0.569605
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">foo one 1.431256 -0.076467 0.875906
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two 1.340309 -1.187678 -2.211372
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qux one -1.170299 1.130127 0.974466
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two -0.226169 -1.436737 -2.006747
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">In [40]: df.loc[&amp;#39;bar&amp;#39;]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Out[40]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> A B C
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">second
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">one 0.895717 0.410835 -1.413681
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">two 0.805244 0.813850 1.607920
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">In [41]: df.loc[&amp;#39;bar&amp;#39;, &amp;#39;two&amp;#39;]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Out[41]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A 0.805244
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">B 0.813850
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C 1.607920
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Name: (bar, two), dtype: float64
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>It turns out you can easily use it to filter a &lt;code>DateTimeIndex&lt;/code> level by a
+single date with &lt;code>df['2016-11-07']&lt;/code> or a range of dates with
+&lt;code>df['2016-11-07:2016-11-11']&lt;/code>. This applies whether or not its a &lt;code>MultiIndex&lt;/code>.&lt;/p>
+&lt;p>If you get an error like &lt;code>KeyError: 'Key length (1) was greater than MultiIndex lexsort depth (0)'&lt;/code>, it&amp;rsquo;s because &amp;ldquo;MultiIndex Slicing requires the
+index to be fully lexsorted&amp;rdquo;. You may fix your problem by calling &lt;code>df = df.sort_index()&lt;/code>.&lt;/p></description></item><item><title>Testing whether a Python string contains an integer</title><link>https://tdhopper.com/blog/testing-whether-a-python-string-contains-an-integer/</link><pubDate>Fri, 29 Apr 2016 15:13:00 +0000</pubDate><guid>https://tdhopper.com/blog/testing-whether-a-python-string-contains-an-integer/</guid><description>&lt;p>If you want to check whether a Python string is an integer, you can try
+casting to an int with &lt;code>int()&lt;/code> and catching the &lt;code>ValueError&lt;/code> if it&amp;rsquo;s not an
+integer:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">is_integer&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">value&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">str&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">base&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="nb">int&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">10&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">-&amp;gt;&lt;/span> &lt;span class="nb">bool&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">try&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">int&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">value&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">base&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">base&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="kc">True&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">except&lt;/span> &lt;span class="ne">ValueError&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="kc">False&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To check for &lt;em>nonnegative&lt;/em> integers, you can use the &lt;a class="link" href="https://docs.python.org/3.8/library/stdtypes.html#str.isdigit" target="_blank" rel="noopener"
+>&lt;code>str.is_digit()&lt;/code>
+method&lt;/a>. It
+will &amp;ldquo;return true if all characters in the string are digits and there is at
+least one character, false otherwise:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span class="s2">&amp;#34;123&amp;#34;&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">isdigit&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kc">True&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;gt;&amp;gt;&amp;gt;&lt;/span> &lt;span class="s2">&amp;#34;-123&amp;#34;&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">isdigit&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kc">False&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Thanks to &lt;a class="link" href="https://twitter.com/trochee/status/726162607460114433" target="_blank" rel="noopener"
+>Jeremy Kahn for reminding
+me&lt;/a> that &lt;code>isdigit&lt;/code> only
+detects positive integers.&lt;/p></description></item><item><title>Column binding two Panda's Dataframes</title><link>https://tdhopper.com/blog/column-binding-two-pandas-dataframes/</link><pubDate>Mon, 11 Apr 2016 20:56:00 +0000</pubDate><guid>https://tdhopper.com/blog/column-binding-two-pandas-dataframes/</guid><description>&lt;p>Joining two Pandas DataFrames with an equal number of rows is slightly harder
+than it appears. In R, you just use the &lt;code>cbind&lt;/code> function.&lt;/p>
+&lt;p>As &lt;a class="link" href="http://stackoverflow.com/questions/33088010/pandas-column-bind-cbind-two-data-frames" target="_blank" rel="noopener"
+>this&lt;/a> StackOverflow question shows, in Pandas it&amp;rsquo;s easy to
+end up with something like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">unique_id lacet_number latitude longitude
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">0 NaN NaN -93.193560 31.217029
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 NaN NaN -93.948082 35.360874
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 NaN NaN -103.131508 37.787609
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">15 5570613 TLA-0138365 NaN NaN
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">24 5025490 EMP-0138757 NaN NaN
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">36 4354431 DXN-0025343 NaN NaN
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This results from the indices not being identical. Frustratingly (to me) the
+&lt;code>ignore_index&lt;/code> argument doesn&amp;rsquo;t give the 3-rowed DataFrame I&amp;rsquo;d hope it gives.&lt;/p>
+&lt;p>As the &lt;a class="link" href="http://stackoverflow.com/a/33088410/982745" target="_blank" rel="noopener"
+>accepted answer&lt;/a> on that
+question shows, the thing to do is reset the indices on the DataFrames before
+concatenating:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">concat&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="n">df_a&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reset_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">drop&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">df_b&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reset_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">drop&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">)],&lt;/span> &lt;span class="n">axis&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Printing Pandas Data Frames as HTML in Jupyter Notebooks</title><link>https://tdhopper.com/blog/printing-pandas-data-frames-as-html-in-jupyter-notebooks/</link><pubDate>Wed, 23 Mar 2016 14:18:00 +0000</pubDate><guid>https://tdhopper.com/blog/printing-pandas-data-frames-as-html-in-jupyter-notebooks/</guid><description>&lt;img src="https://tdhopper.com/panda.png" alt="Featured image of post Printing Pandas Data Frames as HTML in Jupyter Notebooks" />&lt;p>Jupyter notebooks nicely render Pandas data frames if they&amp;rsquo;re the last line in
+a cell. It renders the HTML version of the data frame returned by
+&lt;code>pandas.DataFrame.to_html()&lt;/code>. However, if you call &lt;code>print(df)&lt;/code> in a cell, the
+data frame is rendered in less readable text-based output.&lt;/p>
+&lt;p>Despite using Notebooks regularly for years, I&amp;rsquo;d never bothered to figure out
+a way around this. However, the solution is easy.&lt;/p>
+&lt;p>Instead of &lt;code>print(df)&lt;/code> you use&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">IPython.display&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">display&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">display&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">df&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
