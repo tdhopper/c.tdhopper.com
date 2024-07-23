@@ -2,12 +2,13 @@
 title: The Programming Book That Made My Career
 date: Wed, 20 Jan 2021 13:58:16 +0000
 slug: learning-python
-categories:
-    - Article
+description: The post recounts the my journey with Python, highlighting how
+  "Learning Python" by Mark Lutz significantly impacted my career.
 tags:
-    - Python
-image: learning-python.jpeg
-description: The post recounts the my journey with Python, highlighting how "Learning Python" by Mark Lutz significantly impacted my career.
+  - Python
+categories:
+  - Article
+image: /images/minimalist-landscape-with-mouse-and-snake.png
 ---
 On January 7, 2011, [I
 tweeted](https://twitter.com/tdhopper/status/23515755127508993), "Trying to
