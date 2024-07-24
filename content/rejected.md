@@ -4,17 +4,23 @@ slug: rejected
 image: rejected.png
 ---
 
-This list is a follow-up to my popular post Some Reflections on [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
+This list is a follow-up to my popular post [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/).
 
 People talk freely about jobs they’ve been offered but are naturally hesitant to mention rejections.
 
-For those new to the industry, it gives the impression that those more senior are drowning in job offers.
+For those new to the industry, this gives the impression that those who are more senior are drowning in job offers.
 
 My goal is to make it clear that even someone with a successful career of 10+ years receives rejections, and we all need to keep persevering.
 
 
 | Year     | Company                |                          | Reason Given                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------|------------------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **2024** | Anthropic              |                          | "we recently hired for the Software Engineer, Infrastructure role"  |
+| **2024** | Movable Ink            |                          | Shifted what they were hiring for  |
+| **2023** | Handshake              |                          | N/A  |
+| **2023** | Credit Acceptance      |                          | Ghosted  | 
+| **2022** | Netflix                |                          | N/A  |
+| **2022** | Flock Freight          |                          | "the team felt that there were some gaps on the Infrastructure and SWE side of things"                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **2021** | Talking Leaves         |                          | "While we were impressed with your skill set, we have chosen to go in a different direction."                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **2021** | Spotify                |                          | "We've decided to move forward with another candidate for this position."                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **2021** | Microsoft              |                          | "We decided to extend an offer to another candidate. ... I wanted to add another aspect we considered -- your compensation requirements were out of band for what we can offer a senior DS for this remote location."                                                                                                                                                                                                                                                                                                         |
