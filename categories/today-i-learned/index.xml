@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Today I Learned on Tim Hopper</title><link>https://tdhopper.com/categories/today-i-learned/</link><description>Recent content in Today I Learned on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdhopper.com/categories/today-i-learned/index.xml" rel="self" type="application/rss+xml"/><item><title>git check-ignore</title><link>https://tdhopper.com/blog/git-check-ignore/</link><pubDate>Fri, 18 Sep 2020 13:10:00 +0000</pubDate><guid>https://tdhopper.com/blog/git-check-ignore/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post git check-ignore" />&lt;p>&lt;a class="link" href="https://git-scm.com/docs/git-check-ignore" target="_blank" rel="noopener"
+>Git has&lt;/a> a &lt;code>git check-ignore -v &amp;lt;pathname&amp;gt;&lt;/code> option which will explain to you why a given file is ignored by the repository. This is helpful for debugging &lt;code>.gitignore&lt;/code> and other exclude options.&lt;/p>
+&lt;p>I hope you never need this, but you&amp;rsquo;ll be glad if you do.&lt;/p></description></item><item><title>Compare RSA Key with Fingerprint in Github</title><link>https://tdhopper.com/blog/compare-rsa-key-with-fingerprint-in-github/</link><pubDate>Fri, 06 Jan 2017 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/compare-rsa-key-with-fingerprint-in-github/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Compare RSA Key with Fingerprint in Github" />&lt;p>When you add an SSH key to your Github account, Github shows you the hexadecimal form of the MD5 hash of your public key.&lt;/p>
+&lt;p>If you ever need to compare that against a key file on your computer, you can run:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I learned this from &lt;a class="link" href="http://stackoverflow.com/a/32130465/982745" target="_blank" rel="noopener"
+>StackOverflow&lt;/a>.&lt;/p></description></item><item><title>Get Pykafka to work with rdkafka on Linux</title><link>https://tdhopper.com/blog/get-pykafka-to-work-with-rdkafka-on-linux/</link><pubDate>Fri, 18 Nov 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/get-pykafka-to-work-with-rdkafka-on-linux/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Get Pykafka to work with rdkafka on Linux" />&lt;p>My former colleague&amp;rsquo;s from Parse.ly wrote the fantastic &lt;a class="link" href="https://github.com/Parsely/pykafka" target="_blank" rel="noopener"
+>pykafka&lt;/a> library with an optional c-backed using &lt;a class="link" href="https://github.com/edenhill/librdkafka" target="_blank" rel="noopener"
+>rdkafka&lt;/a>. I&amp;rsquo;ve had trouble getting it to work, and here are a few things I&amp;rsquo;ve learned:&lt;/p>
+&lt;ul>
+&lt;li>The version of rdkafka installable with apt-get was out of data, and pykafka couldn&amp;rsquo;t find the headers it need. I instead used the simple &lt;a class="link" href="https://github.com/edenhill/librdkafka#building" target="_blank" rel="noopener"
+>build instructions&lt;/a> in the rdkafka README to build it from head.&lt;/li>
+&lt;li>I was getting the error &lt;code>ImportError: librdkafka.so.1: cannot open shared object file: No such file or directory&lt;/code> when trying to use rdkafka from Pykafka. It could be set in the short term by using &lt;code>LD_LIBRARY_PATH=/usr/local/lib&lt;/code>. However, I fixed it permanently by running &lt;a class="link" href="https://linux.die.net/man/8/ldconfig" target="_blank" rel="noopener"
+>&lt;code>sudo ldconfig&lt;/code>&lt;/a> after building rdkafka.&lt;/li>
+&lt;li>Pykafka has to be installed &lt;em>after&lt;/em> building rdkafka. At the moment, Pykafka tries to build a C-extension to connect to rdkafka, and if that fails, it will install without offering the rdkafka backend. Check the output of &lt;code>pip install pykafka&lt;/code> &lt;a class="link" href="https://github.com/Parsely/pykafka/blob/1b946fa288dd5eb278f397e858e887146e048e47/setup.py#L164-L172" target="_blank" rel="noopener"
+>to see if the rdkafka extension built&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Speeding up PyMC3 NUTS Sampler</title><link>https://tdhopper.com/blog/speeding-up-pymc3-nuts-sampler/</link><pubDate>Tue, 08 Nov 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/speeding-up-pymc3-nuts-sampler/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Speeding up PyMC3 NUTS Sampler" />&lt;p>I&amp;rsquo;m trying to use the &lt;a class="link" href="https://pymc-devs.github.io/pymc3/api.html?highlight=nuts#module-pymc3.step_methods.nuts" target="_blank" rel="noopener"
+>NUTS sampler&lt;/a> in &lt;a class="link" href="https://github.com/pymc-devs/pymc3" title="GitHub - pymc-devs/pymc3: Probabilistic Programming in Python. Uses Theano as a backend, supports NUTS and ADVI."
+target="_blank" rel="noopener"
+>PyMC3&lt;/a>&lt;/p>
+&lt;p>However, it was running at 2 iterations per second on my model, while the Metropolis Hastings sampler ran 450x faster.&lt;/p>
+&lt;p>I showed my example to some of the PyMC3 devs on Twitter, and &lt;a class="link" href="https://de.linkedin.com/in/thomas-wiecki-46339244" title="Thomas Wiecki"
+target="_blank" rel="noopener"
+>Thomas Wiecki&lt;/a> showed me this trick:&lt;/p>
+&lt;blockquote class="twitter-tweet" data-lang="en">&lt;p lang="en" dir="ltr">&lt;a href="https://twitter.com/tdhopper">@tdhopper&lt;/a> &lt;a href="https://twitter.com/Springcoil">@Springcoil&lt;/a> You need pm.NUTS(scaling=np.power(model.dict_to_array(v_params.stds), 2), is_cov=True) (terrible syntax, I know).&lt;/p>&amp;mdash; Thomas Wiecki (@twiecki) &lt;a href="https://twitter.com/twiecki/status/796007019941462016">November 8, 2016&lt;/a>&lt;/blockquote>
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>It resulted in a 25x speedup of the NUTS sampler. The code looks like this&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="k">with&lt;/span> &lt;span class="n">pm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Model&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">model&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># SETUP MODEL HERE&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">mu&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">sds&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">elbo&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">variational&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">advi&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">n&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">200000&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">step&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">NUTS&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">scaling&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">np&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">power&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">model&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">dict_to_array&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">sds&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">pm&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sample&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">niter&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">step&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">step&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">is_cov&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">start&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">mu&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Setting Up supervisord</title><link>https://tdhopper.com/blog/setting-up-supervisord/</link><pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/setting-up-supervisord/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Setting Up supervisord" />&lt;p>First run &lt;code>$ sudo pip install supervisor&lt;/code>.&lt;/p>
+&lt;p>Create &lt;code>/etc/supervisord.conf&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">supervisor&lt;/span> &lt;span class="n">config&lt;/span> &lt;span class="n">file&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="n">unix_http_server&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">file&lt;/span>&lt;span class="o">=/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">run&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisor&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sock&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">the&lt;/span> &lt;span class="n">path&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">socket&lt;/span> &lt;span class="n">file&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">chmod&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">0700&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="n">sockef&lt;/span> &lt;span class="n">file&lt;/span> &lt;span class="n">mode&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">default&lt;/span> &lt;span class="mi">0700&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="n">supervisord&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">logfile&lt;/span>&lt;span class="o">=/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisor&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisord&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">log&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">main&lt;/span> &lt;span class="nb">log&lt;/span> &lt;span class="n">file&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="n">default&lt;/span> &lt;span class="o">$&lt;/span>&lt;span class="n">CWD&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisord&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">log&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">pidfile&lt;/span>&lt;span class="o">=/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">run&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisord&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">pid&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">supervisord&lt;/span> &lt;span class="n">pidfile&lt;/span>&lt;span class="p">;&lt;/span>&lt;span class="n">default&lt;/span> &lt;span class="n">supervisord&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">pid&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">childlogdir&lt;/span>&lt;span class="o">=/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisor&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;AUTO&amp;#39;&lt;/span> &lt;span class="n">child&lt;/span> &lt;span class="nb">log&lt;/span> &lt;span class="n">dir&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">default&lt;/span> &lt;span class="o">$&lt;/span>&lt;span class="n">TEMP&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">below&lt;/span> &lt;span class="n">section&lt;/span> &lt;span class="n">must&lt;/span> &lt;span class="n">remain&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="n">config&lt;/span> &lt;span class="n">file&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">RPC&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">supervisorctl&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">web&lt;/span> &lt;span class="n">interface&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">work&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">additional&lt;/span> &lt;span class="n">interfaces&lt;/span> &lt;span class="n">may&lt;/span> &lt;span class="n">be&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">added&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">defining&lt;/span> &lt;span class="n">them&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">separate&lt;/span> &lt;span class="n">rpcinterface&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">sections&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="n">rpcinterface&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">supervisor&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">supervisor&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rpcinterface_factory&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">supervisor&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">rpcinterface&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">make_main_rpcinterface&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="n">supervisorctl&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">serverurl&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">unix&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">///&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">run&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisor&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">sock&lt;/span> &lt;span class="p">;&lt;/span> &lt;span class="n">use&lt;/span> &lt;span class="n">a&lt;/span> &lt;span class="n">unix&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span> &lt;span class="n">URL&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">a&lt;/span> &lt;span class="n">unix&lt;/span> &lt;span class="n">socket&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">The&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="n">include&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="n">section&lt;/span> &lt;span class="n">can&lt;/span> &lt;span class="n">just&lt;/span> &lt;span class="n">contain&lt;/span> &lt;span class="n">the&lt;/span> &lt;span class="s2">&amp;#34;files&amp;#34;&lt;/span> &lt;span class="n">setting&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">This&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">setting&lt;/span> &lt;span class="n">can&lt;/span> &lt;span class="n">list&lt;/span> &lt;span class="n">multiple&lt;/span> &lt;span class="n">files&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">separated&lt;/span> &lt;span class="n">by&lt;/span> &lt;span class="n">whitespace&lt;/span> &lt;span class="ow">or&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">newlines&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">It&lt;/span> &lt;span class="n">can&lt;/span> &lt;span class="n">also&lt;/span> &lt;span class="n">contain&lt;/span> &lt;span class="n">wildcards&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">The&lt;/span> &lt;span class="n">filenames&lt;/span> &lt;span class="n">are&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">interpreted&lt;/span> &lt;span class="n">as&lt;/span> &lt;span class="n">relative&lt;/span> &lt;span class="n">to&lt;/span> &lt;span class="n">this&lt;/span> &lt;span class="n">file&lt;/span>&lt;span class="o">.&lt;/span> &lt;span class="n">Included&lt;/span> &lt;span class="n">files&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">cannot&lt;/span>&lt;span class="o">*&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">;&lt;/span> &lt;span class="n">include&lt;/span> &lt;span class="n">files&lt;/span> &lt;span class="n">themselves&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="n">include&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">files&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="n">etc&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">supervisor&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">conf&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">d&lt;/span>&lt;span class="o">/*.&lt;/span>&lt;span class="n">conf&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>&lt;span class="n">program&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="n">program1&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">command&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">program1command&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">autostart&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="bp">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">stderr_logfile&lt;/span>&lt;span class="o">=/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">program1&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">err&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">log&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">stdout_logfile&lt;/span>&lt;span class="o">=/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">program1&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">out&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">log&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now run &lt;code>$ sudo supervisord -c /etc/supervisord.conf&lt;/code>. See the status with &lt;code>$ sudo supervisorctl status&lt;/code>.&lt;/p>
+&lt;p>After modifying the config, run modify the config, &lt;code>$ sudo supervisorctl reread &amp;amp; sudo supervisorctl update&lt;/code>.&lt;/p></description></item><item><title>Find Files Modified in last N Minutes</title><link>https://tdhopper.com/blog/find-files-modified-in-last-n-minutes/</link><pubDate>Wed, 22 Jun 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/find-files-modified-in-last-n-minutes/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Find Files Modified in last N Minutes" />&lt;p>I&amp;rsquo;ve been using Bash&amp;rsquo;s &lt;a class="link" href="http://www.freebsd.org/cgi/man.cgi?find%281%29" target="_blank" rel="noopener"
+>&lt;code>find&lt;/code>&lt;/a> command a lot more regularly lately. I&amp;rsquo;ve always been scared off by its syntax, but it&amp;rsquo;s great once you&amp;rsquo;ve learned it.&lt;/p>
+&lt;p>Today I learned how to filter the results by files changed in the last N minutes: the &lt;code>cmin&lt;/code> flag:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> -cmin [-|+]n
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> True if the difference between the time of last change of file
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> status information and the time find was started, rounded up to
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> the next full minute, is more than n (+n), less than n (-n), or
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> exactly n minutes ago.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>For example:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find . -cmin +5 # Files modified more than 5 minutes ago
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">find . -cmin -5 # Files modified less than than 5 minutes ago
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">find . -cmin 5 # Files modified exactly 5 minutes ago
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Configuring Impala Query Results with impalarc</title><link>https://tdhopper.com/blog/configuring-impala-query-results-with-impalarc/</link><pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/configuring-impala-query-results-with-impalarc/</guid><description>&lt;p>I routinely run Impala queries on a &lt;a class="link" href="http://tdhopper.com/notes/faster-ssh-access-to-remote-computers" target="_blank" rel="noopener"
+>remote machine&lt;/a> and want the results to save to a CSV file on that machine.&lt;/p>
+&lt;p>I recently realized that I should setup an Impala config file on that machine to configure the connection to the Impala cluster and the output file format.&lt;/p>
+&lt;p>So I created a text file at &lt;code>~/.impalarc&lt;/code> with the following settings:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[impala]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">impalad=CLUSTER-ADDRESS:PORT
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">output_delimiter=,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">verbose=true
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ignore_query_failure=false
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">default_db=prd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">write_delimited=true
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">print_header=true
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now when I run a query with &lt;code>impala-shell&lt;/code>, I don&amp;rsquo;t have to specify the address of the cluster, or the various flags required to get a CSV with a header.&lt;/p>
+&lt;p>Other impala-shell config options are specified &lt;a class="link" href="http://www.cloudera.com/documentation/archive/impala/2-x/2-0-x/topics/impala_shell_options.html" target="_blank" rel="noopener"
+>here&lt;/a>&lt;/p></description></item><item><title>Faster SSH Access to Remote Computers</title><link>https://tdhopper.com/blog/faster-ssh-access-to-remote-computers/</link><pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/faster-ssh-access-to-remote-computers/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Faster SSH Access to Remote Computers" />&lt;p>I routinely &lt;a class="link" href="https://en.wikipedia.org/wiki/SSH" title="Wikipedia Entry: SSH"
+target="_blank" rel="noopener"
+>SSH&lt;/a> into a company machine on Openstack to do work. Until yesterday, I&amp;rsquo;d use my Bash history to find the SSH command I needed to access it. I was reading &lt;a class="link" href="https://www.amazon.com/SSH-Mastery-OpenSSH-PuTTY-Tunnels/dp/1470069717" target="_blank" rel="noopener"
+>SSH Mastery&lt;/a> in a plane yesterday and realized I&amp;rsquo;ve been foolish to neglect the power of &lt;code>~/ssh/config&lt;/code>.&lt;/p>
+&lt;p>I added this to my SSH config file:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Host lab
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> HostName MACHINE.IP.ADDRESS
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> User tdhopper
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Port 22
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> IdentityFile ~/.ssh/id_rsa
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ForwardAgent yes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> RemoteForward 52698 localhost:52698
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now I can connect to the machine by typing &lt;code>$ ssh lab&lt;/code>. That&amp;rsquo;s it. I don&amp;rsquo;t have to provide the SSH key, username, or machine IP.&lt;/p>
+&lt;p>The &lt;code>RemoteForward&lt;/code> bit also forwards a port to enable me to open files on the remote machine in my local SublimeText editor using &lt;a class="link" href="https://github.com/henrikpersson/rsub" target="_blank" rel="noopener"
+>rsub&lt;/a>. This is great.&lt;/p></description></item><item><title>Using Conda with the Fish Shell</title><link>https://tdhopper.com/blog/using-conda-with-the-fish-shell/</link><pubDate>Wed, 04 May 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/using-conda-with-the-fish-shell/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Using Conda with the Fish Shell" />&lt;p>I&amp;rsquo;m trying out the beautiful &lt;a class="link" href="https://fishshell.com/" target="_blank" rel="noopener"
+>Fish shell&lt;/a>. I&amp;rsquo;ve been a Bash user up until now.&lt;/p>
+&lt;p>I was bummed to see that &lt;code>source activate ENV&lt;/code> (for activating &lt;a class="link" href="https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html" target="_blank" rel="noopener"
+>Conda environments&lt;/a> didn&amp;rsquo;t work natively in Fish.&lt;/p>
+&lt;p>Apparently the &lt;a class="link" href="https://groups.google.com/a/continuum.io/d/msg/conda/8aaYESlLZI8/Ov1UcFhWCAAJ" target="_blank" rel="noopener"
+>Conda team is adding native support for Fish&lt;/a>, but it&amp;rsquo;s not available as of 2016-05-04.&lt;/p>
+&lt;p>There are several projects developed to help in the meantime:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="http://pypi.python.org/pypi/conda-workon/0.3.0" target="_blank" rel="noopener"
+>conda-workon&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/fabioramponi/fish-conda-virtualenv" target="_blank" rel="noopener"
+>fish-conda-virtualenv&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://gist.github.com/jiffyclub/9679788" target="_blank" rel="noopener"
+>condactivate&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>I&amp;rsquo;m going to wait for the Conda update to be released.&lt;/p></description></item><item><title>Concatenate files with header row</title><link>https://tdhopper.com/blog/concatenate-files-with-header-row/</link><pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/concatenate-files-with-header-row/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Concatenate files with header row" />&lt;p>I needed to concatenate a bunch of CSV files while skipping the header row. There was a nice solution on &lt;a class="link" href="http://stackoverflow.com/questions/10103619/unix-merge-many-files-while-deleting-first-line-of-all-files" target="_blank" rel="noopener"
+>Stack Overflow&lt;/a>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find . -name &amp;#34;*.csv&amp;#34; | xargs -n 1 tail -n +2
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>With the GNU version of &lt;code>tail&lt;/code> (sadly not the one installed on OS X by default), you can just use&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">tail -q -n +2 *.csv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>or&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">awk &amp;#39;FNR != 1&amp;#39; *.csv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Searching the tweets of people you follow</title><link>https://tdhopper.com/blog/searching-the-tweets-of-people-you-follow/</link><pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/searching-the-tweets-of-people-you-follow/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Searching the tweets of people you follow" />&lt;p>This is more of a Today I Taught.&lt;/p>
+&lt;blockquote class="twitter-tweet" data-lang="en">&lt;p lang="en" dir="ltr">Turns out, it is actually possible to search my timeline. Thanks &lt;a href="https://twitter.com/tdhopper">@tdhopper&lt;/a> for the tip. &lt;a href="https://t.co/7IsD76qszD">pic.twitter.com/7IsD76qszD&lt;/a>&lt;/p>&amp;mdash; Ole Zorn (@olemoritz) &lt;a href="https://twitter.com/olemoritz/status/727148272675115008">May 2, 2016&lt;/a>&lt;/blockquote>
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>I have a quick search in &lt;a class="link" href="https://www.alfredapp.com/" target="_blank" rel="noopener"
+>Alfred&lt;/a> to search the tweets of people I follow. I launch Alfred with ⌘-Space and type &lt;code>following {query}&lt;/code>. Restricting a Twitter search to people you follow only requires adding the &lt;code>s=follows&lt;/code> query string to a search url:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://twitter.com/search?s=follows&amp;amp;q={query}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Don't Buffer Python's stdout</title><link>https://tdhopper.com/blog/dont-buffer-pythons-stdout/</link><pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/dont-buffer-pythons-stdout/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Don't Buffer Python's stdout" />&lt;p>I was using &lt;code>[tee](http://man7.org/linux/man-pages/man1/tee.1.html)&lt;/code> with a long running Python process, but I wasn&amp;rsquo;t seeing any output. This is a result of Python buffering the stdout stream. You can run force Python to run in &lt;a class="link" href="https://docs.python.org/2/using/cmdline.html#cmdoption-u" target="_blank" rel="noopener"
+>unbuffered mode&lt;/a> using the &lt;code>-u&lt;/code> flag at the command line.&lt;/p>
+&lt;blockquote>
+&lt;p>Force stdin, stdout and stderr to be totally unbuffered. On systems where it matters, also put stdin, stdout and stderr in binary mode.&lt;/p>
+&lt;/blockquote></description></item><item><title>Impala Doesn't Have a histogram() function</title><link>https://tdhopper.com/blog/impala-doesnt-have-a-histogram-function/</link><pubDate>Wed, 23 Mar 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/impala-doesnt-have-a-histogram-function/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Impala Doesn't Have a histogram() function" />&lt;p>&lt;a class="link" href="https://groups.google.com/a/cloudera.org/d/msg/impala-user/O8u5JFfKJPk/V0ZR1muNBAAJ" target="_blank" rel="noopener"
+>Impala Doesn&amp;rsquo;t Have a histogram() function&lt;/a>.&lt;/p>
+&lt;p>Ibis&amp;rsquo;s histogram works by normalizing a column and rounding to integers:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">WITH&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AS&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">db&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="k">table_name&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">floor&lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="n">t0&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="k">column_name&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">min_1fe5be&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="n">e&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">13&lt;/span>&lt;span class="p">))&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">((&lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">max_1fe5be&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="p">.&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">min_1fe5be&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="n">e&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">13&lt;/span>&lt;span class="p">))&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">NUM_BINS&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)))&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AS&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">tmp&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">CROSS&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">JOIN&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">SELECT&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">min&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="k">column_name&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AS&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">min_1fe5be&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">max&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="k">column_name&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">AS&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="n">max_1fe5be&lt;/span>&lt;span class="o">`&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">FROM&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">t1&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Creating Impala Tables from Pandas Dataframes</title><link>https://tdhopper.com/blog/creating-impala-tables-from-pandas-dataframes/</link><pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/creating-impala-tables-from-pandas-dataframes/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Creating Impala Tables from Pandas Dataframes" />&lt;p>&lt;a class="link" href="http://wesmckinney.com/" title="Wes McKinney"
+target="_blank" rel="noopener"
+>Wes Mckinney&lt;/a>&amp;rsquo;s &lt;a class="link" href="http://docs.ibis-project.org/index.html" target="_blank" rel="noopener"
+>Ibis&lt;/a>, a Pythonic interface to Impala, has functionality for creating &lt;a class="link" href="https://www.cloudera.com/products/apache-hadoop/impala.html" title="Apache Impala"
+target="_blank" rel="noopener"
+>Impala&lt;/a> tables from &lt;a class="link" href="http://pandas.pydata.org/" title="Python Data Analysis Library &amp;amp;mdash; pandas: Python Data Analysis Library"
+target="_blank" rel="noopener"
+>Python Pandas&lt;/a> dataframes.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">ibis&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">hdfs&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ibis&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">hdfs_connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">host&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">webhdfs_host&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">port&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">webhdfs_port&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">client&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ibis&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">impala&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">host&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">impala_host&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">port&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">impala_port&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">hdfs_client&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">hdfs&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">db&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">c&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">database&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;ibis_testing&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">DataFrame&lt;/span>&lt;span class="p">({&lt;/span>&lt;span class="s1">&amp;#39;foo&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="s1">&amp;#39;bar&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;a&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;b&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;c&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;d&amp;#39;&lt;/span>&lt;span class="p">]})&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">db&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">create_table&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;pandas_table&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a class="link" href="http://docs.ibis-project.org/impala.html#creating-tables" target="_blank" rel="noopener"
+>This functionality&lt;/a>, added in Ibis 0.6.0, is &lt;em>much&lt;/em> easier that manually move data to HDFS and loading into Impala.&lt;/p></description></item><item><title>Galileo's Conflict was Science vs. Science</title><link>https://tdhopper.com/blog/galileos-conflict-was-science-vs.-science/</link><pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/galileos-conflict-was-science-vs.-science/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Galileo's Conflict was Science vs. Science" />&lt;p>Galileo&amp;rsquo;s conflict with the Church was not as it is often portrayed:&lt;/p>
+&lt;blockquote>
+&lt;p>In January of 1616, the month before before the Roman Inquisition would infamously condemn the Copernican theory as being &amp;ldquo;foolish and absurd in philosophy&amp;rdquo;, Monsignor Francesco Ingoli addressed Galileo Galilei with an essay entitled &amp;ldquo;Disputation concerning the location and rest of Earth against the system of Copernicus&amp;rdquo;. &amp;hellip; The essay, upon which the Inquisition condemnation was likely based, lists mathematical, physical, and theological arguments against the Copernican theory. Ingoli asks Galileo to respond to those mathematical and physical arguments that are &amp;ldquo;more weighty&amp;rdquo;, and does not ask him to respond to the theological arguments at all. &amp;hellip; Ingoli&amp;rsquo;s emphasis on the scientific arguments of Brahe, and his lack of emphasis on theological arguments, raises the question of whether the condemnation of the Copernican theory was, in contrast to how it is usually viewed, essentially scientific in nature, following the ideas of Brahe.&lt;/p>
+&lt;/blockquote>
+&lt;p>From &lt;a class="link" href="http://arxiv.org/abs/1211.4244" target="_blank" rel="noopener"
+>Francesco Ingoli&amp;rsquo;s essay to Galileo: Tycho Brahe and science in the Inquisition&amp;rsquo;s condemnation of the Copernican theory&lt;/a>.&lt;/p></description></item><item><title>Using rbenv for Ruby Versions</title><link>https://tdhopper.com/blog/using-rbenv-for-ruby-versions/</link><pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/using-rbenv-for-ruby-versions/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Using rbenv for Ruby Versions" />&lt;p>I don&amp;rsquo;t use Ruby much, but I wanted to use Jekyll for this blog. I kept getting this error when running &lt;code>gem install jekyll&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Fetching: colorator-0.1.gem (100%)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ERROR: While executing gem ... (Gem::FilePermissionError)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> You don&amp;#39;t have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I installed rbenv with &lt;code>brew install rbenv&lt;/code> and added&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="o">[[&lt;/span> -s &lt;span class="nv">$HOME&lt;/span>/.rbenv/bin &lt;span class="o">]]&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">export&lt;/span> &lt;span class="nv">PATH&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$HOME&lt;/span>&lt;span class="s2">/.rbenv/bin:&lt;/span>&lt;span class="nv">$PATH&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="o">&amp;amp;&amp;amp;&lt;/span> &lt;span class="nb">eval&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>rbenv init -&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>to my &lt;code>.bashrc&lt;/code> file. Then I changed the default ruby interpreter from the system interpreter to one managed by rbenv with &lt;code>rbenv install 2.2.3 &amp;amp;&amp;amp; rbenv global 2.2.3&lt;/code>.&lt;/p></description></item><item><title>Concatenate MP3 Files</title><link>https://tdhopper.com/blog/concatenate-mp3-files/</link><pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/concatenate-mp3-files/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Concatenate MP3 Files" />&lt;blockquote class="twitter-tweet" data-lang="en">&lt;p lang="en" dir="ltr">TIL `cat` will correctly join MP3 files &lt;a href="http://t.co/mmc4NN2Kmp">http://t.co/mmc4NN2Kmp&lt;/a>&lt;/p>&amp;mdash; Tim Hopper (@tdhopper) &lt;a href="https://twitter.com/tdhopper/status/577149891077619713">March 15, 2015&lt;/a>&lt;/blockquote>
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>From Stackoverflow:&lt;/p>
+&lt;blockquote>
+&lt;p>An MP3 file is nothing more than the raw MPEG2-Layer 3 (audio) stream data, there is no file level header structure with, for example, duration, original source, encoding info.&lt;/p>
+&lt;/blockquote>
+&lt;p>Thus&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">cat file1.mp3 file2.mp3 &amp;gt; out.mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>can join MP3 files.&lt;/p></description></item><item><title>Shortcut to Switch to Previous Git Branch</title><link>https://tdhopper.com/blog/shortcut-to-switch-to-previous-git-branch/</link><pubDate>Wed, 10 Sep 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/shortcut-to-switch-to-previous-git-branch/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Shortcut to Switch to Previous Git Branch" />&lt;blockquote class="twitter-tweet" data-lang="en">&lt;p lang="en" dir="ltr">TIL how to checkout the last branch you were on in Git (before the current):&lt;br>&lt;br>git checkout -&lt;/p>&amp;mdash; Tim Hopper (@tdhopper) &lt;a href="https://twitter.com/tdhopper/status/509767391103172608">September 10, 2014&lt;/a>&lt;/blockquote>
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8">&lt;/script></description></item></channel></rss>
