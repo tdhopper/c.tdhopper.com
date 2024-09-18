@@ -93,7 +93,7 @@ collections:
         }
   - name: "podcast"
     label: Podcast 
-    folder: "content/post/podcast"
+    folder: "content/post/podcasts"
     create: true
     editor:
       preview: false
