@@ -4,6 +4,7 @@ date: 2024-09-19T13:20:00.000Z
 description: A reflection on the summer I finally got to do math research but
   spent the whole time writing C
 categories: Article
+math: true
 image: /images/graphtheory.jpg
 ---
 I started college as a physics major, but I switched to computer science my sophomore year when I realized I didn't want to take more lab classes. After a year as a CS major, I realized I loved the theory classes but didn't care as much about the practical and programming portions of the curriculum. Going into my junior year, I switched—for the last time—to major in math.
