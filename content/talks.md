@@ -8,6 +8,10 @@ tag:
     - presentation
 ---
 
+## How to use streaming machine learning for real-time data (Aug. 8, 2024)
+
+{{< youtube Y1-Ls5zt1h0 >}}
+
 ## Five semesters of linear algebra and all I do is solve Python dependency problems (Dec. 15, 2022)
 
 {{< youtube 6flt_3yMNb0 >}}
