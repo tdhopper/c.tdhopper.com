@@ -8,3 +8,5 @@ menu:
 image: main.png
 aliases: ["/home"]
 ---
+
+Hi, I'm Tim!
