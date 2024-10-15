@@ -9,21 +9,9 @@
     {{ $pag := .Paginate ($unpinnedPages) }}
     {{- partial "featured.html" . -}}
     <section class="article-list">
-        <!-- Render the pinned article(s) first with full content -->
         {{ range $pinnedPages }}
-            <article class="pinned-article">
-                <header>
-                    <h1>{{ .Title }}</h1>
-                    {{ if .Params.date }}
-                        <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time>
-                    {{ end }}
-                </header>
-                <div class="article-content">
-                    {{ .Content }}
-                </div>
-            </article>
+            {{ partial "article.html" . }}
         {{ end }}
-        <!-- Then render the paginated unpinned articles -->
         {{ range $pag.Pages }}
             {{ partial "article-list/default" . }}
         {{ end }}
