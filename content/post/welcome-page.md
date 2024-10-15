@@ -1,20 +1,21 @@
 ---
-title: Welcome
+title: 👋 Hey, I'm Tim Hopper! 
 date: 2010-01-01
 pinned: true
 ---
-
-# 👋 Hey, I'm Tim Hopper! 
 
 I'm an experienced machine learning engineer and Python developer. I specialize in cloud infrastructure, machine learning platforms, and Python developer tooling.  
 
 👨‍💻 **Currently**: Staff Software Engineer, Machine Learning at [Varo Bank](https://www.varomoney.com/).
 
-## 👨‍🔬 Professional Interests:
-- Machine Learning & Data Engineering
-- Python Developer Tooling
-- Cloud Infrastructure (AWS)
-- DevOps & Automation
+✍🏻 ** Writings**:
+
+[tdhopper.com](https://tdhopper.com) is mostly a respository of things I've written since I was a grad student. If you're looking for somewhere to start, check out:
+
+* [Some Reflections on Being Turned Down for a Lot of Data Science Jobs](https://tdhopper.com/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs/)
+* [How I Became a Data Scientist Despite Having Been a Math Major](https://tdhopper.com/blog/how-i-became-a-data-scientist/) and [A Subjective and Anecdotal FAQ on Becoming a Data Scientist](https://tdhopper.com/blog/faq/)
+* [Goodnight Zoom](https://tdhopper.com/blog/goodnight-zoom/)
+* [Entropy of a Discrete Probability Distribution](https://tdhopper.com/blog/entropy-of-a-discrete-probability-distribution/)
   
 🖥️ **Personal Projects**: 
 
@@ -33,3 +34,20 @@ I enjoy wildlife and nature photography in my free time. [dothopper photo](https
 🗣️ **Talks**:
 
 I've been speaking at conference and meetups for many years. I keep a list of my recorded talks [here](http://tdhopper.com/talks/). 
+
+Here are a couple I'm particularly proud of: 
+
+{{< youtube 6flt_3yMNb0 >}}
+
+{{< youtube OS6j1Y2tJLY >}}
+
+⌨️ **Open Source**: 
+
+I love to contribute to open source as I'm able. Here are some libraries I've contributed to: 
+
+* [cpython](https://github.com/python/cpython/commits?author=tdhopper)
+* [datamicroscopes](https://datamicroscopes.github.io/)
+* [Streamparse](https://github.com/parsely/streamparse/commits?author=tdhopper)
+* [Conda](https://github.com/conda/conda/commits?author=tdhopper)
+* [lda](https://github.com/ariddell/lda/commits?author=tdhopper)
+* [Pandas](https://github.com/pandas-dev/pandas/commits?author=tdhopper)
