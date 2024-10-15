@@ -4,6 +4,8 @@ date: 2010-01-01
 pinned: true
 ---
 
+# 👋 Hey, I'm Tim Hopper! 
+
 I'm an experienced machine learning engineer and Python developer. I specialize in cloud infrastructure, machine learning platforms, and Python developer tooling.  
 
 You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com). 
