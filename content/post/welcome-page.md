@@ -6,9 +6,9 @@ pinned: true
 
 I'm an experienced machine learning engineer and Python developer. I specialize in cloud infrastructure, machine learning platforms, and Python developer tooling.  
 
-👨‍💻 **Currently**: Staff Software Engineer, Machine Learning at [Varo Bank](https://www.varomoney.com/).
+You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com). 
 
-✍🏻 ** Writings**:
+✍🏻 **Writings**:
 
 [tdhopper.com](https://tdhopper.com) is mostly a respository of things I've written since I was a grad student. If you're looking for somewhere to start, check out:
 
