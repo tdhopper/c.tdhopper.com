@@ -2,10 +2,19 @@
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
     {{ $filtered := ($pages | intersect $notHidden) }}
-    {{ $pag := .Paginate ($filtered) }}
+
+    {{ $pinnedPages := where $filtered "Params.pinned" true }}
+    {{ $unpinnedPages := where $filtered "Params.pinned" "!=" true }}
+
+    {{ $pag := .Paginate ($unpinnedPages) }}
     {{- partial "featured.html" . -}}
     <section class="article-list">
-        {{ range $index, $element := $pag.Pages }}
+        <!-- Render the pinned article(s) first -->
+        {{ range $pinnedPages }}
+            {{ partial "article-list/default" . }}
+        {{ end }}
+        <!-- Then render the paginated unpinned articles -->
+        {{ range $pag.Pages }}
             {{ partial "article-list/default" . }}
         {{ end }}
     </section>
