@@ -10,7 +10,7 @@
     {{- partial "featured.html" . -}}
     <section class="article-list">
         {{ range $pinnedPages }}
-            {{ partial "article/article.html" . }}
+            <span class="main-article">{{ partial "article/article.html" . }}</span>
         {{ end }}
         {{ range $pag.Pages }}
             {{ partial "article-list/default" . }}
