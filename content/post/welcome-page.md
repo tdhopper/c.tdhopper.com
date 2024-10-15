@@ -45,11 +45,11 @@ Here are a couple I'm particularly proud of:
 
 ⌨️ **Open Source**: 
 
-I love to contribute to open source as I'm able. Here are some libraries I've contributed to: 
-
-* [cpython](https://github.com/python/cpython/commits?author=tdhopper)
-* [datamicroscopes](https://datamicroscopes.github.io/)
-* [Streamparse](https://github.com/parsely/streamparse/commits?author=tdhopper)
-* [Conda](https://github.com/conda/conda/commits?author=tdhopper)
-* [lda](https://github.com/ariddell/lda/commits?author=tdhopper)
-* [Pandas](https://github.com/pandas-dev/pandas/commits?author=tdhopper)
+I love to contribute to open source as I'm able. I've contributed libraries like
+[cpython](https://github.com/python/cpython/commits?author=tdhopper),
+[datamicroscopes](https://datamicroscopes.github.io/),
+[Streamparse](https://github.com/parsely/streamparse/commits?author=tdhopper),
+[Conda](https://github.com/conda/conda/commits?author=tdhopper),
+[lda](https://github.com/ariddell/lda/commits?author=tdhopper),
+and
+[Pandas](https://github.com/pandas-dev/pandas/commits?author=tdhopper).
