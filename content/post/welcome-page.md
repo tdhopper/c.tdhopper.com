@@ -7,7 +7,7 @@ slug: welcome
 
 # 👋 Hey, I'm Tim Hopper!
 
-I'm an experienced machine learning engineer and Python developer. I specialize machine learning platforms, and Python developer tooling, and cloud infrastructure. For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, and
+I'm an experienced machine learning engineer and Python developer. I specialize in machine learning platforms, Python developer tooling, and cloud infrastructure. For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, and
 weather forecasting. You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com).
 
 ✍🏻 **Writings**:
@@ -21,13 +21,13 @@ weather forecasting. You can check out my resume at [resume.tdhopper.com](https:
 
 🖥️ **Personal Projects**:
 
-I have an [occasional podcast](https://podcast.tdhopper.com) where I talk to friends about things they're interested in. You can find it in your podcast directory or at [podcast.tdhopper.com](https://podcast.tdhopper.com).
+I have an [occasional podcast](https://podcast.tdhopper.com) in which I talk to friends about things they're interested in. You can find it in your podcast directory or at [podcast.tdhopper.com](https://podcast.tdhopper.com).
 
-Years ago, I created [Should I Get a Phd?](https://shouldigetaphd.com) where I interviewed nine friends about whether a young, bright student should consider pursuing a PhD. This it the resource I wish I'd had before starting a PhD program, and it's been useful to many.
+Years ago, I created [Should I Get a Phd?](https://shouldigetaphd.com) where I interviewed nine friends about whether a young, bright student should consider pursuing a PhD. This is the resource I wish I'd had before starting a PhD program, and it's been useful to many.
 
 [Python Plotting for Exploratory Data Analysis](https://pythonplot.com) is a Rosetta Stone for Python plotting libraries, and it also compares them to the GOAT of plotting libraries: ggplot.
 
-I created [Notes on Dirichlet Processes](https://dp.tdhopper.com) after working on a [DARPA](https://www.darpa.mil) funded open source project for developing [Bayesian nonparametric models in Python](http://datamicroscopes.github.io). I did a lot of work to understand Bayesian nonparametrics and derive the Gibbs sampler for Hierarchichal Dirichlet Processes. [Notes on Dirichlet Processes](https://dp.tdhopper.com) shares what I learned for the benefit of others.
+I created [Notes on Dirichlet Processes](https://dp.tdhopper.com) after working on a [DARPA](https://www.darpa.mil)-funded open source project for developing [Bayesian nonparametric models in Python](http://datamicroscopes.github.io). I did a lot of work to understand Bayesian nonparametrics and derive the Gibbs sampler for Hierarchical Dirichlet Processes. [Notes on Dirichlet Processes](https://dp.tdhopper.com) shares what I learned for the benefit of others.
 
 I enjoy wildlife and nature photography in my free time. [dothopper photo](https://photos.tdhopper.com) is my gallary.
 
@@ -51,7 +51,7 @@ You can find me on [Twitter](https://twitter.com/tdhopper) and [LinkedIn](https:
 
 🗣️ **Talks**:
 
-I've been speaking at conference and meetups for many years. I keep a list of my recorded talks [here](http://tdhopper.com/talks/).
+I've been speaking at conferences and meetups for many years. I keep a list of my recorded talks [here](http://tdhopper.com/talks/).
 
 Here are a couple I'm particularly proud of:
 
