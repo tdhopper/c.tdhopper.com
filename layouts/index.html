@@ -11,7 +11,7 @@
     <section class="article-list">
         {{ range $pinnedPages }}
             <span class="article-page">
-                {{ partial "article/article.html" . }} <!-- Makes pinned article styling work -->
+                {{ partial "article/pinned-article.html" . }} <!-- Makes pinned article styling work -->
             </span>
         {{ end }}
         {{ range $pag.Pages }}
