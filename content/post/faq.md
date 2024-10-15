@@ -1,7 +1,6 @@
 ---
 title: A Subjective and Anecdotal FAQ on Becoming a Data Scientist
 date: Mon, 05 Mar 2018 16:59:00 +0000
-featured: true
 slug: faq
 categories:
     - Article

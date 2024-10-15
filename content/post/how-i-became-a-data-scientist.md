@@ -3,7 +3,6 @@ title: How I Became a Data Scientist Despite Having Been a Math Major
 date: 2015-05-11
 slug: how-i-became-a-data-scientist
 aliases: [/how/]
-featured: true
 categories: 
   - Article
 image: math-class.png 
