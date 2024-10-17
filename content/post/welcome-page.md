@@ -7,8 +7,12 @@ slug: welcome
 
 # 👋 Hey, I'm Tim Hopper!
 
-I'm an experienced machine learning engineer and Python developer. I specialize in machine learning platforms, Python developer tooling, and cloud infrastructure. For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, and
-weather forecasting. You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com).
+I'm an experienced machine learning platform engineer and Python developer. You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com).
+
+For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, environmental science, and
+weather forecasting. I see my role as helping data scientists and researchers shorten feedback loops and spend time on their business problems (instead of fussing with cloud resources). 
+
+I'm also excited about developer productivity, especially in Python development. I am (slowly) working on an [ebook on Python developer tooling](https://pydevtools.com) and like to help teams use Python more effectively. 
 
 ✍🏻 **Writings**:
 
@@ -48,6 +52,22 @@ and
 👨🏻‍💻 **Social Media**:
 
 You can find me on [Twitter](https://twitter.com/tdhopper) and [LinkedIn](https://www.linkedin.com/in/tdhopper/).
+
+I love Twitter and have written some bangers over the years. 
+
+This tweet was [cited in a Nature article](https://www.nature.com/articles/d41586-019-02046-0). 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Give a man a fish and you feed him for a day.<br><br>Write a program to fish for him and you maintain it for a lifetime.</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/661551195291574272?ref_src=twsrc%5Etfw">November 3, 2015</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Here are some oldies that went viral in their day: 
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">If you like it then you shoulda put a ring on it.&#10;&#10;If you love it then you shoulda also endowed non-0 members with a multiplicative inverse.</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/403919436190461952">November 22, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Data science is the art of getting open source tools you&#39;ve previously only read about on Twitter to work in your company&#39;s pipeline.</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/411218027963617280">December 12, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A developer is a device for turning StackOverflow code snippets into programs.</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/369908021058469888">August 20, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Orwell on complex analysis: &quot;If there is hope, it lies in the poles.&quot;</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/591652326349365249">April 24, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 🗣️ **Talks**:
 
