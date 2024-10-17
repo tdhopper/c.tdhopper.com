@@ -67,8 +67,6 @@ Here are some oldies that went viral in their day:
 
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">A developer is a device for turning StackOverflow code snippets into programs.</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/369908021058469888">August 20, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Orwell on complex analysis: &quot;If there is hope, it lies in the poles.&quot;</p>&mdash; Tim Hopper (@tdhopper) <a href="https://twitter.com/tdhopper/status/591652326349365249">April 24, 2015</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 🗣️ **Talks**:
 
 I've been speaking at conferences and meetups for many years. I keep a list of my recorded talks [here](http://tdhopper.com/talks/).
