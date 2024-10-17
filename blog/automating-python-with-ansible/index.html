@@ -1,0 +1,650 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="I wrote a few months back about how data scientists need more automation. In particular, I suggested that data scientists would be wise to learn more about automated system configuration and automated deployments.\nIn an attempt to take my own advice, I&rsquo;ve finally been making myself learn Ansible. It turns out that a great way to learn it is to sit down and read through the docs, front to back; I commend that tactic to you. I also put together this tutorial to walk through a practical example of how a working data scientist might use this powerful tool.\n"><title>Automating Python with Ansible</title>
+<link rel=canonical href=https://tdhopper.com/blog/automating-python-with-ansible/><link rel=stylesheet href=/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css><meta property='og:title' content="Automating Python with Ansible"><meta property='og:description' content="I wrote a few months back about how data scientists need more automation. In particular, I suggested that data scientists would be wise to learn more about automated system configuration and automated deployments.\nIn an attempt to take my own advice, I&rsquo;ve finally been making myself learn Ansible. It turns out that a great way to learn it is to sit down and read through the docs, front to back; I commend that tactic to you. I also put together this tutorial to walk through a practical example of how a working data scientist might use this powerful tool.\n"><meta property='og:url' content='https://tdhopper.com/blog/automating-python-with-ansible/'><meta property='og:site_name' content='Tim Hopper'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='Python'><meta property='article:published_time' content='2017-03-23T15:11:00+00:00'><meta property='article:modified_time' content='2024-10-17T12:00:16-04:00'><meta property='og:image' content='https://tdhopper.com/main.png'><meta name=twitter:title content="Automating Python with Ansible"><meta name=twitter:description content="I wrote a few months back about how data scientists need more automation. In particular, I suggested that data scientists would be wise to learn more about automated system configuration and automated deployments.\nIn an attempt to take my own advice, I&rsquo;ve finally been making myself learn Ansible. It turns out that a great way to learn it is to sit down and read through the docs, front to back; I commend that tactic to you. I also put together this tutorial to walk through a practical example of how a working data scientist might use this powerful tool.\n"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content='https://tdhopper.com/main.png'><link rel="shortcut icon" href=/favicon.png></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label="Toggle Menu">
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/headshot_hu10640029153394279424.jpg width=300 height=300 class=site-logo loading=lazy alt=Avatar></a></figure><div class=site-meta><h1 class=site-name><a href=/>Tim Hopper</a></h1><h2 class=site-description>Machine Learning. Python. Software Engineering. Math Jokes.</h2></div></header><ol class=menu-social><li><a href=https://github.com/tdhopper target=_blank title=GitHub rel=me><svg class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li><li><a href=https://twitter.com/tdhopper target=_blank title=Twitter rel=me><svg class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84.0 00.497-3.753C20.18 7.773 21.692 5.25 22 4.009z"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/><svg class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>Home</span></a></li><li><a href=/archives/><svg class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>Archives</span></a></li><li><a href=/search/><svg class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>Search</span></a></li><li><a href=/my-other-sites/><svg class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M10 14a3.5 3.5.0 005 0l4-4a3.5 3.5.0 00-5-5l-.5.5"/><path d="M14 10a3.5 3.5.0 00-5 0l-4 4a3.5 3.5.0 005 5l.5-.5"/></svg>
+<span>My Other Sites</span></a></li><li><a href=https://tdhopper.com/talks><svg class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M9.828 9.172a4 4 0 100 5.656A10 10 0 0012 12a10 10 0 012.172-2.828 4 4 0 110 5.656A10 10 0 0112 12 10 10 0 009.828 9.172"/></svg>
+<span>My Talks</span></a></li><li><a href=https://tdhopper.com/categories/podcast/><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+<span>Podcast</span></a></li><li><a href=https://resume.tdhopper.com target=_blank><svg class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
+<span>Resumé</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<span>Dark Mode</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Table of contents</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#ansible>Ansible</a></li><li><a href=#installing-ansible-with-homebrew>Installing Ansible with Homebrew</a></li><li><a href=#quickstart>Quickstart</a></li><li><a href=#setting-up-an-ansible-inventory>Setting up an Ansible Inventory</a></li><li><a href=#writing-our-first-playbook>Writing our first Playbook</a></li><li><a href=#installing-supervisord>Installing supervisord</a></li><li><a href=#installing-conda-with-ansible-galaxy>Installing Conda with Ansible Galaxy</a><ol><li><a href=#overriding-ansible-variables>Overriding Ansible Variables</a></li></ol></li><li><a href=#deploy-python-application>Deploy Python Application</a><ol><li><a href=#clone-the-repository>Clone the repository</a></li><li><a href=#creating-the-conda-environment>Creating the Conda Environment</a></li><li><a href=#create-a-supervisord-file>Create a Supervisord File</a></li><li><a href=#start-the-supevisord-job>Start the supevisord job</a></li></ol></li><li><a href=#the-big-playbook>The Big Playbook!</a></li><li><a href=#conclusion>Conclusion</a></li></ol></nav></div></section></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/presentation/>My Presentations</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/blog/automating-python-with-ansible/>Automating Python with Ansible</a></h2></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Mar 23, 2017</time></div></footer></div></header><section class=article-content><p>I wrote <a class=link href=/blog/data-scientists-need-more-automation/>a few months back</a> about how data scientists need more automation. In
+particular, I suggested that data scientists would be wise to learn more about
+automated system configuration and automated deployments.</p><p>In an attempt to take my own advice, I&rsquo;ve finally been making myself learn
+<a class=link href=https://www.ansible.com/ target=_blank rel=noopener>Ansible</a>. It turns out that a great way to learn it
+is to sit down and read through the docs, front to back; I commend that tactic
+to you. I also put together this tutorial to walk through a practical example
+of how a working data scientist might use this powerful tool.</p><p>What follows is an Ansible guide that will take you from installing Ansible to
+automatically deploying a long-running Python to a remote machine and running
+it in a <a class=link href=https://conda.io/docs/using/envs.html target=_blank rel=noopener>Conda environment</a> using
+<a class=link href=http://supervisord.org/ target=_blank rel=noopener>supervisord</a>. It presumes your development machine
+is on OS X and the remote machine is Debian-like; however, it shouldn&rsquo;t
+require too many changes to run it on other systems.</p><p>I wrote this post in a Jupyter notebook with a Bash kernel. You can find the
+notebook, Ansible files, and installation directions on <a class=link href=https://github.com/tdhopper/automating_python target=_blank rel=noopener>my
+Github</a>.</p><h2 id=ansible>Ansible</h2><p>Ansible provides &ldquo;human readable automation&rdquo; for &ldquo;app deployment&rdquo; and
+&ldquo;configuration management&rdquo;. Unlike tools like Chef, it doesn&rsquo;t require an
+agent to be running on remote machines. In short, it translates declarative
+YAML files into shell commands and runs them on your machines over SSH.</p><p>Ansible is backed by Red Hat and has a great
+<a class=link href=https://www.ansible.com/ target=_blank rel=noopener>website</a>.</p><h2 id=installing-ansible-with-homebrew>Installing Ansible with Homebrew</h2><p>First, you&rsquo;ll need to <a class=link href=http://docs.ansible.com/ansible/intro_installation.html target=_blank rel=noopener>install
+Ansible</a>. On a Mac, I
+recommend doing this with <a class=link href=https://brew.sh/ target=_blank rel=noopener>Homebrew</a>.</p><pre><code>brew install ansible
+
+
+
+Warning: ansible-2.1.0.0 already installed
+Warning: You are using OS X 10.12.
+We do not provide support for this pre-release version.
+You may encounter build failures or other breakages.
+</code></pre><h2 id=quickstart>Quickstart</h2><p>Soon, I&rsquo;ll show you how to put write an Ansible YAML file. However, Ansible
+also allows you specify tasks from the command line.</p><p>Here&rsquo;s how we could use Ansible ping our local host:</p><pre><code>ansible -i 'localhost,' -c local -m ping all
+
+
+
+ansible -i 'localhost,' -c local -m ping all
+localhost | SUCCESS =&gt; {
+    &quot;changed&quot;: false,
+    &quot;ping&quot;: &quot;pong&quot;
+}
+</code></pre><p>This command calls ansible and tells it:</p><ul><li>To use <code>localhost</code> as it&rsquo;s inventory (<code>-i</code>). Inventory is Ansible speak for machine or machines you want to be able to run commands on.</li><li>To connect (<code>-c</code>) locally (<code>local</code>) instead of over SSH.</li><li>To run the <a class=link href=http://docs.ansible.com/ansible/ping_module.html target=_blank rel=noopener><code>ping</code> module</a> (<code>-m</code>) to test the connection.</li><li>To run the command on <code>all</code> hosts in the inventory (in this case, our inventory is just the <code>localhost</code>).</li></ul><p><a class=link href=https://web.archive.org/web/20170330023127/http://www.mechanicalfish.net/start-learning-ansible-with-one-line-and-no-files/ target=_blank rel=noopener>Michael Booth</a> has a
+<a class=link href=https://web.archive.org/web/20170330023127/http://www.mechanicalfish.net/start-learning-ansible-with-one-line-and-no-files/ target=_blank rel=noopener>post</a> that goes into more detail about
+this command.</p><p>Behind the scenes, Ansible is turning this <code>-m ping</code> command into shell
+commands. (Try running with the <code>-vvv</code> flag to see what&rsquo;s happening behind the
+scenes.) It can also execute arbitrary commands; by default, it&rsquo;ll use the
+Bourne shell <code>sh</code>.</p><pre><code>ansible all -i 'localhost, ' -c local -a &quot;/bin/echo hello&quot;
+</code></pre><h2 id=setting-up-an-ansible-inventory>Setting up an Ansible Inventory</h2><p>Instead of specifying our inventory with the <code>-i</code> flag each time, we should
+specify an Ansible inventory file. This file is a text file specifying
+machines you have SSH access to; you can also group machines under bracketed
+headings. For example:</p><pre><code>mail.example.com
+
+[webservers]
+foo.example.com
+bar.example.com
+
+[dbservers]
+one.example.com
+two.example.com
+three.example.com
+</code></pre><p>Ansible has to be able to connect to these machines over SSH, so you will
+likely need to have relevant entries in your <a class=link href=http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/ target=_blank rel=noopener><code>.ssh/config</code> file</a>.</p><p>By default, the Ansible CLI will look for a system-wide Ansible inventory file
+in <code>/etc/ansible/hosts</code>. You can also specify an alternative path for an
+intentory file with the <code>-i</code> flag.</p><p>For this tutorial, I&rsquo;d like to have an inventory file specific to the project
+directory without having to specify it each time we call Ansible. We can do
+this by creating a file called <code>./ansible.cfg</code> and set the name of our local
+inventory file:</p><pre><code>cat ./ansible.cfg
+
+
+
+cat ./ansible.cfg
+[defaults]
+inventory = ./hosts
+</code></pre><p>You can check that Ansible is picking up your config file by running <code>ansible --version</code>.</p><pre><code>ansible --version
+
+
+
+ansible --version
+ansible 2.1.0.0
+  config file = /Users/tdhopper/repos/automating_python/ansible.cfg
+  configured module search path = Default w/o overrides
+</code></pre><p>For this example, I just have one host, a <a class=link href=https://www.digitalocean.com/ target=_blank rel=noopener>Digital Ocean
+VPS</a>. To run the examples below, you should
+create a VPS instance on Digital Ocean, <a class=link href=https://amazonlightsail.com target=_blank rel=noopener>Amazon</a>,
+or elsewhere; you&rsquo;ll want to configure it for <a class=link href=https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2 target=_blank rel=noopener>passwordless authentication</a>. I have an entry like this in my <code>~/.ssh/hosts</code> file:</p><pre><code>Host digitalocean
+  HostName 45.55.395.23
+  User root
+  Port 22
+  IdentityFile /Users/tdhopper/.ssh/id_rsa
+  ForwardAgent yes
+</code></pre><p>and my intentory file (<code>~/hosts</code>) is just</p><pre><code>digitalocean
+</code></pre><p>Before trying ansible, you should ensure that you can connect to this host:</p><pre><code>ssh digitalocean echo 1
+
+
+
+ssh digitalocean echo 1
+1
+</code></pre><p>Now I can verify that Ansible can connect to my machine by running the ping
+command.</p><pre><code>ansible all -m ping
+
+
+
+ansible all -m ping
+digitalocean | SUCCESS =&gt; {
+    &quot;changed&quot;: false,
+    &quot;ping&quot;: &quot;pong&quot;
+}
+</code></pre><p>We told Ansible to run this command on <code>all</code> specified hosts in the inventory.
+It found our inventory by loading the <code>ansible.cfg</code> which specified <code>./hosts</code>
+as the inventory file.</p><p>It&rsquo;s possible that this will fail for you even if you can SSH into the
+machine. If the error is something like <code>/bin/sh: 1: /usr/bin/python: not found</code>, this is because your VPS doesn&rsquo;t have Python installed on it. You can
+<a class=link href=http://stackoverflow.com/questions/32429259/ansible-fails-with-bin-sh-1-usr-bin-python-not-found target=_blank rel=noopener>install it with Ansible</a>, but you may just want to
+manually run <code>sudo apt-get -y install python</code> on the VPS to get started.</p><h2 id=writing-our-first-playbook>Writing our first Playbook</h2><p>While adhoc commands will often be useful, the real power of Ansible comes
+from creating repeatable sets of instructions called
+<a class=link href=http://docs.ansible.com/ansible/playbooks.html target=_blank rel=noopener>Playbooks</a>.</p><p>A playbook contains a list of &ldquo;plays&rdquo;. Each play specifies a set of tasks to
+be run and which hosts to run them on. A &ldquo;task&rdquo; is a call to an Ansible
+module, like the &ldquo;ping&rdquo; module we&rsquo;ve already seen. Ansible <a class=link href=http://docs.ansible.com/ansible/list_of_all_modules.html target=_blank rel=noopener>comes packaged
+with about 1000
+modules</a> for all
+sorts of use cases. You can also extend it with your own
+<a class=link href=http://docs.ansible.com/ansible/dev_guide/developing_modules.html target=_blank rel=noopener>modules</a>
+and <a class=link href=http://docs.ansible.com/ansible/playbooks_roles.html#roles target=_blank rel=noopener>roles</a>.</p><p>Our first playbook will just execute the ping module on all our hosts. It&rsquo;s a
+playbook with a single play comprised of a single task.</p><pre><code>cat ping.yml
+
+
+
+cat ping.yml
+---
+- hosts: all
+  tasks:
+  - name: ping all hosts
+    ping:
+</code></pre><p>We can run our playbook with the <code>ansible-playbook</code> command.</p><pre><code>ansible-playbook ping.yml
+
+
+
+ansible-playbook ping.yml
+ ____________
+&lt; PLAY [all] &gt;
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ______________
+&lt; TASK [setup] &gt;
+ --------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [digitalocean]
+ _______________________
+&lt; TASK [ping all hosts] &gt;
+ -----------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [digitalocean]
+ ____________
+&lt; PLAY RECAP &gt;
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+digitalocean               : ok=2    changed=0    unreachable=0    failed=0
+</code></pre><p>You might wonder why there are cows on your screen. You can find out
+<a class=link href=https://michaelheap.com/cowsay-and-ansible/ target=_blank rel=noopener>here</a>. However, the important
+thing is that our task was executed and returned successfully.</p><p>We can override the hosts list for the play with the <code>-i</code> flag to see what the
+output looks like when Ansible fails to run the play because it can&rsquo;t find the
+host.</p><p>Let&rsquo;s work now on installing the dependencies for our Python project.</p><h2 id=installing-supervisord>Installing supervisord</h2><p>&ldquo;Supervisor is a client/server system that allows its users to monitor and
+control a number of processes on UNIX-like operating systems.&rdquo; We&rsquo;ll use it to
+run and monitor our Python process.</p><p>On a Debian-like system, we can install it with APT. In the Ansible DSL that&rsquo;s
+just:</p><pre><code>- name: Install supervisord
+  sudo: yes
+  apt:
+    name: supervisor
+    state: present
+    update_cache: yes
+</code></pre><p>You can read more about the <a class=link href=http://docs.ansible.com/ansible/apt_module.html target=_blank rel=noopener>apt module
+here</a>.</p><p>Once we have it installed, we can start it with this task:</p><pre><code>- name: Start supervisord
+  sudo: yes
+  service:
+    name: &quot;supervisor&quot;
+    state: running
+    enabled: yes
+</code></pre><p>This uses the <a class=link href=http://docs.ansible.com/ansible/service_module.html target=_blank rel=noopener>service</a>
+module.</p><p>We could add these these tasks to a playbook file (like ping.yml), but what
+maybe we will want to share it among multiple playbooks? For this, Ansible has
+a construct called
+<a class=link href=http://docs.ansible.com/ansible/playbooks_roles.html target=_blank rel=noopener>Roles</a>. A role is a
+collection of &ldquo;variable values, certain tasks, and certain handlers – or just
+one or more of these things&rdquo;. (You can learn more about variables and handlers
+in the Ansible docs.)</p><p>Roles are organized as subfolders of a folder called &ldquo;Roles&rdquo; in the working
+directory. The rapid proliferation of folders in Ansible organization can be
+overwhelming, but a very simple rule is just a file called <code>main.yml</code> nestled
+several folders deep. In our case, it&rsquo;s in
+<code>./roles/supervisor/tasks/main.yml</code>.</p><p>Check out <a class=link href=http://docs.ansible.com/ansible/playbooks_roles.html#roles target=_blank rel=noopener>the
+docs</a> to learn
+more about role organization.</p><p>Here&rsquo;s what our role looks like:</p><pre><code>cat ./roles/supervisor/tasks/main.yml
+
+
+
+cat ./roles/supervisor/tasks/main.yml
+---
+
+- name: Install supervisord
+  become: true
+  apt:
+    name: supervisor
+    state: present
+    update_cache: yes
+  tags:
+    supervisor
+- name: Start supervisord
+  become: true
+  service:
+    name: &quot;supervisor&quot;
+    state: running
+    enabled: yes
+  tags:
+    supervisor
+</code></pre><p>Note that I added <code>tags:</code> to the task definitions.
+<a class=link href=http://docs.ansible.com/ansible/playbooks_tags.html target=_blank rel=noopener>Tags</a> just allow you to
+run a portion of a playbook instead of the whole thing with the <code>--tags</code> flag
+for <code>ansible-playbook</code>.</p><p>Now that we have the supervisor install encapsulated in a role, we can write a
+simple playbook to run the role.</p><pre><code>cat supervisor.yml
+
+
+
+cat supervisor.yml
+---
+- hosts: digitalocean
+  roles:
+    - role: supervisor
+
+
+
+ansible-playbook supervisor.yml
+
+
+
+ansible-playbook supervisor.yml
+ _____________________
+&lt; PLAY [digitalocean] &gt;
+ ---------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ ______________
+&lt; TASK [setup] &gt;
+ --------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+ok: [digitalocean]
+ _________________________________________
+&lt; TASK [supervisor : Install supervisord] &gt;
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [digitalocean]
+ _______________________________________
+&lt; TASK [supervisor : Start supervisord] &gt;
+ ---------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+changed: [digitalocean]
+ ____________
+&lt; PLAY RECAP &gt;
+ ------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+digitalocean               : ok=3    changed=2    unreachable=0    failed=0
+</code></pre><h2 id=installing-conda-with-ansible-galaxy>Installing Conda with Ansible Galaxy</h2><p>Next we want to ensure that Conda installed on our system. We could write our
+own role to follow the <a class=link href=https://www.continuum.io/downloads target=_blank rel=noopener>recommended
+process</a>. However, Ansible has a helpful
+tool to help us avoid reinventing the wheel by allowing users to share roles;
+this is called <a class=link href=https://galaxy.ansible.com/ target=_blank rel=noopener>Ansible Galaxy</a>.</p><p>You can search the Galaxy website for
+<a class=link href="https://galaxy.ansible.com/list#/roles?page=1&amp;page_size=10&amp;autocomplete=miniconda" target=_blank rel=noopener>miniconda</a>
+and see that a handful of roles for installing Miniconda exist. I liked <a class=link href=https://galaxy.ansible.com/andrewrothstein/miniconda/ target=_blank rel=noopener>this
+one</a>.</p><p>We can install the role locally using the <code>ansible-galaxy</code> command line tool.</p><pre><code>ansible-galaxy install -f andrewrothstein.miniconda
+</code></pre><p>You can have the role installed wherever you want (run <code>ansible-galaxy install --help</code> to see how, but by default they&rsquo;ll go to
+<code>/usr/local/etc/ansible/roles/</code>.</p><pre><code>ls -lh /usr/local/etc/ansible/roles/andrewrothstein.miniconda
+
+
+
+ls -lh /usr/local/etc/ansible/roles/andrewrothstein.miniconda
+total 32
+-rw-rw-r--  1 tdhopper  admin   1.1K Jan 16 16:52 LICENSE
+-rw-rw-r--  1 tdhopper  admin   666B Jan 16 16:52 README.md
+-rw-rw-r--  1 tdhopper  admin   973B Jan 16 16:52 circle.yml
+drwxrwxr-x  3 tdhopper  admin   102B Mar 21 11:33 defaults
+drwxrwxr-x  3 tdhopper  admin   102B Mar 21 11:33 handlers
+drwxrwxr-x  4 tdhopper  admin   136B Mar 21 11:33 meta
+drwxrwxr-x  3 tdhopper  admin   102B Mar 21 11:33 tasks
+drwxrwxr-x  3 tdhopper  admin   102B Mar 21 11:33 templates
+-rw-rw-r--  1 tdhopper  admin    57B Jan 16 16:52 test.yml
+drwxrwxr-x  3 tdhopper  admin   102B Mar 21 11:33 vars
+</code></pre><p>You can look at the <code>tasks/main.yml</code> to see the core logic of installing
+Miniconda. It has tasks to download the installer, run the installer, delete
+the installer, run <code>conda update conda</code>, and make <code>conda</code> the default system
+Python.</p><pre><code>cat /usr/local/etc/ansible/roles/andrewrothstein.miniconda/tasks/main.yml
+
+
+
+/main.ymllocal/etc/ansible/roles/andrewrothstein.miniconda/tasks
+---
+# tasks file for miniconda
+- name: download installer...
+  become: yes
+  become_user: root
+  get_url:
+    url: '{{miniconda_installer_url}}'
+    dest: /tmp/{{miniconda_installer_sh}}
+    timeout: '{{miniconda_timeout_seconds}}'
+    checksum: '{{miniconda_checksum}}'
+    mode: '0755'
+
+- name: installing....
+  become: yes
+  become_user: root
+  command: /tmp/{{miniconda_installer_sh}} -b -p {{miniconda_parent_dir}}/{{miniconda_name}}
+  args:
+    creates: '{{miniconda_parent_dir}}/{{miniconda_name}}'
+
+- name: deleting installer...
+  become: yes
+  become_user: root
+  when: miniconda_cleanup
+  file:
+    path: /tmp/{{miniconda_installer_sh}}
+    state: absent
+
+- name: link miniconda...
+  become: yes
+  become_user: root
+  file:
+    dest: '{{miniconda_parent_dir}}/miniconda'
+    src: '{{miniconda_parent_dir}}/{{miniconda_name}}'
+    state: link
+
+- name: conda updates
+  become: yes
+  become_user: root
+  command: '{{miniconda_parent_dir}}/miniconda/bin/conda update -y --all'
+
+- name: make system default python etc...
+  when: miniconda_make_sys_default
+  become: yes
+  become_user: root
+  with_items:
+    - etc/profile.d/miniconda.sh
+  template:
+    src: '{{item}}.j2'
+    dest: /{{item}}
+    mode: 0644
+</code></pre><h3 id=overriding-ansible-variables>Overriding Ansible Variables</h3><p>Once a role is installed locally, you can add it to a play just like you can
+with roles you wrote. Installing Miniconda is now as simple as:</p><pre><code>  roles:
+    - role: andrewrothstein.miniconda
+</code></pre><p>Before we add that to a playbook, I want to customize <em>where</em> miniconda is
+installed. If you look back at the <code>main.yml</code> file above, you see a bunch of
+things surrounded in double brackets. These are variables (in the <a class=link href=http://jinja.pocoo.org/docs/2.9/ target=_blank rel=noopener>Jinja2
+template language</a>). From the play, we can
+see that Miniconda will be installed at
+<code>{{miniconda_parent_dir}}/{{miniconda_name}}</code>. The role defines these
+variables in <code>/andrewrothstein.miniconda/defaults/main.yml</code>. We can override
+the default variables by specifying them in our play.</p><p>A play to install miniconda could look like this:</p><pre><code>---
+- hosts: digitalocean
+  vars:
+    conda_folder_name: miniconda
+    conda_root: /root
+  roles:
+    - role: andrewrothstein.miniconda
+      miniconda_parent_dir: &quot;{{ conda_root }}&quot;
+      miniconda_name: &quot;{{ conda_folder_name }}&quot;
+</code></pre><p>I added this to
+<a class=link href=https://github.com/tdhopper/automating_python/blob/master/playbook.yml target=_blank rel=noopener><code>playbook.yml</code></a>.</p><p>We now know how to use Ansible to start and run supervisord and to install
+Miniconda. Let&rsquo;s see how to use it to deploy and start our application.</p><h2 id=deploy-python-application>Deploy Python Application</h2><p>There are countless ways to deploy a Python application. We&rsquo;re going to see
+how to use Ansible to deploy from Github.</p><p>I created a little project called
+<a class=link href=https://github.com/tdhopper/long_running_python_process target=_blank rel=noopener>long_running_python_application</a>.
+It has a
+<a class=link href=https://github.com/tdhopper/long_running_python_process/blob/master/main.py target=_blank rel=noopener><code>main.py</code></a>
+that writes a log line to stdout every 30 seconds; that&rsquo;s it. It also includes
+a <a class=link href=https://github.com/tdhopper/long_running_python_process/blob/master/environment.yml target=_blank rel=noopener>Conda environment
+file</a>
+specifying the dependencies and <a class=link href=https://github.com/tdhopper/long_running_python_process/blob/master/run.sh target=_blank rel=noopener>a shell
+script</a>
+that activates the environment and runs the program.</p><p>We&rsquo;re going to use Ansible to</p><ol><li>Clone the repository into our remote machine.</li><li>Create a Conda environment based on the environment.yml file.</li><li>Create a supervisord file for running the program.</li><li>Start the supervisord job.</li></ol><h3 id=clone-the-repository>Clone the repository</h3><p>Cloning a repository with Ansible is easy. We just use the <a class=link href=http://docs.ansible.com/ansible/git_module.html target=_blank rel=noopener><code>git</code>
+module</a>. This play will clone
+the repo into the specified directory. The <code>update: yes</code> flag tells Ansible to
+update the repository from the remote if it has already been cloned.</p><pre><code>---
+- hosts: digitalocean
+  vars:
+    project_repo: git://github.com/tdhopper/long_running_python_process.git
+    project_location: /srv/long_running_python_process
+  tasks:
+    - name: Clone project code.
+      git:
+        repo: &quot;{{ project_repo }}&quot;
+        dest: &quot;{{ project_location }}&quot;
+        update: yes
+</code></pre><h3 id=creating-the-conda-environment>Creating the Conda Environment</h3><p>Since we&rsquo;ve now installed conda and cloned the repository with an
+<code>environment.yml</code> file, we just need to run <code>conda env update</code> from the
+directory containing the environment spec. Here&rsquo;s a play to do that:</p><pre><code>---
+- hosts: digitalocean
+  vars:
+    project_location: /srv/long_running_python_process
+  tasks:
+    - name: Create Conda environment from project environment file.
+      command: &quot;{{conda_root}}/{{conda_folder_name}}/bin/conda env update&quot;
+      args:
+        chdir: &quot;{{ project_location }}&quot;
+</code></pre><p>It uses the <a class=link href=http://docs.ansible.com/ansible/command_module.html target=_blank rel=noopener><code>command</code>
+module</a> which just
+executes a shell command in the desired directory.</p><h3 id=create-a-supervisord-file>Create a Supervisord File</h3><p>By default, supervisord will <a class=link href=http://supervisord.org/configuration.html target=_blank rel=noopener>look in <code>/etc/supervisor/conf.d/</code> for
+configuration</a> on which programs to
+run.</p><p>We need to put a file in there that tells supervisord to run our <code>run.sh</code>
+script. Ansible has an integrated way of setting up templates which can be
+placed on remote machines.</p><p>I put a supervisord job template in the <code>./templates</code> folder.</p><pre><code>cat ./templates/run_process.j2
+
+
+
+cat ./templates/run_process.j2
+[program:{{ program_name }}]
+command=sh run.sh
+autostart=true
+directory={{ project_location }}
+stderr_logfile=/var/log/{{ program_name }}.err.log
+stdout_logfile=/var/log/{{ program_name }}.out.log
+</code></pre><p>This is a is normal INI-style config file, except it includes Jinja2
+variables. We can use the Ansible <a class=link href=http://docs.ansible.com/ansible/template_module.html target=_blank rel=noopener><code>template</code>
+module</a> to create a task
+which fills in the variables with information about our program and copies it
+into the <code>conf.d</code> folder on the remote machine.</p><p>The play for this would look like:</p><pre><code>- hosts: digitalocean
+  vars:
+    project_location: /srv/long_running_python_process
+    program_name: long_running_process
+    supervisord_configs_path: /etc/supervisor/conf.d
+  tasks:
+    - name: Copy supervisord job file to remote
+      template:
+        src: ./templates/run_process.j2
+        dest: &quot;{{ supervisord_configs_path }}/run_process.conf&quot;
+        owner: root
+</code></pre><h3 id=start-the-supevisord-job>Start the supevisord job</h3><p>Finally, we just need to tell supervisord on our remote machine to start the
+job described by <code>run_process.conf</code>.</p><p>Instead of issuing our own shell commands via Ansible, we can use the
+<a class=link href=http://docs.ansible.com/ansible/supervisorctl_module.html target=_blank rel=noopener><code>supervisorctl</code>
+module</a>. The task
+is just:</p><pre><code>    - name: Start job
+      supervisorctl:
+        name: &quot;{{ program_name }}&quot;
+        state: present
+</code></pre><p><code>state: present</code> ensures that Ansible calls <code>supervisorctl reread</code> to load a
+new config. Because our config has <code>autostart=true</code>, supervisor will start it
+as soon as the task is added.</p><h2 id=the-big-playbook>The Big Playbook!</h2><p>We can take everything we&rsquo;ve described above and put it in one playbook.</p><p>This playbook will:</p><ul><li>Install Miniconda using the role from Ansible Galaxy.</li><li>Install and start Supervisor using the role we created.</li><li>Clone the Github project we want to run.</li><li>Create a Conda environment based on the environment.yml file.</li><li>Create a supervisord file for running the program.</li><li>Start the supervisord job.</li></ul><p>All of this will be done on the host we specify (<code>digitalocean</code>).</p><pre><code>cat playbook.yml
+
+
+
+cat playbook.yml
+---
+- hosts: digitalocean
+  vars:
+    project_repo: git://github.com/tdhopper/long_running_python_process.git
+    project_location: /srv/long_running_python_process
+    program_name: long_running_process
+    conda_folder_name: miniconda
+    conda_root: /root
+    supervisord_configs_path: /etc/supervisor/conf.d
+  roles:
+    - role: andrewrothstein.miniconda
+      miniconda_parent_dir: &quot;{{ conda_root }}&quot;
+      miniconda_name: &quot;{{ conda_folder_name }}&quot;
+      tags:
+        miniconda
+    - role: supervisor
+  tasks:
+    - name: Clone project code.
+      git:
+        repo: &quot;{{ project_repo }}&quot;
+        dest: &quot;{{ project_location }}&quot;
+        update: yes
+      tags:
+        git
+    - name: Create Conda environment from project environment file.
+      command: &quot;{{conda_root}}/{{conda_folder_name}}/bin/conda env update&quot;
+      args:
+        chdir: &quot;{{ project_location }}&quot;
+      tags:
+        conda
+    - name: Copy supervisord job file to remote
+      template:
+        src: ./templates/run_process.j2
+        dest: &quot;{{ supervisord_configs_path }}/run_process.conf&quot;
+        owner: root
+      tags:
+        conf
+    - name: Start job
+      supervisorctl:
+        name: &quot;{{ program_name }}&quot;
+        state: present
+      tags:
+        conf
+</code></pre><p>To configure our machine, we just have to run <code>ansible-playbook playbook.yml</code>.</p><pre><code>ANSIBLE_NOCOWS=1 ansible-playbook playbook.yml
+
+
+
+ANSIBLE_NOCOWS=1 ansible-playbook playbook.yml
+
+PLAY [digitalocean] ************************************************************
+
+TASK [setup] *******************************************************************
+ok: [digitalocean]
+
+TASK [andrewrothstein.unarchive-deps : resolve platform specific vars] *********
+
+TASK [andrewrothstein.unarchive-deps : install common pkgs...] *****************
+changed: [digitalocean] =&gt; (item=[u'tar', u'unzip', u'gzip', u'bzip2'])
+
+TASK [andrewrothstein.bash : install bash] *************************************
+ok: [digitalocean]
+
+TASK [andrewrothstein.alpine-glibc-shim : fix alpine] **************************
+skipping: [digitalocean]
+
+TASK [andrewrothstein.miniconda : download installer...] ***********************
+changed: [digitalocean]
+
+TASK [andrewrothstein.miniconda : installing....] ******************************
+changed: [digitalocean]
+
+TASK [andrewrothstein.miniconda : deleting installer...] ***********************
+skipping: [digitalocean]
+
+TASK [andrewrothstein.miniconda : link miniconda...] ***************************
+changed: [digitalocean]
+
+TASK [andrewrothstein.miniconda : conda updates] *******************************
+changed: [digitalocean]
+
+TASK [andrewrothstein.miniconda : make system default python etc...] ***********
+skipping: [digitalocean] =&gt; (item=etc/profile.d/miniconda.sh) 
+
+TASK [supervisor : Install supervisord] ****************************************
+ok: [digitalocean]
+
+TASK [supervisor : Start supervisord] ******************************************
+ok: [digitalocean]
+
+TASK [Clone project code.] *****************************************************
+changed: [digitalocean]
+
+TASK [Create Conda environment from project environment file.] *****************
+changed: [digitalocean]
+
+TASK [Copy supervisord job file to remote] *************************************
+changed: [digitalocean]
+
+TASK [Start job] ***************************************************************
+changed: [digitalocean]
+
+PLAY RECAP *********************************************************************
+digitalocean               : ok=13   changed=9    unreachable=0    failed=0
+</code></pre><p>See that the <code>PLAY RECAP</code> shows that everything was OK, no systems were
+unreachable, and no tasks failed.</p><p>We can verify that the program is running without error:</p><pre><code>ssh digitalocean sudo supervisorctl status
+
+
+
+ssh digitalocean sudo supervisorctl status
+long_running_process             RUNNING   pid 4618, uptime 0:01:34
+
+
+
+ssh digitalocean cat /var/log/long_running_process.out.log
+
+
+
+ssh digitalocean cat /var/log/long_running_process.out.log
+INFO:root:Process ran for the 1th time
+INFO:root:Process ran for the 2th time
+INFO:root:Process ran for the 3th time
+INFO:root:Process ran for the 4th time
+</code></pre><p>If your lucky (i.e. your systems and networks were setup sufficiently similar
+to mine), you can run this exact same command to configure and start a process
+on your own system. Moreover, you could use this exact same command to start
+this program on an arbitrary number of machines by simply adding more hosts to
+your inventory and play spec!</p><h2 id=conclusion>Conclusion</h2><p>Ansible is a powerful, customizable tool. Unlike some similar tools, it
+requires very little setup to start using it. As I&rsquo;ve learned more about it,
+I&rsquo;ve seen more and more ways in which I could&rsquo;ve used it in copious projects
+in the past; I intend to make it a regular part of my toolkit. (Historically
+I&rsquo;ve done this kind of thing with hacky combinations of shell scripts and
+<a class=link href=http://www.fabfile.org/ target=_blank rel=noopener>Fabric</a>; Ansible would often be better.)</p><p>This tutorial just scratches the surface of the Ansible functionality. If you
+want to learn more, I again recommend reading through the
+<a class=link href=http://docs.ansible.com/ansible/index.html target=_blank rel=noopener>docs</a>; they&rsquo;re very good. Of
+course, you should start writing and running your own playbooks as soon as
+possible! I also liked <a class=link href=https://serversforhackers.com/an-ansible-tutorial target=_blank rel=noopener>this tutorial from Server Admin for
+Programmers</a>. If you want
+to compare Ansible to alternatives, the <a class=link href=https://valdhaus.co/books/taste-test-puppet-chef-salt-stack-ansible.html target=_blank rel=noopener>Taste Test book</a> by Matt Jaynes looks promising. For more on Supervisor,
+<a class=link href=https://serversforhackers.com/monitoring-processes-with-supervisord target=_blank rel=noopener>serversforhackers.com</a> has a nice tutorial, and <a class=link href=http://supervisord.org/ target=_blank rel=noopener>its docs are
+thorough</a>.</p><blockquote><p>I wrote a tutorial on using <a class=link href=https://twitter.com/ansible target=_blank rel=noopener>@ansible</a> and
+supervisor to deploy a long running Python process to a
+<a class=link href=https://twitter.com/digitalocean target=_blank rel=noopener>@digitalocean</a>
+VPS.<a class=link href=https://t.co/uPC8bY5haD target=_blank rel=noopener>https://t.co/uPC8bY5haD</a></p><p>— Tim Hopper 🔭 (@tdhopper) <a class=link href=https://twitter.com/tdhopper/status/845256769429483520 target=_blank rel=noopener>March 24,
+2017</a></p></blockquote></section><footer class=article-footer><section class=article-tags><a href=/tags/python/>Python</a></section><section class=article-lastmod><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<span>Last updated on Oct 17, 2024 12:00 -0400</span></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>Related content</h2><div class=related-content><div class="flex article-list--tile"><article><a href=/blog/ansible-talk/><div class=article-details><h2 class=article-title>Devops Empowered Data Science with Ansible</h2></div></a></article><article><a href=/blog/intro-to-pyspark/><div class=article-details><h2 class=article-title>Introduction to PySpark</h2></div></a></article><article><a href=/blog/pickle-and-redis/><div class=article-details><h2 class=article-title>Pickle and Redis</h2></div></a></article><article><a href=/blog/right-code/><div class=article-details><h2 class=article-title>Right Code, Right Place, Right Time</h2></div></a></article><article><a href=/blog/ml-for-security/><div class=article-details><h2 class=article-title>Challenges in Applying Machine Learning to Cybersecurity</h2></div></a></article></div></div></aside><div class=main-article><div class=article-content><span class=site-description>Feedback</span><form class=feedback-form style=margin:auto netlify netlify-honeypot=anything-else><div class=form-group><input type=text id=name name=name required style="width:100%;padding:10px;margin:10px 0" placeholder=Name></div><div class=form-group><input type=text id=address name=email-address required style="width:100%;padding:10px;margin:10px 0" placeholder=Email></div><div class=form-group><textarea id=comment name=comment required style="width:100%;padding:10px;margin:10px 0" rows=6 placeholder=Comment></textarea></div><input type=hidden name=page value=https://tdhopper.com/blog/automating-python-with-ansible/>
+<input type=hidden id=anything-else name=anything-else style=display:none>
+<button type=submit style="background-color:#007bff;color:#fff;padding:10px 20px;border:none;border-radius:5px">Submit</button></form></div></div><footer class=site-footer><section class=copyright>&copy;
+2012 -
+2024 Tim Hopper</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.27.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script>FOOTER</body></html>

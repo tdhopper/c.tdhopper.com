@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pandas on Tim Hopper</title><link>https://tdhopper.com/tags/pandas/</link><description>Recent content in Pandas on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 12:00:16 -0400</lastBuildDate><atom:link href="https://tdhopper.com/tags/pandas/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Plotting for Exploratory Data Analysis</title><link>https://tdhopper.com/blog/python-plotting-for-exploratory-data-analysis/</link><pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/python-plotting-for-exploratory-data-analysis/</guid><description>&lt;p>Plotting is an essential component of data analysis. As a data scientist, I spend a significant amount of my time making simple plots to understand complex data sets (exploratory data analysis) and help others understand them (presentations).&lt;/p>
+&lt;p>In particular, I make a lot of bar charts (including histograms), line plots (including time series), scatter plots, and density plots from data in Pandas data frames. I often want to facet these on various categorical variables and layer them on a common grid.&lt;/p>
+&lt;p>To that end, I made &lt;a class="link" href="http://pythonplot.com/" target="_blank" rel="noopener"
+>pythonplot.com&lt;/a>, a brief introduction to Python plotting libraries and a &amp;ldquo;rosetta stone&amp;rdquo; comparing how to use them. I also included comparison to &lt;a class="link" href="https://en.wikipedia.org/wiki/Ggplot2" title="Wikipedia Entry: ggplot2 - Wikipedia"
+target="_blank" rel="noopener"
+>ggplot2&lt;/a>, the R plotting library that I and many others consider a gold standard.&lt;/p></description></item><item><title>Filter by date in a Pandas MultiIndex</title><link>https://tdhopper.com/blog/filter-by-date-in-a-pandas-multiindex/</link><pubDate>Tue, 08 Nov 2016 22:17:00 +0000</pubDate><guid>https://tdhopper.com/blog/filter-by-date-in-a-pandas-multiindex/</guid><description>&lt;p>I always forget how to do this.&lt;/p>
+&lt;p>The pandas &lt;code>DataFrame.loc&lt;/code> method allows for &lt;em>label&lt;/em> -based filtering of data
+frames. The &lt;a class="link" href="http://pandas.pydata.org/pandas-docs/stable/advanced.html#advanced-indexing-with-hierarchical-index" target="_blank" rel="noopener"
+>Pandas docs&lt;/a> show how
+it can be used to filter a &lt;code>MultiIndex&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">In [39]: df
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Out[39]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> A B C
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">first second
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bar one 0.895717 0.410835 -1.413681
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two 0.805244 0.813850 1.607920
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">baz one -1.206412 0.132003 1.024180
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two 2.565646 -0.827317 0.569605
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">foo one 1.431256 -0.076467 0.875906
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two 1.340309 -1.187678 -2.211372
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">qux one -1.170299 1.130127 0.974466
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> two -0.226169 -1.436737 -2.006747
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">In [40]: df.loc[&amp;#39;bar&amp;#39;]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Out[40]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> A B C
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">second
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">one 0.895717 0.410835 -1.413681
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">two 0.805244 0.813850 1.607920
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">In [41]: df.loc[&amp;#39;bar&amp;#39;, &amp;#39;two&amp;#39;]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Out[41]:
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A 0.805244
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">B 0.813850
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">C 1.607920
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Name: (bar, two), dtype: float64
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>It turns out you can easily use it to filter a &lt;code>DateTimeIndex&lt;/code> level by a
+single date with &lt;code>df['2016-11-07']&lt;/code> or a range of dates with
+&lt;code>df['2016-11-07:2016-11-11']&lt;/code>. This applies whether or not its a &lt;code>MultiIndex&lt;/code>.&lt;/p>
+&lt;p>If you get an error like &lt;code>KeyError: 'Key length (1) was greater than MultiIndex lexsort depth (0)'&lt;/code>, it&amp;rsquo;s because &amp;ldquo;MultiIndex Slicing requires the
+index to be fully lexsorted&amp;rdquo;. You may fix your problem by calling &lt;code>df = df.sort_index()&lt;/code>.&lt;/p></description></item><item><title>Column binding two Panda's Dataframes</title><link>https://tdhopper.com/blog/column-binding-two-pandas-dataframes/</link><pubDate>Mon, 11 Apr 2016 20:56:00 +0000</pubDate><guid>https://tdhopper.com/blog/column-binding-two-pandas-dataframes/</guid><description>&lt;p>Joining two Pandas DataFrames with an equal number of rows is slightly harder
+than it appears. In R, you just use the &lt;code>cbind&lt;/code> function.&lt;/p>
+&lt;p>As &lt;a class="link" href="http://stackoverflow.com/questions/33088010/pandas-column-bind-cbind-two-data-frames" target="_blank" rel="noopener"
+>this&lt;/a> StackOverflow question shows, in Pandas it&amp;rsquo;s easy to
+end up with something like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">unique_id lacet_number latitude longitude
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">0 NaN NaN -93.193560 31.217029
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 NaN NaN -93.948082 35.360874
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2 NaN NaN -103.131508 37.787609
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">15 5570613 TLA-0138365 NaN NaN
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">24 5025490 EMP-0138757 NaN NaN
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">36 4354431 DXN-0025343 NaN NaN
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This results from the indices not being identical. Frustratingly (to me) the
+&lt;code>ignore_index&lt;/code> argument doesn&amp;rsquo;t give the 3-rowed DataFrame I&amp;rsquo;d hope it gives.&lt;/p>
+&lt;p>As the &lt;a class="link" href="http://stackoverflow.com/a/33088410/982745" target="_blank" rel="noopener"
+>accepted answer&lt;/a> on that
+question shows, the thing to do is reset the indices on the DataFrames before
+concatenating:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">concat&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="n">df_a&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reset_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">drop&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">df_b&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">reset_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">drop&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">True&lt;/span>&lt;span class="p">)],&lt;/span> &lt;span class="n">axis&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Printing Pandas Data Frames as HTML in Jupyter Notebooks</title><link>https://tdhopper.com/blog/printing-pandas-data-frames-as-html-in-jupyter-notebooks/</link><pubDate>Wed, 23 Mar 2016 14:18:00 +0000</pubDate><guid>https://tdhopper.com/blog/printing-pandas-data-frames-as-html-in-jupyter-notebooks/</guid><description>&lt;img src="https://tdhopper.com/panda.png" alt="Featured image of post Printing Pandas Data Frames as HTML in Jupyter Notebooks" />&lt;p>Jupyter notebooks nicely render Pandas data frames if they&amp;rsquo;re the last line in
+a cell. It renders the HTML version of the data frame returned by
+&lt;code>pandas.DataFrame.to_html()&lt;/code>. However, if you call &lt;code>print(df)&lt;/code> in a cell, the
+data frame is rendered in less readable text-based output.&lt;/p>
+&lt;p>Despite using Notebooks regularly for years, I&amp;rsquo;d never bothered to figure out
+a way around this. However, the solution is easy.&lt;/p>
+&lt;p>Instead of &lt;code>print(df)&lt;/code> you use&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">IPython.display&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">display&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">display&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">df&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Creating Impala Tables from Pandas Dataframes</title><link>https://tdhopper.com/blog/creating-impala-tables-from-pandas-dataframes/</link><pubDate>Tue, 15 Mar 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/creating-impala-tables-from-pandas-dataframes/</guid><description>&lt;img src="https://tdhopper.com/images/til.png" alt="Featured image of post Creating Impala Tables from Pandas Dataframes" />&lt;p>&lt;a class="link" href="http://wesmckinney.com/" title="Wes McKinney"
+target="_blank" rel="noopener"
+>Wes Mckinney&lt;/a>&amp;rsquo;s &lt;a class="link" href="http://docs.ibis-project.org/index.html" target="_blank" rel="noopener"
+>Ibis&lt;/a>, a Pythonic interface to Impala, has functionality for creating &lt;a class="link" href="https://www.cloudera.com/products/apache-hadoop/impala.html" title="Apache Impala"
+target="_blank" rel="noopener"
+>Impala&lt;/a> tables from &lt;a class="link" href="http://pandas.pydata.org/" title="Python Data Analysis Library &amp;amp;mdash; pandas: Python Data Analysis Library"
+target="_blank" rel="noopener"
+>Python Pandas&lt;/a> dataframes.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">ibis&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">hdfs&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ibis&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">hdfs_connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">host&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">webhdfs_host&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">port&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">webhdfs_port&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">client&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">ibis&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">impala&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">connect&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">host&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">impala_host&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">port&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">impala_port&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">hdfs_client&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">hdfs&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">db&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">c&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">database&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;ibis_testing&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">data&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">DataFrame&lt;/span>&lt;span class="p">({&lt;/span>&lt;span class="s1">&amp;#39;foo&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="mi">4&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="s1">&amp;#39;bar&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;a&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;b&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;c&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;d&amp;#39;&lt;/span>&lt;span class="p">]})&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">db&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">create_table&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;pandas_table&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">data&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a class="link" href="http://docs.ibis-project.org/impala.html#creating-tables" target="_blank" rel="noopener"
+>This functionality&lt;/a>, added in Ibis 0.6.0, is &lt;em>much&lt;/em> easier that manually move data to HDFS and loading into Impala.&lt;/p></description></item><item><title>Tracking Weight Loss with R, Hazel, Withings, and IFTTT</title><link>https://tdhopper.com/blog/tracking-weight-loss-with-r-hazel-withings-and-ifttt/</link><pubDate>Sat, 30 Aug 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/tracking-weight-loss-with-r-hazel-withings-and-ifttt/</guid><description>&lt;p>As I have &lt;a class="link" href="https://tdhopper.com/blog/2013/Jul/26/noisy-series-and-body-weight/" >noted&lt;/a> &lt;a class="link" href="https://tdhopper.com/blog/2013/Nov/28/noisy-series-and-body-weight-take-2/" >before&lt;/a>, body weight is a noisy thing. Day to day, your weight will probably fluctuate by several pounds. If you&amp;rsquo;re trying to lose weight, this noise can cause unfounded frustration and premature excitement.&lt;/p>
+&lt;p>When I started a serious weight loss plan a year and a half ago, I bought a wifi-enabled &lt;a class="link" href="http://www.withings.com" target="_blank" rel="noopener"
+>Withings Scale&lt;/a>. The scale allows me to automatically sync my weight with &lt;a class="link" href="http://www.bustan.net/" target="_blank" rel="noopener"
+>Montior Your Weight&lt;/a>, &lt;a class="link" href="http://www.myfitnesspal.com" target="_blank" rel="noopener"
+>MyFitnessPal&lt;/a>, &lt;a class="link" href="http://runkeeper.com/home" title="RunKeeper"
+target="_blank" rel="noopener"
+>RunKeeper&lt;/a>, and other fitness apps on my phone. IFTTT also has &lt;a class="link" href="https://ifttt.com/withings" title="Withings Channel - IFTTT"
+target="_blank" rel="noopener"
+>great Withings support&lt;/a> allowing me to push my weight to various other web services.&lt;/p>
+&lt;p>One IFTTT rule I have appends my weight to a text file in Dropbox. This file looks like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">263.86 August 21, 2014 at 05:56AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">264.62 August 22, 2014 at 08:27AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">264.56 August 23, 2014 at 09:41AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">263.99 August 24, 2014 at 08:02AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">265.64 August 25, 2014 at 08:08AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">267.4 August 26, 2014 at 08:16AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">265.25 August 27, 2014 at 09:08AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">264.17 August 28, 2014 at 07:21AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">264.03 August 29, 2014 at 08:43AM
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">262.71 August 30, 2014 at 08:47AM
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>For a few months, I have been experimenting with using this time series to give myself a less-noisy update on my weight, and I&amp;rsquo;ve come up with a decent solution.&lt;/p>
+&lt;p>This &lt;a class="link" href="http://www.r-project.org/" target="_blank" rel="noopener"
+>R script&lt;/a> will take my weight time series, resample it, smooth it with a rolling median over the last month, and write summary stats to a text file in my Dropbox. It&amp;rsquo;s not the prettiest script, but it gets the job done for now.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;span class="lnt">44
+&lt;/span>&lt;span class="lnt">45
+&lt;/span>&lt;span class="lnt">46
+&lt;/span>&lt;span class="lnt">47
+&lt;/span>&lt;span class="lnt">48
+&lt;/span>&lt;span class="lnt">49
+&lt;/span>&lt;span class="lnt">50
+&lt;/span>&lt;span class="lnt">51
+&lt;/span>&lt;span class="lnt">52
+&lt;/span>&lt;span class="lnt">53
+&lt;/span>&lt;span class="lnt">54
+&lt;/span>&lt;span class="lnt">55
+&lt;/span>&lt;span class="lnt">56
+&lt;/span>&lt;span class="lnt">57
+&lt;/span>&lt;span class="lnt">58
+&lt;/span>&lt;span class="lnt">59
+&lt;/span>&lt;span class="lnt">60
+&lt;/span>&lt;span class="lnt">61
+&lt;/span>&lt;span class="lnt">62
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-R" data-lang="R">&lt;span class="line">&lt;span class="cl">&lt;span class="n">INPUT_PATH&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="s">&amp;#34;~/Dropbox/Text Notes/Weight.txt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">OUTPUT_PATH&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="s">&amp;#34;~/Dropbox/Text Notes/Weight Stats.txt&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">library&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">lubridate&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">library&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ggplot2&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">library&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">zoo&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># READ FILE&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">con&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">file&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">INPUT_PATH&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;rt&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">lines&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">readLines&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">con&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">close&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">con&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># PARSE INTO LISTS OF WEIGHTS AND DATES&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">parse.line&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="kr">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">line&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">s&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">strsplit&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">line&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">split&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34; &amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="n">[[1]]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">date.str&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">paste&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s[2&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="m">10&lt;/span>&lt;span class="n">][&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nf">is.na&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s[2&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="m">10&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">collapse&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34; &amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">date&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">mdy_hm&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">date.str&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">quiet&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">TRUE&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">l&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">list&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">as.numeric&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s[1]&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">date&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">names&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">l&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">c&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;weight&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;date&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">l&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">list.weight.date&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">lapply&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">lines&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">parse.line&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">weights&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">lapply&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">list.weight.date&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kr">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">X&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">X&lt;/span>&lt;span class="o">$&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">dates&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">lapply&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">list.weight.date&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="kr">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">X&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="n">X&lt;/span>&lt;span class="o">$&lt;/span>&lt;span class="n">date&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># BUILD DATA FRAME&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">df&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">data.frame&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">weight&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nf">unlist&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">weights&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">date&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nf">do.call&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;c&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">dates&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># CREATE TIME SERIES AND RESAMPLE&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">ts&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">zoo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">c&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">df&lt;/span>&lt;span class="o">$&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">df&lt;/span>&lt;span class="o">$&lt;/span>&lt;span class="n">date&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">ts&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">aggregate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nf">time&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="n">tail&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">g&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">round&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">seq&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">start&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="nf">end&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="m">60&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="m">60&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="m">24&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s">&amp;#34;days&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">ts&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">na.approx&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">xout&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">g&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># FUNCTION TO GET WEIGHT N-DAYS AGO IF WEIGHT IS SMOOTHED BY ROLLING MEDIAN&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># OVER A GIVEN (smooth.n) NUMBER OF DAYS&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">days.ago&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="kr">function&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">days&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">smooth.n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">date&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">head&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">tail&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="n">days&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="m">1&lt;/span>&lt;span class="p">),&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">smoothed&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">rollmedianr&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">smooth.n&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">as.numeric&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">smoothed[date]&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># SMOOTH WEIGHT BY 29 DAYS AND GENERATE SOME SUMMARY STATS&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">days&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="m">29&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">current.weight&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">days.ago&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">days&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">x&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">c&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">current.weight&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">current.weight&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nf">days.ago&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">7&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">days&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">current.weight&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nf">days.ago&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">30&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">days&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">current.weight&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nf">days.ago&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="m">365&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">days&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">current.weight&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nf">max&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">ts&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">x&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nf">round&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="m">1&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">names&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">x&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nf">c&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;current&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;7days&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;30days&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;365days&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s">&amp;#34;max&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">fileConn&lt;/span>&lt;span class="o">&amp;lt;-&lt;/span>&lt;span class="nf">file&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">OUTPUT_PATH&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">w&lt;/span> &lt;span class="o">&amp;lt;-&lt;/span> &lt;span class="nf">c&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nf">paste&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Weight (lbs):&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x[&lt;/span>&lt;span class="s">&amp;#34;current&amp;#34;&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">paste&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;Total Δ:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x[&lt;/span>&lt;span class="s">&amp;#34;max&amp;#34;&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">paste&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;1 Week Δ:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x[&lt;/span>&lt;span class="s">&amp;#34;7days&amp;#34;&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">paste&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;1 Month Δ:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x[&lt;/span>&lt;span class="s">&amp;#34;30days&amp;#34;&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nf">paste&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s">&amp;#34;1 Year Δ:&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">x[&lt;/span>&lt;span class="s">&amp;#34;365days&amp;#34;&lt;/span>&lt;span class="n">]&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">writeLines&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">w&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="n">fileConn&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nf">close&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">fileConn&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The output looks something like this:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Weight (lbs): 265.7
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Total Δ: -112
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 Week Δ: -0.8
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 Month Δ: -4.8
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">1 Year Δ: -75
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I want this script to be run every time my weight is updated, so I created a second IFTTT rule that will create a new file in my Dropbox, called &lt;em>new_weight_measurement&lt;/em>, every time I weigh in. On my Mac Mini, I have a &lt;a class="link" href="http://www.noodlesoft.com/hazel.php" title="Noodlesoft | Hazel"
+target="_blank" rel="noopener"
+>Hazel&lt;/a> rule to watch for a file of this name to be created. When Hazel sees the file, it runs my R script and deletes that file.&lt;/p>
+&lt;p>My Hazel rule looks like this:&lt;/p>
+&lt;figure>&lt;img src="https://tdhopper.com/uploads/2014/08/hazel-weight-1.png">
+&lt;/figure>
+&lt;p>The &amp;rsquo;embedded script&amp;rsquo; that is run is the R script above; I just have to tell Hazel to use the &lt;code>Rscript&lt;/code> shell.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;figure>&lt;img src="https://tdhopper.com/uploads/2014/08/r-script-from-hazel.png">
+&lt;/figure>
+&lt;p>At this point, every time I step on my scale, a text file with readable statistics about my smoothed weight appear in my Dropbox folder.&lt;/p>
+&lt;p>Of course, I want this updated information to be pushed directly too me. Hazel is again the perfect tool for the job. I have a second Hazel rule that watches for &lt;em>Weight Stats.txt&lt;/em> to be created. Hazel can pass the path of the updated file into any script of your choice. You could, for example, use &lt;a class="link" href="http://www.mailgun.com/" title="Transactional Email API Service for Developers - Mailgun"
+target="_blank" rel="noopener"
+>Mailgun&lt;/a> to email it to yourself or &lt;a class="link" href="https://pushover.net/" title="Pushover: Simple Notifications for Android, iOS, and Desktop"
+target="_blank" rel="noopener"
+>Pushover&lt;/a> to push it to your mobile devices. Obviously, I want to tweet mine.&lt;/p>
+&lt;p>I have a Twitter account called &lt;a class="link" href="https://twitter.com/hopsfitness" target="_blank" rel="noopener"
+>@hopsfitness&lt;/a> where I&amp;rsquo;ve recently been tracking my fitness progress. On my Mac Mini, I have &lt;a class="link" href="https://github.com/sferik/t" title="t GitHub"
+target="_blank" rel="noopener"
+>t&lt;/a> configured to access @hopsfitness from the command line. Thus, tweeting my updated statistics is just a matter of a little shell script executed by Hazel:&lt;/p>
+&lt;figure>&lt;img src="https://tdhopper.com/uploads/2014/08/hazel-weight-2.png">
+&lt;/figure>
+&lt;p>Since this data goes to Twitter, I can get it painlessly pushed to my phone: Twitter still allows you subscribe to accounts via text message, which I&amp;rsquo;ve done with @hopsfitness. A minute or so after I step on my scale, I get a text with useful information about where I am and where I&amp;rsquo;m going; this is much preferable to the noisy weight I see on my scale.&lt;/p>
+&lt;p>&lt;strong>Update&lt;/strong> (2014-12-06): I replaced my R script with a Python/pandas script. It requires Python 3 (to render the delta characters).&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;span class="lnt">27
+&lt;/span>&lt;span class="lnt">28
+&lt;/span>&lt;span class="lnt">29
+&lt;/span>&lt;span class="lnt">30
+&lt;/span>&lt;span class="lnt">31
+&lt;/span>&lt;span class="lnt">32
+&lt;/span>&lt;span class="lnt">33
+&lt;/span>&lt;span class="lnt">34
+&lt;/span>&lt;span class="lnt">35
+&lt;/span>&lt;span class="lnt">36
+&lt;/span>&lt;span class="lnt">37
+&lt;/span>&lt;span class="lnt">38
+&lt;/span>&lt;span class="lnt">39
+&lt;/span>&lt;span class="lnt">40
+&lt;/span>&lt;span class="lnt">41
+&lt;/span>&lt;span class="lnt">42
+&lt;/span>&lt;span class="lnt">43
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">dateutil&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">pandas&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nn">pd&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">random&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">os.path&lt;/span> &lt;span class="kn">import&lt;/span> &lt;span class="n">expanduser&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">join&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">home&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">expanduser&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;~&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">with&lt;/span> &lt;span class="nb">open&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">home&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;Dropbox/Text Notes/Weight.txt&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s2">&amp;#34;r&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">f&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">lines&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">f&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">readlines&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">parse_line&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">line&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">s&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">line&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">split&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34; &amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">weight&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">float&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">])&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">date&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">dateutil&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">parser&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">parse&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39; &amp;#39;&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">s&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="mi">4&lt;/span>&lt;span class="p">]))&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">date&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">weight&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">weight&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">DataFrame&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="n">parse_line&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">l&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="n">l&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">lines&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">columns&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;date&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;weight&amp;#34;&lt;/span>&lt;span class="p">])&lt;/span> \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">.&lt;/span>&lt;span class="n">set_index&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;date&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> \
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">.&lt;/span>&lt;span class="n">resample&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;1D&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">how&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;mean&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">weight&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;missing&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">isnull&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">interpolate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">method&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;linear&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">std&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">diff&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">dropna&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">std&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">noise&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">missing&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">map&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="k">lambda&lt;/span> &lt;span class="n">missing&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">random&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">normalvariate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">std&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">if&lt;/span> &lt;span class="n">missing&lt;/span> &lt;span class="k">else&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="n">noise&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">smoothed&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">pd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">ewma&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">weight&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">span&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">30&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">current&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">smoothed&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">stats&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">Weight (lbs): &lt;/span>&lt;span class="si">%(weight).1f&lt;/span>&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">Total Δ: &lt;/span>&lt;span class="si">%(total).1f&lt;/span>&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">1 Week Δ: &lt;/span>&lt;span class="si">%(week).1f&lt;/span>&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">1 Month Δ: &lt;/span>&lt;span class="si">%(month).1f&lt;/span>&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">1 Year Δ: &lt;/span>&lt;span class="si">%(year).1f&lt;/span>&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">&amp;#34;&amp;#34;&amp;#34;&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">strip&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="o">%&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="s2">&amp;#34;weight&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">current&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;total&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">current&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">smoothed&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;week&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">current&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">smoothed&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;month&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">current&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">smoothed&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">32&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s2">&amp;#34;year&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="n">current&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="n">smoothed&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mi">366&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">with&lt;/span> &lt;span class="nb">open&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">join&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">home&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s2">&amp;#34;Dropbox/Text Notes/Weight Stats.txt&amp;#34;&lt;/span>&lt;span class="p">),&lt;/span> &lt;span class="s2">&amp;#34;wb&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="n">f&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">f&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">write&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nb">bytes&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">stats&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;UTF-8&amp;#39;&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>This assumes your input file is formatted like mine, but you could easily adjust the first part of the code for other formats.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>You can &lt;a class="link" href="http://www.r-project.org/" title="The R Project for Statistical Computing"
+target="_blank" rel="noopener"
+>download R here&lt;/a>; installing it should add &lt;code>Rscript&lt;/code> to your system path.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

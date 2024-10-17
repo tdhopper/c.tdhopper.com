@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Into the Hopper Podcast on Tim Hopper</title><link>https://tdhopper.com/categories/podcast/</link><description>Recent content in Into the Hopper Podcast on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdhopper.com/categories/podcast/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Assisted Programming with Ravi Mody</title><link>https://tdhopper.com/blog/ai-assisted-programming-with-ravi-mody/</link><pubDate>Wed, 18 Sep 2024 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/ai-assisted-programming-with-ravi-mody/</guid><description>&lt;img src="https://tdhopper.com/images/robot-assistant.png" alt="Featured image of post AI Assisted Programming with Ravi Mody" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed/episode/2B9nyjupOdPUBHhMyEVOmB" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/in/ravi-mody/" target="_blank" rel="noopener"
+>Ravi Mody on LinkedIn&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://chatgpt.com/" target="_blank" rel="noopener"
+>ChatGPT&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://claude.ai/" target="_blank" rel="noopener"
+>Claude.ai&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.barebones.com/products/bbedit/" target="_blank" rel="noopener"
+>BBEdit&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cursor.so/" target="_blank" rel="noopener"
+>Cursor&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.drewconway.com/zia/2013/3/26/the-data-science-venn-diagram" target="_blank" rel="noopener"
+>Drew Conway&amp;rsquo;s Data Science Venn Diagram&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Apache Pulsar with Jowanza Joseph</title><link>https://tdhopper.com/blog/apache-pulsar-with-jowanza-joseph/</link><pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/apache-pulsar-with-jowanza-joseph/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Apache Pulsar with Jowanza Joseph" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed/episode/1bS5PPymcYjpTv5cDHYAMJ" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/results?search_query=jowanza&amp;#43;joseph&amp;#43;pulsar" target="_blank" rel="noopener"
+>Jowanza&amp;rsquo;s Pulsar talks&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://twitter.com/jowanza" target="_blank" rel="noopener"
+>Jowanza&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://jowanza.com" target="_blank" rel="noopener"
+>Jowanza&amp;rsquo;s website &lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://pulsar.apache.org/" target="_blank" rel="noopener"
+>Pulsar homepage&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying" target="_blank" rel="noopener"
+>The Log: What every software engineer should know about real-time data&amp;rsquo;s unifying abstraction&lt;/a> by Jay Kreps&lt;/li>
+&lt;li>&lt;a class="link" href="https://streamnative.io/" target="_blank" rel="noopener"
+>StreamNative&lt;/a> - Hosted Pulsar&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.datastax.com/products/astra-streaming" target="_blank" rel="noopener"
+>Datastax Astra Streaming&lt;/a> - Hosted Pulsar&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.cncf.io/" target="_blank" rel="noopener"
+>Cloud Native Computing Foundation&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://pulsar.apache.org/docs/en/functions-overview/" target="_blank" rel="noopener"
+>Pulsar Functions&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://pulsar.apache.org/docs/en/2.3.0/io-overview/" target="_blank" rel="noopener"
+>Pulsar IO&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://pulsar.apache.org/docs/en/sql-overview/" target="_blank" rel="noopener"
+>Pulsar SQL&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://zookeeper.apache.org/" target="_blank" rel="noopener"
+>Apache ZooKeeper&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://bookkeeper.apache.org/" target="_blank" rel="noopener"
+>Apache BookKeeper&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Ocean Engineering to Data Science</title><link>https://tdhopper.com/blog/ocean-engineering-to-data-science/</link><pubDate>Wed, 15 Sep 2021 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/ocean-engineering-to-data-science/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Ocean Engineering to Data Science" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed/episode/39siLfJWH3VTJkyUhilVEd" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://twitter.com/brentonmallen?lang=en" target="_blank" rel="noopener"
+>Brenton&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://instagram.com/brentonmallen?lang=en" target="_blank" rel="noopener"
+>Brenton&amp;rsquo;s Instagram&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://brentonmallen.com" target="_blank" rel="noopener"
+>Brenton&amp;rsquo;s Website&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.ome.fau.edu/undergraduate/ocean/" target="_blank" rel="noopener"
+>Ocean Engineering at Florida Atlantic University&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Hiring Data Scientists with Roy Keyes</title><link>https://tdhopper.com/blog/hiring-data-scientists-with-roy-keyes/</link><pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/hiring-data-scientists-with-roy-keyes/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Hiring Data Scientists with Roy Keyes" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed/episode/2sKIYqYafX3xOAEeSMEezj" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://twitter.com/roycoding?lang=en" target="_blank" rel="noopener"
+>Roy&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://leanpub.com/dshiring" target="_blank" rel="noopener"
+>Roy&amp;rsquo;s Book&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.amazon.com/Data-Scientists-Work-Sebastian-Gutierrez/dp/1430265981" target="_blank" rel="noopener"
+>Data Scientists at Work&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://hbr.org/2012/10/data-scientist-the-sexiest-job-of-the-21st-century" target="_blank" rel="noopener"
+>Data Scientist: The Sexiest Job of the 21st Century&lt;/a> by Thomas H. Davenport and D.J. Patil&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.oreilly.com/library/view/building-data-science/BLDNGDST0001/" target="_blank" rel="noopener"
+>Building Data Science Teams&lt;/a> by DJ Patil (2011)&lt;/li>
+&lt;li>&lt;a class="link" href="https://adversariallearning.com/episode-10-stories-of-degradation-and-humiliation.html" target="_blank" rel="noopener"
+>Adversarial Learning: Stories of Degradation and Humiliation&lt;/a> — Podcast about bad interview experiences&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Feature Stores with Willem Pienaar</title><link>https://tdhopper.com/blog/feature-stores-with-willem-pienaar/</link><pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/feature-stores-with-willem-pienaar/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Feature Stores with Willem Pienaar" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed-podcast/episode/2tVjErd1RD0t3BZbNXcKYH" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://twitter.com/willpienaar?lang=en" target="_blank" rel="noopener"
+>Willem&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.twitter.com/adamlaiacano" target="_blank" rel="noopener"
+>Adam&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/watch?v=DaNv-Wf1MBA" target="_blank" rel="noopener"
+>Feast: feature store for Machine Learning (2020 talk)&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://feast.dev/" target="_blank" rel="noopener"
+>Feast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://tecton.ai/" target="_blank" rel="noopener"
+>Tecton&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://en.wikipedia.org/wiki/Gojek" target="_blank" rel="noopener"
+>GoJek on Wikipedia&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.featurestore.org/" target="_blank" rel="noopener"
+>featurestore.org&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Evolution of a Data Scientist with Adam Laiacano</title><link>https://tdhopper.com/blog/evolution-of-a-data-scientist-with-adam-laiacano/</link><pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/evolution-of-a-data-scientist-with-adam-laiacano/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Evolution of a Data Scientist with Adam Laiacano" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed-podcast/episode/32c5iOpFgFXKey2i2HYVFa" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.twitter.com/adamlaiacano" target="_blank" rel="noopener"
+>Adam&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Customer Focused Data Science with Mike Rogers</title><link>https://tdhopper.com/blog/customer-focused-data-science-with-mike-rogers/</link><pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/customer-focused-data-science-with-mike-rogers/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Customer Focused Data Science with Mike Rogers" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed-podcast/episode/6j7ixJgziQhF9U3zVmQoXf" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.talasecurity.io/" target="_blank" rel="noopener"
+>Tala Security&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://twitter.com/complicatedbull" target="_blank" rel="noopener"
+>Mike&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/in/kfbr392/" target="_blank" rel="noopener"
+>Mike&amp;rsquo;s LinkedIn&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://tdhopper.com/blog/how-i-became-a-data-scientist" target="_blank" rel="noopener"
+>How I Became a Data Scientist Despite Being a Math Major&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Fizz Buzz Book with Joel Grus</title><link>https://tdhopper.com/blog/fizz-buzz-book-with-joel-grus/</link><pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/fizz-buzz-book-with-joel-grus/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Fizz Buzz Book with Joel Grus" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed-podcast/episode/70eixpjzwzrccQlul6xAlL" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/" target="_blank" rel="noopener"
+>Fizz Buzz in Tensorflow&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/watch?v=o64FV-ez6Gw" target="_blank" rel="noopener"
+>Livecoding Madness - Let&amp;rsquo;s Build a Deep Learning Library&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/watch?v=7jiPeIFXb6U" target="_blank" rel="noopener"
+>I don&amp;rsquo;t like notebooks&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.youtube.com/watch?v=VPXXthwAdg8" target="_blank" rel="noopener"
+>Live Coding the Advent of Code&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://amzn.to/3j9SS1G" target="_blank" rel="noopener"
+>Data Science from Scratch Second Edition&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="http://fizzbuzzbook.com/" target="_blank" rel="noopener"
+>Fizz Buzz Book: Meditations on Python, mathematics, science, engineering, and design&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://twitter.com/joelgrus" target="_blank" rel="noopener"
+>Joel&amp;rsquo;s Twitter&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Ten Years of Data Science with Josh Wills and Oscar Boykin</title><link>https://tdhopper.com/blog/ten-years-of-data-science-with-josh-wills-and-oscar-boykin/</link><pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/ten-years-of-data-science-with-josh-wills-and-oscar-boykin/</guid><description>&lt;img src="https://tdhopper.com/images/podcast.png" alt="Featured image of post Ten Years of Data Science with Josh Wills and Oscar Boykin" />&lt;h2 id="listen">Listen
+&lt;/h2>&lt;iframe src="https://open.spotify.com/embed-podcast/episode/5ef9td3z5bvG6ydGfE0RE3" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media">&lt;/iframe>
+&lt;h2 id="links">Links
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://twitter.com/josh_wills/" target="_blank" rel="noopener"
+>Josh&amp;rsquo;s twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://twitter.com/posco/" target="_blank" rel="noopener"
+>Oscar&amp;rsquo;s twitter&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://softwareengineeringdaily.com/2020/01/10/slack-data-platform-with-josh-wills/" target="_blank" rel="noopener"
+>Josh on Software Engineering Daily&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/twitter/scalding" target="_blank" rel="noopener"
+>Scalding&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/twitter/summingbird" target="_blank" rel="noopener"
+>Summingbird&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/apache/crunch" target="_blank" rel="noopener"
+>Apache Crunch&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Data Scientist (n.): Person who is better at statistics than any software engineer and better at software engineering than any statistician.&lt;/p>&amp;mdash; Josh Wills (@josh_wills) &lt;a href="https://twitter.com/josh_wills/status/198093512149958656?ref_src=twsrc%5Etfw">May 3, 2012&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;h2 id="subscribe">Subscribe
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a class="link" href="https://feedpress.me/intothehopper" target="_blank" rel="noopener"
+>RSS Feed&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201" target="_blank" rel="noopener"
+>Apple Podcasts&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy" target="_blank" rel="noopener"
+>Spotify&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://overcast.fm/itunes1499693201/into-the-hopper" target="_blank" rel="noopener"
+>Overcast&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcHJlc3MubWUvaW50b3RoZWhvcHBlcg" target="_blank" rel="noopener"
+>Google Podcasts&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

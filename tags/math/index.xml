@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Math on Tim Hopper</title><link>https://tdhopper.com/tags/math/</link><description>Recent content in Math on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 17 Oct 2024 12:00:16 -0400</lastBuildDate><atom:link href="https://tdhopper.com/tags/math/index.xml" rel="self" type="application/rss+xml"/><item><title>Understanding Probabilistic Topic Models By Simulation</title><link>https://tdhopper.com/blog/understanding-probabilistic-topic-models-by-simulation/</link><pubDate>Tue, 25 Oct 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/understanding-probabilistic-topic-models-by-simulation/</guid><description>&lt;p>I gave a talk last week at Research Triangle Analysts on understanding probabilistic topic models (specificly LDA) by using Python for simulation. Here&amp;rsquo;s the description:&lt;/p>
+&lt;blockquote>
+&lt;p>Latent Dirichlet Allocation and related topic models are often presented in the form of complicated equations and confusing diagrams. Tim Hopper presents LDA as a generative model through probabilistic simulation in simple Python. Simulation will help data scientists to understand the model assumptions and limitations and more effectively use black box LDA implementations.&lt;/p>
+&lt;/blockquote>
+&lt;p>You can watch the video on &lt;a class="link" href="https://www.youtube.com/watch?v=Wy-XhT2sHgM&amp;amp;feature=youtu.be" target="_blank" rel="noopener"
+>Youtube&lt;/a>:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/Wy-XhT2sHgM"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p>I gave a &lt;a class="link" href="https://www.youtube.com/watch?v=_R66X_udxZQ" target="_blank" rel="noopener"
+>shorter version of the talk at PyData NYC 2015&lt;/a>.&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/_R66X_udxZQ"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item><item><title>Entropy of a Discrete Probability Distribution</title><link>https://tdhopper.com/blog/entropy-of-a-discrete-probability-distribution/</link><pubDate>Mon, 05 Sep 2016 16:05:00 +0000</pubDate><guid>https://tdhopper.com/blog/entropy-of-a-discrete-probability-distribution/</guid><description>&lt;img src="https://tdhopper.com/entropy.png" alt="Featured image of post Entropy of a Discrete Probability Distribution" />&lt;p>Suppose we have a discrete set of possible events \(1,\ldots, n\) that occur with probabilities \( (p_1, p_2, \ldots, p_n)\). Claude Shannon asked the question&lt;/p>
+&lt;blockquote>
+&lt;p>Can we find a measure of how much &amp;ldquo;choice&amp;rdquo; is involved in the selection of the event or of how uncertain we are of the outcome?&lt;/p>
+&lt;/blockquote>
+&lt;p>For example, suppose we have a coin that lands on heads with probability \(p\) and tails with probability \(1-p\). If \(p=1\), the coin always lands on heads. Since there is no uncertainty, we might want to say the uncertainty is 0. However, if the coin is fair and \(p=0.5\), we maximize our uncertainty: it&amp;rsquo;s a complete tossup whether the coin is heads or tails. We might want to say the uncertainty in this case is 1.&lt;/p>
+&lt;p>In general, Shannon wanted to devise a function \(H(p_1, p_2, \ldots, p_n)\) describing the uncertainty of an arbitrary set of discrete events (i.e. a \(n\)-sided die). He thought that &amp;ldquo;it is reasonable&amp;rdquo; that \(H\) should have three properties:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>\(H\) should be a continuous function of each \(p_i\). A small change in a single probability should result in a similarly small entropy (uncertainty) change.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If each event is equally likely (\(p_i=\frac{1}{n}\)), \(H\) should increase as a function of \(n\): the more events there are, the more uncertain we are.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Finally, entropy should be additive for independent events. Suppose we generate a random variable \(x\) by the following process: Flip a fair coin. If it is heads, \(x=0\). However, if the flip was tails, flip the coin again (an &lt;em>independent&lt;/em> event from the first flip). If the second flip is heads, \(x=1\), if tails \(x=2\). These three outcomes occur with probability $1/2$, $1/4$, and $1/4$, respectively.&lt;/p>
+&lt;p>We can compute the entropy of $x$ as \(H(p_0=1/2, p_1=1/4, p_2=1/4)\). By the independence property, this relationship holds:&lt;/p>
+&lt;p>\[H\left(\frac{1}{2}, \frac{1}{4}, \frac{1}{4}\right)=H\left(\frac{1}{2}, \frac{1}{2}\right) + \frac{1}{2} H\left(\frac{1}{2}, \frac{1}{2}\right).\]&lt;/p>
+&lt;p>As &lt;a class="link" href="http://www.inference.phy.cam.ac.uk/itprnn/book.pdf" target="_blank" rel="noopener"
+>David MacKay explains&lt;/a>, this is the general claim that&lt;/p>
+&lt;p>\[ H(\mathbf{p})=H(p_1, 1-p_1)+(1-p_1)H\left(\frac{p_2}{1-p_1}, \frac{p_3}{1-p_1}, \ldots, \frac{p_n}{1-p_1}\right).\]&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Shannon showed that given these three assumptions, there is a unique form that \(H\) must take:&lt;/p>
+&lt;p>$$ H\propto -\sum_{i=1}^n p_i \log p_i=\sum_{i=1}^n p_i \log \frac{1}{p_i}. $$&lt;/p>
+&lt;p>He named this measure of uncertainty &lt;em>entropy&lt;/em>, because the form of \(H\) bears striking similarity to that of &lt;a class="link" href="https://en.wikipedia.org/wiki/Entropy_%28statistical_thermodynamics%29#Gibbs_Entropy_Formula" target="_blank" rel="noopener"
+>Gibbs Entropy&lt;/a> in statistical thermodynamics.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Shannon observes that \(H\) has many other interesting properties:&lt;/p>
+&lt;ol>
+&lt;li>Entropy \(H\) is 0 if and only if exactly one event has probability 1 and the rest have probability 0. (Uncertainty vanishes only when we are certain about the outcomes.)&lt;/li>
+&lt;li>Entropy \(H\) is maximized when the \(p_i\) values are equal.&lt;/li>
+&lt;li>The joint entropy of two events is less than or equal to the sum of the individual entropies. \(H(x, y)=H(x)+H(y)\) only when \(x\) and \(y\) are independent events.&lt;/li>
+&lt;/ol>
+&lt;p>You can read more about this in Shannon&amp;rsquo;s seminal paper &lt;a class="link" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&amp;amp;arnumber=6773024" target="_blank" rel="noopener"
+>A Theory of Mathematical Communication&lt;/a>.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Caianiello and Aizerman &lt;a class="link" href="https://books.google.com/books?id=ak6qCAAAQBAJ&amp;amp;lpg=PP1&amp;amp;ots=bzAoIDJk1K&amp;amp;dq=Topics%20in%20the%20General%20Theory%20of%20Structures&amp;amp;pg=PA200#v=onepage&amp;amp;q=cross%20entropy&amp;amp;f=false" target="_blank" rel="noopener"
+>say&lt;/a> the name entropy is thanks to von Neumann who said&lt;/p>
+&lt;blockquote>
+&lt;p>You should call it entropy, for two reasons. In the first place your uncertainty function has been used in statistical mechanics under that name, so it already has a name. In the second place, and more important, nobody knows what entropy really is, so in a debate you will always have the advantage.&lt;/p>
+&lt;/blockquote>
+&lt;p>They argue that the name &amp;ldquo;uncertainty&amp;rdquo; would have been much more helpful since &amp;ldquo;Shannon entropy is simply and avowedly the &amp;lsquo;measure of the uncertainty inherient in a pre-assigned probability scheme.&amp;rsquo;&amp;rdquo;&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Cross Entropy and KL Divergence</title><link>https://tdhopper.com/blog/cross-entropy-and-kl-divergence/</link><pubDate>Mon, 05 Sep 2016 14:12:00 +0000</pubDate><guid>https://tdhopper.com/blog/cross-entropy-and-kl-divergence/</guid><description>&lt;p>&lt;a class="link" href="https://tdhopper.com/blog/entropy-of-a-discrete-probability-distribution/" target="_blank" rel="noopener"
+>As we saw in an earlier post&lt;/a>, the entropy of a discrete probability distribution is defined to be&lt;/p>
+&lt;p>$$H(p)=H(p_1,p_2,\ldots,p_n)=-\sum_{i}p_i \log p_i.$$&lt;/p>
+&lt;p>Kullback and Leibler defined a similar measure now known as &lt;em>KL divergence&lt;/em>. This measure quantifies how similar a probability distribution $p$ is to a candidate distribution $q$.&lt;/p>
+&lt;p>$$D_{\text{KL}}(p\ | q)=\sum_i p_i \log \frac{p_i}{q_i}.$$&lt;/p>
+&lt;p>$D_\text{KL}$ is non-negative and zero if and only if $ p_i = q_i $ for all $i$. However, it is important to note that it is not in general symmetric:&lt;/p>
+&lt;p>$$ D_{\text{KL}}(p| q) \neq D_{\text{KL}}(q| p).$$&lt;/p>
+&lt;p>&lt;a class="link" href="http://arxiv.org/pdf/1404.2000v1.pdf" target="_blank" rel="noopener"
+>Jonathon Shlens explains&lt;/a> that KL Divergence can be interpreted as measuring the likelihood that samples represented by the empirical distribution $p$ were generated by a fixed distribution $q$. If $D_{\text{KL}}(p| q)=0$, we can guarantee that $p$ is generated by $q$. As $D_{\text{KL}}(p| q)\rightarrow\infty$, we can say that it is increasingly unlikely that $p$ was generated by $q$.&lt;/p>
+&lt;p>Algebraically, we can rewrite the definition as&lt;/p>
+&lt;p>$$ \begin{array}{rl} D_{\text{KL}}(p| q) &amp;amp;=\sum_i p_i \log \frac{p_i}{q_i} \\ &amp;amp;=\sum_i \left ( - p_i \log q_i + p_i \log p_i \right)\\ &amp;amp;=- \sum_i p_i \log q_i + \sum_i p_i \log p_i \\ &amp;amp;=- \sum_i p_i \log q_i - \sum_i p_i \log \frac{1}{p_i} \\ &amp;amp;=- \sum_i p_i \log q_i-H(p) \\ &amp;amp;=\sum_i p_i \log \frac{1}{q_i}-H(p)\\ \end{array} $$&lt;/p>
+&lt;p>KL Divergence breaks down as something that looks similar to entropy (but combining $p$ and $q$) minus the entropy of $p$. This first term is often called &lt;em>cross entropy&lt;/em>:&lt;/p>
+&lt;p>$$H(p, q)=\sum_i p_i \log \frac{1}{q_i}.$$&lt;/p>
+&lt;p>We could alternatively use this relationship to define cross entropy as:&lt;/p>
+&lt;p>$$H(p, q)=H(p) + D_\text{KL}(p| q).$$&lt;/p>
+&lt;p>Intuitively, the cross entropy is the uncertainty implicit in $H(p)$ plus the likelihood that $p$ could have be generated by $q$. If we consider $p$ to be a fixed distribution, $H(p, q)$ and $D_\text{KL}(p | q)$ differ by a constant factor for all $q$.&lt;/p></description></item><item><title>Tweeting Primes</title><link>https://tdhopper.com/blog/tweeting-primes/</link><pubDate>Fri, 08 Nov 2013 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/tweeting-primes/</guid><description>&lt;p>I recently discovered the Twitter account &lt;a class="link" href="https://twitter.com/_primes_" target="_blank" rel="noopener"
+>@&lt;em>primes&lt;/em>&lt;/a>. Every hour, they tweet the subsequent prime number. This made me wonder two things. First, what is the largest prime that you can tweet (in base-10 encoding in 140 characters).&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> Second, how long until they get there.&lt;/p>
+&lt;p>Doing some quick calculations in Mathematica, I believe the largest 140 digit prime is the following:&lt;/p>
+&lt;p>9999999999999999999999999999999999999999999999&lt;/br>
+9999999999999999999999999999999999999999999999&lt;/br>
+999999999999999999999999999999999999999999999997&lt;/p>
+&lt;p>Wolfram Alpha &lt;a class="link" href="http://www.wolframalpha.com/input/?i=IsPrime%5B99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999997" target="_blank" rel="noopener"
+>confirms that this is prime&lt;/a> and that the &lt;a class="link" href="http://www.wolframalpha.com/input/?i=Length%5BIntegerDigits%5BNextPrime%5B99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999997%5D%5D%5D" target="_blank" rel="noopener"
+>next prime is 141 characters&lt;/a>.&lt;/p>
+&lt;p>As for how long it would take, recall that the number of primes less than $n$ &lt;a class="link" href="http://en.wikipedia.org/wiki/Prime_number_theorem" target="_blank" rel="noopener"
+>is approximately&lt;/a> $\frac{n}{\ln n}$. The number of primes less than $10^{141}$ is approximately&lt;/p>
+&lt;p>$$\pi(10^{140}) = \frac{10^{140}}{140\cdot \ln 10} = 3.1\cdot 10^{137}.$$&lt;/p>
+&lt;p>That&amp;rsquo;s $3\cdot 10^{57}$ times the estimated number of atoms in the universe. Looks like &lt;a class="link" href="https://twitter.com/_primes_" target="_blank" rel="noopener"
+>@&lt;em>primes&lt;/em>&lt;/a> should be able to tweet for a while.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>The &lt;a class="link" href="http://en.wikipedia.org/wiki/Mersenne_primes" target="_blank" rel="noopener"
+>largest known prime&lt;/a> is $2^{57,885,161} − 1$ and has 17,425,170 digits.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Bandit Algorithms for Website Optimization</title><link>https://tdhopper.com/blog/bandit-algorithms-for-website-optimization/</link><pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/bandit-algorithms-for-website-optimization/</guid><description>&lt;img src="https://tdhopper.com/images/bandit.png" alt="Featured image of post Bandit Algorithms for Website Optimization" />&lt;p>I had the honor of being a technical reviewer for John Myles White&amp;rsquo;s outstanding book, &amp;ldquo;Bandit Algorithms for Website Optimization: Developing, Deploying, and Debugging.&amp;rdquo; I strongly suggest it to anyone curious about the subject. This book is an excellent start to understanding the field and provides practical advice on applying these algorithms effectively.&lt;/p>
+&lt;p>&lt;a class="link" href="https://amzn.to/3SXD9a8" target="_blank" rel="noopener"
+>Check it out!&lt;/a>&lt;/p></description></item><item><title>Notes on the Derivation of Least Squares Policy Iteration</title><link>https://tdhopper.com/blog/notes-on-the-derivation-of-least-squares-policy-iteration/</link><pubDate>Mon, 18 Jun 2012 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/notes-on-the-derivation-of-least-squares-policy-iteration/</guid><description>&lt;img src="https://tdhopper.com/images/lspi.png" alt="Featured image of post Notes on the Derivation of Least Squares Policy Iteration" />&lt;p>&lt;a class="link" href="https://tdhopper.com/uploads/lspi.pdf" >Here are my notes&lt;/a> on the derivation of the Least Squares Policy Iteration (LSPI) algorithm. The notes are based on the &lt;a class="link" href="https://users.cs.duke.edu/~parr/jmlr03.pdf" target="_blank" rel="noopener"
+>original paper by Lagoudakis and Parr&lt;/a>.&lt;/p>
+&lt;script type="text/javascript" src= '/js/pdf-js/build/pdf.js'>&lt;/script>
+&lt;style>
+#embed-pdf-container {
+position: relative;
+width: 100%;
+height: auto;
+min-height: 20vh;
+}
+.pdf-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+#the-canvas {
+border: 1px solid black;
+direction: ltr;
+width: 100%;
+height: auto;
+display: none;
+}
+.pdf-loadingWrapper {
+display: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 350px;
+}
+.pdf-loading {
+display: inline-block;
+width: 50px;
+height: 50px;
+border: 3px solid #d2d0d0;;
+border-radius: 50%;
+border-top-color: #383838;
+animation: spin 1s ease-in-out infinite;
+-webkit-animation: spin 1s ease-in-out infinite;
+}
+#overlayText {
+word-wrap: break-word;
+display: grid;
+justify-content: end;
+}
+#overlayText a {
+position: relative;
+top: 10px;
+right: 4px;
+color: #000;
+margin: auto;
+background-color: #eeeeee;
+padding: 0.3em 1em;
+border: solid 2px;
+border-radius: 12px;
+border-color: #00000030;
+text-decoration: none;
+}
+#overlayText svg {
+height: clamp(1em, 2vw, 1.4em);
+width: clamp(1em, 2vw, 1.4em);
+}
+@keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+to { -webkit-transform: rotate(360deg); }
+}
+&lt;/style>&lt;div class="embed-pdf-container" id="embed-pdf-container-8750537f">
+&lt;div class="pdf-loadingWrapper" id="pdf-loadingWrapper-8750537f">
+&lt;div class="pdf-loading" id="pdf-loading-8750537f">&lt;/div>
+&lt;/div>
+&lt;div id="overlayText">
+&lt;a href="https://tdhopper.com/uploads/lspi.pdf" aria-label="Download" download>
+&lt;svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+&lt;path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+&lt;/svg>
+&lt;/a>
+&lt;/div>
+&lt;canvas class="pdf-canvas" id="pdf-canvas-8750537f">&lt;/canvas>
+&lt;/div>
+&lt;div class="pdf-paginator" id="pdf-paginator-8750537f">
+&lt;button id="pdf-prev-8750537f">Previous&lt;/button>
+&lt;button id="pdf-next-8750537f">Next&lt;/button> &amp;nbsp; &amp;nbsp;
+&lt;span>
+&lt;span class="pdf-pagenum" id="pdf-pagenum-8750537f">&lt;/span> / &lt;span class="pdf-pagecount" id="pdf-pagecount-8750537f">&lt;/span>
+&lt;/span>
+&lt;a class="pdf-source" id="pdf-source-8750537f" href="https://tdhopper.com/uploads/lspi.pdf">[pdf]&lt;/a>
+&lt;/div>
+&lt;noscript>
+View the PDF file &lt;a class="pdf-source" id="pdf-source-noscript-8750537f" href="https://tdhopper.com/uploads/lspi.pdf">here&lt;/a>.
+&lt;/noscript>
+&lt;script type="text/javascript">
+(function(){
+var url = '\/uploads\/lspi.pdf';
+var hidePaginator = "" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/tdhopper.com\/" + '/js/pdf-js/build/pdf.worker.js';
+var pdfDoc = null,
+pageNum = selectedPageNum,
+pageRendering = false,
+pageNumPending = null,
+scale = 3,
+canvas = document.getElementById('pdf-canvas-8750537f'),
+ctx = canvas.getContext('2d'),
+paginator = document.getElementById("pdf-paginator-8750537f"),
+loadingWrapper = document.getElementById('pdf-loadingWrapper-8750537f');
+showPaginator();
+showLoader();
+function renderPage(num) {
+pageRendering = true;
+pdfDoc.getPage(num).then(function(page) {
+var viewport = page.getViewport({scale: scale});
+canvas.height = viewport.height;
+canvas.width = viewport.width;
+var renderContext = {
+canvasContext: ctx,
+viewport: viewport
+};
+var renderTask = page.render(renderContext);
+renderTask.promise.then(function() {
+pageRendering = false;
+showContent();
+if (pageNumPending !== null) {
+renderPage(pageNumPending);
+pageNumPending = null;
+}
+});
+});
+document.getElementById('pdf-pagenum-8750537f').textContent = num;
+}
+function showContent() {
+loadingWrapper.style.display = 'none';
+canvas.style.display = 'block';
+}
+function showLoader() {
+if(hideLoader) return
+loadingWrapper.style.display = 'flex';
+canvas.style.display = 'none';
+}
+function showPaginator() {
+if(hidePaginator) return
+paginator.style.display = 'block';
+}
+function queueRenderPage(num) {
+if (pageRendering) {
+pageNumPending = num;
+} else {
+renderPage(num);
+}
+}
+function onPrevPage() {
+if (pageNum &lt;= 1) {
+return;
+}
+pageNum--;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-prev-8750537f').addEventListener('click', onPrevPage);
+function onNextPage() {
+if (pageNum >= pdfDoc.numPages) {
+return;
+}
+pageNum++;
+queueRenderPage(pageNum);
+}
+document.getElementById('pdf-next-8750537f').addEventListener('click', onNextPage);
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+pdfDoc = pdfDoc_;
+var numPages = pdfDoc.numPages;
+document.getElementById('pdf-pagecount-8750537f').textContent = numPages;
+if(pageNum > numPages) {
+pageNum = numPages
+}
+renderPage(pageNum);
+});
+})();
+&lt;/script></description></item><item><title>Average Area of a Random Hull</title><link>https://tdhopper.com/blog/average-area-of-a-random-hull/</link><pubDate>Thu, 05 Apr 2012 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/average-area-of-a-random-hull/</guid><description>&lt;p>Yesterday, someone on MathOverflow asked&lt;/p>
+&lt;blockquote>
+&lt;p>Consider $n$ points generated randomly and uniformly on a unit square. What is the expected value of the area (as a function of $n$) enclosed by the convex hull of the set of points?&lt;/p>
+&lt;/blockquote>
+&lt;p>Someone quickly cited &lt;a class="link" href="http://www.math.kth.se/~johanph/area12.pdf" target="_blank" rel="noopener"
+>2004 paper&lt;/a> provides an analytical result for the cases where $n=3$ and $n=4$:&lt;/p>
+&lt;blockquote>
+&lt;p>For $n=3$ the expected value is $11/144$ and for $n=4$ it is $11/72$.&lt;/p>
+&lt;/blockquote>
+&lt;p>This is certainly a nontrivial result. However, the value can be approximated by generating a large number of random points, finding the area of the convex hull, and averaging the areas. Of course, finding the convex hull and the area of the convex hull of a set of points requires a little work. Mathematica provides functions for generating random points and finding the area of the convex hull of a set of points quickly. As a result, I was able to perform a Monte Carlo simulation for the $n=3$ and $n=4$ case in a couple of lines of Mathematica code:&lt;/p>
+&lt;p>&lt;a class="link" href="https://tdhopper.com/uploads/2012/04/Screen-Shot-2012-04-04-at-11.29.04-AM.png" >&lt;figure>&lt;img src="https://tdhopper.com/uploads/2012/04/Screen-Shot-2012-04-04-at-11.29.04-AM.png">
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>Sampling 5000 cases for each returned results fairly close to the predicted average.&lt;/p></description></item><item><title>Mathematicians, Engineers, and Businessmen on NPC Problems</title><link>https://tdhopper.com/blog/mathematicians-engineers-and-businessmen-on-npc-problems/</link><pubDate>Thu, 02 Feb 2012 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/mathematicians-engineers-and-businessmen-on-npc-problems/</guid><description>&lt;p>I assume most people who are nerdy enough to read this blog are nerdy enough to know about the &lt;a class="link" href="http://www.claymath.org/millennium/P_vs_NP/" target="_blank" rel="noopener"
+>$\mathcal{P}$ vs $\mathcal{NP}$ problem&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. I first learned about this problem taking computer science classes in college, and it all seemed very theoretical at the time. Now that I study operations research, the problem is very real. Operations researchers are often limited in their pursuits by the challenges of $\mathcal{NP}$-hard &lt;a class="link" href="http://en.wikipedia.org/wiki/Integer_program" target="_blank" rel="noopener"
+>problems&lt;/a>, and many operations researchers spend their careers trying to solve hard problems. Last semester, I came across &lt;a class="link" href="http://www.core.ucl.ac.be/~wolsey/" target="_blank" rel="noopener"
+>Laurence Wolsey&lt;/a>&amp;rsquo;s beautiful description of how various people might view this problem. (Of course, the inimitable Randall Munroe has offered &lt;a class="link" href="http://xkcd.com/664" target="_blank" rel="noopener"
+>a similar look&lt;/a> at the issue.)&lt;/p>
+&lt;blockquote>
+&lt;p>A &lt;em>pessimist&lt;/em> might say that as most problems appear to be hard (i.e., their decision version lies in $\mathcal{NPC}$), we have no hope of solving instances of large size (because in the worst case we cannot hope to do better than enumeration), and so we should give up. A &lt;em>mathematician (optimist)&lt;/em> might set out to become famous by proving that $\mathcal{P=NP}$. A &lt;em>mathematician (pessimist)&lt;/em> might set out to become famous by proving that $\mathcal{P\neq NP}$. A &lt;em>mathematician (thoughtful)&lt;/em> might decide to ask a different question: Can I find an algorithm that is guaranteed to find a solution &amp;ldquo;close to optimal&amp;rdquo; in polynomial time in all cases&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. A &lt;em>probabilist (thoughtful)&lt;/em> might also ask a different question: Can I find an algorithm that runs in polynomial time with high probability and that is guaranteed to find an optimal or &amp;ldquo;close to optimal&amp;rdquo; solution with high probability? An &lt;em>engineer&lt;/em> would start looking for a heuristic algorithm that produces practically usable solutions. Your &lt;em>boss&lt;/em> might say: I don&amp;rsquo;t care a damn about integer programming theory. You just worry about our scheduling problem. Give me a feasible production schedule for tomorrow in which William Brown and Daughters&amp;rsquo; order is out of the door by 4 P.M. A &lt;em>struggling professor&lt;/em> might say: Great. Previously I was trying to develop one algorithm to solve all integer programs, and publishing one paper every two years explaining why I was not succeeding. Now I know that I might as well study each $\mathcal{NP}$ problem individually. As there are thousands of them, I should be able to write twenty papers a year. Needless to say they are all right. There is no easy and rapid solution, but the problems will not go away, and more and more fascinating and important practical problems are being formulated as integer programs. So in spite of the $\mathcal{NP}$-completeness theory, using an appropriate combination of theory, algorithms, experience, and intensive calculation, verifiably good solutions for large instances can and must be found&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>.&lt;/p>
+&lt;/blockquote>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>If that&amp;rsquo;s not the case, you might check out this page: &lt;a class="link" href="http://simple.wikipedia.org/wiki/P_versus_NP" target="_blank" rel="noopener"
+>http://simple.wikipedia.org/wiki/P_versus_NP&lt;/a>.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>See &lt;a class="link" href="http://en.wikipedia.org/wiki/Polynomial_approximation_scheme" target="_blank" rel="noopener"
+>http://en.wikipedia.org/wiki/Polynomial_approximation_scheme&lt;/a>.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>From &lt;a class="link" href="http://books.google.com/books/about/Integer_programming.html?id=x7RvQgAACAAJ" target="_blank" rel="noopener"
+>Integer Programming&lt;/a>, Page 87.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Carrots, Oatmeal, Operations Research</title><link>https://tdhopper.com/blog/carrots-oatmeal-operations-research/</link><pubDate>Mon, 09 Jan 2012 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/carrots-oatmeal-operations-research/</guid><description>&lt;p>A former grad school classmate of mine lived largely off of oatmeal and carrots. Suppose he wanted to be sure to get 2000 calories/day, 60 milligrams of vitamin C per day, and no more than 40 grams of fat per day. How should he balance his intake of oatmeal and carrots while minimizing his expense at the grocery store? Suppose he eats \(S\) pounds of carrots per day and \(Q\) pounds of dry oatmeal. A pound of carrots contains 172 calories; a pound of oatmeal contains 1742 calories&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. The total number of calories he gets in a day is \(172\cdot C+1732\cdot Q.\) To be sure he gets the adequate number of calories, he needs $$172\cdot C+1732\cdot Q\geq 2000.$$ A pound of carrots contains 0.839 grams of fat, and a pound of oatmeal contains 25 grams of fat. For the total amount of fat has to be less than 40: $$0.839\cdot C+25\cdot Q\leq 40.$$ A pound of carrots contains 19 milligrams of vitamin C, and a pound of oatmeal contains 15 milligrams of vitamin C. Since the total amount of vitamin C must be at least 60: $$19\cdot C+15\cdot Q\geq 60.$$ If  you graph these three inequalities, you get the blue region shown below. Any point in the blue region represents a combination of carrots and oatmeal that would provide sufficient nutrients without giving too much fat. What we want to know is which combination is least expensive.&lt;/p>
+&lt;figure>&lt;img src="https://tdhopper.com/uploads/2012/01/Whats-a-Stigler-Diet-Feasible1.gif">
+&lt;/figure>
+&lt;p>A pound of carrots and a pound of oatmeal both cost about $0.50. So, we want &lt;em>to minimize&lt;/em> the function $0.5\cdot C+0.5\cdot Q$ while still staying inside the blue region. We can write all of these things in a form that operations researchers call a &amp;ldquo;linear program.&amp;rdquo;&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>$$
+\begin{align}\text{minimize }\;\; &amp;amp; 0.5\cdot C+0.5\cdot Q\\
+\text{subject to }\;\; &amp;amp;172\cdot C+1742\cdot Q\geq 2000\\
+&amp;amp;0.839\cdot C+25\cdot Q\leq 40\\
+&amp;amp;19\cdot C+15\cdot Q\geq 60\\
+&amp;amp;C\geq 0, \;Q\geq 0\end{align}
+$$&lt;/p>
+&lt;p>It turns out, the optimal solution is that my friend should eat 2.44 pounds of carrots per day and 0.91 pounds of oatmeal. With that combination, he&amp;rsquo;ll get all his nutrients, restrict his fat, and keep his grocery store bill as low as possible (about $1.73 per day!). Below, I show another graph of the possible carrot-oatmeal combinations. This time, the color of a point represents the cost of that diet. The optimal diet occurs at the black dot, i.e. where the graph is most red. The most expensive diet occurs at the bottom right corner, where the graph is most blue. That diet corresponds to eating nearly 48 pounds of carrots per day!&lt;/p>
+&lt;p>&lt;a class="link" href="https://tdhopper.com/uploads/2012/01/Whats-a-Stigler-Diet-Temp.gif" >&lt;figure>&lt;img src="https://tdhopper.com/uploads/2012/01/Whats-a-Stigler-Diet-Temp.gif">
+&lt;/figure>
+&lt;/a>&lt;/p>
+&lt;p>Operations researchers use this sort of linear programming mathematical model to solve all kinds of problems. While I don&amp;rsquo;t know of anyone who uses linear programming to fix their diet, the economist George Stigler suggested many years ago it is possible. I will follow up with another post talking about &lt;a class="link" href="http://en.wikipedia.org/wiki/Stigler_diet" target="_blank" rel="noopener"
+>Stigler&amp;rsquo;s Diet problem&lt;/a>.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>See &lt;a class="link" href="http://www.wolframalpha.com/input/?i=pound&amp;#43;of&amp;#43;carrots%2C&amp;#43;pound&amp;#43;of&amp;#43;oatmeal" target="_blank" rel="noopener"
+>http://www.wolframalpha.com/input/?i=pound+of+carrots%2C+pound+of+oatmeal&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>&lt;em>Program&lt;/em> doesn&amp;rsquo;t refer to computer programming. It actually goes back to an older use of the word related to planning something out.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

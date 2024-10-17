@@ -1,0 +1,264 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><meta name=description content="As I have noted before, body weight is a noisy thing. Day to day, your weight will probably fluctuate by several pounds. If you&rsquo;re trying to lose weight, this noise can cause unfounded frustration and premature excitement.\nWhen I started a serious weight loss plan a year and a half ago, I bought a wifi-enabled Withings Scale. The scale allows me to automatically sync my weight with Montior Your Weight, MyFitnessPal, RunKeeper, and other fitness apps on my phone. IFTTT also has great Withings support allowing me to push my weight to various other web services.\n"><title>Tracking Weight Loss with R, Hazel, Withings, and IFTTT</title>
+<link rel=canonical href=https://tdhopper.com/blog/tracking-weight-loss-with-r-hazel-withings-and-ifttt/><link rel=stylesheet href=/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css><meta property='og:title' content="Tracking Weight Loss with R, Hazel, Withings, and IFTTT"><meta property='og:description' content="As I have noted before, body weight is a noisy thing. Day to day, your weight will probably fluctuate by several pounds. If you&rsquo;re trying to lose weight, this noise can cause unfounded frustration and premature excitement.\nWhen I started a serious weight loss plan a year and a half ago, I bought a wifi-enabled Withings Scale. The scale allows me to automatically sync my weight with Montior Your Weight, MyFitnessPal, RunKeeper, and other fitness apps on my phone. IFTTT also has great Withings support allowing me to push my weight to various other web services.\n"><meta property='og:url' content='https://tdhopper.com/blog/tracking-weight-loss-with-r-hazel-withings-and-ifttt/'><meta property='og:site_name' content='Tim Hopper'><meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='Python'><meta property='article:tag' content='pandas'><meta property='article:published_time' content='2014-08-30T00:00:00+00:00'><meta property='article:modified_time' content='2024-10-17T12:00:16-04:00'><meta property='og:image' content='https://tdhopper.com/main.png'><meta name=twitter:title content="Tracking Weight Loss with R, Hazel, Withings, and IFTTT"><meta name=twitter:description content="As I have noted before, body weight is a noisy thing. Day to day, your weight will probably fluctuate by several pounds. If you&rsquo;re trying to lose weight, this noise can cause unfounded frustration and premature excitement.\nWhen I started a serious weight loss plan a year and a half ago, I bought a wifi-enabled Withings Scale. The scale allows me to automatically sync my weight with Montior Your Weight, MyFitnessPal, RunKeeper, and other fitness apps on my phone. IFTTT also has great Withings support allowing me to push my weight to various other web services.\n"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content='https://tdhopper.com/main.png'><link rel="shortcut icon" href=/favicon.png></head><body class=article-page><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky"><button class="hamburger hamburger--spin" type=button id=toggle-menu aria-label="Toggle Menu">
+<span class=hamburger-box><span class=hamburger-inner></span></span></button><header><figure class=site-avatar><a href=/><img src=/headshot_hu10640029153394279424.jpg width=300 height=300 class=site-logo loading=lazy alt=Avatar></a></figure><div class=site-meta><h1 class=site-name><a href=/>Tim Hopper</a></h1><h2 class=site-description>Machine Learning. Python. Software Engineering. Math Jokes.</h2></div></header><ol class=menu-social><li><a href=https://github.com/tdhopper target=_blank title=GitHub rel=me><svg class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6.0 00-1.3-3.2 4.2 4.2.0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3.0 00-6.2.0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2.0 00-.1 3.2A4.6 4.6.0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a></li><li><a href=https://twitter.com/tdhopper target=_blank title=Twitter rel=me><svg class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 4.01c-1 .49-1.98.689-3 .99-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4 0 0-4.182 7.433 4 11-1.872 1.247-3.739 2.088-6 2 3.308 1.803 6.913 2.423 10.034 1.517 3.58-1.04 6.522-3.723 7.651-7.742a13.84 13.84.0 00.497-3.753C20.18 7.773 21.692 5.25 22 4.009z"/></svg></a></li></ol><ol class=menu id=main-menu><li><a href=/><svg class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="5 12 3 12 12 3 21 12 19 12"/><path d="M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/><path d="M9 21v-6a2 2 0 012-2h2a2 2 0 012 2v6"/></svg>
+<span>Home</span></a></li><li><a href=/archives/><svg class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><rect x="3" y="4" width="18" height="4" rx="2"/><path d="M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/><line x1="10" y1="12" x2="14" y2="12"/></svg>
+<span>Archives</span></a></li><li><a href=/search/><svg class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="10" cy="10" r="7"/><line x1="21" y1="21" x2="15" y2="15"/></svg>
+<span>Search</span></a></li><li><a href=/my-other-sites/><svg class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M10 14a3.5 3.5.0 005 0l4-4a3.5 3.5.0 00-5-5l-.5.5"/><path d="M14 10a3.5 3.5.0 00-5 0l-4 4a3.5 3.5.0 005 5l.5-.5"/></svg>
+<span>My Other Sites</span></a></li><li><a href=https://tdhopper.com/talks><svg class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M9.828 9.172a4 4 0 100 5.656A10 10 0 0012 12a10 10 0 012.172-2.828 4 4 0 110 5.656A10 10 0 0112 12 10 10 0 009.828 9.172"/></svg>
+<span>My Talks</span></a></li><li><a href=https://tdhopper.com/categories/podcast/><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+<span>Podcast</span></a></li><li><a href=https://resume.tdhopper.com target=_blank><svg class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="7" r="4"/><path d="M6 21v-2a4 4 0 014-4h4a4 4 0 014 4v2"/></svg>
+<span>Resumé</span></a></li><li class=menu-bottom-section><ol class=menu><li id=dark-mode-toggle><svg class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="8" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<svg class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="16" cy="12" r="2"/><rect x="2" y="6" width="20" height="12" rx="6"/></svg>
+<span>Dark Mode</span></li></ol></li></ol></aside><aside class="sidebar right-sidebar sticky"></aside><main class="main full-width"><article class=main-article><header class=article-header><div class=article-details><header class=article-category><a href=/categories/article/ style=background-color:#2a9d8f;color:#fff>Articles</a></header><div class=article-title-wrapper><h2 class=article-title><a href=/blog/tracking-weight-loss-with-r-hazel-withings-and-ifttt/>Tracking Weight Loss with R, Hazel, Withings, and IFTTT</a></h2></div><footer class=article-time><div><svg class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Aug 30, 2014</time></div></footer></div></header><section class=article-content><p>As I have <a class=link href=/blog/2013/Jul/26/noisy-series-and-body-weight/>noted</a> <a class=link href=/blog/2013/Nov/28/noisy-series-and-body-weight-take-2/>before</a>, body weight is a noisy thing. Day to day, your weight will probably fluctuate by several pounds. If you&rsquo;re trying to lose weight, this noise can cause unfounded frustration and premature excitement.</p><p>When I started a serious weight loss plan a year and a half ago, I bought a wifi-enabled <a class=link href=http://www.withings.com target=_blank rel=noopener>Withings Scale</a>. The scale allows me to automatically sync my weight with <a class=link href=http://www.bustan.net/ target=_blank rel=noopener>Montior Your Weight</a>, <a class=link href=http://www.myfitnesspal.com target=_blank rel=noopener>MyFitnessPal</a>, <a class=link href=http://runkeeper.com/home title=RunKeeper target=_blank rel=noopener>RunKeeper</a>, and other fitness apps on my phone. IFTTT also has <a class=link href=https://ifttt.com/withings title="Withings Channel - IFTTT" target=_blank rel=noopener>great Withings support</a> allowing me to push my weight to various other web services.</p><p>One IFTTT rule I have appends my weight to a text file in Dropbox. This file looks like this:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>263.86 August 21, 2014 at 05:56AM
+</span></span><span class=line><span class=cl>264.62 August 22, 2014 at 08:27AM
+</span></span><span class=line><span class=cl>264.56 August 23, 2014 at 09:41AM
+</span></span><span class=line><span class=cl>263.99 August 24, 2014 at 08:02AM
+</span></span><span class=line><span class=cl>265.64 August 25, 2014 at 08:08AM
+</span></span><span class=line><span class=cl>267.4 August 26, 2014 at 08:16AM
+</span></span><span class=line><span class=cl>265.25 August 27, 2014 at 09:08AM
+</span></span><span class=line><span class=cl>264.17 August 28, 2014 at 07:21AM
+</span></span><span class=line><span class=cl>264.03 August 29, 2014 at 08:43AM
+</span></span><span class=line><span class=cl>262.71 August 30, 2014 at 08:47AM
+</span></span></code></pre></td></tr></table></div></div><p>For a few months, I have been experimenting with using this time series to give myself a less-noisy update on my weight, and I&rsquo;ve come up with a decent solution.</p><p>This <a class=link href=http://www.r-project.org/ target=_blank rel=noopener>R script</a> will take my weight time series, resample it, smooth it with a rolling median over the last month, and write summary stats to a text file in my Dropbox. It&rsquo;s not the prettiest script, but it gets the job done for now.<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-R data-lang=R><span class=line><span class=cl><span class=n>INPUT_PATH</span> <span class=o>&lt;-</span> <span class=s>&#34;~/Dropbox/Text Notes/Weight.txt&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>OUTPUT_PATH</span> <span class=o>&lt;-</span> <span class=s>&#34;~/Dropbox/Text Notes/Weight Stats.txt&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nf>library</span><span class=p>(</span><span class=n>lubridate</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nf>library</span><span class=p>(</span><span class=n>ggplot2</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nf>library</span><span class=p>(</span><span class=n>zoo</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># READ FILE</span>
+</span></span><span class=line><span class=cl><span class=n>con</span> <span class=o>&lt;-</span> <span class=nf>file</span><span class=p>(</span><span class=n>INPUT_PATH</span><span class=p>,</span> <span class=s>&#34;rt&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>lines</span> <span class=o>&lt;-</span> <span class=nf>readLines</span><span class=p>(</span><span class=n>con</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nf>close</span><span class=p>(</span><span class=n>con</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># PARSE INTO LISTS OF WEIGHTS AND DATES</span>
+</span></span><span class=line><span class=cl><span class=n>parse.line</span> <span class=o>&lt;-</span> <span class=kr>function</span><span class=p>(</span><span class=n>line</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=n>s</span> <span class=o>&lt;-</span> <span class=nf>strsplit</span><span class=p>(</span><span class=n>line</span><span class=p>,</span> <span class=n>split</span><span class=o>=</span><span class=s>&#34; &#34;</span><span class=p>)</span><span class=n>[[1]]</span>
+</span></span><span class=line><span class=cl>  <span class=n>date.str</span> <span class=o>&lt;-</span> <span class=nf>paste</span><span class=p>(</span><span class=n>s[2</span><span class=o>:</span><span class=m>10</span><span class=n>][</span><span class=o>!</span><span class=nf>is.na</span><span class=p>(</span><span class=n>s[2</span><span class=o>:</span><span class=m>10</span><span class=n>]</span><span class=p>)</span><span class=n>]</span><span class=p>,</span> <span class=n>collapse</span><span class=o>=</span><span class=s>&#34; &#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=n>date</span> <span class=o>&lt;-</span> <span class=nf>mdy_hm</span><span class=p>(</span><span class=n>date.str</span><span class=p>,</span> <span class=n>quiet</span><span class=o>=</span><span class=kc>TRUE</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=n>l</span> <span class=o>&lt;-</span> <span class=nf>list</span><span class=p>(</span><span class=nf>as.numeric</span><span class=p>(</span><span class=n>s[1]</span><span class=p>),</span> <span class=n>date</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=nf>names</span><span class=p>(</span><span class=n>l</span><span class=p>)</span> <span class=o>&lt;-</span> <span class=nf>c</span><span class=p>(</span><span class=s>&#34;weight&#34;</span><span class=p>,</span> <span class=s>&#34;date&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=n>l</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=n>list.weight.date</span> <span class=o>&lt;-</span> <span class=nf>lapply</span><span class=p>(</span><span class=n>lines</span><span class=p>,</span> <span class=n>parse.line</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>weights</span> <span class=o>&lt;-</span> <span class=nf>lapply</span><span class=p>(</span><span class=n>list.weight.date</span><span class=p>,</span> <span class=kr>function</span><span class=p>(</span><span class=n>X</span><span class=p>)</span> <span class=n>X</span><span class=o>$</span><span class=n>weight</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>dates</span> <span class=o>&lt;-</span> <span class=nf>lapply</span><span class=p>(</span><span class=n>list.weight.date</span><span class=p>,</span> <span class=kr>function</span><span class=p>(</span><span class=n>X</span><span class=p>)</span> <span class=n>X</span><span class=o>$</span><span class=n>date</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># BUILD DATA FRAME</span>
+</span></span><span class=line><span class=cl><span class=n>df</span> <span class=o>&lt;-</span> <span class=nf>data.frame</span><span class=p>(</span><span class=n>weight</span> <span class=o>=</span> <span class=nf>unlist</span><span class=p>(</span><span class=n>weights</span><span class=p>),</span> <span class=n>date</span> <span class=o>=</span> <span class=nf>do.call</span><span class=p>(</span><span class=s>&#34;c&#34;</span><span class=p>,</span> <span class=n>dates</span><span class=p>)</span> <span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># CREATE TIME SERIES AND RESAMPLE</span>
+</span></span><span class=line><span class=cl><span class=n>ts</span> <span class=o>&lt;-</span> <span class=nf>zoo</span><span class=p>(</span><span class=nf>c</span><span class=p>(</span><span class=n>df</span><span class=o>$</span><span class=n>weight</span><span class=p>),</span> <span class=n>df</span><span class=o>$</span><span class=n>date</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>ts</span> <span class=o>&lt;-</span> <span class=nf>aggregate</span><span class=p>(</span><span class=n>ts</span><span class=p>,</span> <span class=nf>time</span><span class=p>(</span><span class=n>ts</span><span class=p>),</span> <span class=n>tail</span><span class=p>,</span> <span class=m>1</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>g</span> <span class=o>&lt;-</span> <span class=nf>round</span><span class=p>(</span><span class=nf>seq</span><span class=p>(</span><span class=nf>start</span><span class=p>(</span><span class=n>ts</span><span class=p>),</span> <span class=nf>end</span><span class=p>(</span><span class=n>ts</span><span class=p>),</span> <span class=m>60</span> <span class=o>*</span> <span class=m>60</span> <span class=o>*</span> <span class=m>24</span><span class=p>),</span> <span class=s>&#34;days&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>ts</span> <span class=o>&lt;-</span> <span class=nf>na.approx</span><span class=p>(</span><span class=n>ts</span><span class=p>,</span> <span class=n>xout</span> <span class=o>=</span> <span class=n>g</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># FUNCTION TO GET WEIGHT N-DAYS AGO IF WEIGHT IS SMOOTHED BY ROLLING MEDIAN</span>
+</span></span><span class=line><span class=cl><span class=c1># OVER A GIVEN (smooth.n) NUMBER OF DAYS</span>
+</span></span><span class=line><span class=cl><span class=n>days.ago</span> <span class=o>&lt;-</span> <span class=kr>function</span><span class=p>(</span><span class=n>days</span><span class=p>,</span> <span class=n>smooth.n</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>  <span class=n>date</span> <span class=o>&lt;-</span> <span class=nf>head</span><span class=p>(</span><span class=nf>tail</span><span class=p>(</span><span class=nf>index</span><span class=p>(</span><span class=n>ts</span><span class=p>),</span><span class=n>days</span> <span class=o>+</span> <span class=m>1</span><span class=p>),</span><span class=m>1</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=n>smoothed</span> <span class=o>&lt;-</span> <span class=nf>rollmedianr</span><span class=p>(</span><span class=n>ts</span><span class=p>,</span> <span class=n>smooth.n</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>  <span class=nf>as.numeric</span><span class=p>(</span><span class=n>smoothed[date]</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># SMOOTH WEIGHT BY 29 DAYS AND GENERATE SOME SUMMARY STATS</span>
+</span></span><span class=line><span class=cl><span class=n>days</span> <span class=o>=</span> <span class=m>29</span>
+</span></span><span class=line><span class=cl><span class=n>current.weight</span> <span class=o>&lt;-</span> <span class=nf>days.ago</span><span class=p>(</span><span class=m>0</span><span class=p>,</span> <span class=n>days</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>x</span> <span class=o>&lt;-</span> <span class=nf>c</span><span class=p>(</span><span class=n>current.weight</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>       <span class=n>current.weight</span><span class=o>-</span><span class=nf>days.ago</span><span class=p>(</span><span class=m>7</span><span class=p>,</span> <span class=n>days</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=n>current.weight</span><span class=o>-</span><span class=nf>days.ago</span><span class=p>(</span><span class=m>30</span><span class=p>,</span> <span class=n>days</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=n>current.weight</span><span class=o>-</span><span class=nf>days.ago</span><span class=p>(</span><span class=m>365</span><span class=p>,</span> <span class=n>days</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=n>current.weight</span><span class=o>-</span><span class=nf>max</span><span class=p>(</span><span class=n>ts</span><span class=p>))</span>
+</span></span><span class=line><span class=cl><span class=n>x</span> <span class=o>=</span> <span class=nf>round</span><span class=p>(</span><span class=n>x</span><span class=p>,</span> <span class=m>1</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nf>names</span><span class=p>(</span><span class=n>x</span><span class=p>)</span> <span class=o>=</span> <span class=nf>c</span><span class=p>(</span><span class=s>&#34;current&#34;</span><span class=p>,</span> <span class=s>&#34;7days&#34;</span><span class=p>,</span> <span class=s>&#34;30days&#34;</span><span class=p>,</span> <span class=s>&#34;365days&#34;</span><span class=p>,</span> <span class=s>&#34;max&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>fileConn</span><span class=o>&lt;-</span><span class=nf>file</span><span class=p>(</span><span class=n>OUTPUT_PATH</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>w</span> <span class=o>&lt;-</span> <span class=nf>c</span><span class=p>(</span><span class=nf>paste</span><span class=p>(</span><span class=s>&#34;Weight (lbs):&#34;</span><span class=p>,</span> <span class=n>x[</span><span class=s>&#34;current&#34;</span><span class=n>]</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=nf>paste</span><span class=p>(</span><span class=s>&#34;Total Δ:&#34;</span><span class=p>,</span> <span class=n>x[</span><span class=s>&#34;max&#34;</span><span class=n>]</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=nf>paste</span><span class=p>(</span><span class=s>&#34;1 Week Δ:&#34;</span><span class=p>,</span> <span class=n>x[</span><span class=s>&#34;7days&#34;</span><span class=n>]</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=nf>paste</span><span class=p>(</span><span class=s>&#34;1 Month Δ:&#34;</span><span class=p>,</span> <span class=n>x[</span><span class=s>&#34;30days&#34;</span><span class=n>]</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>       <span class=nf>paste</span><span class=p>(</span><span class=s>&#34;1 Year Δ:&#34;</span><span class=p>,</span> <span class=n>x[</span><span class=s>&#34;365days&#34;</span><span class=n>]</span><span class=p>))</span>
+</span></span><span class=line><span class=cl><span class=nf>writeLines</span><span class=p>(</span><span class=n>w</span><span class=p>,</span><span class=n>fileConn</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=nf>close</span><span class=p>(</span><span class=n>fileConn</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div><p>The output looks something like this:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>Weight (lbs): 265.7
+</span></span><span class=line><span class=cl>Total Δ: -112
+</span></span><span class=line><span class=cl>1 Week Δ: -0.8
+</span></span><span class=line><span class=cl>1 Month Δ: -4.8
+</span></span><span class=line><span class=cl>1 Year Δ: -75
+</span></span></code></pre></td></tr></table></div></div><p>I want this script to be run every time my weight is updated, so I created a second IFTTT rule that will create a new file in my Dropbox, called <em>new_weight_measurement</em>, every time I weigh in. On my Mac Mini, I have a <a class=link href=http://www.noodlesoft.com/hazel.php title="Noodlesoft | Hazel" target=_blank rel=noopener>Hazel</a> rule to watch for a file of this name to be created. When Hazel sees the file, it runs my R script and deletes that file.</p><p>My Hazel rule looks like this:</p><figure><img src=/uploads/2014/08/hazel-weight-1.png></figure><p>The &rsquo;embedded script&rsquo; that is run is the R script above; I just have to tell Hazel to use the <code>Rscript</code> shell.<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup></p><figure><img src=/uploads/2014/08/r-script-from-hazel.png></figure><p>At this point, every time I step on my scale, a text file with readable statistics about my smoothed weight appear in my Dropbox folder.</p><p>Of course, I want this updated information to be pushed directly too me. Hazel is again the perfect tool for the job. I have a second Hazel rule that watches for <em>Weight Stats.txt</em> to be created. Hazel can pass the path of the updated file into any script of your choice. You could, for example, use <a class=link href=http://www.mailgun.com/ title="Transactional Email API Service for Developers - Mailgun" target=_blank rel=noopener>Mailgun</a> to email it to yourself or <a class=link href=https://pushover.net/ title="Pushover: Simple Notifications for Android, iOS, and Desktop" target=_blank rel=noopener>Pushover</a> to push it to your mobile devices. Obviously, I want to tweet mine.</p><p>I have a Twitter account called <a class=link href=https://twitter.com/hopsfitness target=_blank rel=noopener>@hopsfitness</a> where I&rsquo;ve recently been tracking my fitness progress. On my Mac Mini, I have <a class=link href=https://github.com/sferik/t title="t GitHub" target=_blank rel=noopener>t</a> configured to access @hopsfitness from the command line. Thus, tweeting my updated statistics is just a matter of a little shell script executed by Hazel:</p><figure><img src=/uploads/2014/08/hazel-weight-2.png></figure><p>Since this data goes to Twitter, I can get it painlessly pushed to my phone: Twitter still allows you subscribe to accounts via text message, which I&rsquo;ve done with @hopsfitness. A minute or so after I step on my scale, I get a text with useful information about where I am and where I&rsquo;m going; this is much preferable to the noisy weight I see on my scale.</p><p><strong>Update</strong> (2014-12-06): I replaced my R script with a Python/pandas script. It requires Python 3 (to render the delta characters).</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>dateutil</span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>pandas</span> <span class=k>as</span> <span class=nn>pd</span>
+</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>random</span>
+</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>os.path</span> <span class=kn>import</span> <span class=n>expanduser</span><span class=p>,</span> <span class=n>join</span>
+</span></span><span class=line><span class=cl><span class=n>home</span> <span class=o>=</span> <span class=n>expanduser</span><span class=p>(</span><span class=s2>&#34;~&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>join</span><span class=p>(</span><span class=n>home</span><span class=p>,</span> <span class=s2>&#34;Dropbox/Text Notes/Weight.txt&#34;</span><span class=p>),</span> <span class=s2>&#34;r&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>f</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>lines</span> <span class=o>=</span> <span class=n>f</span><span class=o>.</span><span class=n>readlines</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>parse_line</span><span class=p>(</span><span class=n>line</span><span class=p>):</span>
+</span></span><span class=line><span class=cl>    <span class=n>s</span> <span class=o>=</span> <span class=n>line</span><span class=o>.</span><span class=n>split</span><span class=p>(</span><span class=s2>&#34; &#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>weight</span> <span class=o>=</span> <span class=nb>float</span><span class=p>(</span><span class=n>s</span><span class=p>[</span><span class=mi>0</span><span class=p>])</span>
+</span></span><span class=line><span class=cl>    <span class=n>date</span> <span class=o>=</span> <span class=n>dateutil</span><span class=o>.</span><span class=n>parser</span><span class=o>.</span><span class=n>parse</span><span class=p>(</span><span class=s1>&#39; &#39;</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>s</span><span class=p>[</span><span class=mi>1</span><span class=p>:</span><span class=mi>4</span><span class=p>]))</span>
+</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>date</span><span class=p>,</span> <span class=n>weight</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>weight</span> <span class=o>=</span> <span class=n>pd</span><span class=o>.</span><span class=n>DataFrame</span><span class=p>([</span><span class=n>parse_line</span><span class=p>(</span><span class=n>l</span><span class=p>)</span> <span class=k>for</span> <span class=n>l</span> <span class=ow>in</span> <span class=n>lines</span><span class=p>],</span> <span class=n>columns</span><span class=o>=</span><span class=p>[</span><span class=s2>&#34;date&#34;</span><span class=p>,</span> <span class=s2>&#34;weight&#34;</span><span class=p>])</span> \
+</span></span><span class=line><span class=cl>    <span class=o>.</span><span class=n>set_index</span><span class=p>(</span><span class=s2>&#34;date&#34;</span><span class=p>)</span> \
+</span></span><span class=line><span class=cl>    <span class=o>.</span><span class=n>resample</span><span class=p>(</span><span class=s2>&#34;1D&#34;</span><span class=p>,</span> <span class=n>how</span><span class=o>=</span><span class=s2>&#34;mean&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>weight</span><span class=p>[</span><span class=s2>&#34;missing&#34;</span><span class=p>]</span> <span class=o>=</span> <span class=n>weight</span><span class=o>.</span><span class=n>weight</span><span class=o>.</span><span class=n>isnull</span><span class=p>()</span>
+</span></span><span class=line><span class=cl><span class=n>weight</span><span class=o>.</span><span class=n>weight</span> <span class=o>=</span> <span class=n>weight</span><span class=o>.</span><span class=n>weight</span><span class=o>.</span><span class=n>interpolate</span><span class=p>(</span><span class=n>method</span><span class=o>=</span><span class=s2>&#34;linear&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>std</span> <span class=o>=</span> <span class=n>weight</span><span class=o>.</span><span class=n>weight</span><span class=o>.</span><span class=n>diff</span><span class=p>()</span><span class=o>.</span><span class=n>dropna</span><span class=p>()</span><span class=o>.</span><span class=n>std</span><span class=p>()</span>
+</span></span><span class=line><span class=cl><span class=n>noise</span> <span class=o>=</span> <span class=n>weight</span><span class=o>.</span><span class=n>missing</span><span class=o>.</span><span class=n>map</span><span class=p>(</span><span class=k>lambda</span> <span class=n>missing</span><span class=p>:</span> <span class=n>random</span><span class=o>.</span><span class=n>normalvariate</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=n>std</span><span class=p>)</span> <span class=k>if</span> <span class=n>missing</span> <span class=k>else</span> <span class=mi>0</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>weight</span><span class=o>.</span><span class=n>weight</span> <span class=o>=</span> <span class=n>weight</span><span class=o>.</span><span class=n>weight</span> <span class=o>+</span> <span class=n>noise</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>smoothed</span> <span class=o>=</span> <span class=n>pd</span><span class=o>.</span><span class=n>ewma</span><span class=p>(</span><span class=n>weight</span><span class=o>.</span><span class=n>weight</span><span class=p>,</span> <span class=n>span</span><span class=o>=</span><span class=mi>30</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>current</span> <span class=o>=</span> <span class=n>smoothed</span><span class=p>[</span><span class=o>-</span><span class=mi>1</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=n>stats</span> <span class=o>=</span> <span class=s2>&#34;&#34;&#34;
+</span></span></span><span class=line><span class=cl><span class=s2>Weight (lbs): </span><span class=si>%(weight).1f</span><span class=s2>
+</span></span></span><span class=line><span class=cl><span class=s2>Total Δ: </span><span class=si>%(total).1f</span><span class=s2>
+</span></span></span><span class=line><span class=cl><span class=s2>1 Week Δ: </span><span class=si>%(week).1f</span><span class=s2>
+</span></span></span><span class=line><span class=cl><span class=s2>1 Month Δ: </span><span class=si>%(month).1f</span><span class=s2>
+</span></span></span><span class=line><span class=cl><span class=s2>1 Year Δ: </span><span class=si>%(year).1f</span><span class=s2>
+</span></span></span><span class=line><span class=cl><span class=s2>&#34;&#34;&#34;</span><span class=o>.</span><span class=n>strip</span><span class=p>()</span> <span class=o>%</span> <span class=p>{</span><span class=s2>&#34;weight&#34;</span><span class=p>:</span> <span class=n>current</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>               <span class=s2>&#34;total&#34;</span><span class=p>:</span> <span class=n>current</span> <span class=o>-</span> <span class=n>smoothed</span><span class=p>[</span><span class=mi>0</span><span class=p>],</span>
+</span></span><span class=line><span class=cl>               <span class=s2>&#34;week&#34;</span><span class=p>:</span> <span class=n>current</span> <span class=o>-</span> <span class=n>smoothed</span><span class=p>[</span><span class=o>-</span><span class=mi>8</span><span class=p>],</span>
+</span></span><span class=line><span class=cl>               <span class=s2>&#34;month&#34;</span><span class=p>:</span> <span class=n>current</span> <span class=o>-</span> <span class=n>smoothed</span><span class=p>[</span><span class=o>-</span><span class=mi>32</span><span class=p>],</span>
+</span></span><span class=line><span class=cl>               <span class=s2>&#34;year&#34;</span><span class=p>:</span> <span class=n>current</span> <span class=o>-</span> <span class=n>smoothed</span><span class=p>[</span><span class=o>-</span><span class=mi>366</span><span class=p>],</span>
+</span></span><span class=line><span class=cl>               <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>with</span> <span class=nb>open</span><span class=p>(</span><span class=n>join</span><span class=p>(</span><span class=n>home</span><span class=p>,</span> <span class=s2>&#34;Dropbox/Text Notes/Weight Stats.txt&#34;</span><span class=p>),</span> <span class=s2>&#34;wb&#34;</span><span class=p>)</span> <span class=k>as</span> <span class=n>f</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>f</span><span class=o>.</span><span class=n>write</span><span class=p>(</span><span class=nb>bytes</span><span class=p>(</span><span class=n>stats</span><span class=p>,</span> <span class=s1>&#39;UTF-8&#39;</span><span class=p>))</span>
+</span></span></code></pre></td></tr></table></div></div><div class=footnotes role=doc-endnotes><hr><ol><li id=fn:1><p>This assumes your input file is formatted like mine, but you could easily adjust the first part of the code for other formats.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li><li id=fn:2><p>You can <a class=link href=http://www.r-project.org/ title="The R Project for Statistical Computing" target=_blank rel=noopener>download R here</a>; installing it should add <code>Rscript</code> to your system path.&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p></li></ol></div></section><footer class=article-footer><section class=article-tags><a href=/tags/python/>Python</a>
+<a href=/tags/pandas/>Pandas</a></section><section class=article-lastmod><svg class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<span>Last updated on Oct 17, 2024 12:00 -0400</span></section></footer></article><aside class=related-content--wrapper><h2 class=section-title>Related content</h2><div class=related-content><div class="flex article-list--tile"><article class=has-image><a href=/blog/good-programming-languages-are-nice-but-not-vital/><div class=article-image><img src=/images/complaining.png loading=lazy data-key data-hash=/images/complaining.png></div><div class=article-details><h2 class=article-title>Good programming languages are nice but not vital</h2></div></a></article><article class=has-image><a href=/blog/learning-python/><div class=article-image><img src=/images/minimalist-landscape-with-mouse-and-snake.png loading=lazy data-key=learning-python data-hash=/images/minimalist-landscape-with-mouse-and-snake.png></div><div class=article-details><h2 class=article-title>The Programming Book That Made My Career</h2></div></a></article><article><a href=/blog/installing-python/><div class=article-details><h2 class=article-title>Installing Python on Mohave with pyenv</h2></div></a></article><article><a href=/blog/parallelizing-a-python-function-for-the-extremely-lazy/><div class=article-details><h2 class=article-title>Parallelizing a Python Function for the Extremely Lazy</h2></div></a></article><article><a href=/blog/handy-one-off-webpages/><div class=article-details><h2 class=article-title>Handy One-off Webpages</h2></div></a></article></div></div></aside><div class=main-article><div class=article-content><span class=site-description>Feedback</span><form class=feedback-form style=margin:auto netlify netlify-honeypot=anything-else><div class=form-group><input type=text id=name name=name required style="width:100%;padding:10px;margin:10px 0" placeholder=Name></div><div class=form-group><input type=text id=address name=email-address required style="width:100%;padding:10px;margin:10px 0" placeholder=Email></div><div class=form-group><textarea id=comment name=comment required style="width:100%;padding:10px;margin:10px 0" rows=6 placeholder=Comment></textarea></div><input type=hidden name=page value=https://tdhopper.com/blog/tracking-weight-loss-with-r-hazel-withings-and-ifttt/>
+<input type=hidden id=anything-else name=anything-else style=display:none>
+<button type=submit style="background-color:#007bff;color:#fff;padding:10px 20px;border:none;border-radius:5px">Submit</button></form></div></div><footer class=site-footer><section class=copyright>&copy;
+2012 -
+2024 Tim Hopper</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.27.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css crossorigin=anonymous></main></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z+KMkF24hUW8WePSA9HM=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script>FOOTER</body></html>

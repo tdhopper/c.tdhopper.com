@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Humor on Tim Hopper</title><link>https://tdhopper.com/categories/humor/</link><description>Recent content in Humor on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdhopper.com/categories/humor/index.xml" rel="self" type="application/rss+xml"/><item><title>Goodnight Zoom</title><link>https://tdhopper.com/blog/goodnight-zoom/</link><pubDate>Tue, 23 Jun 2020 11:30:43 +0000</pubDate><guid>https://tdhopper.com/blog/goodnight-zoom/</guid><description>&lt;img src="https://tdhopper.com/goodnight-zoom.png" alt="Featured image of post Goodnight Zoom" />&lt;p>In the great #general room&lt;br>
+There was idle chatter&lt;br>
+And a red build&lt;br>
+And a gif of-&lt;br>
+The cow jumping over the moon&lt;/p>
+&lt;p>And there were three little interns sitting with mentors&lt;br>
+And two little commits&lt;br>
+And a backlog of tickets&lt;br>
+And a little blocker&lt;br>
+And a fresh Docker&lt;br>
+And a PM and a DM and a glass full of beer&lt;br>
+And a loud young salesman who was typing @here&lt;/p>
+&lt;p>Goodnight Slack room&lt;br>
+Goodnight Zoom&lt;br>
+Goodnight manager hopping on Zoom&lt;br>
+Goodnight Jira&lt;br>
+And the red build&lt;br>
+Goodnight interns&lt;br>
+Goodnight mentors&lt;br>
+Goodnight AWS&lt;br>
+And goodnight Bash&lt;/p>
+&lt;p>Goodnight PMs&lt;br>
+And goodnight DMs&lt;br>
+Goodnight little blocker&lt;br>
+And goodnight Docker&lt;br>
+Goodnight commits&lt;br>
+And goodnight tickets&lt;br>
+Goodnight TypeError: null is not an object&lt;br>
+Goodnight project&lt;br>
+And a loud young salesman who was typing “@here”&lt;/p>
+&lt;p>Goodnight Github stars&lt;br>
+Goodnight asserts&lt;br>
+Good night pager duty alerts&lt;/p></description></item><item><title>Tips for Working from Home</title><link>https://tdhopper.com/blog/tips-for-working-from-home/</link><pubDate>Mon, 16 Mar 2020 08:04:00 +0000</pubDate><guid>https://tdhopper.com/blog/tips-for-working-from-home/</guid><description>&lt;img src="https://tdhopper.com/images/office_ping_pong_game_illustration.png" alt="Featured image of post Tips for Working from Home" />&lt;p>I&amp;rsquo;ve been working remotely for tech startups for six years, so I am sharing some tips for those working from home for the first time.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Start Working Early&lt;/strong>&lt;br>
+If you can&amp;rsquo;t find someone to chat with for 30 minutes while making coffee, consider starting your workday instead.&lt;/li>
+&lt;li>&lt;strong>Simulate Office Noise&lt;/strong>&lt;br>
+If you miss the background noise of your office, try listening to 8 hours of power drill noises &lt;a class="link" href="https://www.youtube.com/watch?v=mNu4cNgJ-Hs" target="_blank" rel="noopener"
+>here&lt;/a>. For a more realistic ambiance, you can overlay it with the most annoying laugh ever &lt;a class="link" href="https://youtube.com/watch?v=9WcSaIAa5Ac" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Afternoon Activities&lt;/strong>&lt;br>
+Without a ping-pong table at home, you might find yourself with nothing to do but work in the afternoons.&lt;/li>
+&lt;li>&lt;strong>Familiarize Yourself with Remote Tools&lt;/strong>&lt;br>
+Programmers, take some time to get used to the essential tools for remote work, such as Jira, GitHub, Slack, and Zoom.&lt;/li>
+&lt;li>&lt;strong>Engage in Local Politics&lt;/strong>&lt;br>
+If the quarantine lasts longer than expected and you start to miss petty workplace politics, consider joining your local HOA.&lt;/li>
+&lt;/ol></description></item><item><title>My Tweets in the News</title><link>https://tdhopper.com/blog/tweets-in-the-news/</link><pubDate>Mon, 01 Jul 2019 13:40:00 +0000</pubDate><guid>https://tdhopper.com/blog/tweets-in-the-news/</guid><description>&lt;img src="https://tdhopper.com/images/computer-fishing.png" alt="Featured image of post My Tweets in the News" />&lt;p>A few weeks back, I was browsing Google Maps and noticed the word &amp;ldquo;DEMO&amp;rdquo;
+written in faint green letters in rural South Sudan. A journalist came across
+this tweet and &lt;a class="link" href="https://www.bbc.com/news/technology-48444703" target="_blank" rel="noopener"
+>wrote about it for
+bbc.com&lt;/a>.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="qme" dir="ltr">🤔 &lt;a href="https://t.co/TOJvHsxdD9">https://t.co/TOJvHsxdD9&lt;/a> &lt;a href="https://t.co/UtHG6Jpgxz">pic.twitter.com/UtHG6Jpgxz&lt;/a>&lt;/p>&amp;mdash; Tim Hopper (@tdhopper) &lt;a href="https://twitter.com/tdhopper/status/1133413170909982720?ref_src=twsrc%5Etfw">May 28, 2019&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>Way back in 2015, I tweeted &amp;ldquo;Give a man a fish and you feed him for a day.
+Write a program to fish for him and you maintain it for a lifetime.&amp;rdquo; Today,
+that tweet appeared in &lt;a class="link" href="https://www.nature.com/articles/d41586-019-02046-0" target="_blank" rel="noopener"
+>a nature.com article about the challenges of releasing
+open source software&lt;/a>.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Give a man a fish and you feed him for a day.&lt;br>&lt;br>Write a program to fish for him and you maintain it for a lifetime.&lt;/p>&amp;mdash; Tim Hopper (@tdhopper) &lt;a href="https://twitter.com/tdhopper/status/661551195291574272?ref_src=twsrc%5Etfw">November 3, 2015&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script></description></item><item><title>Zen of Git</title><link>https://tdhopper.com/blog/zen-of-git/</link><pubDate>Sat, 30 Sep 2017 00:26:00 +0000</pubDate><guid>https://tdhopper.com/blog/zen-of-git/</guid><description>&lt;img src="https://tdhopper.com/images/zen.png" alt="Featured image of post Zen of Git" />&lt;pre>&lt;code>$ git checkout this
+Zen of Git
+Ugly is better than beautiful.
+Explicit is better than implicit.
+Complex is better than simple.
+Complicated is better than complex.
+Flat is better than nested.
+Readability is meaningless.
+Special cases are everything.
+Errors should never be comprehensible.
+In the face of ambiguity, copy and paste from Stack Overflow.
+There should be no obvious way to do it.
+Although there may be endless non obvious ways to do it.
+If the documentation is hard to understand, it's a great idea.
+If the documentation is easy to understand, it's probably for another tool.
+&lt;/code>&lt;/pre>
+&lt;p>(With apologies to &lt;a class="link" href="https://www.python.org/dev/peps/pep-0020/" target="_blank" rel="noopener"
+>Tim Peters&lt;/a>.)&lt;/p></description></item></channel></rss>

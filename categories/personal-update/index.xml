@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Personal Updates on Tim Hopper</title><link>https://tdhopper.com/categories/personal-update/</link><description>Recent content in Personal Updates on Tim Hopper</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://tdhopper.com/categories/personal-update/index.xml" rel="self" type="application/rss+xml"/><item><title>Announcing the Python Developer Tooling Handbook</title><link>https://tdhopper.com/blog/announcing-the-python-developer-tooling-handbook/</link><pubDate>Sat, 10 Feb 2024 16:31:16 +0000</pubDate><guid>https://tdhopper.com/blog/announcing-the-python-developer-tooling-handbook/</guid><description>&lt;img src="https://tdhopper.com/images/pydevtools-announcement.png" alt="Featured image of post Announcing the Python Developer Tooling Handbook" />&lt;p>I’ve been a professional Python developer for over a decade. Like many Python developers, I’ve faced the many challenges of Python packaging and dependency management. I’ve also come to love helping developers find the right tools to make their work easier and more productive.&lt;/p>
+&lt;p>I&amp;rsquo;m excited to announce that I&amp;rsquo;m writing the &lt;a class="link" href="https://pydevtools.com/" target="_blank" rel="noopener"
+>Python Developer Tooling Handbook&lt;/a>, a free
+ebook on Python developer tooling. This handbook covers a wide range of topics,
+including build tools, linting, formatting, dependency management, virtual environments,
+and more.&lt;/p>
+&lt;p>The book is currently a work in progress, and I&amp;rsquo;m excited to share it with you when it&amp;rsquo;s
+ready. If you want to be notified as soon as it&amp;rsquo;s released, please consider signing up
+for my mailing list &lt;a class="link" href="https://buttondown.email/pdth?tag=github" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p></description></item><item><title>My Tweets in the News</title><link>https://tdhopper.com/blog/tweets-in-the-news/</link><pubDate>Mon, 01 Jul 2019 13:40:00 +0000</pubDate><guid>https://tdhopper.com/blog/tweets-in-the-news/</guid><description>&lt;img src="https://tdhopper.com/images/computer-fishing.png" alt="Featured image of post My Tweets in the News" />&lt;p>A few weeks back, I was browsing Google Maps and noticed the word &amp;ldquo;DEMO&amp;rdquo;
+written in faint green letters in rural South Sudan. A journalist came across
+this tweet and &lt;a class="link" href="https://www.bbc.com/news/technology-48444703" target="_blank" rel="noopener"
+>wrote about it for
+bbc.com&lt;/a>.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="qme" dir="ltr">🤔 &lt;a href="https://t.co/TOJvHsxdD9">https://t.co/TOJvHsxdD9&lt;/a> &lt;a href="https://t.co/UtHG6Jpgxz">pic.twitter.com/UtHG6Jpgxz&lt;/a>&lt;/p>&amp;mdash; Tim Hopper (@tdhopper) &lt;a href="https://twitter.com/tdhopper/status/1133413170909982720?ref_src=twsrc%5Etfw">May 28, 2019&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>Way back in 2015, I tweeted &amp;ldquo;Give a man a fish and you feed him for a day.
+Write a program to fish for him and you maintain it for a lifetime.&amp;rdquo; Today,
+that tweet appeared in &lt;a class="link" href="https://www.nature.com/articles/d41586-019-02046-0" target="_blank" rel="noopener"
+>a nature.com article about the challenges of releasing
+open source software&lt;/a>.&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Give a man a fish and you feed him for a day.&lt;br>&lt;br>Write a program to fish for him and you maintain it for a lifetime.&lt;/p>&amp;mdash; Tim Hopper (@tdhopper) &lt;a href="https://twitter.com/tdhopper/status/661551195291574272?ref_src=twsrc%5Etfw">November 3, 2015&lt;/a>&lt;/blockquote> &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script></description></item><item><title>Challenges in Applying Machine Learning to Cybersecurity</title><link>https://tdhopper.com/blog/ml-for-security/</link><pubDate>Sat, 23 Jun 2018 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/ml-for-security/</guid><description>&lt;p>I gave a talk called &lt;em>Challenges in Applying Machine Learning to Cybersecurity&lt;/em> at &lt;a class="link" href="http://bsidesasheville.com" target="_blank" rel="noopener"
+>BSides Asheville&lt;/a>. Here are my slides:&lt;/p>
+&lt;div class="embed-responsive embed-responsive-16by9">
+&lt;iframe class="embed-responsive-item" src="https://docs.google.com/presentation/d/e/2PACX-1vSxsBcas-WSaIchfsPU5uJI5mEiWW9oHxsGuW59H61P_XD-VGCNTaPro92fsWa1ovjyKCu2S4CluBi7/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div>
+&lt;p>And the video:&lt;/p>
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/OS6j1Y2tJLY"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item><item><title>dothopper photography</title><link>https://tdhopper.com/blog/dothopper-photography/</link><pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/dothopper-photography/</guid><description>&lt;img src="https://tdhopper.com/images/camera.png" alt="Featured image of post dothopper photography" />&lt;p>&lt;a class="link" href="https://photos.tdhopper.com" target="_blank" rel="noopener"
+>I created a new website&lt;/a> devoted to my photography.&lt;/p>
+&lt;p>I named it &lt;em>dothopper photography&lt;/em> in honor of my late grandmother, Dot Hopper, who fell in love with painting watercolors in retirement.&lt;/p></description></item><item><title>Python Plotting for Exploratory Data Analysis</title><link>https://tdhopper.com/blog/python-plotting-for-exploratory-data-analysis/</link><pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/python-plotting-for-exploratory-data-analysis/</guid><description>&lt;p>Plotting is an essential component of data analysis. As a data scientist, I spend a significant amount of my time making simple plots to understand complex data sets (exploratory data analysis) and help others understand them (presentations).&lt;/p>
+&lt;p>In particular, I make a lot of bar charts (including histograms), line plots (including time series), scatter plots, and density plots from data in Pandas data frames. I often want to facet these on various categorical variables and layer them on a common grid.&lt;/p>
+&lt;p>To that end, I made &lt;a class="link" href="http://pythonplot.com/" target="_blank" rel="noopener"
+>pythonplot.com&lt;/a>, a brief introduction to Python plotting libraries and a &amp;ldquo;rosetta stone&amp;rdquo; comparing how to use them. I also included comparison to &lt;a class="link" href="https://en.wikipedia.org/wiki/Ggplot2" title="Wikipedia Entry: ggplot2 - Wikipedia"
+target="_blank" rel="noopener"
+>ggplot2&lt;/a>, the R plotting library that I and many others consider a gold standard.&lt;/p></description></item><item><title>Adversarial Learning: Stories of Degradation and Humiliation</title><link>https://tdhopper.com/blog/stories-of-degradation-and-humiliation/</link><pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/stories-of-degradation-and-humiliation/</guid><description>&lt;img src="https://tdhopper.com/images/interview.png" alt="Featured image of post Adversarial Learning: Stories of Degradation and Humiliation" />&lt;p>My friends &lt;a class="link" href="http://www.twitter.com/akm" target="_blank" rel="noopener"
+>Andrew&lt;/a> and &lt;a class="link" href="http://www.twitter.com/joelgrus" target="_blank" rel="noopener"
+>Joel&lt;/a> were kind enough to have me back on their podcast &lt;a class="link" href="http://adversariallearning.com/episode-10-stories-of-degradation-and-humiliation.html" target="_blank" rel="noopener"
+>Adversarial Learning&lt;/a>. We shared our tales of bad data science interviews. Enjoy!&lt;/p>
+&lt;iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/5378015/height/90/width/640/theme/custom/autonext/no/thumbnail/yes/autoplay/no/preload/no/no_addthis/no/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="640" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>&lt;/iframe></description></item><item><title>Your Old Tweets from This Day</title><link>https://tdhopper.com/blog/your-old-tweets-from-this-day/</link><pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/your-old-tweets-from-this-day/</guid><description>&lt;p>A while ago, I &lt;a class="link" href="https://gist.github.com/tdhopper/fccc4ab00a07cb290f1812d8ac5cc5f3" target="_blank" rel="noopener"
+>published a Bash script&lt;/a> that will open a Twitter search page to show your old tweets from this day of the year. I have enjoyed using it to &lt;a class="link" href="https://twitter.com/tdhopper/status/559005293808746497" target="_blank" rel="noopener"
+>see&lt;/a> &lt;a class="link" href="https://twitter.com/tdhopper/status/426718234461872130" target="_blank" rel="noopener"
+>what&lt;/a> I was &lt;a class="link" href="https://twitter.com/tdhopper/status/691088342499381250" target="_blank" rel="noopener"
+>thinking&lt;/a> &lt;a class="link" href="https://twitter.com/tdhopper/status/426702495361269760" target="_blank" rel="noopener"
+>about&lt;/a> in &lt;a class="link" href="https://twitter.com/tdhopper/status/294300532770738176" target="_blank" rel="noopener"
+>days&lt;/a> &lt;a class="link" href="https://twitter.com/tdhopper/status/29641415810088961" target="_blank" rel="noopener"
+>gone&lt;/a> by.&lt;/p>
+&lt;p>So I turned this into a Twitter account.&lt;/p>
+&lt;blockquote class="twitter-tweet" data-lang="en">&lt;p lang="en" dir="ltr">Follow me to have a link tweeted @ you each day that will show your old tweets from that day of the year. &lt;a href="https://twitter.com/hashtag/experimental?src=hash">#experimental&lt;/a>&lt;/p>&amp;mdash; On This Day (@your_old_tweets) &lt;a href="https://twitter.com/your_old_tweets/status/819196698044014592">January 11, 2017&lt;/a>&lt;/blockquote>
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;p>If you follow &lt;a class="link" href="https://twitter.com/your_old_tweets" target="_blank" rel="noopener"
+>@your_old_tweets&lt;/a>, it&amp;rsquo;ll tweet a link at you each day that will show you your old tweets from the day. It attempts to send it in the morning (assuming you have your &lt;a class="link" href="https://twitter.com/settings/account" target="_blank" rel="noopener"
+>timezone set&lt;/a>).&lt;/p>
+&lt;p>This runs on Amazon Lambda. The code is &lt;a class="link" href="https://github.com/tdhopper/your_old_tweets" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p></description></item><item><title>Tallest Data Scientist</title><link>https://tdhopper.com/blog/tallest-data-scientist/</link><pubDate>Thu, 08 Dec 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/tallest-data-scientist/</guid><description>&lt;img src="https://tdhopper.com/images/datascientist.png" alt="Featured image of post Tallest Data Scientist" />&lt;p>I was honored to &lt;a class="link" href="http://adversariallearning.com/episode-2-the-tallest-data-scientist.html" target="_blank" rel="noopener"
+>join my friends Joel and Andrew on the Adversarial Learning&lt;/a> podcast to talk about my career in data science (and what it&amp;rsquo;s like to be the tallest one).&lt;/p>
+&lt;iframe src="https://podcasters.spotify.com/pod/show/adversarial-learning/embed/episodes/Episode-Two-The-Tallest-Data-Scientist-eooh8a/a-a4acm9p" height="102px" width="100%" frameborder="0" scrolling="no">&lt;/iframe></description></item><item><title>Undersampled Radio Interview</title><link>https://tdhopper.com/blog/undersampled-radio/</link><pubDate>Mon, 24 Oct 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/undersampled-radio/</guid><description>&lt;p>I was flattered to be asked to be on a burgeoning data science podcast called Undersampled Radio. You can listen &lt;a class="link" href="http://undersampledrad.io/home/2016/10/intelligent-security" target="_blank" rel="noopener"
+>here&lt;/a>. We recorded the interview on a Google Hangout, so you can also watch it &lt;a class="link" href="https://youtu.be/q4e_hBUd6zI" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p></description></item><item><title>Photos Featured on Smithsonian Magazine</title><link>https://tdhopper.com/blog/photos-featured-on-smithsonian-magazine/</link><pubDate>Mon, 25 Jul 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/photos-featured-on-smithsonian-magazine/</guid><description>&lt;p>A few weeks ago, I introduced my wife to backpacking in the beautiful &lt;a class="link" href="http://www.dcr.virginia.gov/state-parks/grayson-highlands" title="Grayson Highlands State Park"
+target="_blank" rel="noopener"
+>Grayson Highlands State Park&lt;/a> in southestern Virginia. Part of my reason for picking this location was to see the herd of wild ponies that life at 5000&amp;rsquo; on the grassy balds.&lt;/p>
+&lt;p>I shared some of my best pictures from the trip on Flicker under a Creative Commons license (CC BY-NC-ND 2.0). On Saturday, I stumbled acrosss &lt;a class="link" href="http://www.smithsonianmag.com/travel/more-than-100-ponies-roam-free-this-park-virginia-180959786/" target="_blank" rel="noopener"
+>an article about the Grayson Highlands ponies on the Smithsonian Magazine website&lt;/a>. I was pleasantly surprised to see they selected two of my images for the story! I&amp;rsquo;ve been spending more time lately exploring my &lt;a class="link" href="https://twitter.com/tdhopper/status/43876534687248384" target="_blank" rel="noopener"
+>longtime interest in wildlife photography&lt;/a>, and I&amp;rsquo;m thrilled to see others sharing my work.&lt;/p>
+&lt;p>You can find more of my photography on &lt;a class="link" href="https://photos.tdhopper.com" target="_blank" rel="noopener"
+>photos.tdhopper.com&lt;/a> or &lt;a class="link" href="https://www.instagram.com/tdhopper/" target="_blank" rel="noopener"
+>Instagram&lt;/a>.&lt;/p>
+&lt;figure>&lt;img src="https://tdhopper.com/uploads/grayson1.png">&lt;figcaption>
+&lt;h4>Ponies at Grayson Highlands State Park&lt;/h4>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>&lt;img src="https://tdhopper.com/uploads/grayson2.png">&lt;figcaption>
+&lt;h4>Ponies at Grayon Highlands State Park&lt;/h4>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Ultralight Backpacking for the Ultratall</title><link>https://tdhopper.com/blog/backpacking-for-the-very-tall/</link><pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/backpacking-for-the-very-tall/</guid><description>&lt;p>I created a single page website to collect notes on one of my other hobbies: &lt;a class="link" href="https://backpacking.tdhopper.com/" target="_blank" rel="noopener"
+>ultralight backpacking&lt;/a>. In particular, notes on ultralight gear for the very tall.&lt;/p></description></item><item><title>Stanford Encyclopedia of Philosophy Bot</title><link>https://tdhopper.com/blog/tweet-your-moon/</link><pubDate>Sun, 28 Feb 2016 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/tweet-your-moon/</guid><description>&lt;p>I enjoy the &lt;a class="link" href="" >Stanford Encyclopedia of Philosophy&lt;/a>, so I created a &lt;a class="link" href="" >Twitter account&lt;/a> that tweets links to random articles from it.&lt;/p></description></item><item><title>Knitting</title><link>https://tdhopper.com/blog/knitting/</link><pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/knitting/</guid><description>&lt;p>True story: I&amp;rsquo;m a closet knitter. I don&amp;rsquo;t have much time for it these days, but it helped keep me sane in grad school. Here are some things I&amp;rsquo;ve made over the years.&lt;/p>
+&lt;p>&lt;img src="https://tdhopper.com/uploads/2015/11/knitting1.JPG"
+loading="lazy"
+alt="knitting1.JPG"
+>&lt;/p>
+&lt;p>&lt;img src="https://tdhopper.com/uploads/2015/11/knitting2.JPG"
+loading="lazy"
+alt="knitting2.JPG"
+>&lt;/p>
+&lt;p>&lt;img src="https://tdhopper.com/uploads/2015/11/knitting3.jpg"
+loading="lazy"
+alt="knitting3.jpg"
+>&lt;/p>
+&lt;p>&lt;img src="https://tdhopper.com/uploads/2015/11/knitting4.jpg"
+loading="lazy"
+alt="knitting4.jpg"
+>&lt;/p>
+&lt;p>&lt;img src="https://tdhopper.com/uploads/2015/11/knitting5.JPG"
+loading="lazy"
+alt="knitting5.JPG"
+>&lt;/p></description></item><item><title>Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use</title><link>https://tdhopper.com/blog/my-first-publication/</link><pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/my-first-publication/</guid><description>&lt;img src="https://tdhopper.com/images/ecig.png" alt="Featured image of post Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use" />&lt;p>When I worked at &lt;a class="link" href="http://www.rti.org/" title="RTI International"
+target="_blank" rel="noopener"
+>RTI International&lt;/a>, I worked on an exploratory analysis of Twitter discussion of electronic cigarettes. A paper on our work was just published in the &lt;a class="link" href="http://www.jmir.org/" title="JMIR-Journal of Medical Internet Research"
+target="_blank" rel="noopener"
+>Journal of Internet Medical Research&lt;/a>: &lt;a class="link" href="http://www.jmir.org/2015/11/e251/" target="_blank" rel="noopener"
+>Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use: An Infoveillance Study&lt;/a>.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;blockquote>
+&lt;p>Marketing and use of electronic cigarettes (e-cigarettes) and other electronic nicotine delivery devices have increased exponentially in recent years fueled, in part, by marketing and word-of-mouth communications via social media platforms, such as Twitter. &amp;hellip; We identified approximately 1.7 million tweets about e-cigarettes between 2008 and 2013, with the majority of these tweets being advertising (93.43%, 1,559,508/1,669,123). Tweets about e-cigarettes increased more than tenfold between 2009 and 2010, suggesting a rapid increase in the popularity of e-cigarettes and marketing efforts. The Twitter handles tweeting most frequently about e-cigarettes were a mixture of e-cigarette brands, affiliate marketers, and resellers of e-cigarette products. Of the 471 e-cigarette tweets mentioning a specific place, most mentioned e-cigarette use in class (39.1%, 184/471) followed by home/room/bed (12.5%, 59/471), school (12.1%, 57/471), in public (8.7%, 41/471), the bathroom (5.7%, 27/471), and at work (4.5%, 21/471).&lt;/p>
+&lt;/blockquote>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>I have no idea what &amp;ldquo;Infoveillance&amp;rdquo; means.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Profile in Computational Imagination</title><link>https://tdhopper.com/blog/profile-in-computational-imagination/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/profile-in-computational-imagination/</guid><description>&lt;p>I recently had the honor of being interviewed by &lt;a class="link" href="http://computationalimagination.com" target="_blank" rel="noopener"
+>Michael Swenson&lt;/a> for his interview series called &amp;ldquo;Profiles in Computational Imagination&amp;rdquo;. I talked a bit about my current work, my wandering road to data science, and my love for remote work. You can &lt;a class="link" href="https://web.archive.org/web/20160304120901/http://computationalimagination.com/interview_tim_hopper.php" target="_blank" rel="noopener"
+>read it here&lt;/a>.&lt;/p></description></item><item><title>ShouldIGetAPhD.com</title><link>https://tdhopper.com/blog/shouldigetaphdcom/</link><pubDate>Mon, 08 Dec 2014 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/shouldigetaphdcom/</guid><description>&lt;p>Last year, I published nine interviews with Internet friends about how an academically-minded, 22-year old college senior should work on a Ph.D. Many people have told me the interviews have been helpful for them or that they&amp;rsquo;ve emailed them to others.&lt;/p>
+&lt;p>I decided to make a dedicated website to host the interviews. You can find it at &lt;a class="link" href="http://shouldigetaphd.com/" target="_blank" rel="noopener"
+>shouldigetaphd.com&lt;/a>.&lt;/p>
+&lt;p>I hope this continues to be a valuable resource. I&amp;rsquo;d encourage you to share this with anyone you know who is thinking through this question.&lt;/p></description></item><item><title>Bandit Algorithms for Website Optimization</title><link>https://tdhopper.com/blog/bandit-algorithms-for-website-optimization/</link><pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate><guid>https://tdhopper.com/blog/bandit-algorithms-for-website-optimization/</guid><description>&lt;img src="https://tdhopper.com/images/bandit.png" alt="Featured image of post Bandit Algorithms for Website Optimization" />&lt;p>I had the honor of being a technical reviewer for John Myles White&amp;rsquo;s outstanding book, &amp;ldquo;Bandit Algorithms for Website Optimization: Developing, Deploying, and Debugging.&amp;rdquo; I strongly suggest it to anyone curious about the subject. This book is an excellent start to understanding the field and provides practical advice on applying these algorithms effectively.&lt;/p>
+&lt;p>&lt;a class="link" href="https://amzn.to/3SXD9a8" target="_blank" rel="noopener"
+>Check it out!&lt;/a>&lt;/p></description></item></channel></rss>
