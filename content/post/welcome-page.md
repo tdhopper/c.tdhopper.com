@@ -40,7 +40,7 @@ I enjoy wildlife and nature photography in my free time. [dothopper photo](https
 
 ⌨️ **Open Source**:
 
-I love to contribute to open source as I'm able. I've contributed libraries like
+I love to contribute to open source as I'm able. I've contributed to libraries like
 [cpython](https://github.com/python/cpython/commits?author=tdhopper),
 [datamicroscopes](https://datamicroscopes.github.io/),
 [Streamparse](https://github.com/parsely/streamparse/commits?author=tdhopper),
