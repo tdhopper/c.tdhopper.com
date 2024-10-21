@@ -20,9 +20,9 @@ jobs:
         path: destination_repo
         token: ${{ secrets.PAT_TOKEN }}
 
-    - name: Copy welcome-page.md to README.md
+    - name: Strip YAML frontmatter and copy welcome-page.md to README.md
       run: |
-        cp content/post/welcome-page.md destination_repo/README.md
+        sed '/^---$/,/^---$/d' content/post/welcome-page.md > destination_repo/README.md
 
     - name: Commit and push changes to destination repository
       working-directory: destination_repo
