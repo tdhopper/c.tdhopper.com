@@ -13,6 +13,4 @@ Thumbnail: /projects/undersampled_radio.png
 external: http://undersampledrad.io/home/2016/10/intelligent-security
 ---
 
-I was flattered to be asked to be on a burgeoning data science podcast called Undersampled Radio.
-
-{{< youtube "q4e_hBUd6zI" >}}
+I was flattered to be asked to be on a burgeoning data science podcast called Undersampled Radio. You can listen on [YouTube](https://www.youtube.com/watch?v=q4e_hBUd6zI&feature=youtu.be).
