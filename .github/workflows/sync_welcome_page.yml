@@ -1,0 +1,34 @@
+name: Sync welcome-page.md to README.md
+
+on:
+  push:
+    paths:
+      - 'content/post/welcome-page.md'
+
+jobs:
+  sync_welcome_page:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source repository
+      uses: actions/checkout@v3
+
+    - name: Checkout destination repository
+      uses: actions/checkout@v3
+      with:
+        repository: tdhopper/tdhopper
+        path: destination_repo
+        token: ${{ secrets.PAT_TOKEN }}
+
+    - name: Copy welcome-page.md to README.md
+      run: |
+        cp content/post/welcome-page.md destination_repo/README.md
+
+    - name: Commit and push changes to destination repository
+      working-directory: destination_repo
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+        git add README.md
+        git commit -m "Update README.md from welcome-page.md"
+        git push
