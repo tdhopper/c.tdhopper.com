@@ -47,5 +47,5 @@ I gave the 275-lb bag a good shot, but it couldn’t fit in my lap. Its weight i
 
 
 
-{{< figure src="images/1237244fd93e655ef52ce1dba00aa2ff.jpeg" title="Sandbag race" >}}
+{{< figure src="/images/1237244fd93e655ef52ce1dba00aa2ff.jpeg" title="Sandbag race" >}}
 {{< figure src="/images/59f7ec02d3275ba63adf1b8dd06ed554.jpeg" title="Farmer's carry" >}}
