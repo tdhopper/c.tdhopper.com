@@ -44,3 +44,7 @@ The final event was loading increasingly heavy sandbags over a 4’ rail. After 
 It started with a 200-lb bag, which I had no trouble lifting. I also lifted the 225-lb bag fine. With the 250-lb bag, I struggled to get it to my lap, but I got it over the bar at the last second. 
 
 I gave the 275-lb bag a good shot, but it couldn’t fit in my lap. Its weight is much higher than the 150-lb bag I trained with, but it is also a lot bigger, and I didn’t know how to get a grip on it. With some practice, I should be able to get to a 325-lb bag.
+
+![](/images/1237244fd93e655ef52ce1dba00aa2ff.jpeg)
+
+![](/images/59f7ec02d3275ba63adf1b8dd06ed554.jpeg)
