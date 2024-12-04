@@ -92,8 +92,3 @@ Code review has multiple benefits and objectives including:
 
   * [Code reviews at Slack](https://slack.engineering/how-about-code-reviews/)
 
---- 
-
-<small>
-[Computers](https://flickr.com/photos/duanestorey/2721991488 "Computers") flickr photo by [Duane Storey](https://flickr.com/people/duanestorey) shared under a [Creative Commons (BY-NC-ND) license](https://creativecommons.org/licenses/by-nc-nd/2.0/)
-</small>
