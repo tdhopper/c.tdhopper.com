@@ -4,7 +4,7 @@ date: Fri, 03 Dec 2021 15:37:00 +0000
 slug: code-review-guidelines
 description: A proposed code review guideline for data science teams,
   emphasizing the benefits of code reviews, what they are not intended for, and
-  offering detailed advice for both submitting and reviewing pull requests.
+  offering advice for both submitting and reviewing pull requests.
 tags:
   - python
 categories:
@@ -80,11 +80,11 @@ Code review has multiple benefits and objectives including:
 
 ## Additional Reading
 
-  * [Google 's excellent guide to code review](https://google.github.io/eng-practices/review/reviewer/standard.html) (Note: CL=change list=pull request)
+  * [Google's excellent guide to code review](https://google.github.io/eng-practices/review/reviewer/standard.html) (Note: CL=change list=pull request)
 
   * [Curated list of articles about code review](https://github.com/joho/awesome-code-review/blob/master/readme.md)
 
-  * [Gitlab 's Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
+  * [Gitlab's Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
   * [Proven Code Review Best Practices from Microsoft](https://www.michaelagreiler.com/code-review-best-practices/)
 
