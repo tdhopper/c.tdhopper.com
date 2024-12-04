@@ -74,7 +74,7 @@ Code review has multiple benefits and objectives including:
 
     * Did the author write tests for the new code?
 
-  * Clarify when a comment is minor or not essential for merging (for example, preface with "Nit: ").
+  * Clarify when a comment is minor or not essential for merging (for example, preface with "Nit:").
 
   * If a PR is too large for you to reasonably review, you can ask the author to split it into multiple PRs.
 
