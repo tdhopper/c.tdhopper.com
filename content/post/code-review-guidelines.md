@@ -47,7 +47,7 @@ Code review has multiple benefits and objectives including:
 
   * Consider your contribution in the broader context of the code base. Do you need to take extra steps to make the code healthier and manage complexity?
 
-  * Keep pull requests short whenever possible. `git --shortstat origin/main` will show you the size of your branch 's diff from main; under 400 lines changed is a great goal.
+  * Keep pull requests short whenever possible. `git --shortstat origin/main` will show you the size of your branch's diff from main; under 400 lines changed is a great goal.
 
   * Write a pull request description that sets your reviewer up for success by helping them understand what the PR intends to accomplish.
 
