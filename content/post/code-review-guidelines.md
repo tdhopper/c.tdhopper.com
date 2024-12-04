@@ -23,15 +23,15 @@ same thing by "code review".
 
 Code review has multiple benefits and objectives including:
 
-  * **Code correctness** : someone seeing your code with fresh eyes may help uncover bugs.
+  * **Code correctness**: someone seeing your code with fresh eyes may help uncover bugs.
 
-  * **Code familiarity** : reading one another's code keeps everyone familiar with the codebase.
+  * **Code familiarity**: reading one another's code keeps everyone familiar with the codebase.
 
-  * **Design feedback** : a constantly evolving code base is a fight against complexity; reviewers can guide one another on keeping the codebase coherent and maintainable.
+  * **Design feedback**: a constantly evolving code base is a fight against complexity; reviewers can guide one another on keeping the codebase coherent and maintainable.
 
-  * **Mutual learning** : the reviewer and author will inevitably learn from one another.
+  * **Mutual learning**: the reviewer and author will inevitably learn from one another.
 
-  * **Regression protection** : future contributors to the code base have checks against breaking essential functionality; importantly, _this reduces fear of making necessary improvements to the code_.
+  * **Regression protection**: future contributors to the code base have checks against breaking essential functionality; importantly, _this reduces fear of making necessary improvements to the code_.
 
 ## What code reviews aren't
 
@@ -82,8 +82,6 @@ Code review has multiple benefits and objectives including:
 
   * [Google's excellent guide to code review](https://google.github.io/eng-practices/review/reviewer/standard.html) (Note: CL=change list=pull request)
 
-  * [Curated list of articles about code review](https://github.com/joho/awesome-code-review/blob/master/readme.md)
-
   * [Gitlab's Code Review Guidelines](https://docs.gitlab.com/ee/development/code_review.html)
 
   * [Proven Code Review Best Practices from Microsoft](https://www.michaelagreiler.com/code-review-best-practices/)
@@ -91,4 +89,7 @@ Code review has multiple benefits and objectives including:
   * [Thoughtbot Code Review Guidelines](https://github.com/thoughtbot/guides/tree/master/code-review)
 
   * [Code reviews at Slack](https://slack.engineering/how-about-code-reviews/)
+
+  * [Curated list of articles about code review from John Barton](https://github.com/joho/awesome-code-review/blob/master/readme.md)
+
 
