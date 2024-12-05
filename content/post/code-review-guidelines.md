@@ -8,7 +8,7 @@ description: A proposed code review guideline for data science teams,
 tags:
   - python
 categories:
-  - Article 
+  - Article
 image: /images/code-review.png
 ---
 Over the last 6 years, I've been able to help the teams I have been part of
@@ -60,7 +60,7 @@ Code review has multiple benefits and objectives including:
 
   * Wait for continuous integration tasks to complete. Let the author resolve any test failures before beginning your review.
 
-    * As much as possible, configure your continuous integration to enforce your team's style guidelines and look for line-level bugs. In Python, this might include running mypy, flake8, black, and isort. Automation like this has multiple benefits: they're often better than humans at this task, they reduce cognative load on the reviewer, and they reduce interpersonal tension that results from interviewers nitpicking code.
+    * As much as possible, configure your continuous integration to enforce your team's style guidelines and look for line-level bugs. In Python, this might include running [mypy](https://mypy-lang.org/) and [ruff](https://docs.astral.sh/ruff/). Automation like this has multiple benefits: they're often better than humans at this task, they reduce cognitive load on the reviewer, and they reduce interpersonal tension that results from interviewers nitpicking code.
   * Things to evaluate:
 
     * Does the code appear to do what it claims to do? (This requires you understanding what the code claims to do; you may need to ask the code author to write a better description.)
