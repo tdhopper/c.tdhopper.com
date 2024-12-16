@@ -33,7 +33,7 @@ Years ago, I created [Should I Get a Phd?](https://shouldigetaphd.com) where I i
 
 I created [Notes on Dirichlet Processes](https://dp.tdhopper.com) after working on a [DARPA](https://www.darpa.mil)-funded open source project for developing [Bayesian nonparametric models in Python](http://datamicroscopes.github.io). I did a lot of work to understand Bayesian nonparametrics and derive the Gibbs sampler for Hierarchical Dirichlet Processes. [Notes on Dirichlet Processes](https://dp.tdhopper.com) shares what I learned for the benefit of others.
 
-I enjoy wildlife and nature photography in my free time. [dothopper photo](https://photos.tdhopper.com) is my gallary.
+I enjoy wildlife and nature photography in my free time. [dothopper photo](https://photos.tdhopper.com) is my gallery.
 
 [Free Disk Space](https://freespace.tdhopper.com) is a little site I maintain with commands for freeing up disk space on your computer.
 
