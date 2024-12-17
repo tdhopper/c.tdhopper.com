@@ -17,6 +17,7 @@ image: /images/podcast.png
 
 - [Jowanza's Twitter](https://twitter.com/jowanza)
 - [Jowanza's website ](https://jowanza.com)
+- [AI Assisted Programming with Ravi Mody](https://tdhopper.com/blog/ai-assisted-programming-with-ravi-mody/)
 - [Parakeet Financial](https://www.parakeetfinancial.com/)
 - [Cursor Editor](https://cursor.sh/) - AI-powered code editor
 - [Magic Pattern](https://www.magicpattern.ai/) - AI design tool
