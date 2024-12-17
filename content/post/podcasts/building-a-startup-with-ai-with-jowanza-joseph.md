@@ -17,15 +17,13 @@ image: /images/podcast.png
 
 - [Jowanza's Twitter](https://twitter.com/jowanza)
 - [Jowanza's website ](https://jowanza.com)
-- [AI Assisted Programming with Ravi Mody](https://tdhopper.com/blog/ai-assisted-programming-with-ravi-mody/)
 - [Parakeet Financial](https://www.parakeetfinancial.com/)
-- [Cursor Editor](https://cursor.sh/) - AI-powered code editor
-- [Magic Pattern](https://www.magicpattern.ai/) - AI design tool
-- [V0 by Vercel](https://v0.dev/) - AI website prototyping tool
-- [Parakeet](https://www.parakeet.ai) - Compliance automation platform
-- [Crew AI](https://www.crewai.io/) - AI agent framework
-- [Linear](https://linear.app/) - Project management tool
-- [GitHub Copilot](https://github.com/features/copilot) - AI coding assistant
+- [AI Assisted Programming with Ravi Mody](https://tdhopper.com/blog/ai-assisted-programming-with-ravi-mody/)
+- [Cursor Editor](https://cursor.sh/)
+- [Magic Patterns](https://www.magicpatterns.com/) 
+- [V0 by Vercel](https://v0.dev/)
+- [Crew AI](https://www.crewai.com/) 
+- [GitHub Copilot](https://github.com/features/copilot) 
 
 
 ## Subscribe 
