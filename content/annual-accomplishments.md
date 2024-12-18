@@ -4,6 +4,17 @@ date: Tue, 10 Jan 2023 20:47:17 +0000
 ---
 # Some Personal Accomplishments
 
+## 2023
+
+  * Had 4th kid and watched them all thrive (this was most of my year…)
+
+  * 285 lbs bench press, 425 lbs deadlift, 405 lbs squat
+
+  * Most impactful year of work yet
+  
+  * Started handbook on Python developer tooling (more soon, hopefully)
+
+
 ## 2022
 
   * Had 3rd kid and kept them all alive
