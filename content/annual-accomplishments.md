@@ -1,6 +1,8 @@
 ---
 title: Annual Accomplishments
 date: Tue, 10 Jan 2023 20:47:17 +0000
+aliases: 
+  - "/year"
 ---
 # Some Personal Accomplishments
 
