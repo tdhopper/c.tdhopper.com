@@ -7,7 +7,7 @@ description: Free collection of interviews with nine thoughtful people answering
   Ph.D. in fields of science and engineering.
 tags: []
 categories: Personal Update
-image: /images/crossroads.png
+image: /images/crossroads2.png
 aliases:
   - /blog/2014/Dec/08/shouldigetaphdcom/
   - phd
