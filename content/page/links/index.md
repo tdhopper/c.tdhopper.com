@@ -19,9 +19,6 @@ links:
   - title: Python Plotting    
     description: My Rosetta stone of Python plotting comparing the major Python plotting libraries. 
     website: https://pythonplot.com/
-  - title: Should I Get a Phd?    
-    description: Interviews with software engineers and data scientists about their decision to, or not to, get a PhD. 
-    website: https://shouldigetaphd.com/    
   - title: LinkedIn
     description: My professional profile. 
     website: https://www.linkedin.com/in/tdhopper/
