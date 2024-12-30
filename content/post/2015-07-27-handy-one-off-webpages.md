@@ -16,6 +16,6 @@ I'm starting to love single-page informational websites. For example:
 * [PyFormat](http://pyformat.info): [Ulrich Petri](https://twitter.com/ulope "Ulrich Petri (@ulope) | Twitter") and [Horst Gutmann](https://github.com/zerok "zerok (Horst Gutmann) Âˇ GitHub")'s guide to new style (`.format()`) string formatting in Python.
 * [Two Factor Auth](https://twofactorauth.org): "List of websites and whether or not they support 2FA."
 
-My website [Should I Get a Phd?](http://shouldigetaphd.com) is in this same vein.
+My website [Free Space](https://freespace.tdhopper.com) is in this same vein.
 
-Publishing a site like this is very cheap with [static hosting on AWS](http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html). I would love to see more of them created!
+Publishing sites like this is free with [Netlify](https://netlify.com) and [Cloudflare Pages](https://pages.cloudflare.com). I would love to see more of them created!
