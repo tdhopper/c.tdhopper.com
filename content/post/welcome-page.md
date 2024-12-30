@@ -27,7 +27,7 @@ I'm also excited about developer productivity, especially in Python development.
 
 I have an [occasional podcast](https://podcast.tdhopper.com) in which I talk to friends about things they're interested in. You can find it in your podcast directory or at [podcast.tdhopper.com](https://podcast.tdhopper.com).
 
-Years ago, I created [Should I Get a Phd?](https://shouldigetaphd.com) where I interviewed nine friends about whether a young, bright student should consider pursuing a PhD. This is the resource I wish I'd had before starting a PhD program, and it's been useful to many.
+Years ago, I created [Should I Get a Phd?](https://tdhopper.com/phd) where I interviewed nine friends about whether a young, bright student should consider pursuing a PhD. This is the resource I wish I'd had before starting a PhD program, and it's been useful to many.
 
 [Python Plotting for Exploratory Data Analysis](https://pythonplot.com) is a Rosetta Stone for Python plotting libraries, and it also compares them to the GOAT of plotting libraries: ggplot.
 
