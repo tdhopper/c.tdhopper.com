@@ -89,10 +89,10 @@ and it's worth trying to find a good one.
 
 ## Should I get a Ph.D.?
 
-[I don't think it's worth it for most
-people.](https://mobile.twitter.com/shouldyougetphd) It's also not necessary
-for the vast majority of data science jobs. [I have a dedicated website to
-help you answer this question.](https://shouldigetaphd.com)
+I don't think it's worth it for most
+people. It's also not necessary
+for the vast majority of data science jobs. [I have a free ebook to
+help you answer this question.](https://tdhopper.com/phd)
 
 There are a lot of people with Ph.D.'s in data science roles. It's possible
 that is more a result of the large difference in the number Ph.D.'s verses the
