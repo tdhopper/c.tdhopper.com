@@ -20,7 +20,7 @@ aliases:
 
   * [Spoke at fintech_devcon, my tech first conference in 5 years](https://tdhopper.com/talks)
 
-  * Saw my first total eclipse
+  * Saw my first [total eclipse](https://www.instagram.com/p/DEP8ZzFuXiF/)
 
   * [Recorded two interesting interviews on AI-assisted software development](https://podcast.tdhopper.com)
 
