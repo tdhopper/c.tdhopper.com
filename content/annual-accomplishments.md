@@ -6,6 +6,26 @@ aliases:
 ---
 # Some Personal Accomplishments
 
+# 2024
+
+  * Survived painful, herniated disc and went through successful surgery
+
+  * Got back to lifting weights after 5 month break due to a herniated disc
+
+  * Down to the fourth belt hole on a belt I couldn’t wear a year ago 
+
+  * Saw huge growth and adoption of feature store platform at Varo
+
+  * Landed amazing job at Spotify
+
+  * [Spoke at fintech_devcon, my tech first conference in 5 years](https://tdhopper.com/talks)
+
+  * Saw my first total eclipse
+
+  * [Recorded two interesting interviews on AI-assisted software development](https://podcast.tdhopper.com)
+
+  * Back to blogging at [tdhopper.com](https://tdhopper.com) a bit
+
 ## 2023
 
   * Had 4th kid and watched them all thrive (this was most of my year…)
