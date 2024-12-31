@@ -26,6 +26,8 @@ aliases:
 
   * Back to blogging at [tdhopper.com](https://tdhopper.com) a bit
 
+  * Redesigned [tdhopper.com](https://tdhopper.com) with [Hugo](https://gohugo.io) and [Decap CMS](https://decapcms.org)
+
 ## 2023
 
   * Had 4th kid and watched them all thrive (this was most of my year…)
