@@ -2,7 +2,7 @@
 {{- $siteTitle := .Site.Title -}}
 
 {{- if .IsHome -}}
-    <!-- Homepage, and it's pagination -->
+    <!-- Homepage, and its pagination -->
 
     <!-- Build paginator -->
     {{ $pages := where .Site.RegularPages "Section" "in" .Site.Params.mainSections }}
@@ -14,7 +14,7 @@
         <!-- Paginated. Append page number to title -->
         {{ $title = printf "%s - %s" .Paginator $siteTitle }}
     {{ else }}
-        {{ $title = $siteTitle}}
+        {{ $title = $siteTitle }}
     {{ end }}
 {{- else if eq .Kind "term" -}}
     <!-- Taxonomy page -->
@@ -23,16 +23,15 @@
     {{ $notHidden := where .Pages "Params.hidden" "!=" true }}
     {{ $pag := .Paginate ($notHidden) }}
 
-    <!-- {TAXONOMY_TYPE}: {TAXONOMY_TERM} -->
-    {{ $title = slice (title .Data.Singular) ": " $title }}
+    <!-- {TAXONOMY_TERM} only -->
+    {{ $title = .Title }}
 
     {{ if .Paginator.HasPrev }}
-        <!-- Add page number-->
-        {{ $title = $title | append " - " .Paginator }}
-    {{ end }} 
+        <!-- Add page number -->
+        {{ $title = printf "%s - %s" $title .Paginator }}
+    {{ end }}
 
-    {{ $title = $title | append " - " $siteTitle }}
-    {{ $title = delimit $title "" }}
+    {{ $title = printf "%s - %s" $title $siteTitle }}
 {{- end -}}
 
 {{ return $title }}
