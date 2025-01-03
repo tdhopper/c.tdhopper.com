@@ -1,8 +1,11 @@
 ---
 title: Annual Accomplishments
+slug: annual-accomplishments
 date: Tue, 10 Jan 2023 20:47:17 +0000
-aliases: 
-  - "/year"
+aliases:
+  - /year
+description: Notes on accomplishments for each year since 2017
+image: /images/zen.png
 ---
 # Some Personal Accomplishments
 
@@ -63,7 +66,7 @@ aliases:
 
   * Accepted new job as a staff software engineer
 
-  * [Developed transformative tool for my team](https://twitter.com/tdhopper/status/1455522288711913481)
+  * [Developed transformative tool for my team](https://tdhopper.com/blog/organizing-research-data-with-intake/)
 
   * Helped underpaid colleague get a new job w/ a big raise
 
