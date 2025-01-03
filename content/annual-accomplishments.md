@@ -7,8 +7,6 @@ aliases:
 description: Notes on accomplishments for each year since 2017
 image: /images/zen.png
 ---
-# Some Personal Accomplishments
-
 # 2024
 
   * Survived painful, herniated disc and went through successful surgery
