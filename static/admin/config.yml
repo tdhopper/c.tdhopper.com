@@ -118,7 +118,7 @@ collections:
         }
   
   - name: "Quotes"
-    label: Podcast 
+    label: Quote 
     folder: "content/post"
     create: true
     editor:
