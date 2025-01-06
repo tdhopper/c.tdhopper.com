@@ -116,6 +116,31 @@ collections:
           widget: "image",
           default: "/images/podcast.png",
         }
+  
+  - name: "Quotes"
+    label: Podcast 
+    folder: "content/post"
+    create: true
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }
+      - {
+          label: "Categories",
+          name: "categories",
+          widget: "hidden",
+          default: ["Quote"],
+        }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+        }
   - name: "base"
     label: Base 
     folder: "content/"
