@@ -6,6 +6,7 @@ tags:
   - math
 categories: Personal Update
 image: /images/graph.png
+math: true
 ---
 Last summer, I had the privilege of serving as a student researcher in the [Rochester Institute of Technology](https://www.rit.edu/science/school-mathematics-and-statistics)'s Research Experience for Undergraduates alongside [Dr. Stanislaw Radziszowski]( https://en.wikipedia.org/wiki/Stanis%C5%82aw_Radziszowski). 
 
