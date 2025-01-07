@@ -1,7 +1,7 @@
 ---
 title: '"I Like Notebooks": a response to Joel Grus'
 date: 2018-11-13T12:30:00.000Z
-description: Python
+description: Slides from my talk in defense of Jupyter Notebooks
 categories: Personal Update
 image: /images/notebook.png
 ---
