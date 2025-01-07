@@ -41,6 +41,12 @@ collections:
           widget: "boolean",
           required: false,
         }
+      - {
+          label: "Math",
+          name: "math",
+          widget: "boolean",
+          required: false,
+        }
   - name: "til"
     label: TIL
     folder: "content/post/til"
