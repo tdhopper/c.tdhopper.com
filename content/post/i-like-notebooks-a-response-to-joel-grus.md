@@ -9,4 +9,4 @@ At JuypterDay in the Triangle, I gave a response to [Joel Grus's memorable "I Do
 
  It wasn't recorded, but here are my slides:
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-rTqOaHhXN5ztzOzstVrRDRyf-wNhEfSyaCVYVJ277HrzTcM_qXReQNIyTEU9p_xffmNrEamtmNtd/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vT-rTqOaHhXN5ztzOzstVrRDRyf-wNhEfSyaCVYVJ277HrzTcM_qXReQNIyTEU9p_xffmNrEamtmNtd/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
