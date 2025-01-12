@@ -1,0 +1,44 @@
+---
+title: The Sony A7 iii after 5 years
+date: 2024-01-12
+description: A parent's review of the Sony A7 iii
+tags: []
+categories: Article
+---
+
+Over the last 10 years, I've become more interested in the art of photography. What started with me try to get better photographs of waterfalls than I could with my iPhone five has led to an era where I mostly photograph my four children (ages one to seven). 
+
+For the past five years, Sony a7 III has been my favorite and the camera that consistently helps me make delightful and beautiful images of my kids that I will cherish for the rest of my life. 
+
+I've used a lot of different cameras since 2014:
+
+* iPhones from 5 up to 16 Pro Max. 
+* [Olympus Tough TG-3](https://www.dpreview.com/products/olympus/compacts/oly_tg3)
+* [Sony NEX-5T](https://www.dpreview.com/products/sony/slrs/sony_nex5t)
+* [Canon 7D II](https://www.dpreview.com/reviews/canon-eos-7d-mark-ii)
+* [Sony a6500](https://www.dpreview.com/reviews/sony-alpha-a6500)
+* [Sony RX100V](https://www.dpreview.com/reviews/sony-cybershot-dsc-rx100-v-review)
+* [Fuji X100V](https://www.dpreview.com/reviews/fujifilm-x100v-review)
+* [Sony a7 III](https://www.dpreview.com/reviews/sony-a7-iii-review)
+
+When my second child was almost due, some friends gave me money as a gift, and I used that to move from my a6500 setup to a used Sony a7 III. While it isn't the camera I use the most since my iPhone de jour is always closest at hand, I'm always glad to have pulled it out. While modern iPhones have incredible cameras that make beautiful images in the right conditions, the conditions I'm photographing my kids in are rarely ideal, and the photos I take with my iPhone often disappoint me with their lack of sharpness, motion blur, and lack of subject separation. 
+
+My full-frame Sony mirrorless, on the other hand, rarely disappoints. 	
+
+![](/images/a7review/20200623-DSC08492.jpg) ![](/images/a7review/20210729-DSC05630.jpg) ![](/images/a7review/20220831-DSC08740.jpg)
+
+text
+
+![](/images/a7review/20240827-DSC04280.jpg)
+
+texdt
+
+![](/images/a7review/20210215-DSC02383.jpg) ![](/images/a7review/20211021-DSC06619.jpg)
+
+text
+
+![](/images/a7review/20231109-DSC01340.jpg) ![](/images/a7review/20241223-DSC04982.jpg) ![](/images/a7review/20210528-DSC04315.jpg)
+
+text
+
+![](/images/a7review/20220326-DSC07952.jpg) ![](/images/a7review/20240219-DSC02347.jpg)
