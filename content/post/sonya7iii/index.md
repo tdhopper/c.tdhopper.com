@@ -29,10 +29,6 @@ My full-frame Sony mirrorless, on the other hand, rarely disappoints.
 
 text
 
-![](20240827-DSC04280.jpg)
-
-texdt
-
 ![](20210215-DSC02383.jpg) ![](20211021-DSC06619.jpg)
 
 text
@@ -41,4 +37,4 @@ text
 
 text
 
-![](20220326-DSC07952.jpg) ![](20240219-DSC02347.jpg)
+![](20220326-DSC07952.jpg) ![](20240219-DSC02347.jpg) ![](20240827-DSC04280.jpg)
