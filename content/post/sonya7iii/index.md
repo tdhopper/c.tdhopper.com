@@ -25,16 +25,16 @@ When my second child was almost due, some friends gave me money as a gift, and I
 
 My full-frame Sony mirrorless, on the other hand, rarely disappoints.
 
-![](20200623-DSC08492.jpg) ![](20210729-DSC05630.jpg) ![](20220831-DSC08740.jpg)
+![](20211021-DSC06619.jpg)  ![](20220831-DSC08740.jpg)
 
 text
 
-![](20210215-DSC02383.jpg) ![](20211021-DSC06619.jpg)
+![](20210215-DSC02383.jpg) ![](20210729-DSC05630.jpg)
 
 text
 
-![](20231109-DSC01340.jpg) ![](20241223-DSC04982.jpg) ![](20210528-DSC04315.jpg)
+![](20231109-DSC01340.jpg) ![](20210528-DSC04315.jpg) ![](20241223-DSC04982.jpg) 
 
 text
 
-![](20220326-DSC07952.jpg) ![](20240219-DSC02347.jpg) ![](20240827-DSC04280.jpg)
+![](20220326-DSC07952.jpg) ![](20240827-DSC04280.jpg) ![](20240219-DSC02347.jpg) 
