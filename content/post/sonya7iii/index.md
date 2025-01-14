@@ -25,17 +25,13 @@ When my second child was almost due, some friends gave me money as a gift, and I
 
 My full-frame Sony mirrorless, on the other hand, rarely disappoints.
 
-![](20211021-DSC06619.jpg)  ![](20220831-DSC08740.jpg)
-
 ## Fast and Responsive
-
 
 ## Amazing Autofocus
 
 ### Eye autofocus
 
-
-![](20210215-DSC02383.jpg) ![](20210729-DSC05630.jpg)
+![](20211021-DSC06619.jpg) ![](20210215-DSC02383.jpg) ![](20210729-DSC05630.jpg)
 
 ## Low-light Performance
 
@@ -45,7 +41,7 @@ My full-frame Sony mirrorless, on the other hand, rarely disappoints.
 
 ![](20231109-DSC01340.jpg) ![](20210528-DSC04315.jpg) ![](20241223-DSC04982.jpg) 
 
-## Silent Shooting 
+## Silent Shooting
 
 ## Battery Life
 
