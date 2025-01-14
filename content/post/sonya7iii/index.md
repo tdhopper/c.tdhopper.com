@@ -62,12 +62,21 @@ Also, the camera has excellent physical controls that let me quickly change sett
 If I want to catch something fast moving, I can quickly switch to shutter priority mode and adjust the shutter speed.
 For other functionality, I can customize the buttons on the camera to quickly access the settings I need.
 
-TODO: framerate 
-
 ## Amazing Autofocus
 
-### Eye autofocus
+Another aspect of speed is the camera's autofocus. Because my kids are on the move, I almost
+always shoot in continuous autofocus. The face detection does a great job keeping track of my kids, and
+I consistently get sharp images. Autofocus tends to be great on modern cameras, but I love having a camera 
+where it excels. 
 
+The camera also also has eye detection autofocus, though it requires pressing a separate button. I 
+have my XXX button set to eye autofocus, and I instinctively 
+
+Autofocus is one area where cameras are rapidly improving, and I look forward
+to benefiting from that next time I upgrade. 
+
+
+A 
 
 ## Large Sensor
 
