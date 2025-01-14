@@ -35,6 +35,8 @@ motion blur, and lack of subject separation.
 
 My full-frame Sony mirrorless, on the other hand, rarely disappoints.
 
+![](20211021-DSC06619.jpg) ![](20210215-DSC02383.jpg) ![](20210729-DSC05630.jpg)
+
 ## Fast and Responsive
 
 When I'm not photographing my kids, my other main photography interest is
@@ -66,7 +68,6 @@ TODO: framerate
 
 ### Eye autofocus
 
-![](20211021-DSC06619.jpg) ![](20210215-DSC02383.jpg) ![](20210729-DSC05630.jpg)
 
 ## Large Sensor
 
@@ -83,6 +84,15 @@ stand out. The Sony a7 III does this beautifully.
 
 ## Durable and Reliable
 
+The Sony a7 III is a professional-grade camera. It's built to last. While I try not to abuse it, 
+it's been banged around on hikes, sandy at the beach, and bounced around in my backpack.
+Over five years later, you'd have no idea other than some surface wear on the body. 
+
+
+Because the camera is weather-sealed, I can take it out in the rain or snow without
+worrying about damaging it. Last week, I took my five year old out in freezing rain and 
+snow and was able to capture a few beautiful (low-light!) images of him. When I came home,
+I just wiped the camera down with a towel and didn't have to worry about it.
 
 
 ## Image Quality
