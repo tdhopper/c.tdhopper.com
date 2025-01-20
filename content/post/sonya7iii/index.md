@@ -32,31 +32,28 @@ My full-frame Sony mirrorless, on the other hand, rarely disappoints.
 
 ## Fast and Responsive
 
-When I'm not photographing my kids, my other main photography interest is
-[wildlife](https://photos.tdhopper.com/great-blue-herons). Wildlife photography is
-challenging and rewarding. The conditions are rarely idea. The subjects are often fast
-and unpredictable. As a wildlife photographer, I'm always chasing [Gesture, Light, and
-Color](https://www.jaymaisel.com/products/light-gesture-and-color) (as Jay Maisel
-discusses in his book). The wildlife photographer always has to be ready.
+When I'm not photographing my kids, my other main photography interest is [wildlife](https://photos.tdhopper.com/great-blue-herons).
+Wildlife photography presents a unique set of challenges - conditions are rarely ideal,
+and subjects move unpredictably. As a wildlife photographer, I'm constantly pursuing
+what Jay Maisel calls [Gesture, Light, and Color](https://www.jaymaisel.com/products/light-gesture-and-color) in his book. You have to stay ready,
+alert to fleeting opportunities.
 
-Photography kids is exactly the same. 
+Photography kids is exactly the same.
 
-While the tool doesn't make the art, having a fast and responsive camera opens the door
-to more opportunities to capture the fleeting moments that make the best photographs.
-The Sony a7 III shines in several aspects of this. 
+Having a fast and responsive camera isn't everything - the tool doesn't make the art -
+but it opens doors to capturing those precious moments that might otherwise slip away.
+The Sony a7 III excels in this regard in several key ways:
 
-For one, the camera is fast to boot. Many cameras take several seconds to be ready to
-shoot after being turned on. My Sony (like many prosumer/professional cameras) is ready
-to shoot almost instantly when I flip the switch. As a result, I'm able to capture
-moments that would have been lost with a slower camera. Similarly, the camera recovers
-quickly from its low-power sleep mode. 
+First, it boots almost instantly. While many cameras need several seconds to wake up, my
+Sony (like other prosumer/professional cameras) is ready to shoot the moment I flip the
+switch. This responsiveness has saved countless shots that slower cameras would have
+missed. The quick recovery from sleep mode is equally valuable.
 
-Also, the camera has excellent physical controls that let me quickly change settings. I
-often shoot in aperture priority mode and can quickly adjust the aperture and exposure
-compensation with the dials on the camera. If I want to catch something fast moving, I
-can quickly switch to shutter priority mode and adjust the shutter speed. For other
-functionality, I can customize the buttons on the camera to quickly access the settings
-I need.
+Beyond pure speed, the camera's physical controls are thoughtfully designed for rapid
+adjustments. When shooting in aperture priority mode, I can quickly dial in aperture and
+exposure compensation. If I need to freeze fast action, switching to shutter priority
+and adjusting speed happens in seconds. The customizable buttons let me access my
+most-used settings without diving into menus.
 
 ## Amazing Autofocus
 
@@ -66,7 +63,8 @@ track of my kids, and I consistently get sharp images. Autofocus tends to be gre
 modern cameras, but I love having a camera where it excels. 
 
 The camera also also has eye detection autofocus, though it requires pressing a separate
-button. I have my XXX button set to eye autofocus, and I instinctively 
+button unlike more modern cameras. I have my AEL button set to eye autofocus, and I
+instinctively press it when trying to get a portrait.
 
 Autofocus is one area where cameras are improving every generation, and I look forward to
 benefiting from that next time I upgrade 
