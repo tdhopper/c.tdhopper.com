@@ -1,9 +1,10 @@
 ---
 title: The Sony A7 iii after 5 years
-date: 2024-01-12
+date: 2025-01-12
 description: A parent's review of the Sony A7 iii
 tags: []
 categories: Article
+slug: sonya7iii
 ---
 
 Over the last 10 years, I've become more interested in the art of photography. What
@@ -121,13 +122,4 @@ them knowing.
 ## Conclusion
 
 
-[^1]: 
-Cameras I've used
-* iPhones from 5 up to 16 Pro Max.
-* [Olympus Tough TG-3](https://www.dpreview.com/products/olympus/compacts/oly_tg3)
-* [Sony NEX-5T](https://www.dpreview.com/products/sony/slrs/sony_nex5t)
-* [Canon 7D II](https://www.dpreview.com/reviews/canon-eos-7d-mark-ii)
-* [Sony a6500](https://www.dpreview.com/reviews/sony-alpha-a6500)
-* [Sony RX100V](https://www.dpreview.com/reviews/sony-cybershot-dsc-rx100-v-review)
-* [Fuji X100V](https://www.dpreview.com/reviews/fujifilm-x100v-review)
-* [Sony a7 III](https://www.dpreview.com/reviews/sony-a7-iii-review)
+[^1]: Cameras I've used since 2014: iPhones from 5 up to 16 Pro Max, [Olympus Tough TG-3](https://www.dpreview.com/products/olympus/compacts/oly_tg3), [Sony NEX-5T](https://www.dpreview.com/products/sony/slrs/sony_nex5t), [Canon 7D II](https://www.dpreview.com/reviews/canon-eos-7d-mark-ii), [Sony a6500](https://www.dpreview.com/reviews/sony-alpha-a6500), [Sony RX100V](https://www.dpreview.com/reviews/sony-cybershot-dsc-rx100-v-review), [Fuji X100V](https://www.dpreview.com/reviews/fujifilm-x100v-review), [Sony a7 III](https://www.dpreview.com/reviews/sony-a7-iii-review)
