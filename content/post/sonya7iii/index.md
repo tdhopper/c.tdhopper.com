@@ -5,6 +5,7 @@ description: A parent's review of the Sony A7 iii
 tags: []
 categories: Article
 slug: sonya7iii
+image: /blog/sonya7iii/20210215-DSC02383.jpg
 ---
 
 Over the last 10 years, I've become more interested in the art of photography. What
