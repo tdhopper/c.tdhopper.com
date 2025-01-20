@@ -1,6 +1,6 @@
 ---
 title: The Sony A7 iii after 5 years
-date: 2025-01-12
+date: 2025-01-20
 description: A parent's review of the Sony A7 iii
 tags: []
 categories: Article
