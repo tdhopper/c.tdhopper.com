@@ -121,5 +121,11 @@ them knowing.
 
 ## Conclusion
 
+Capturing the fleeting moments of my children's life is a joy and a privilege. Like most
+parents of our age, I mostly use my iPhone to capture these moments. However, almost
+without exception,
+the photos I take with my Sony a7 III are the ones I cherish the most. The camera is
+fast, responsive, and reliable. It produces beautiful images that I will keep looking at
+for the rest of my life.
 
 [^1]: Cameras I've used since 2014: iPhones from 5 up to 16 Pro Max, [Olympus Tough TG-3](https://www.dpreview.com/products/olympus/compacts/oly_tg3), [Sony NEX-5T](https://www.dpreview.com/products/sony/slrs/sony_nex5t), [Canon 7D II](https://www.dpreview.com/reviews/canon-eos-7d-mark-ii), [Sony a6500](https://www.dpreview.com/reviews/sony-alpha-a6500), [Sony RX100V](https://www.dpreview.com/reviews/sony-cybershot-dsc-rx100-v-review), [Fuji X100V](https://www.dpreview.com/reviews/fujifilm-x100v-review), [Sony a7 III](https://www.dpreview.com/reviews/sony-a7-iii-review)
