@@ -12,7 +12,7 @@ I'm an experienced machine learning platform engineer and Python developer. You 
 For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, environmental science, and
 weather forecasting. I see my role as helping data scientists and researchers shorten feedback loops and spend time on their business problems (instead of fussing with cloud resources). 
 
-I'm also excited about developer productivity, especially in Python development. I am (slowly) working on an [ebook on Python developer tooling](https://pydevtools.com) and like to help teams use Python more effectively. 
+I'm also excited about developer productivity, especially in Python development. I am the author of an [ebook on Python developer tooling](https://pydevtools.com) and like to help teams use Python more effectively. 
 
 ✍🏻 **Writings**:
 
@@ -51,9 +51,7 @@ and
 
 👨🏻‍💻 **Social Media**:
 
-You can find me on [Twitter](https://twitter.com/tdhopper) and [LinkedIn](https://www.linkedin.com/in/tdhopper/).
-
-I love Twitter and have written [some](https://twitter.com/tdhopper/status/403919436190461952) [bangers](https://twitter.com/tdhopper/status/411218027963617280) [over](https://twitter.com/tdhopper/status/369908021058469888) the years. 
+You can find me on [Twitter](https://twitter.com/tdhopper) and [LinkedIn](https://www.linkedin.com/in/tdhopper/). 
 
 🗣️ **Talks**:
 
