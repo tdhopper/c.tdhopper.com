@@ -1,13 +1,18 @@
 ---
 title: My Python Environment Workflow with Conda
 date: Tue, 24 Nov 2015 14:41:00 +0000
-categories:
-  - article
+description: A comprehensive guide to using Conda environments for Python
+  development, detailing the benefits of `environment.yml` files and a
+  streamlined workflow for managing dependencies and Python versions.
 tags:
-    - Python
+  - Python
+categories: Article
 image: conda.png
-aliases: ["/conda"]
+aliases:
+  - /conda
 ---
+__If you enjoy this post, check out my [Python Developer Tooling Handbook](https://pydevtools.com)!__
+
 Many new Python programmers rely on their system install of Python to run
 their scripts. There are several good reasons to stop using the system Python.
 First, it's probably an old version of Python. Secondly, if you install 3rd
