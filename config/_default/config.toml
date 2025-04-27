@@ -15,3 +15,14 @@ hasCJKLanguage = false
 
 enableRobotsTXT = true
 
+[outputFormats]
+[outputFormats.AllPosts]
+  name = "AllPosts"
+  isPlainText = true
+  mediaType = "text/html"
+  baseName = "all"
+  isHTML = true
+  noUgly = true
+
+[outputs]
+  home = ["HTML", "AllPosts"]
