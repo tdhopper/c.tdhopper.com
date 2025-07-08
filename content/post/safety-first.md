@@ -10,4 +10,4 @@ I'm always annoyed when the pre-flight instructions inform us that the airline's
 
 Turns out Thomas Aquinas observed this 700 years ago: 
 
-"If the highest aim of a captain were to preserve his ship, he would keep it in port for ever."
+> If the highest aim of a captain were to preserve his ship, he would keep it in port for ever.
