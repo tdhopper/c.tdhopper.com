@@ -29,8 +29,8 @@ weren't interested. One company hired someone with a Ph.D. from MIT soon after
 turning me down.
 
 In the last five years, I've clearly interviewed for a lot of data science
-jobs, and I've also been [turned down for a lot of data science
-jobs](/rejected). I've spent a good bit of time reflecting
+jobs, and I've also been turned down for a lot of data science
+jobs]. I've spent a good bit of time reflecting
 on why I wasn't offered this job or that. Several folks have asked me if I had
 any advice to share on the experience, and I hope to offer that here.
 
