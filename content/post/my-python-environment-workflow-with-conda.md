@@ -7,7 +7,7 @@ description: A comprehensive guide to using Conda environments for Python
 tags:
   - Python
 categories: Article
-image: conda.png
+image: /images/anaconda.png
 aliases:
   - /conda
 ---
