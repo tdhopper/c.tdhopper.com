@@ -9,10 +9,12 @@
     {{ $pag := .Paginate ($unpinnedPages) }}
     {{- partial "featured.html" . -}}
     <section class="article-list">
-        {{ range $pinnedPages }}
-            <span class="article-page">
-                {{ partial "article/pinned-article.html" . }} <!-- Makes pinned article styling work -->
-            </span>
+        {{ if eq $pag.PageNumber 1 }}
+            {{ range $pinnedPages }}
+                <span class="article-page">
+                    {{ partial "article/pinned-article.html" . }} <!-- Makes pinned article styling work -->
+                </span>
+            {{ end }}
         {{ end }}
         {{ range $pag.Pages }}
             {{ partial "article-list/default" . }}
