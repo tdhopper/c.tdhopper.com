@@ -15,3 +15,6 @@ hasCJKLanguage = false
 
 enableRobotsTXT = true
 
+# Google Analytics
+googleAnalytics = "G-G10JEQN60B"
+
