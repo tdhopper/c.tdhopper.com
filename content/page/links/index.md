@@ -1,6 +1,9 @@
 ---
 title: My Other Sites 
 links:
+  - title: Python Developer Tooling Handbook
+    description: A book about the ecosystem of tools used to make Python development easier and more productive
+    website: https://pydevtools.com 
   - title: GitHub
     description: View my code and projects. 
     website: https://github.com/tdhopper
