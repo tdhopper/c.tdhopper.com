@@ -1,7 +1,8 @@
 # Change baseurl before deploy
 baseurl = "https://tdhopper.com/"
 languageCode = "en-us"
-paginate = 5
+[pagination]
+pagerSize = 5
 enableGitInfo = true
 title = "Tim Hopper"
 
