@@ -1,0 +1,16 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0  # Use the ref you want to point at
+    hooks:
+    -  id: trailing-whitespace
+    -  id: check-toml
+    -  id: check-yaml
+    -  id: end-of-file-fixer
+       exclude: ^assets/
+-   repo: local
+    hooks:
+    -   id: hugo-build
+        name: Build Hugo site
+        entry: uvx --with hugo==0.150.0 hugo
+        language: system
+        pass_filenames: false
