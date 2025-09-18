@@ -10,9 +10,9 @@ slug: welcome
 I'm an experienced machine learning platform engineer and Python developer. You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com).
 
 For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, environmental science, and
-weather forecasting. I see my role as helping data scientists and researchers shorten feedback loops and spend time on their business problems (instead of fussing with cloud resources). 
+weather forecasting. I see my role as helping data scientists and researchers shorten feedback loops and spend time on their business problems (instead of fussing with cloud resources).
 
-I'm also excited about developer productivity, especially in Python development. I am the author of an [ebook on Python developer tooling](https://pydevtools.com) and like to help teams use Python more effectively. 
+I'm also excited about developer productivity, especially in Python development. I am the author of an [ebook on Python developer tooling](https://pydevtools.com) and like to help teams use Python more effectively.
 
 ✍🏻 **Writings**:
 
@@ -51,9 +51,8 @@ and
 
 👨🏻‍💻 **Social Media**:
 
-You can find me on [Twitter](https://twitter.com/tdhopper) and [LinkedIn](https://www.linkedin.com/in/tdhopper/). 
+You can find me on [Twitter](https://twitter.com/tdhopper) and [LinkedIn](https://www.linkedin.com/in/tdhopper/).
 
 🗣️ **Talks**:
 
 I've been speaking at conferences and meetups for many years. I keep a list of my recorded talks [here](http://tdhopper.com/talks/). If you'd like to get a taste of my talks, start with [Five semesters of linear algebra and all I do is solve Python dependency problems](https://www.youtube.com/watch?v=6flt_3yMNb0) or [Challenges in Applying Machine Learning to Cybersecurity](https://www.youtube.com/watch?v=OS6j1Y2tJLY).
-

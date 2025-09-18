@@ -9,7 +9,7 @@ featured: false
 ---
 Good ideas are hard to come by, but I find I'm often looking in the wrong places.
 
-When I'm trying to develop new ideas, sitting at my desk staring at my computer (and all the world's distractions) seems to be the worst place. Instead, I like to prime my mind by writing down whatever thoughts I have on the topic and then trying to ruminate as I go about life. 
+When I'm trying to develop new ideas, sitting at my desk staring at my computer (and all the world's distractions) seems to be the worst place. Instead, I like to prime my mind by writing down whatever thoughts I have on the topic and then trying to ruminate as I go about life.
 
 I'm inspired by stories of brilliant people coming up with ideas at surprising times:
 

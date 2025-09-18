@@ -1,7 +1,7 @@
 ---
 title: Introduction to Scikit-Learn
 categories:
-    - Presentation 
+    - Presentation
 date: 2013-01-21
 slug: scikit
 portfolio: true

@@ -29,8 +29,8 @@ includes an interactive tutorial where it helps you mount and query publically
 available data. It was easy for me to mount my private data using the same
 `CREATE` statement I'd run in Hive:
 
-    
-    
+
+
     CREATE EXTERNAL TABLE IF NOT EXISTS default.logs (
         - SCHEMA HERE
     )

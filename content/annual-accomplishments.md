@@ -13,7 +13,7 @@ image: /images/zen.png
 
   * Got back to lifting weights after 5 month break due to a herniated disc
 
-  * Down to the fourth belt hole on a belt I couldn’t wear a year ago 
+  * Down to the fourth belt hole on a belt I couldn’t wear a year ago
 
   * Saw huge growth and adoption of feature store platform at Varo
 
@@ -36,7 +36,7 @@ image: /images/zen.png
   * 285 lbs bench press, 425 lbs deadlift, 405 lbs squat
 
   * Most impactful year of work yet
-  
+
   * Started handbook on Python developer tooling (more soon, hopefully)
 
 
@@ -58,7 +58,7 @@ image: /images/zen.png
 
   * [Recorded 3 great episodes of my podcast](https://podcast.tdhopper.com  )
 
-  * Survived Covid-19 in January 
+  * Survived Covid-19 in January
 
   * Took over massive new responsibilities on my team after the departure of our infrastructure engineers
 
@@ -92,17 +92,17 @@ image: /images/zen.png
 
 ## 2019
 
-  * Had a second son 
+  * Had a second son
 
   * Moved my team completely off Python 2
 
-  * Set a new record for length of time at a company 
+  * Set a new record for length of time at a company
 
   * Made [freespace.tdhopper.com](https://freespace.tdhopper.com)
 
   * [Had a PR merged into CPython](https://github.com/python/cpython/pull/11847)
 
-  * Bench pressed 235 and deadlifted 375 
+  * Bench pressed 235 and deadlifted 375
 
   * Took a long talked about trip to Yellowstone with my dad
 
@@ -148,4 +148,4 @@ image: /images/zen.png
 
   * Use Ansible effectively
 
-  * Two trips to Grayson Highlands State Park in Virginia  
+  * Two trips to Grayson Highlands State Park in Virginia

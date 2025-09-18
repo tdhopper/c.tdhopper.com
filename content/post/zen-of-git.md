@@ -8,9 +8,9 @@ image: /images/zen.png
 ---
 
     $ git checkout this
-    
+
     Zen of Git
-    
+
     Ugly is better than beautiful.
     Explicit is better than implicit.
     Complex is better than simple.

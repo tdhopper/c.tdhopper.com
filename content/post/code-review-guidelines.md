@@ -91,5 +91,3 @@ Code review has multiple benefits and objectives including:
   * [Code reviews at Slack](https://slack.engineering/how-about-code-reviews/)
 
   * [Curated list of articles about code review from John Barton](https://github.com/joho/awesome-code-review/blob/master/readme.md)
-
-

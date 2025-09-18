@@ -21,7 +21,7 @@ In general, Shannon wanted to devise a function \\(H(p_1, p_2, \ldots, p_n)\\) d
 
 1. \\(H\\) should be a continuous function of each \\(p_i\\). A small change in a single probability should result in a similarly small entropy (uncertainty) change.
 2. If each event is equally likely (\\(p_i=\frac{1}{n}\\)), \\(H\\) should increase as a function of \\(n\\): the more events there are, the more uncertain we are.
-3. Finally, entropy should be additive for independent events. Suppose we generate a random variable \\(x\\) by the following process: Flip a fair coin. If it is heads, \\(x=0\\). However, if the flip was tails, flip the coin again (an _independent_ event from the first flip). If the second flip is heads, \\(x=1\\), if tails \\(x=2\\). These three outcomes occur with probability $1/2$, $1/4$, and $1/4$, respectively. 
+3. Finally, entropy should be additive for independent events. Suppose we generate a random variable \\(x\\) by the following process: Flip a fair coin. If it is heads, \\(x=0\\). However, if the flip was tails, flip the coin again (an _independent_ event from the first flip). If the second flip is heads, \\(x=1\\), if tails \\(x=2\\). These three outcomes occur with probability $1/2$, $1/4$, and $1/4$, respectively.
 
     We can compute the entropy of $x$ as \\(H(p_0=1/2, p_1=1/4, p_2=1/4)\\). By the independence property, this relationship holds:
 

@@ -1,7 +1,7 @@
 ---
 title: Introduction to PySpark
 categories:
-    - Presentation 
+    - Presentation
 date: 2015-02-28
 slug: intro-to-pyspark
 portfolio: true

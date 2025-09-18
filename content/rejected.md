@@ -20,7 +20,7 @@ My goal is to make it clear that even someone with a successful career of 10+ ye
 | **2024** | Anthropic              |                          | "we recently hired for the Software Engineer, Infrastructure role"  |
 | **2024** | Movable Ink            |                          | Shifted what they were hiring for  |
 | **2023** | Handshake              |                          | N/A  |
-| **2023** | Credit Acceptance      |                          | Ghosted  | 
+| **2023** | Credit Acceptance      |                          | Ghosted  |
 | **2022** | Netflix                |                          | N/A  |
 | **2022** | Flock Freight          |                          | "the team felt that there were some gaps on the Infrastructure and SWE side of things"                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **2021** | Talking Leaves         |                          | "While we were impressed with your skill set, we have chosen to go in a different direction."                                                                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -62,6 +62,6 @@ My goal is to make it clear that even someone with a successful career of 10+ ye
 | **2012** | Plotwatt               |                          | "There's no question in anyone's mind at PlotWatt regarding your technical strength, math chops, or programming abilities. You're clearly good on all counts. The bar for proceeding though is set based on our assessment of whether we can "live without you." We require a unanimous "hire" vote from all interviewers. In your case, we couldn't figure out exactly where you would fit into the stack and which of our challenges you are especially (among a ridiculously qualified applicant pool) suited to solving." |
 
 
----  
-  
+---
+
 Read my [reflections on being turned down from a lot of data science jobs](/blog/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs).

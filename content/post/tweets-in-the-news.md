@@ -3,7 +3,7 @@ title: My Tweets in the News
 date: Mon, 01 Jul 2019 13:40:00 +0000
 slug: tweets-in-the-news
 tags:
-categories: 
+categories:
     - Personal Update
     - Humor
 image: /images/computer-fishing.png

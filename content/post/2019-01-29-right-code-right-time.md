@@ -12,9 +12,9 @@ categories:
 image: /images/code-review.png
 ---
 
-I gave a talk at Pydata DC 2018 where I tried to articulate some reasons why companies building machine 
+I gave a talk at Pydata DC 2018 where I tried to articulate some reasons why companies building machine
 learning products under-invest in engineering and architecture.
-I'm very interested in feedback, pointers to other resources on this topic, and a general 
+I'm very interested in feedback, pointers to other resources on this topic, and a general
 discussion about how to make more effective ML products.
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vShM7kGP4WIWtr545IRMv2viQ_xpsn2ouAdYvo1yWuP5EmIWk3wYapKBWMjqua4bRwdeKHFHsz0qPSe/embed?start=false&loop=false&delayms=10000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

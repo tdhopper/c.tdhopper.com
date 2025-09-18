@@ -1,7 +1,7 @@
 ---
 title: Column binding two Panda's Dataframes
 date: Mon, 11 Apr 2016 20:56:00 +0000
-categories: 
+categories:
     - How To
 tags:
     - Python
@@ -13,8 +13,8 @@ than it appears. In R, you just use the `cbind` function.
 As [this](http://stackoverflow.com/questions/33088010/pandas-column-bind-cbind-two-data-frames) StackOverflow question shows, in Pandas it's easy to
 end up with something like this:
 
-    
-    
+
+
 ```
 unique_id lacet_number    latitude  longitude
 0         NaN          NaN  -93.193560  31.217029
@@ -32,7 +32,7 @@ As the [accepted answer](http://stackoverflow.com/a/33088410/982745) on that
 question shows, the thing to do is reset the indices on the DataFrames before
 concatenating:
 
-    
-```python    
+
+```python
 pd.concat([df_a.reset_index(drop=True), df_b.reset_index(drop=True)], axis=1)
 ```

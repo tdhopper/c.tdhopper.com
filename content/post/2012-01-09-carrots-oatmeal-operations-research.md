@@ -7,7 +7,7 @@ aliases: [/blog/2012/Jan/09/carrots-oatmeal-operations-research/]
 categories:
     - Article
 math: true
-tags: 
+tags:
     - math
 ---
 

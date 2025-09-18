@@ -6,7 +6,7 @@ description: Collection of links about how other developers are using LLMs to
 categories: Article
 image: /images/ai-agent-coder.jpg
 ---
-I'm very interested in *how* people are using LLMs to augment their work, especially in software development. 
+I'm very interested in *how* people are using LLMs to augment their work, especially in software development.
 
 I did three interviews with friends who are using them in different ways.
 
@@ -18,6 +18,6 @@ I've enjoyed several other pieces lately on how others are using LLMs:
 
 * [Harper Reed](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/) posted a detailed account of his workflow to robustly generate new code bases. I've been playing with his provided prompts and am impressed.
 * [Simon Willison](https://simonwillison.net/2025/Mar/11/using-llms-for-code/) wrote about using LLMs to write code, especially enabling him to build things *he wouldn't bother with otherwise*. He shows concrete examples with his [LLM generated tools page](https://tools.simonwillison.net).
-* [Andrej Karpathy](https://youtu.be/EWvNQjAaOHw?si=mKi9NeISLy0DGEbT) published a 2-hour long video that is the best introduction I've seen to the current state of LLMs and what they can do. 
+* [Andrej Karpathy](https://youtu.be/EWvNQjAaOHw?si=mKi9NeISLy0DGEbT) published a 2-hour long video that is the best introduction I've seen to the current state of LLMs and what they can do.
 
 I'd love to hear about your use of LLMs. Please drop me a note in the form below.

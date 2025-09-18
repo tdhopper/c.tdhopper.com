@@ -3,7 +3,7 @@ title: Filter by date in a Pandas MultiIndex
 date: Tue, 08 Nov 2016 22:17:00 +0000
 categories:
     - How To
-tags: 
+tags:
       - python
       - pandas
 ---
@@ -13,8 +13,8 @@ The pandas `DataFrame.loc` method allows for _label_ -based filtering of data
 frames. The [Pandas docs](http://pandas.pydata.org/pandas-docs/stable/advanced.html#advanced-indexing-with-hierarchical-index) show how
 it can be used to filter a `MultiIndex`:
 
-    
-```    
+
+```
 In [39]: df
 Out[39]:
                         A         B         C

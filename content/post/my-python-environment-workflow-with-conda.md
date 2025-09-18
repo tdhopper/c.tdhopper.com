@@ -67,8 +67,8 @@ Conda provides an analogous (but more powerful) file: `environment.yml`.
 
 A simple `environment.yml` file might look like this:
 
-    
-    
+
+
     name: numpy-env
     dependencies:
     - python=3
@@ -84,8 +84,8 @@ globally installed Python for your system. Moreover, you will be able to
 
 `environment.yml` can also install packages via pip with this syntax:
 
-    
-    
+
+
     name: pip-env
     dependencies:
     - python

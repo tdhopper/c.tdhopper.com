@@ -61,14 +61,14 @@ most-used settings without diving into menus.
 Another aspect of speed is the camera's autofocus. Because my kids are on the move, I
 almost always shoot in continuous autofocus. The face detection does a great job keeping
 track of my kids, and I consistently get sharp images. Autofocus tends to be great on
-modern cameras, but I love having a camera where it excels. 
+modern cameras, but I love having a camera where it excels.
 
 The camera also also has eye detection autofocus, though it requires pressing a separate
 button unlike more modern cameras. I have my AEL button set to eye autofocus, and I
 instinctively press it when trying to get a portrait.
 
 Autofocus is one area where cameras are improving every generation, and I look forward to
-benefiting from that next time I upgrade 
+benefiting from that next time I upgrade
 
 ## Large Sensor
 
@@ -76,31 +76,31 @@ Unlike all the other cameras I've used, the Sony a7 III is a full-frame camera. 
 large sensor allows the camera to capture more light and produce cleaner images in low
 light settings. While my iPhone often disappoints indoors and in the evenings, my
 Sony--especially paired with a fast prime lens--consistently produces sharp and
-beautiful images, even at ISO 
-12800. 
+beautiful images, even at ISO
+12800.
 
 The large sensor also allows for more subject separation (bokeh) than smaller sensors.
 When I'm photographing my kids, I often want to blur the background to make the subject
-stand out. The Sony a7 III does this beautifully. 
+stand out. The Sony a7 III does this beautifully.
 
-![](20231109-DSC01340.jpg) ![](20210528-DSC04315.jpg) ![](20241223-DSC04982.jpg) 
+![](20231109-DSC01340.jpg) ![](20210528-DSC04315.jpg) ![](20241223-DSC04982.jpg)
 
 ## Durable and Reliable
 
 The Sony a7 III is a professional-grade camera. It's built to last. While I try not to
 abuse it, it's been banged around on hikes, sandy at the beach, and bounced around in my
 backpack. Over five years later, you'd have no idea other than some surface wear on the
-body. 
+body.
 
 Because the camera is weather-sealed, I can take it out in the rain or snow without
 worrying about damaging it. Last week, I took my five year old out in freezing rain and
 snow and was able to capture a few beautiful (low-light!) images of him. When I came
 home, I just wiped the camera down with a towel and didn't have to worry about it.
 
-The camera also has excellent battery life, unlike some compact and mirrorless cameras 
-I've used. The battery lasts for hundreds of shots, and I can go weeks without charging it. 
-I almost never have a trip or outing that requires charging. With a USB-C port, the 
-camera is easy to charge whenever I need to.  
+The camera also has excellent battery life, unlike some compact and mirrorless cameras
+I've used. The battery lasts for hundreds of shots, and I can go weeks without charging it.
+I almost never have a trip or outing that requires charging. With a USB-C port, the
+camera is easy to charge whenever I need to.
 
 ## Image Quality
 
@@ -111,12 +111,12 @@ Sony.
 
 ## Silent Shooting
 
-A small benefit of the mirrorless design is the ability to shoot totally silently. 
-This isn't a feature I knew I wanted, but it has been valuable on many occasions. 
+A small benefit of the mirrorless design is the ability to shoot totally silently.
+This isn't a feature I knew I wanted, but it has been valuable on many occasions.
 Sometimes when photographing kids, it's helpful to be able to take a photo without
-them knowing. 
+them knowing.
 
-![](20220326-DSC07952.jpg) ![](20240827-DSC04280.jpg) ![](20240219-DSC02347.jpg) 
+![](20220326-DSC07952.jpg) ![](20240827-DSC04280.jpg) ![](20240219-DSC02347.jpg)
 
 ## Conclusion
 

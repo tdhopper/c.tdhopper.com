@@ -13,9 +13,9 @@ On my NAS, I use [Pihole](https://https://pi-hole.net) for network-wide ad block
 Of course, now that I have all these services running, I want to access them from anywhere.
 Synology offers the [QuickConnect](https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/connection_quickconnect?version=7) service, but I wanted something more secure and independent.
 
-While browsing Synology's subreddit and Facebook Groups, I discovered Tailscale, a mesh VPN service for solving my exact problem. After (easily) installing Tailscale on my Synology, personal computers, and phone, my devices are securely connected from anywhere in the world as if they were on the same local network. With Tailscale, my NAS has a private, static IP address through which I can access the services via their dedicated ports. 
+While browsing Synology's subreddit and Facebook Groups, I discovered Tailscale, a mesh VPN service for solving my exact problem. After (easily) installing Tailscale on my Synology, personal computers, and phone, my devices are securely connected from anywhere in the world as if they were on the same local network. With Tailscale, my NAS has a private, static IP address through which I can access the services via their dedicated ports.
 
-To make my services more accessible, I purchased a domain name through [Cloudflare](https://cloudflare.com). I created a subdomain with an A record pointing to my always-on Mac Mini's Tailscale IP address for each of my services. This IP address is accessible from anywhere but only through my devices authenticated with Tailscale. 
+To make my services more accessible, I purchased a domain name through [Cloudflare](https://cloudflare.com). I created a subdomain with an A record pointing to my always-on Mac Mini's Tailscale IP address for each of my services. This IP address is accessible from anywhere but only through my devices authenticated with Tailscale.
 
 I run a [Caddy server](https://caddyserver.com) on my Mac Mini as a reverse proxy to map the subdomains to my Synology services. The magic of Caddy is that it automatically manages SSL certificates through Let's Encrypt, giving me https access to my services.
 
@@ -24,11 +24,11 @@ Caddy was painless to install with Homebrew and easy to configure with a Caddyfi
 ```
 cat Caddyfile
 {
-	email <MY_EMAIL> 
+	email <MY_EMAIL>
 }
 *.mydomain.com mydomain.com {
 	tls {
-		dns cloudflare <CLOUDFLARE_API_TOKEN> 
+		dns cloudflare <CLOUDFLARE_API_TOKEN>
 	}
 }
 pihole.mydomain.com {

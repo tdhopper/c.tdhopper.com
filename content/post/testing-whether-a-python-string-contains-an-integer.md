@@ -3,15 +3,15 @@ title: Testing whether a Python string contains an integer
 date: Fri, 29 Apr 2016 15:13:00 +0000
 tags:
     - Python
-categories: 
+categories:
     - How To
 ---
 If you want to check whether a Python string is an integer, you can try
 casting to an int with `int()` and catching the `ValueError` if it's not an
 integer:
 
-    
-    
+
+
 ```python
 def is_integer(value: str, *, base: int=10) -> bool:
     try:

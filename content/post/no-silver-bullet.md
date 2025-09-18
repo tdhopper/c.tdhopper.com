@@ -11,7 +11,7 @@ In 1986, Fred Brooks published "No Silver Bullet—Essence and Accident in Softw
 
 Software progress doesn't follow Moore's Law.
 
-Managers characterize software projects as "usually innocent and straightforward, but... capable of becoming a monster of missed schedules, blown budgets, and flawed products." 
+Managers characterize software projects as "usually innocent and straightforward, but... capable of becoming a monster of missed schedules, blown budgets, and flawed products."
 
 Ouch.
 
@@ -30,7 +30,7 @@ Software's difficulty has two aspects "essence, the difficulties inherent in the
 3. Changeability: "Aʟʟ sᴜᴄᴄᴇssғᴜʟ sᴏғᴛᴡᴀʀᴇ ɢᴇᴛs ᴄʜᴀɴɢᴇᴅ." When software succeeds, people push the boundaries of what it was designed for. And the physical world around software changes, so software must adapted (e.g. a new model of hardware is released).
 4. Invisibility: "The reality of software is not inherently embedded in space." Representations like directed graphs generally prove inadequate for fully representing software.
 
-Progress has been made in removing 𝑎𝑐𝑐𝑖𝑑𝑒𝑛𝑡𝑎𝑙 difficulties of software: 
+Progress has been made in removing 𝑎𝑐𝑐𝑖𝑑𝑒𝑛𝑡𝑎𝑙 difficulties of software:
 
 1. High-level languages
 2. Time sharing systems
@@ -51,7 +51,7 @@ replication cost." Thus, if we 𝑐𝑎𝑛 buy it, we probably should.
 the most important function that the software builder performs for the client
 is the 𝑖𝑡𝑒𝑟𝑎𝑡𝑖𝑣𝑒 𝑒𝑥𝑡𝑟𝑎𝑐𝑡𝑖𝑜𝑛 𝑎𝑛𝑑 𝑟𝑒𝑓𝑖𝑛𝑒𝑚𝑒𝑛𝑡 𝑜𝑓 𝑡ℎ𝑒 𝑝𝑟𝑜𝑑𝑢𝑐𝑡 𝑟𝑒𝑞𝑢𝑖𝑟𝑒𝑚𝑒𝑛𝑡𝑠."
 
-Brooks again: 
+Brooks again:
 
 > I would go a step further and assert that it is really impossible for a
 client, even working with a software engineer, to specify completely,

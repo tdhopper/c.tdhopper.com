@@ -7,7 +7,7 @@ Author: Tim
 slug: mathematicians-engineers-and-businessmen-on-npc-problems
 aliases: [/blog/2012/Feb/02/mathematicians-engineers-and-businessmen-on-npc-problems/]
 math: true
-tags: 
+tags:
     - math
 ---
 

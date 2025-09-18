@@ -18,7 +18,7 @@ a way around this. However, the solution is easy.
 
 Instead of `print(df)` you use
 
-    
+
 ```python
 from IPython.display import display
 

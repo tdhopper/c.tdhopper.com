@@ -6,19 +6,19 @@ tags: []
 categories: Article
 image: /images/todo.png
 ---
-I consider myself a productive and organized person. At a minimum, people come to me for things because they know I get things done. This doesn't come naturally to me, and it's a skill I've developed over the past 15 years. 
+I consider myself a productive and organized person. At a minimum, people come to me for things because they know I get things done. This doesn't come naturally to me, and it's a skill I've developed over the past 15 years.
 
 Here are some of the things I do to be productive:
 
 ## Write things down
 
-I loosely follow the [Getting Things Done](https://getdrafts.com) method developed by David Allen. The most important aspect to me has been capturing tasks into a single inbox. Capturing tasks means I don't try to keep them in my head (which is unreliable and burns a lot of brain power trying to remember things). Capturing to a single inbox means tasks won't get lost in piles of Post-Its and napkins. 
+I loosely follow the [Getting Things Done](https://getdrafts.com) method developed by David Allen. The most important aspect to me has been capturing tasks into a single inbox. Capturing tasks means I don't try to keep them in my head (which is unreliable and burns a lot of brain power trying to remember things). Capturing to a single inbox means tasks won't get lost in piles of Post-Its and napkins.
 
-I use the [Drafts](https://getdrafts.com) app on iOS and macOS, which lets me capture notes with zero friction. If it's a task I'm writing down, I use a Drafts action to send it to my [Omnifocus](https://www.omnigroup.com/omnifocus) inbox. I regularly triage my inbox to organize my tasks into relevant projects and contexts (e.g., tasks that can be done on the computer and tasks to do at home). 
+I use the [Drafts](https://getdrafts.com) app on iOS and macOS, which lets me capture notes with zero friction. If it's a task I'm writing down, I use a Drafts action to send it to my [Omnifocus](https://www.omnigroup.com/omnifocus) inbox. I regularly triage my inbox to organize my tasks into relevant projects and contexts (e.g., tasks that can be done on the computer and tasks to do at home).
 
 ## Using nagging reminders
 
-Tasks that _must_ be done at a certain time aren't fit for my Omnifocus task management systems. For example, my trash must go out on Monday nights, and I need to be reminded until it happens. I love the [Due app](https://www.dueapp.com) on iOS, which will remind me repeatedly until the task is complete. 
+Tasks that _must_ be done at a certain time aren't fit for my Omnifocus task management systems. For example, my trash must go out on Monday nights, and I need to be reminded until it happens. I love the [Due app](https://www.dueapp.com) on iOS, which will remind me repeatedly until the task is complete.
 
 ## Tame email
 
@@ -26,13 +26,13 @@ I keep my email tidy. A big part of this is using [Sanebox](https://www.sanebox.
 
 When an email can be handled quickly (within a minute or two), I try to handle it as soon as I receive it. If an email requires work to follow up on, I forward it to my [Omnifocus]() inbox and make it a task.
 
-When this works well, my email inbox is normally empty. 
+When this works well, my email inbox is normally empty.
 
 ## Forget passwords
 
-I have hundreds (thousands?) of logins to websites and apps. Even if I could use the same password for all of them, this is a notorious security risk. 
+I have hundreds (thousands?) of logins to websites and apps. Even if I could use the same password for all of them, this is a notorious security risk.
 
-Every password I use lives in my [1Password](https://1password.com) account. I also use it to manage 2-factor authentication pins, credit cards, WiFi passwords, and personal information (social security numbers, driver's license scans, etc.). Using the 1Password keyboard shortcuts, I can quickly log in to any of my accounts. 
+Every password I use lives in my [1Password](https://1password.com) account. I also use it to manage 2-factor authentication pins, credit cards, WiFi passwords, and personal information (social security numbers, driver's license scans, etc.). Using the 1Password keyboard shortcuts, I can quickly log in to any of my accounts.
 
 I know my 1Password master passwords and almost no other passwords to my accounts. They're typically long, randomly generated mixtures of characters.
 

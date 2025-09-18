@@ -98,7 +98,7 @@ collections:
           default: "/images/til.png",
         }
   - name: "podcast"
-    label: Podcast 
+    label: Podcast
     folder: "content/post/podcasts"
     create: true
     editor:
@@ -122,9 +122,9 @@ collections:
           widget: "image",
           default: "/images/podcast.png",
         }
-  
+
   - name: "Quotes"
-    label: Quote 
+    label: Quote
     folder: "content/post"
     create: true
     editor:
@@ -148,7 +148,7 @@ collections:
           widget: "image",
         }
   - name: "base"
-    label: Base 
+    label: Base
     folder: "content/"
     create: true
     editor:
