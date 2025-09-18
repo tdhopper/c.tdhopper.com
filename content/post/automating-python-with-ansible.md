@@ -2,7 +2,7 @@
 title: Automating Python with Ansible
 date: Thu, 23 Mar 2017 15:11:00 +0000
 categories:
-  - Presentation
+  - Articles
 tags:
     - Python
 ---

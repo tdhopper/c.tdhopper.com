@@ -1,9 +1,14 @@
 ---
-title: "Build a Real Time Machine Learning System"
+title: Build a Real Time Machine Learning System
+slug: realtime-machine-learning
+portfolio: true
 date: 2017-05-17
-description: "Building and deploying machine learning systems that work in real-time environments."
+description: Presentation from the Southern Data Science meetup on real time machine learning with Kafka, Streamparse, and Storm.
+Thumbnail: /projects/building.png
 image: preso.png
 youtube: "inB33qWugMw"
 ---
+
+I gave a talk at the Data Science Conference on on building a realtime machine learning system with Kafka, Streamparse, and Storm. You can see the video on [Youtube](https://www.youtube.com/watch?v=inB33qWugMw)
 
 {{< youtube inB33qWugMw >}}
