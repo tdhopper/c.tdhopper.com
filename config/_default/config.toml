@@ -2,7 +2,7 @@
 baseurl = "https://tdhopper.com/"
 languageCode = "en-us"
 [pagination]
-pagerSize = 5
+pagerSize = 15
 enableGitInfo = true
 title = "Tim Hopper"
 
