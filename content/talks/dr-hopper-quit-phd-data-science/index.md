@@ -17,13 +17,13 @@ I recently gave to the [Duke Big Data Initiative](http://bigdata.duke.edu/) enti
 
 Here's my favorite section from the talk:
 
-![Slide 1](dd1.png)
+![What my wife thinks I do vs. what my mom thinks I do](dd1.png)
 
-![Slide 2](dd2.png)
+![What my CEO thinks I do vs. what my manager thinks I do](dd2.png)
 
-![Slide 3](dd3.png)
+![What I thought I would do vs. what I tell people on Twitter I do](dd3.png)
 
-![Slide 4](dd4.png)
+![What I actually do](dd4.png)
 
 I conclude by listing things I learned in school but don't use every day:
 
