@@ -2,6 +2,7 @@
 title: "Challenges in Applying Machine Learning to Cybersecurity"
 date: 2018-06-23
 slug: ml-for-security
+aliases: [/blog/ml-for-security/]
 portfolio: true
 description: Talk on challenges of applying machine learning to cybersecurity
 Thumbnail: /projects/bsides2018.png

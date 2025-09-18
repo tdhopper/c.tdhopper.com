@@ -1,6 +1,7 @@
 ---
 title: Introduction to Scikit-Learn
 slug: scikit
+aliases: [/blog/scikit/]
 portfolio: true
 date: 2013-01-21
 description: Talk from the Research Triangle Analysts meetup on Scikit-Learn

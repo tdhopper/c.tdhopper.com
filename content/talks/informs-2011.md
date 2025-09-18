@@ -2,6 +2,7 @@
 title: Bringing Operations Research into the 21st Century with Online Video
 date: 2012-12-01
 slug: orvideo
+aliases: [/blog/orvideo/]
 portfolio: true
 tags:
 description: Presentation from INFORMS 2012 on the value of sharing videos of technical content on Youtube

@@ -8,6 +8,7 @@ description: Why companies building machine learning products under-invest in en
 tags: null
 image: /images/code-review.png
 youtube: "BvqLgeNVg0Y"
+aliases: [/blog/right-code/]
 ---
 
 I gave a talk at Pydata DC 2018 where I tried to articulate some reasons why companies building machine learning products under-invest in engineering and architecture.

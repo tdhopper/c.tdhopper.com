@@ -1,6 +1,7 @@
 ---
 title: Build a Real Time Machine Learning System
 slug: realtime-machine-learning
+aliases: [/blog/realtime-machine-learning/]
 portfolio: true
 date: 2017-05-17
 description: Presentation from the Southern Data Science meetup on real time machine learning with Kafka, Streamparse, and Storm.

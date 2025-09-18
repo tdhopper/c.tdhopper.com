@@ -2,6 +2,7 @@
 title: "Devops Empowered Data Science with Ansible"
 date: 2018-07-12
 slug: ansible-talk
+aliases: [/blog/ansible-talk/]
 portfolio: true
 description: Talk on using Ansible for data science workflows.
 Thumbnail: /projects/ansible.png

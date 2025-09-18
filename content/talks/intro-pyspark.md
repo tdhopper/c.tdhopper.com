@@ -1,6 +1,7 @@
 ---
 title: Introduction to PySpark
 slug: intro-to-pyspark
+aliases: [/blog/intro-to-pyspark/]
 portfolio: true
 date: 2015-02-28
 description: Talk from Research Triangle Analysts about Pyspark for data science
