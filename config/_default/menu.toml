@@ -5,15 +5,15 @@ name = "Resumé"
 url = "https://resume.tdhopper.com"
 [main.params]
 icon = "user"
-newtab = true 
+newtab = true
 
 [[main]]
 identifier = "talks"
-name = "My Talks"
+name = "Talks"
 url = "https://tdhopper.com/talks"
 [main.params]
 icon = "infinity"
-newtab = false 
+newtab = false
 
 [[main]]
 identifier = "podcast"
@@ -21,7 +21,7 @@ name = "Podcast"
 url = "https://tdhopper.com/categories/podcast/"
 [main.params]
 icon = "hash"
-newtab = false 
+newtab = false
 
 
 [[social]]
