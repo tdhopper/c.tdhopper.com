@@ -9,7 +9,7 @@ slug: welcome
 
 I'm an experienced machine learning platform engineer and Python developer. You can check out my resume at [resume.tdhopper.com](https://resume.tdhopper.com).
 
-For over 10 years, I've helped companies solve business problems with machine learning in domains such as banking, cybersecurity, environmental science, and
+For over 10 years, I've helped companies solve business problems with machine learning in domains such as audio information retrieval, banking, cybersecurity, environmental science, and
 weather forecasting. I see my role as helping data scientists and researchers shorten feedback loops and spend time on their business problems (instead of fussing with cloud resources).
 
 I'm also excited about developer productivity, especially in Python development. I am the author of an [ebook on Python developer tooling](https://pydevtools.com) and like to help teams use Python more effectively.
