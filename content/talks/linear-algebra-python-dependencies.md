@@ -54,7 +54,7 @@ I got so frustrated with the engineering deficits that I decided to solve those 
 
 ### Finding Joy in Logic and Software
 
-Here’s the unexpected twist: I started to learn that there is something quite enjoyable about writing great software and getting it ready for production. As a software developer, I still get to originate ideas in my head and write them out with my fingertips. Unlike pure math work, I get to see that work scale—to millions of people, providing value for a company and its customers. It's satisfying to do something useful.
+Here’s the unexpected twist: I started to learn that there is something quite enjoyable about writing great software and getting it ready for production. As a software developer, I still get to originate ideas in my head and write them out with my fingertips. Unlike pure math work, I get to see that work scale to millions of people, providing value for a company and its customers. It's satisfying to do something useful.
 
 I don't regret studying math at all. I followed my passions, even though I didn't really have a plan. But reflecting on the 2006 quote that there was "never been a better time to be a mathematician," I think that was misleading.
 
