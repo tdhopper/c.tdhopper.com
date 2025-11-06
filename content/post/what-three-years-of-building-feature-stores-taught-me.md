@@ -8,58 +8,66 @@ draft: true
 
 I spent three years at Varo Bank helping the Machine Learning Platform team rebuild their platform for batch and streaming machine learning features. Much of my career has been focused on helping machine learning teams get the data they need, in the place they need it, in the form they need it. This was a chance to tackle that challenge head-on. Here are the hard-earned lessons for anyone building feature stores.
 
-## **Point-in-time joins are the heart of correctness**
+## **Point-in-time correctness is harder than it looks**
 
-Getting historically accurate data as of a specific time while also serving up-to-date real-time data is deceptively difficult. But it's absolutely critical for preventing data leakage and ensuring reliable predictions. The computational complexity of real-time joins can be a real barrier - you often need to write features that are not just logically correct but computationally feasible.
+Getting historically accurate data as of a specific time while also serving up-to-date real-time data is deceptively difficult. It's not just about writing a temporal join - you need proper event time semantics (not just query time), handling of late-arriving data, clear TTL and retention policies, and consistency guarantees in distributed systems. Most teams fail in the implementation details, not in understanding the concept. The computational complexity of these joins at scale can be a real barrier.
 
-## **Training-serving skew can kill your models**
+## **Training-serving skew comes from transformation code duplication**
 
-Avoiding training-serving skew requires more than just correct point-in-time joins. It demands careful education of your researchers and ML practitioners on how to use the tools correctly. Even the best platform can't prevent misuse if users don't understand the pitfalls.
+The most common cause of training-serving skew isn't point-in-time join problems - it's duplicating feature transformation logic between training and serving environments. If you're doing any feature engineering beyond simple lookups, keeping transformation logic identical is harder than getting point-in-time correctness right. This demands careful education of ML practitioners on how to use the tools correctly, but even the best education can't prevent misuse if the platform allows it.
+
+## **Schema evolution will break things**
+
+You can't avoid schema changes, and they're one of the top operational pain points. Features evolve, data types change, new fields get added. Without a clear strategy for schema versioning and evolution, you'll constantly be putting out fires. This ties directly into governance and lineage - you need to know who's consuming what version of which features before you can safely make changes.
+
+## **The cold start problem is real**
+
+When you deploy a new feature, you immediately face the cold start problem. How do you backfill historical data? What's your strategy for generating training data when the feature didn't exist six months ago? This isn't just a technical challenge - it affects how quickly teams can iterate and what kinds of features are feasible to build.
 
 ## **Feature discoverability unlocks reuse**
 
-A centralized feature store becomes valuable not just for machine learning but across the organization. Good documentation and discoverability - both at the feature level and at the data warehouse level - are essential for teams to find and reuse existing features instead of recreating them. This multiplies the value of every feature created.
+A centralized feature store becomes valuable not just for machine learning but across the organization. Good documentation and discoverability - both at the feature level and at the data warehouse level - are essential for teams to find and reuse existing features instead of recreating them. This multiplies the value of every feature created and reduces the maintenance burden.
 
 ## **Governance keeps the chaos in check**
 
-You need clear rules about who can modify which data, who can change feature names, and who can create new features in specific domains. Without governance, the system quickly becomes unmanageable. Platform teams should enable democratization of feature creation while maintaining guardrails.
+You need clear rules about who can modify which data, who can change feature names, and who can create new features in specific domains. Without governance, the system quickly becomes unmanageable. The challenge is enabling democratization of feature creation while maintaining guardrails that prevent chaos.
 
-## **Monitoring makes your platform trustworthy**
+## **ML monitoring is different from data monitoring**
 
-Data observability - detecting drift, staleness, and missing updates - is what makes a feature platform reliable. Teams need confidence that the features they depend on are fresh and correct. Without monitoring, that trust evaporates quickly.
+Data observability - detecting drift, staleness, and missing updates - is table stakes. But ML-specific monitoring goes further: distribution shift detection, feature correlation changes, and label leakage detection. Teams need confidence that the features they depend on are not only fresh but behaving correctly in the context of their models. Without ML-aware monitoring, subtle issues can degrade model performance for weeks before anyone notices.
 
-## **Unified batch and streaming is worth the effort**
+## **Event time vs processing time matters**
 
-There's tremendous value in having a unified platform where features are consistently defined and can be accessed in either batch or real-time. Features you think you'll only use in batch mode often become surprisingly useful in real-time systems, sometimes even outside of machine learning. Implementing this so you avoid multiple code paths is valuable but challenging.
+Teams need a common understanding of feature availability, especially in real-time settings. But it's not just about latency - it's about event time versus processing time semantics. When you query for "the features as of timestamp T," are you getting the data that was available at time T, or the data whose events occurred at time T? This distinction is fundamental to correct temporal joins and real-time feature computation.
+
+## **Unified batch and streaming requires operational maturity**
+
+There's tremendous value in having features consistently defined for both batch and real-time access. But the reality is that most unified systems (Flink, Beam, etc.) still require different execution engines and operational expertise. The goal of avoiding multiple code paths for feature logic is achievable, but don't underestimate the operational complexity of running both a batch system and a streaming system in production.
 
 ## **ML platforms aren't just data engineering**
 
 Feature platforms have specific concerns that distinguish them from general data engineering platforms. The focus on data leakage prevention, point-in-time correctness, and training-serving consistency requires specialized thinking. You can't simply treat ML data like any other data pipeline.
 
-## **Metadata and lineage matter**
+## **Metadata and lineage are debugging lifelines**
 
-Tracking where features come from and how they're built is essential for debugging, compliance, and understanding downstream impacts. When something goes wrong, you need to be able to trace the problem back to its source quickly.
+Tracking where features come from and how they're built is essential for debugging, compliance, and understanding downstream impacts. When something goes wrong - and it will - you need to be able to trace the problem back to its source quickly. Without good lineage tracking, debugging becomes detective work.
 
-## **Set clear availability expectations**
+## **Tooling enforces what platforms guarantee**
 
-Teams need a common understanding of feature availability, especially in real-time settings. What's the latency between an event happening and that event being represented in your feature data? Making this explicit prevents misaligned expectations and enables teams to design systems appropriately.
+There's enormous value in good developer tooling: precommit hooks, tests, and CI systems that do automated checks. These tools enforce style guidelines and catch basic errors before production. But be clear about responsibilities: the platform ensures infrastructure correctness (joins, freshness, consistency) while feature owners ensure semantic correctness (business logic, data quality). Confusing this boundary creates a liability gap.
 
-## **Tooling enforces quality**
+## **Cost management means thinking about serving**
 
-There's enormous value in good developer tooling: precommit hooks, tests, and CI systems that do automated checks. These tools can enforce style guidelines, validate basic correctness, and catch issues before they reach production. The platform team shouldn't be responsible for ensuring contributed data is correct - automate what you can.
+Cost isn't just about batch joins and materializations. The bigger driver is usually online feature serving at scale - the storage and compute for real-time lookups typically dwarf batch join costs. Without careful attention to serving costs and careful selection of what needs to be real-time versus what can be precomputed, the computational demands can blow your budget.
 
-## **Cost management isn't optional**
+## **Democratization and enforcement create tension**
 
-Optimizing joins and materializations keeps your platform sustainable. Without careful attention to cost, the computational demands of point-in-time joins and real-time serving can blow your budget. Design with efficiency in mind from the start.
+Democratization of feature creation is a worthy goal - different teams across the company should be able to safely contribute features with the right guardrails and tooling. But requiring teams to use the platform (not deploying models that bypass it) creates tension with customer-centricity. The way to resolve this: make the platform so valuable and easy to use that teams want to adopt it, then enforce adoption to prevent the chaos of fragmented tooling. Build carrots first, then use the stick.
 
-## **Democratization should be intentional**
+## **Customer-centricity is non-negotiable**
 
-Democratization of feature creation is possible even in unified batch and streaming systems, and it should be a goal. Different teams across the company can safely contribute features if you build the right guardrails and tooling. But platform teams need to enforce adoption - don't deploy models that bypass the platform.
-
-## **Customer-centricity is everything**
-
-Platform teams must have a customer-centric mindset and stay close to their end users. Build a tool that actually solves the problems they have, not the problems you think they should have. This partnership approach is what makes a feature platform successful.
+Platform teams must stay close to their end users. Build a tool that actually solves the problems they have, not the problems you think they should have. Listen to their pain points, understand their workflows, and iterate based on real usage patterns. A technically perfect platform that nobody wants to use is a failure.
 
 ---
 
-Feature stores are more than just data pipelines - they're about making machine learning reliable, scalable, and accessible across an organization. These lessons made me a better platform builder and leader, and I hope they help you avoid some of the pitfalls I encountered along the way.
+Feature stores are more than just data pipelines - they're about making machine learning reliable, scalable, and accessible across an organization. They sit at the intersection of data engineering, ML engineering, and platform engineering, requiring you to get all three right. These lessons made me a better platform builder and leader, and I hope they help you avoid some of the pitfalls I encountered along the way.
