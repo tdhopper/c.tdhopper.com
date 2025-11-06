@@ -10,7 +10,7 @@ I spent three years at Varo Bank helping the Machine Learning Platform team rebu
 
 ## **Point-in-time joins are the heart of correctness**
 
-Getting historically accurate data as of a specific time while also serving up-to-date real-time data is deceptively difficult. But it's absolutely critical for preventing data leakage and ensuring reliable predictions. The computational complexity of real-time joins can be a real barrier—you often need to write features that are not just logically correct but computationally feasible.
+Getting historically accurate data as of a specific time while also serving up-to-date real-time data is deceptively difficult. But it's absolutely critical for preventing data leakage and ensuring reliable predictions. The computational complexity of real-time joins can be a real barrier - you often need to write features that are not just logically correct but computationally feasible.
 
 ## **Training-serving skew can kill your models**
 
@@ -18,7 +18,7 @@ Avoiding training-serving skew requires more than just correct point-in-time joi
 
 ## **Feature discoverability unlocks reuse**
 
-A centralized feature store becomes valuable not just for machine learning but across the organization. Good documentation and discoverability—both at the feature level and at the data warehouse level—are essential for teams to find and reuse existing features instead of recreating them. This multiplies the value of every feature created.
+A centralized feature store becomes valuable not just for machine learning but across the organization. Good documentation and discoverability - both at the feature level and at the data warehouse level - are essential for teams to find and reuse existing features instead of recreating them. This multiplies the value of every feature created.
 
 ## **Governance keeps the chaos in check**
 
@@ -26,7 +26,7 @@ You need clear rules about who can modify which data, who can change feature nam
 
 ## **Monitoring makes your platform trustworthy**
 
-Data observability—detecting drift, staleness, and missing updates—is what makes a feature platform reliable. Teams need confidence that the features they depend on are fresh and correct. Without monitoring, that trust evaporates quickly.
+Data observability - detecting drift, staleness, and missing updates - is what makes a feature platform reliable. Teams need confidence that the features they depend on are fresh and correct. Without monitoring, that trust evaporates quickly.
 
 ## **Unified batch and streaming is worth the effort**
 
@@ -46,7 +46,7 @@ Teams need a common understanding of feature availability, especially in real-ti
 
 ## **Tooling enforces quality**
 
-There's enormous value in good developer tooling: precommit hooks, tests, and CI systems that do automated checks. These tools can enforce style guidelines, validate basic correctness, and catch issues before they reach production. The platform team shouldn't be responsible for ensuring contributed data is correct—automate what you can.
+There's enormous value in good developer tooling: precommit hooks, tests, and CI systems that do automated checks. These tools can enforce style guidelines, validate basic correctness, and catch issues before they reach production. The platform team shouldn't be responsible for ensuring contributed data is correct - automate what you can.
 
 ## **Cost management isn't optional**
 
@@ -54,7 +54,7 @@ Optimizing joins and materializations keeps your platform sustainable. Without c
 
 ## **Democratization should be intentional**
 
-Democratization of feature creation is possible even in unified batch and streaming systems, and it should be a goal. Different teams across the company can safely contribute features if you build the right guardrails and tooling. But platform teams need to enforce adoption—don't deploy models that bypass the platform.
+Democratization of feature creation is possible even in unified batch and streaming systems, and it should be a goal. Different teams across the company can safely contribute features if you build the right guardrails and tooling. But platform teams need to enforce adoption - don't deploy models that bypass the platform.
 
 ## **Customer-centricity is everything**
 
@@ -62,4 +62,4 @@ Platform teams must have a customer-centric mindset and stay close to their end 
 
 ---
 
-Feature stores are more than just data pipelines—they're about making machine learning reliable, scalable, and accessible across an organization. These lessons made me a better platform builder and leader, and I hope they help you avoid some of the pitfalls I encountered along the way.
+Feature stores are more than just data pipelines - they're about making machine learning reliable, scalable, and accessible across an organization. These lessons made me a better platform builder and leader, and I hope they help you avoid some of the pitfalls I encountered along the way.
