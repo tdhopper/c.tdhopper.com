@@ -4,3 +4,11 @@ command = "hugo --gc --minify -b ${URL}"
 
 [build.environment]
 HUGO_VERSION = "0.150.0"
+
+# Build drafts for branch deploys
+[context.branch-deploy]
+command = "hugo --gc --minify --buildDrafts -b ${URL}"
+
+# Build drafts for deploy previews (PRs)
+[context.deploy-preview]
+command = "hugo --gc --minify --buildDrafts -b ${URL}"
