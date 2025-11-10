@@ -1,22 +1,21 @@
 {{ define "main" }}
-    <article class="main-article">
-        <header class="article-header">
-            <h1 class="article-title">{{ .Title }}</h1>
-            {{ if .Params.description }}
-            <p class="article-subtitle">{{ .Params.description }}</p>
-            {{ end }}
-        </header>
-
-        <section class="article-content">
-            {{ .Content }}
-        </section>
-    </article>
-
     {{ $tilPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Today I Learned") }}
     {{ $tilPosts := $tilPosts.ByDate.Reverse }}
 
-    <section class="article-list" style="margin-top: 2rem;">
-        <h2>All TIL Posts ({{ len $tilPosts }})</h2>
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}
+            <div class="page-description">{{ . }}</div>
+        {{ end }}
+    </header>
+
+    {{ with .Content }}
+        <article style="margin-bottom: var(--section-separation);">
+            <div class="article-content">{{ . }}</div>
+        </article>
+    {{ end }}
+
+    <section class="article-list--compact">
         {{ range $tilPosts }}
             {{ partial "article-list/default" . }}
         {{ end }}
