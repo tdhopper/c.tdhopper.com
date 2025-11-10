@@ -1,8 +1,9 @@
 {{ define "main" }}
     {{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
     {{ $notHidden := where .Site.RegularPages "Params.hidden" "!=" true }}
-    {{ $notTIL := where .Site.RegularPages "Params.categories" "intersect" (slice "Today I Learned") "==" 0 }}
-    {{ $filtered := ($pages | intersect $notHidden | intersect $notTIL) }}
+    {{ $tilPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Today I Learned") }}
+    {{ $pagesNotHidden := ($pages | intersect $notHidden) }}
+    {{ $filtered := $pagesNotHidden | complement $tilPosts }}
 
     {{ $pinnedPages := where $filtered "Params.pinned" true }}
     {{ $unpinnedPages := where $filtered "Params.pinned" "!=" true }}
