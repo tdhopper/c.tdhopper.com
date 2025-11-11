@@ -2,22 +2,25 @@
     {{ $tilPosts := where .Site.RegularPages "Params.categories" "intersect" (slice "Today I Learned") }}
     {{ $tilPosts := $tilPosts.ByDate.Reverse }}
 
-    <header class="page-header">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.description }}
-            <div class="page-description">{{ . }}</div>
-        {{ end }}
-    </header>
+    <section class="section-card">
+        <header>
+            <h2 class="section-term">{{ .Title }}</h2>
+            <p class="section-count" style="text-transform: none;">{{ len $tilPosts }} posts</p>
+            {{ with .Params.description }}
+                <p class="section-description">{{ . }}</p>
+            {{ end }}
+        </header>
 
-    {{ with .Content }}
-        <article style="margin-bottom: var(--section-separation);">
-            <div class="article-content">{{ . }}</div>
-        </article>
-    {{ end }}
+        {{ with .Content }}
+            <div class="article-content" style="margin-top: 1.5rem;">
+                {{ . }}
+            </div>
+        {{ end }}
+    </section>
 
     <section class="article-list--compact">
         {{ range $tilPosts }}
-            {{ partial "article-list/default" . }}
+            {{ partial "article-list/compact" . }}
         {{ end }}
     </section>
 
