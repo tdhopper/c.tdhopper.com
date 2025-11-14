@@ -7,7 +7,7 @@ categories: Article
 image: /images/featureplat.png
 ---
 Much of my career has been focused on helping machine learning researchers get the data they need, where they need it, and when they need it. 
-Over the past three years, I helped lead the development of a new machine learning feature platform a the bank startup where I worked. 
+Over the past three years, I helped lead the development of a new machine learning feature platform at the bank startup where I worked. 
 Our platform could serve a variety of machine learning and analytics applications by enabling creation of custom data transformations to generate batch and real time data for model training and inference.
 
 Here are some lessons from my experience:
@@ -22,7 +22,7 @@ Teams need a common understanding of feature availability and event time versus 
 
 ## Reduce skew by reducing code duplication
 
-Many machine learning applications require offline data retrieve in batch to train the models but then up-to-date, realtime features for model inference. Because of technical challenges, these two sources are often provided through unique code paths. As soon as feature logic is reimplemented, you open the door to subtle (or not so subtle) bugs that can skew the features and the resulting model predictions. If you're doing online and offline retrieval, do whatever you must to have single code paths for the features.
+Many machine learning applications require offline data retrieval in batch to train the models but then up-to-date, realtime features for model inference. Because of technical challenges, these two sources are often provided through unique code paths. As soon as feature logic is reimplemented, you open the door to subtle (or not so subtle) bugs that can skew the features and the resulting model predictions. If you're doing online and offline retrieval, do whatever you must to have single code paths for the features.
 
 ## Unified batch and streaming requires operational maturity
 
@@ -32,7 +32,7 @@ The reality is that most unified systems (Flink, Beam, etc.) still require diffe
 
 A centralized feature store becomes valuable not just for machine learning [but in rules engines and analytics](https://tdhopper.com/talks/streaming-machine-learning/) as well. Well documented and discoverable data in the feature store and the upstream data warehouse are essential for teams to find and reuse features instead of recreating them. This multiplies the value of every feature created and reduces the maintenance burden.
 
-## Governance keeps reigns in complexity
+## Governance reins in complexity
 
 You need clear rules about who can modify which data, who can change feature names, and who can create new features in specific domains. Without governance, the system quickly becomes unmanageable. The feature store platform team should democratize feature creation while maintaining guardrails that prevent chaos.
 
@@ -52,7 +52,7 @@ Feature platforms have specific concerns that distinguish them from general data
 
 There's enormous value in good developer tooling: precommit hooks, tests, and CI systems that do automated checks. These tools enforce style guidelines and catch basic errors before production. But be clear about responsibilities: the platform team ensures infrastructure correctness (joins, freshness, consistency) while feature owners ensure semantic correctness (business logic, data quality). Confusing this boundary creates a liability gap.
 
-## Enforcement create tension
+## Enforcement creates tension
 
 Requiring teams to use the platform (not deploying models that bypass it) creates tension with customer-centricity. The way to resolve this: make the platform so valuable, reliable, and easy to use that teams want to adopt it, then enforce adoption to prevent the chaos of fragmented tooling. Build carrots first, then use the stick.
 
