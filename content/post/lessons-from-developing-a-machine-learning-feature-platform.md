@@ -14,8 +14,7 @@ Here are some lessons from my experience:
 
 ## Point-in-time correctness is harder than it looks
 
-To train machine learning @@@@
-
+Training data must reflect what was knowable at prediction time, not what you know now. This seems obvious until you face late-arriving events, slowly changing dimensions, or aggregations that span the temporal boundary. A customer's balance "as of yesterday" needs yesterday's knowledge, not today's corrected ledger. Build point-in-time correctness into the platform from day one. Retrofitting is expensive and painful.
 
 ## Event time vs processing time matters
 
