@@ -1,6 +1,6 @@
 ---
 title: "The Ph.D. Blueprint: Five Questions to Design Your Future"
-date: 2024-12-10
+date: 2025-12-10
 slug: the-phd-blueprint
 categories:
     - Article
@@ -11,8 +11,6 @@ image: page-01.png
 Years ago, I published a [collection of interviews](/phd) with people I respected about whether a young person should pursue a Ph.D. I still hear from people who found them helpful.
 
 This is a slide deck version of the key questions from those interviews. If you're wrestling with this decision, I hope it gives you a useful framework.
-
-{{< figure src="page-01.png" >}}
 
 {{< figure src="page-02.png" >}}
 
