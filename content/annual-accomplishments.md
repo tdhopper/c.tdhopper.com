@@ -9,7 +9,7 @@ image: /images/zen.png
 ---
 
 
-## 2025
+# 2025
 
   * Launched [pydevtools.com](https://pydevtools.com), the first comprehensive resource on Python developer tooling, and wrote over 43k words
   * Made it [to the front page of Hacker News](https://news.ycombinator.com/item?id=44977645)
