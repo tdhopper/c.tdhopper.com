@@ -8,12 +8,6 @@ description: Notes on accomplishments for each year since 2017
 image: /images/zen.png
 ---
 
-<!--
-Perfect — I’ll match the style of your previous years: clean, punchy bullet points, each starting with a verb or a clear action.
-
-Here is a draft 2025 accomplishments section based on everything you shared. Feel free to revise wording afterward — we can tune it together.
-
-⸻
 
 ## 2025
 
@@ -31,8 +25,6 @@ Here is a draft 2025 accomplishments section based on everything you shared. Fee
     * deep Python expertise and ability to make complex topics accessible  
     * pragmatic, non–yak-shaving engineering approach  
     * initiative in connecting with researchers and identifying challenges
-
--->
 
 # 2024
 
