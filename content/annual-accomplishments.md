@@ -7,6 +7,31 @@ aliases:
 description: Notes on accomplishments for each year since 2017
 image: /images/zen.png
 ---
+
+<!--
+Perfect — I’ll match the style of your previous years: clean, punchy bullet points, each starting with a verb or a clear action.
+
+Here is a draft 2025 accomplishments section based on everything you shared. Feel free to revise wording afterward — we can tune it together.
+
+⸻
+
+## 2025
+
+  * Launched [pydevtools.com](https://pydevtools.com), the first comprehensive resource on Python developer tooling, and wrote over **43k words**
+  * Led adoption of AI-assisted software development on my team
+  * Interviewed Prof. Robert Ghrist on [Writing a Math Textbook with Claude](https://tdhopper.com/blog/writing-a-math-textbook-with-claude-with-professor-ghrist/)
+  * Interviewed by [Pybites Podcast](https://tdhopper.com/blog/interview-with-the-pybites-podcast/)
+  * Hit 380 lbs for 5 reps on the trap bar (highest weight post-back surgery)
+  * Celebrated 10th wedding anniversary
+  * Traveled to Stockholm and Berlin for work
+  * Received strong peer feedback highlighting:
+    * eagerness to jump in and solve problems  
+    * deep Python expertise and ability to make complex topics accessible  
+    * pragmatic, non–yak-shaving engineering approach  
+    * initiative in connecting with researchers and identifying challenges
+
+-->
+
 # 2024
 
   * Survived painful, herniated disc and went through successful surgery
