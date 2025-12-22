@@ -9,15 +9,16 @@ image: /images/zen.png
 ---
 
 
-# 2025
+## 2025
 
-  * Launched [pydevtools.com](https://pydevtools.com), the first comprehensive resource on Python developer tooling, and wrote over 43k words
+  * Launched [pydevtools.com](https://pydevtools.com), the first comprehensive resource on Python developer tooling; now over over 43k words and growing!
   
   * Made it [to the front page of Hacker News](https://news.ycombinator.com/item?id=44977645)
   
   * Led adoption of AI-assisted software development on my team
   
   * Interviewed Prof. Robert Ghrist on [Writing a Math Textbook with Claude](https://tdhopper.com/blog/writing-a-math-textbook-with-claude-with-professor-ghrist/)
+
   * Interviewed by [Pybites Podcast](https://tdhopper.com/blog/interview-with-the-pybites-podcast/)
  
   * Hit 380 lbs for 5 reps on the trap bar (highest weight post-back surgery)
@@ -28,17 +29,17 @@ image: /images/zen.png
   
   * Traveled to Stockholm and Berlin for work 
  
-  * Received strong peer feedback highlighting:
+  * Received encouraging peer feedback highlighting:
  
     * eagerness to jump in and solve problems 
   
-    * deep Python expertise and ability to make complex topics accessible  
+    * deep Python expertise and ability to make complex topics accessible
  
     * pragmatic, non–yak-shaving engineering approach  
  
     * initiative in connecting with researchers and identifying challenges
 
-# 2024
+## 2024
 
   * Survived painful, herniated disc and went through successful surgery
 
