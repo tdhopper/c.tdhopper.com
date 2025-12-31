@@ -1,7 +1,8 @@
 ---
 title: How I'm Using AI at the End of 2025
 date: 2025-12-31T12:00:00.000Z
-description: A look at how I'm using various AI tools for chat, image generation, code, writing, and learning.
+description: A look at how I'm using various AI tools for chat, image
+  generation, code, writing, and learning.
 categories: Article
 image: /images/puppets.png
 ---
@@ -21,6 +22,8 @@ At work, I have access to [ChatGPT Pro](https://openai.com/chatgpt/pricing/) thr
 A year ago, I had not used a coding agent. I mostly relied on copying and pasting code into ChatGPT and auto complete in [Github Copilot](https://github.com/features/copilot) to write code for me.
 
 Early in the year, I started using [Cursor](https://www.cursor.com) at home and at work. By mid year, I had almost exclusively shifted to [Claude Code](https://www.anthropic.com/claude/code) which I exclusively use in `--dangerously-skip-permissions` mode. [Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) has made that an even better experience, and I find it reliably helps me refine what I'm asking for and then provide top tier implementations. I live in Claude Code these days.
+
+A lesson I've learned over the past 6 months is that Claude Code isn't just good for code automation but computer automation. It's far better at using CLI tools than I will ever be, and it's ability to combine them enables automation of lots of work. For example, I rarely use `git` directly any more and let Claude handle it for me (even opening the pull requests). 
 
 ## Writing
 
