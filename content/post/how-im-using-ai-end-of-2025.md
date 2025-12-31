@@ -3,6 +3,7 @@ title: How I'm Using AI at the End of 2025
 date: 2025-12-31T12:00:00.000Z
 description: A look at how I'm using various AI tools for chat, image generation, code, writing, and learning.
 categories: Article
+image: /images/puppets.png
 ---
 
 ## Chat
