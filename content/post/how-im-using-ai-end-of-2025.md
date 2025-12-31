@@ -7,13 +7,13 @@ categories: Article
 
 ## Chat
 
-I subscribe to [ChatGPT Plus](https://openai.com/chatgpt/pricing/) and using 5.2 Thinking for most of my chat sessions. According to my 2025 stats, I had 1,884 chats and 7,661 messages this year. I use this for researching things, asking home and car repair questions, as a sounding board for ideas, workout ideas, creating recipes, and answering my 8 year olds many questions ("what was the longest war in history").
+I subscribe to [ChatGPT Plus](https://openai.com/chatgpt/pricing/) and using 5.2 Thinking for most of my chat sessions. According to my 2025 stats, I had 1,884 chats and 7,661 messages this year. I use this for researching things, asking home and car repair questions, as a sounding board for ideas, workout ideas, creating recipes, and answering my 8-year-old's many questions ("what was the longest war in history").
 
 At work, I have access to [ChatGPT Pro](https://openai.com/chatgpt/pricing/) through work and occasionally use the 5.2 Pro for deeper thinking (e.g., I recently asked "What were the best in class ai models at the end of 2025").
 
 ## Image Generation
 
-Nano Banana Pro has become my only tool for image generation. It's just _so good_. I don't subscribe to [Gemini](https://gemini.google.com) personally, but I find the free tier gives me enough for things I want to generate (usually silly).
+[Nano Banana Pro](https://blog.google/technology/ai/nano-banana-pro/) has become my only tool for image generation. It's just _so good_. I don't subscribe to [Gemini](https://gemini.google.com) personally, but I find the free tier gives me enough for things I want to generate (usually silly).
 
 ## Code
 
