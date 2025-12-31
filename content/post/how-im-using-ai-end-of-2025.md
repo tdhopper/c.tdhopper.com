@@ -23,7 +23,7 @@ A year ago, I had not used a coding agent. I mostly relied on copying and pastin
 
 Early in the year, I started using [Cursor](https://www.cursor.com) at home and at work. By mid year, I had almost exclusively shifted to [Claude Code](https://www.anthropic.com/claude/code) which I exclusively use in `--dangerously-skip-permissions` mode. [Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) has made that an even better experience, and I find it reliably helps me refine what I'm asking for and then provide top tier implementations. I live in Claude Code these days.
 
-A lesson I've learned over the past 6 months is that Claude Code isn't just good for code automation but computer automation. It's far better at using CLI tools than I will ever be, and it's ability to combine them enables automation of lots of work. For example, I rarely use `git` directly any more and let Claude handle it for me (even opening the pull requests). 
+A lesson I've learned over the past 6 months is that Claude Code isn't just good for code automation but also computer automation. It's far better at using CLI tools than I will ever be, and it's ability to combine them enables automation of lots of work. For example, I rarely use `git` directly any more and let Claude handle it for me (even [opening pull requests](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md)). 
 
 ## Writing
 
