@@ -3,6 +3,8 @@ title: How I'm Using AI at the End of 2025
 date: 2025-12-31T12:00:00.000Z
 description: A look at how I'm using various AI tools for chat, image
   generation, code, writing, and learning.
+tags:
+  - ai
 categories: Article
 image: /images/puppets.png
 ---
@@ -25,6 +27,8 @@ Early in the year, I started using [Cursor](https://www.cursor.com) at home and 
 
 A lesson I've learned over the past 6 months is that Claude Code isn't just good for code automation but also computer automation. It's far better at using CLI tools than I will ever be, and it's ability to combine them enables automation of lots of work. For example, I rarely use `git` directly any more and let Claude handle it for me (even [opening pull requests](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md)). 
 
+I subscribe to the $20/month pro plan and have [extra usage](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans) enabled so I can pay for tokens after hitting the Pro limits.
+
 ## Writing
 
 As Robert Ghrist [told me last year](https://tdhopper.com/blog/writing-a-math-textbook-with-claude-with-professor-ghrist/), Claude has the best writing style. I often rely on it to help me refine things I'm saying.
@@ -38,3 +42,13 @@ For random topics, this often starts with a ChatGPT Thinking session with web se
 For code, I have found Claude Code can do excellent breakdowns and patiently fields my questions in discovering corners I don't understand.
 
 [NotebookLM](https://notebooklm.google.com) is amazing at helping me work through a variety of sources. Generating slides based on some documents or sources is a common starting point for my understanding these days and helps me refine the questions I'm asking. I also love generating a podcast with a prompt that guides them in the direction I'm interested in so I can learn on the go.
+
+## Transcription
+
+I've never been a bit voice to text person, because I mumble with a choppy cadence. However, I'm learning the modern tools do not care how annoying I am. I can stumble through my words for 15 minutes and they carefully transcribe and punctuate.
+
+I have been experimenting with [Whispr Flow](https://wisprflow.ai/) for personal uses; this has largely been using their iOS keyboard for vastly superior text-to-speech that the built in Apple Option. 
+
+I have [Whisper Memos](https://whispermemos.com/) connect to my iPhone action button. This is a great one-trick-pony tool that starts recording on launch and then can email the transcript somewhere; mine goes to my [Drafts inbox](https://getdrafts.com/).
+
+I just installed [Sotto](https://sotto.to/) on my work machine this week which provides local model voice transcription. I'm interested in using this for interacting with Slack and Claude Code, but I haven't made much progress yet.
