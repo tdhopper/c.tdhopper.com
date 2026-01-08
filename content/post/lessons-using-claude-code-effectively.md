@@ -38,3 +38,19 @@ I've developed a [skill for opening pull requests](https://github.com/tdhopper/d
 
 The value of fast feedback can't be overstated. Being able to execute code and validate assumptions quickly makes development fundamentally different. Agents benefit from this in the same way as humans; the more they can validate the work, the better their results.
 
+## Use It to Navigate Unfamiliar Code
+
+Agents excel at building understanding of complex codebases. They can grep, search, and trace dependencies far faster than I can manually. When I joined a new project, Claude helped me understand where components fit together and how data flowed through the system. Instead of spending hours reading code, I ask questions and get contextual answers with file references.
+
+## Gains Are Biggest Outside Your Expertise
+
+The productivity multiplier is asymmetric—it's largest in areas where you're weakest. Adding visualizations to a monitoring tool, work that would have taken me days of learning a charting library, now takes minutes. I'm not suddenly an expert, but I can get expert-level output in domains I rarely touch.
+
+## Define the Problem Before Starting
+
+The hardest part isn't generating code; it's understanding what problem you're actually solving. I've wasted plenty of agent time by not thinking through what I wanted before asking. Spending five minutes clarifying the goal saves thirty minutes of iterating on the wrong solution. The agent can only solve the problem you describe.
+
+## Prototype Aggressively, Throw Away Freely
+
+I prototype more now than I ever did before. The cost of trying something dropped dramatically. I'll have Claude generate a quick script or CLI to test an idea, knowing I'll probably throw it away. This changes how I approach problems—I test assumptions instead of planning around them.
+
