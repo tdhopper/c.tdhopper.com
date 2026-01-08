@@ -38,3 +38,15 @@ I've developed a [skill for opening pull requests](https://github.com/tdhopper/d
 
 The value of fast feedback can't be overstated. Being able to execute code and validate assumptions quickly makes development fundamentally different. Agents benefit from this in the same way as humans; the more they can validate the work, the better their results.
 
+## Use It to Navigate Unfamiliar Code
+
+Agents excel at building understanding of complex codebases. They can grep, search, and trace dependencies far faster than I can manually. When I joined a new project, Claude helped me understand where components fit together and how data flowed through the system.
+
+## Define the Problem Before Starting
+
+The hardest part is still [understanding what problem you're actually solving](https://tdhopper.com/blog/no-silver-bullet/). I've wasted plenty of agent time by not thinking through what I wanted before asking. Spending five minutes clarifying the goal (sometimes [_with the agent_](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/commands/spec.md)) saves thirty minutes of iterating on the wrong solution. 
+
+## Prototype Aggressively, Throw Away Freely
+
+I prototype more now than I ever did before. The cost of trying something dropped dramatically. I'll have Claude generate a quick script or CLI to test an idea, knowing I'll probably throw it away. This changes how I approach problems: I can test assumptions with real implementations.
+
