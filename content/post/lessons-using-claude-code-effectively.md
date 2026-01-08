@@ -6,14 +6,14 @@ tags:
 categories: Article
 ---
 
-I've been relying on Claude Code more and more since March 2025, not just for development but for [all things computer automation](https://tdhopper.com/blog/how-im-using-ai-at-the-end-of-2025/). 
-Developers are transitioning to be the conductor of the orchestra more than flute player. I believe 2025 marked a fundamental shift in software development. These tools are changing what are jobs are.
+I've been relying on Claude Code more and more since March 2025, not just for development but for [all things computer automation](https://tdhopper.com/blog/how-im-using-ai-at-the-end-of-2025/).
+Developers are transitioning to be the conductor of the orchestra more than flute player. I believe 2025 marked a fundamental shift in software development. These tools are changing what our jobs are.
 
 Here are some practical patterns I've learned over the last year:
 
 ## Let It Touch Your Git
 
-I've embraced letting Claude many of my git operations. It's great at finding the right changes to commit and [opening PRs](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md). It's also amazing at more complex like like cherry-picks, rebases, splitting large features into logical PRs. 
+I've embraced letting Claude handle many of my git operations. It's great at finding the right changes to commit and [opening PRs](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md). It's also amazing at more complex tasks like cherry-picks, rebases, splitting large features into logical PRs. 
 
 I recently had Claude split a large feature into four separate, logically sequenced PRs in a single session. The PRs were much cleaner than I would have done myself, and I [saved mental energy](https://www.johndcook.com/blog/2015/12/22/automate-to-save-mental-energy-not-time/).
 
