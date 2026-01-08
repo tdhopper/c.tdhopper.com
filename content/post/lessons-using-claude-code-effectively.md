@@ -4,6 +4,7 @@ date: 2026-01-08T8:00:00.000Z
 description: Practical lessons learned from months of using Claude Code as my primary development tool.
 tags:
 categories: Article
+image: /images/mr-men-claude-code.png
 ---
 
 I've been relying on Claude Code more and more since March 2025, not just for development but for [all things computer automation](https://tdhopper.com/blog/how-im-using-ai-at-the-end-of-2025/).
