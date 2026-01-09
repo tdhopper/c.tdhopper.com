@@ -12,7 +12,7 @@ Developers are transitioning to be the conductor of the orchestra more than flut
 
 Here are some practical patterns I've learned over the last year:
 
-## Let It Touch Your Git
+## Let It Drive Your Git
 
 I've embraced letting Claude handle many of my git operations. It's great at finding the right changes to commit and [opening PRs](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md). It's also amazing at more complex tasks like cherry-picks, rebases, splitting large features into logical PRs. 
 
@@ -21,10 +21,6 @@ I recently had Claude split a large feature into four separate, logically sequen
 ## Start Fresh When Stuck
 
 When Claude starts giving consistently bad answers, don't keep pushing it. Clear the context and start a new chat. A fixated agent won't suddenly become unfixated. Starting fresh gives you better results faster than trying to course-correct an existing conversation.
-
-## Error Recovery is the Superpower
-
-I think of Claude's capability the way a [favorite math professor](https://www.gcc.edu/Home/Staff-Directory/Staff-Detail/gary-l-thompson) once described his advantage: "I'm not smarter than you. I can just recover from mistakes faster than you." Agents recover from errors at speeds humans can't match (and, usually, don't get as frustrated).
 
 ## Use It for System Automation, Not Just Code
 
@@ -37,6 +33,9 @@ I've developed a [skill for opening pull requests](https://github.com/tdhopper/d
 ## Fast Feedback is Essential
 
 The value of fast feedback can't be overstated. Being able to execute code and validate assumptions quickly makes development fundamentally different. Agents benefit from this in the same way as humans; the more they can validate the work, the better their results.
+
+
+I think of Claude's capability the way a [favorite math professor](https://www.gcc.edu/Home/Staff-Directory/Staff-Detail/gary-l-thompson) once described his advantage: "I'm not smarter than you. I can just recover from mistakes faster than you." Agents recover from errors at speeds humans can't match (and, usually, don't get as frustrated); feedback enables recovery. 
 
 ## Use It to Navigate Unfamiliar Code
 
