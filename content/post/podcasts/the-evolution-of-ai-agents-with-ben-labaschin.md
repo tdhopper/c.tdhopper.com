@@ -17,7 +17,8 @@ image: /images/podcast.png
 - [WorkHelix](https://www.workhelix.com)
 - [What Are AI Agents - O'Reilly Book](https://www.oreilly.com/library/view/what-are-ai/9781098159726/)
 - [Managing Memory for AI Agents - O'Reilly Book](https://www.oreilly.com/library/view/managing-memory-for/9798341661257/)
-- [Bead Development Tool](https://www.beads.dev)
+- [Bead Development Tool](https://github.com/steveyegge/beads)
+
 ## Subscribe
 * [RSS Feed](https://feedpress.me/intothehopper)
 * [Apple Podcasts](https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201)
