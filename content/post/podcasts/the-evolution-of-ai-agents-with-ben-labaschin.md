@@ -13,7 +13,7 @@ image: /images/podcast.png
 
 ## Links
 - [Ben's Twitter](https://twitter.com/EconoBen)
-- [Ben’s Website]https://econoben.dev/)
+- [Ben’s Website](https://econoben.dev/)
 - [WorkHelix](https://www.workhelix.com)
 - [What Are AI Agents - O'Reilly Book](https://www.oreilly.com/library/view/what-are-ai/9781098159726/)
 - [Managing Memory for AI Agents - O'Reilly Book](https://www.oreilly.com/library/view/managing-memory-for/9798341661257/)
@@ -27,21 +27,13 @@ image: /images/podcast.png
 
 ## Summary
 
-In this episode of *Into the Hopper*, Tim talks with Ben Labishin from WorkHelix about AI agents and their impact on software development. Ben discusses AI memory management, practical strategies for using large language models, and the evolving role of developers in the age of AI. The conversation also addresses the balance between automation and foundational skills for junior engineers, offering valuable insights for professionals navigating this transformative landscape.
-
-## Transcript 
-
-**Guest: Ben Labaschin (Principal ML Engineer, WorkHelix)**
-
 In this episode of *Into the Hopper*, I sit down with Ben Labaschin, a Principal Machine Learning Engineer at WorkHelix and author of the O'Reilly books *What Are AI Agents* and *Managing Memory for AI Agents*.
 
 We dive deep into the current state of AI engineering, moving beyond the hype to discuss the "brass tacks" of developer workflows. We cover how AI is reshaping personal projects, the shift from "coder" to "conductor," and the specific tool stacks (like Beads and Spec-Driven Development) that Ben uses to manage agent memory effectively.
 
----
-
 ## Transcript
 
-**Tim:** Good. That's how I roll. All right, here we go. Welcome to the Into the Hopper podcast. Today, I'm joined by Ben Labaschin, a principal machine learning engineer at WorkHelix, who has been instrumental in the company's growth from seed stage to its $75 million Series A valuation.
+**Tim:** Welcome to the Into the Hopper podcast. Today, I'm joined by Ben Labaschin, a principal machine learning engineer at WorkHelix, who has been instrumental in the company's growth from seed stage to its $75 million Series A valuation.
 
 Ben is the author of O'Reilly Books, *What Are AI Agents* and *Managing Memory for AI Agents*. His work spans the full stack from building enterprise causal inference architectures and async-parallelized LLM APIs to delivering over $8 million in savings for global logistics through optimized machine learning systems.
 
@@ -53,7 +45,7 @@ Beyond the Code, Ben is a published researcher focusing on firm-level exposure t
 
 **Ben:** Yeah. You know, the internet can be really easy to communicate, but it's great to be able to actually speak to you in person.
 
-**Tim:** Yeah. We're both former NormConf speakers. Shout out to Vicky Boykus and speaking on our NormConf official Shure microphones, which sound good.
+**Tim:** Yeah. We're both former NormConf speakers. Shout out to Vicki Boykis and speaking on our NormConf official Shure microphones, which sound good.
 
 **Ben:** It's one of the best things to come from the conference other than all the awesome talks.
 
