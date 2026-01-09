@@ -1,7 +1,7 @@
 ---
 title: The Evolution of AI Agents with Ben Labaschin
 date: 2026-01-09T16:41:00.000-05:00
-description: "Tim speaks with Ben Labishin, principal machine learning engineer
+description: "Tim speaks with Ben Labaschin, principal machine learning engineer
   at WorkHelix, about the role of AI agents in software development and
   enhancing organizational efficiency. "
 categories:
