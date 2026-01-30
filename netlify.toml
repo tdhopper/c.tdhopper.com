@@ -16,4 +16,9 @@ HUGO_VERSION = "0.150.0"
   to = "https://tdhopper.com/podcast/:splat"
   status = 301
   force = true
-  
+
+[[redirects]]
+  from = "/podcast/feed"
+  to = "https://anchor.fm/s/10e345fbc/podcast/rss"
+  status = 301
+  force = true
