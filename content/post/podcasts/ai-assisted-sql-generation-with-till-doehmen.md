@@ -18,6 +18,7 @@ image: /images/podcast.png
 - [Hopsworks](https://www.hopsworks.ai/)
 - [Till on Practical AI Podcast](https://changelog.com/practicalai/292)
 - [Spider Text-to-SQL Benchmark](https://yale-lily.github.io/spider)
+- [mviz - Observable Dashboard Skill by Jacob Matson](https://github.com/matsonj/mviz)
 
 ## Subscribe
 * [RSS Feed](https://tdhopper.com/podcast/feed)
