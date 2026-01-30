@@ -20,5 +20,5 @@ HUGO_VERSION = "0.150.0"
 [[redirects]]
   from = "/podcast/feed"
   to = "https://anchor.fm/s/10e345fbc/podcast/rss"
-  status = 301
+  status = 200
   force = true
