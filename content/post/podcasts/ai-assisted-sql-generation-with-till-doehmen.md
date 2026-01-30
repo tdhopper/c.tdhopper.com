@@ -8,7 +8,7 @@ categories:
 image: /images/podcast.png
 ---
 ## Listen
-<iframe src="[SPOTIFY_EMBED_PLACEHOLDER]" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="3wJY3GJpSUVNa0Uvw7QNwO" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 ## Links
 - [Till's LinkedIn](https://www.linkedin.com/in/tdoehmen/)
