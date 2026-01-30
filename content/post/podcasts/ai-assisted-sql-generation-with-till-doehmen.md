@@ -20,7 +20,7 @@ image: /images/podcast.png
 - [Spider Text-to-SQL Benchmark](https://yale-lily.github.io/spider)
 
 ## Subscribe
-* [RSS Feed](https://feedpress.me/intothehopper)
+* [RSS Feed](https://tdhopper.com/podcast/feed)
 * [Apple Podcasts](https://podcasts.apple.com/us/podcast/into-the-hopper/id1499693201)
 * [Spotify](https://open.spotify.com/show/63NrgKMVb0VTwkklGboIjy)
 * [Overcast](https://overcast.fm/itunes1499693201/into-the-hopper)
