@@ -122,7 +122,7 @@ categories:
 image: /images/podcast.png
 ---
 ## Listen
-<iframe src="[SPOTIFY_EMBED_PLACEHOLDER]" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+{{</* spotify EPISODE_ID */>}}
 
 ## Links
 - [Link 1](url)

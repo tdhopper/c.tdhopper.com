@@ -7,7 +7,7 @@ categories:
 image: /images/podcast.png
 ---
 ## Listen
-<iframe src="3wJY3GJpSUVNa0Uvw7QNwO" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+{{< spotify 3wJY3GJpSUVNa0Uvw7QNwO >}}
 
 ## Links
 - [Till's LinkedIn](https://www.linkedin.com/in/tdoehmen/)
