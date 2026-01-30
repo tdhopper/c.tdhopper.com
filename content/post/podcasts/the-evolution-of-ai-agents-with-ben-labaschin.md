@@ -9,7 +9,7 @@ categories:
 image: /images/podcast.png
 ---
 ## Listen
-<iframe src="https://open.spotify.com/embed/episode/2IcWcUKJRdjaXsLKh2J4ca" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+{{< spotify 2IcWcUKJRdjaXsLKh2J4ca >}}
 
 ## Links
 - [Ben's Twitter](https://twitter.com/EconoBen)

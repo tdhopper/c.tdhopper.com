@@ -11,7 +11,7 @@ In this episode, Professor Robert Ghrist from the University of Pennsylvania dis
 
 ## Listen
 
-<iframe src="https://open.spotify.com/embed-podcast/episode/1JMdPOSlmk2oSsiYEfJzIs" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+{{< spotify 1JMdPOSlmk2oSsiYEfJzIs >}}
 
 ## Links
 

@@ -11,7 +11,7 @@ image: /images/podcast.png
 
 ## Listen
 
-<iframe src="https://open.spotify.com/embed/episode/5ZmKcu4HgAyAvL5sJFY9mP" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+{{< spotify 5ZmKcu4HgAyAvL5sJFY9mP >}}
 
 ## Links
 
