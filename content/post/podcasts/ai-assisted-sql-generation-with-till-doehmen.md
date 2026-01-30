@@ -1,7 +1,6 @@
 ---
 title: AI-Assisted SQL Generation with Till Döhmen
-date: 2026-01-26T15:05:00.000-05:00
-draft: true
+date: 2026-01-30T01:05:00.000-05:00
 description: "Tim speaks with Till Döhmen, AI Lead at MotherDuck, about AI agents and SQL generation, from text-to-SQL to agentic workflows, query optimization, and whether letting AI write our queries changes how we understand our data."
 categories:
   - Podcast
