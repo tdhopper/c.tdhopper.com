@@ -1,0 +1,1098 @@
+Brenton:
+[0:01] So we don't waste it take one hi welcome to into the hopper i'm brenton mallon and i'm here with my special guest uh tim hopper thanks.
+
+Tim:
+[0:12] For having me.
+
+Brenton:
+[0:12] Well you're welcome how'd.
+
+Tim:
+[0:14] I get here.
+
+Brenton:
+[0:14] Uh beats me i don't know how we got here uh actually maybe we'll talk about that so i think what.
+
+Tim:
+[0:20] Are we what are we doing today.
+
+Brenton:
+[0:22] Yeah um i guess for context i had messaged you i don't even remember it's been a while now, asking you whether or not when someone was going to interview you for your podcast. And, you know, I guess I volunteered by asking that question.
+
+Tim:
+[0:37] Very good.
+
+Brenton:
+[0:40] As we started talking about doing this and I wrote down some stuff to talk about, I think I realized a couple of things. One, I've just been doing a lot of thinking about friendship and what it means to be a friend and what it means to have a friend. And I think we throw that term around quite a bit. and, you know, trying to realize, like, what relationships I have that are friends and, you know, what that means and can I make those relationships and those connections a bit deeper. You know, and I've known you, I don't know, 11 years now, 10, over a decade.
+
+Tim:
+[1:19] Just over 10 because we started working together in October of 2015.
+
+Brenton:
+[1:23] Right, that was, what was that, PyData, I think we met?
+
+Tim:
+[1:28] Yeah where we we we were already working together i think for a few weeks and then we went to pi data.
+
+Brenton:
+[1:33] Weren't we uh i think i met you for the first time like in person at pi data yeah definitely.
+
+Tim:
+[1:41] In new york.
+
+Brenton:
+[1:42] Pi data 2015.
+
+Tim:
+[1:43] And uh capital one or no i don't know the world trade center.
+
+Brenton:
+[1:48] Uh but i realized like i've quote unquote known you for over a decade now uh but you know we talk, decently regularly i guess but i don't know the tim hopper uh so i thought at the very least you know we can have a conversation uh i could get to know you a little bit better uh and you can get a podcast episode out of it maybe and if not at least you know we'll have a conversation i figured everyone.
+
+Tim:
+[2:16] Will know the real tim hopper after this.
+
+Brenton:
+[2:18] Uh you know i don't know we'll see could be good could be bad who knows but then again you know your data's out there already so.
+
+Tim:
+[2:29] But anyway, well, usually it's selectively, um, shared, but now today it's, uh, whatever you ask, I'm obligated to answer.
+
+Brenton:
+[2:38] I will make note of that. Uh, yeah. So, uh, you know, I just wanted to give you an opportunity to hear about, you know, your story, uh, you know, coming from rural West Virginia, you know, to the big, uh, Kardashian machine of data science you've become.
+
+Tim:
+[3:00] Maybe we should explain first, we worked together at two different companies actually from 2015 to 2017 and then 2020 during early COVID until 21, right?
+
+Brenton:
+[3:13] I think so. Something like that. My memory is not what it used to be.
+
+Tim:
+[3:18] It's all right. I'm pretty sure I'm right about that.
+
+Brenton:
+[3:22] As you look at a resume. But yeah. So yeah, let's start there, I guess, at the very beginning. So you grew up in West Virginia, right?
+
+Tim:
+[3:37] I did, yeah. I was born and raised in southern West Virginia, about as far south as you can be. Um my dad is a family practice doctor and he had moved there after medical school um to work in family practice and so yeah i lived in the same house um my whole childhood my parents moved back to north carolina where they lived previously and they now live not too far from you um in 20 in 2007 when i was a senior in college um but my whole childhood was west virginia.
+
+Brenton:
+[4:11] And did you go from i'm jumping ahead again just to get time windows but did you move from west virginia to north carolina or when you were at school i guess.
+
+Tim:
+[4:22] Uh so um to give the short story i grew up in west virginia went to college in western pennsylvania, and then lived in tennessee for a year virginia for a year north carolina for 15 years and then And as of two weeks ago, I live in Indiana.
+
+Brenton:
+[4:40] Yeah. Um, So what was West Virginia like?
+
+Tim:
+[4:45] It was great. My mom and I were just talking about this the other day. She said when we were younger, people would say, like, oh, you shouldn't have grazier kids there. You, like, need them a place where there's opportunity and different things.
+
+Tim:
+[4:57] And I'm sure I had some discontentment with various things as a kid, but I really have no complaints about growing up in West Virginia. I tell people that it's only been in the last 10 years or so that i've started to tell people that i um grew up in rural west virginia because the town i grew up in was 6 000 people so i think it's the 13th biggest town in west virginia it's like this it's not a we had walmart it wasn't a it wasn't rural yeah um we were right off the interstate the town is princeton right off i77 so we had interstate amenities they have starbucks there now um but i mean west virginia gets real rural real fast so yeah in comparison i didn't grow up in the hollers as you say like back you know way way off off the beaten path um but yeah i mean it's it's stunningly beautiful it just has been snowing here in indiana and i've realized that i was very spoiled growing up in a valley where you could just, uh, sled wherever. And I, my eight-year-old wanted to sled. So we had to drive somewhere to find a hill, which is a new experience for me. Um, but yeah, I think it was a very safe place to grow up. People were very nice and welcoming. Um, I think I had sufficient opportunities. I think I didn't have the opportunities that a lot of kids have, um, um in in bigger areas um but i didn't have real complaints i think i.
+
+Tim:
+[6:24] Was satisfied with my education um yeah i i'm very glad i grew up there.
+
+Brenton:
+[6:31] You were an only child?
+
+Tim:
+[6:34] No, I'm the youngest of four. I have three older sisters.
+
+Brenton:
+[6:38] Did I know that?
+
+Tim:
+[6:39] I don't know.
+
+Brenton:
+[6:41] I don't know. I feel like we've talked more about Maggie's siblings.
+
+Tim:
+[6:46] Maggie has four sisters. Yeah, Maggie has four sisters. I have three. So we have a lot of aunties in our family.
+
+Brenton:
+[6:52] I like to say.
+
+Tim:
+[6:53] Yeah.
+
+Brenton:
+[6:56] What was that like? Just for context, I guess, I am the middle of three boys, which I imagine is just really different yeah I think it was.
+
+Tim:
+[7:09] And honestly if I had, Um, one thing that in going to college, I just made a lot of really good male friends and I had good friends growing up, but, uh, in college I made friends that just became like brothers to me that are still my friends to this day. And, um, and now I have two boys, six year old and eight year old and see their, their bond. And it's, it's just different from anything I had with my sisters. But again, like I, I didn't, I don't think I had any complaints having sisters. I think being the only boy and the youngest was probably kind of lonely at times. But that was fine. They used to paint my nails. And I think my mom says my oldest sister used to like to play school down in the basement. And I would get upset that we didn't have more recess during school, that kind of thing. But yeah, it's a good relationship with my sister still to this day. And yeah, I'm very thankful for my upbringing and for my whole family. yeah.
+
+Brenton:
+[8:12] What about um like just going through school grade school and all that stuff and friends and hobbies like what what do kids do.
+
+Tim:
+[8:20] Yeah in.
+
+Brenton:
+[8:21] Western virginia west virginia i guess.
+
+Tim:
+[8:24] West virginia different from western virginia yes although very close i grew up nine miles from western virginia so um yeah uh well for one for school i had kind of a mixed bag i my mom homeschooled me from kindergarten to fourth grade. And then I went to a private Christian school for fifth and sixth grade. And then, um, seventh to 12th, I went to the public school, middle school and high school. So I went to a variety of schools. Um, as a kid, I love to play soccer, not basketball, as some people might be surprised to hear.
+
+Brenton:
+[8:56] Um, are you longer in the legs or longer in the torso? I forget.
+
+Tim:
+[8:59] I'm all torso and no coordination, but, um, yeah, I played soccer from when I was pretty young until, I think like six or whenever you can start, until I was in middle school. And I played basketball for fifth and sixth grade. I think I was just like... Kind of stereotypical boy as a, as a younger kid, just very restless and wanted to be outside playing things. We played outside a lot. Um, I, uh, I kind of lost interest in sports going on. I'm not that interested in, I'm not that competitive.
+
+Brenton:
+[9:34] So that's going to be my question. It's like the sounds like you were more quote unquote sporty back then. And then, you know, you're more, well, I wasn't less so than that.
+
+Tim:
+[9:45] Yeah. I was never that good. And I'm, I'm just not that competitive or driven i think i was i probably as a kid um i was not that good at working for things i was always very good at like math and it's like um and school as a whole came pretty easy to me um spelling never did still doesn't um but um i i didn't really work hard for sports i started to play some instruments like played piano with a private teacher and then like played some instruments in school but never really liked to practice um the same problem, yeah uh but i think otherwise i don't know i've always been kind of into reading a lot my uh my mom says i used to love to read the world book encyclopedia when i was a kid and um we.
+
+Brenton:
+[10:34] Had a set of those yeah.
+
+Tim:
+[10:35] Yeah played with my sisters i was in cub scouts from right when you can do that and then i was a boy scout all the way through high school so, that was a big part of my life um and then yeah i guess we did family things my dad was a big golfer so i picked up golf for a while with him until i was too tall to use my uh extra length golf clubs then i was like all right this isn't worth it for me um, So, uh, yeah, I mean, I, I would say in a lot of ways, pretty normal. I started to get, when I was in fifth grade, we got a windows 95 computer. Um, we had had like a, probably like a DOS computer, maybe a 3.1 before that. Um, but in fifth grade, we got a windows computer with, um, in carta on it.
+
+Brenton:
+[11:25] Okay.
+
+Tim:
+[11:26] In carta 95, which that just rocked my world. Um, my mom talks about how, when I was in fifth grade, I did a report on Thomas Edison in school and as soon as we got in carta i like found thomas edison and you could play the clip from like uh one of the early recordings he i think he does like mary had a little lamb or something that there's still a recording of and uh like i played that in encarta and that that blew her mind both that that was a thing and that i found it so fast um but yeah i got more and more interested in in computers and just like tinkering with computers as the time went on uh which in a lot of ways led to you know where what i do professionally i think um it was just always was kind of a side interest um but yeah i think.
+
+Brenton:
+[12:12] You said you ran like a website i forget i think like a geocities thing or something.
+
+Tim:
+[12:17] Yeah in high school i started to make websites um my friend and i started making uh yeah like geocities and angel fire was one of the competitors that kind of thing, um yeah well we probably started that maybe late middle school i ran a lord of the rings, website actually my angel fire website you can still find i probably shouldn't link to it but i made a princess bride fan site this was probably like 2000 ish 99 and i just was copying content from other websites i like learned html by i mean in those days you didn't have like all this complex stuff. So I could just go open other websites and, and copy and paste the HTML.
+
+Tim:
+[12:57] And yeah, then I started doing Lord of the Rings websites. And actually through that in high school, I started to get curious about programming, but I literally had no way of learning programming really. And I, I, I wasn't into, I mean, back in those days you had like BBS and like forums and things that around programming, but I just wasn't, uh, this way. So I graduated from high school in 2004. Um, this is the early two thousands. I just wasn't in tune with what was available through the internet. Um, so I was trying to find books to learn programming and I bought a book on uh php um that was really where i first started programming um to make lord of the rings websites that i did through high school those were uh it was like 2001 to three i think was when the lord of the rings movies came out those were i was in high school yeah it was literally just the perfect time yeah uh and i had already read the books and just was a big fan already so the.
+
+Brenton:
+[13:51] Main site was like the one ring or something like that i think.
+
+Tim:
+[13:54] Yeah i won a big competition on the one ring and won this like big like Weta, Weta is that the I won like this big Weta gift that was like worth hundreds of dollars yeah, Yeah. So, and I was active on the Lord of the Rings forums and stuff, but that kind of thing got me started in programming, um, beyond HTML and like a TI basic that are not, uh, yeah, whatever, like the really basic programming you could do on a TI calculator was where I really got cut my teeth.
+
+Brenton:
+[14:27] But let's take a small detour. Cause I, when did you first, did you, I guess you Lord of the Rings ad break. I don't think they need an ad. I was going to ask you when you first read it um you know uh well that too and what do you like to read uh you know more fantasy uh.
+
+Tim:
+[14:45] Yeah my cousin gave me his copies of lord of the rings i have two male cousins who are like six years older than me that i idolized um shout out justin and joseph if you're listening um joseph gave me copies of the lord of the rings i was pretty young maybe like nine or ten and they sat on my shelf for a long time you start with it uh that's a good question i don't know the answer to, maybe probably i finally got to reading the lord of the rings like um around late middle school like right 2000 ish and i don't know what finally motivated me i've never actually been a huge fantasy reader and i'm still not that much um the um my mom read us narnia as kids so those kind of in my stuff yeah that was in my uh repertoire um these days i i actually i do read some fantasy stuff from my kids um we've been reading uh, The Chronicles of Pridane, which like Lloyd Alexander, they're real old.
+
+Brenton:
+[15:54] I haven't heard of them.
+
+Tim:
+[15:55] They're from, I don't know, like 50 years ago or something. But those have been fun. And we've read the Narnia series. And eventually we'll read Lord of the Rings. We've read The Hobbit. But, yeah, I've not been a big fantasy person. I do enjoy sci-fi, usually either like hard sci-fi or like a kind of fluff sci-fi that's like really easy i don't i like the hard sci-fi for the science part that like andy.
+
+Brenton:
+[16:23] Weir kind of stuff.
+
+Tim:
+[16:24] Oh yeah i love andy weir stuff or um uh i can't think of him right now but um, have you read project hail mary yeah i've read that like.
+
+Brenton:
+[16:35] Seven eight times now.
+
+Tim:
+[16:36] I should read it again it's been one of my favorite the.
+
+Brenton:
+[16:39] Audio looks really good with like uh the way like the alien talks.
+
+Tim:
+[16:42] Yeah i think i i think i listened to it um yeah i these days i i read a lot of uh history, i read some theology um i read biography and i enjoy novels i just don't make a lot of time for i do listen to like um uh like jack reacher and uh just like just kind of like dumb mystery thriller type stuff when I need a mental break, but yeah I don't have a lot of time for reading these days.
+
+Brenton:
+[17:16] But yeah so Lord of the Rings websites yeah, That is, let's say, early 2000s. That puts you, you said you were graduating high school in 2004.
+
+Tim:
+[17:32] 2004, yeah.
+
+Brenton:
+[17:32] I was 2005.
+
+Tim:
+[17:36] The day Ronald Reagan died. Graduated from high school.
+
+Brenton:
+[17:42] Was he given the commencement speech?
+
+Tim:
+[17:43] He wasn't.
+
+Brenton:
+[17:47] So then school after that, like, how did you, did you know where you wanted to go? did you know what you wanted to do um you know where.
+
+Tim:
+[17:57] Yeah where'd.
+
+Brenton:
+[17:58] You blossom from there.
+
+Tim:
+[17:59] Yeah um so i thought in high school that i wanted to study computer engineering i don't think i really knew what computer engineering was and i didn't really know how to learn what it was but i just thought computers were really cool um and i don't know that i honestly even knew that i mean i i had heard of computer science, but I don't know that I knew that it was necessarily necessarily an alternative. Um, we had a small, um, public university nearby where I think there were a lot of like, I knew some people studied computing and it was like a two year degrees and they're like kind of like network admin type roles that people were getting. And that didn't seem that interesting to me. Um, and I didn't love programming, even though I, it was something I wanted to learn and do um i don't know that i necessarily loved programming did.
+
+Brenton:
+[18:54] Your parents try to influence you into you know a certain direction or anything.
+
+Tim:
+[18:59] That's a good question like no one asked you to.
+
+Brenton:
+[19:01] Be a doctor.
+
+Tim:
+[19:02] No my my dad's a doctor my mom's a nurse and they never pressured us to pursue medical things and i think they largely like tried not to pressure us for better for worse um and i.
+
+Tim:
+[19:19] Yeah. I mean, they really wanted us to go to college and, um, that was kind of their, their big goal for us. Um, but yeah, I don't think they necessarily pressured me a lot and I just don't know that I knew. Um, I mean, I just didn't know people around me that were like, you know, programmer or programmers or computer scientists or computer engineers or anything. So I just knew that I thought computers were neat and seemed to be kind of the future. So I had computer engineering in my in mind um and i uh yeah i as a result of that i was looking at virginia tech which was fairly near where i grew up and obviously a very reputable school uh i guess something we haven't talked about is i'm a christian and grew up in church and my parents um encourages encouraged us to think about looking at christian colleges um and so i the college i went to was called growth city college in Western Pennsylvania is a Christian college that happened to have computer engineering, which is pretty rare, you know, smaller schools. Um, so I actually ended up going to visit there and, uh, really without that much, uh, perspective, like visited and I was like, Oh, this is great. I'll go here.
+
+Brenton:
+[20:35] Yeah.
+
+Tim:
+[20:36] I mean, I just didn't pursue, I like went to visit Virginia tech and visited growth city. And then I applied, they have like this early admission, which is basically like if you get in early, you're supposed to go. So I applied early admission and then didn't apply to any other colleges. Um, so, and it was, uh, off fairly limited information. I had known somebody, I'd met somebody while I was in high school who had gone there, um, like 20 years previously, but he really recommended it to me. Uh, and I, you know, someone I trusted. Um, so I, I decided to go and apply it as a computer engineering student, Um, but before I matriculated was changed my mind to pursue physics instead. Cause I really loved physics in high school. Um, I had a great, um, physics teacher named Mr. Smith in high school who was inspirational to me and I was his teaching assistant. And I really loved kind of the math side of physics, which I think in hindsight, I enjoyed probably the kind of, you know, in high school math, besides geometry, math is like so routine. You're just like learning.
+
+Brenton:
+[21:50] Yeah.
+
+Tim:
+[21:50] You're learning the mechanics. And in physics, you're actually getting to solve problems.
+
+Brenton:
+[21:57] Well, it's like applied math to a degree.
+
+Tim:
+[22:00] You know yeah it's.
+
+Brenton:
+[22:01] Like it frames sort of a problem you're trying to solve or some observation you.
+
+Tim:
+[22:07] Know it's not.
+
+Brenton:
+[22:07] Just like numbers on a page.
+
+Tim:
+[22:09] Right um exactly and i i never really enjoyed labs that much um which goes partially to my laziness um but i enjoyed kind of the maths and problem solving side of it so before i started i decided to do physics and was like i'll i'll become a physics professor that makes sense i don't think i knew any physics professors my not my dad had one friend from college who had gotten a phd in physics and then like been stuck in really mediocre jobs his whole life yeah and so he was always just kind of like uh well be careful about that um and which.
+
+Brenton:
+[22:46] Is the inspiration for should you get a phd.
+
+Tim:
+[22:48] Yeah i mean it was good advice i mean to jump ahead uh you know later jumping out of two phd programs And being fairly cynical now about PhD programs is a good route for people.
+
+Tim:
+[23:00] Yeah. Do you want to keep going with the story? So I ended up in college as a math major. So yeah, so I studied physics. I started out studying physics and like first year physics engineering is all pretty similar. You're taking basic classes, I guess, to jump back a little bit in high school. I got ahead in math through basically just wanting to go faster. And my parents were able to get me to able to take classes at a faster pace. So by my, uh, end of junior year, I guess I'd finished calculus. So my senior year, I took some college math classes at a nearby college. Um, so I was actually ahead cause I like had finished calculus basically before I got to college cause I'd already taken it. Um, so as a result in college, I like started to explore some higher math stuff, um, and was kind of enjoying physics, but I really didn't enjoy like the labs and hand on hands on side of it. And I more and more, I was like, I just really love math classes. But then I was also enjoying I'd taken a computer programming class my freshman year, C++ class. And despite being very different, having done some PHP in high school, it really set me up for understanding kind of what I was getting in C++.
+
+Tim:
+[24:24] So that was fun and really scratched the problem solving itch. So my sophomore year i decided to change to um computer science so you went in as a math major or physics okay applied as computer engineering went in as physics and then a year later i changed to computer science okay uh but then i continued to take some physics classes on the side and finished like a physics minor um but then sophomore year in computer science you take theory of computing um which is like uh i mean it's basically a math class you're like like trying to to prove things that are computable basically um and so you do like turing machines and this stuff which is all totally np problem yeah exactly um and so i uh, I like really loved that class. I thought it was really fascinating. And the professor who I had for my first programming class and then also that theory class, he was also a former mathematician, which is probably relevant. But then I realized all the computer science majors hated that class. They just wanted to be programming. And I wasn't like just like enthusiastic about programming or like wanting to write programs necessarily. But I was interested in the problem solving. so as i was taking it and realizing it was a math class i was like i should just really be a math major probably um so.
+
+Brenton:
+[25:51] Did you change again.
+
+Tim:
+[25:52] Yeah so freshman year i was a uh a physics major uh sophomore year i was a computer science major and then uh junior year i changed to math um, and as a math major it was like a liberal arts degree so i and you have to take a language at my undergrad so i ended up my junior year started taking freshman french which i had to do four semesters of with these freshmen and juniors how's your french now it's horrible and i still have nightmares about french class that's literally wake up in the night like sweating but i'm missing a french test or something uh yeah so um so.
+
+Brenton:
+[26:31] Before we i guess move forward uh did your school have like gen ed courses and things like that that you know maybe you.
+
+Tim:
+[26:39] Took something.
+
+Brenton:
+[26:39] In a certain thing that you might not have thought of before that maybe you gain an appreciation for or anything like that.
+
+Tim:
+[26:46] Yeah. Uh, so it's a liberal arts school and we had to do kind of a core liberal arts curriculum, which was really good, uh, like history and art, um, and, uh, kind of some basic philosophy stuff. And it was a Christian school. It's like a Bible component also. Um, yeah, it got me interested in philosophy for sure. And it helped develop my interest in history, which is like one of my biggest interests now, like a side interest is history, which before college I had zero interest in um i.
+
+Brenton:
+[27:17] Feel like it's something that you gain an appreciation for over time.
+
+Tim:
+[27:21] Yeah and i don't necessarily can't necessarily point to um one thing particularly um but uh yeah it's just a kind of it succeeded like kind of the liberal arts philosophy is like you're kind of opening a person's mind and i think it helped that for it broadened my world in a lot of ways and got me to think about a lot of things i took um i ended up liking one of the history professors a lot and he also taught like philosophy of education and so i took his philosophy of education track that's normally just education majors um but just helped me think a lot about, um kind of the purpose of education and and his big things like kind of the purpose of education is really what what's the purpose of people uh and our education should help shape people towards that.
+
+Brenton:
+[28:07] Um as uh do you have anything you like walked away from that that you kind of carry with you today.
+
+Tim:
+[28:13] Yeah i mean i think that point that i just made and like uh as you think about education you know i have four children now yeah what you're trying to get out of it is like it's like education just trying to make people you know better workers in a capitalist society Um, and I think that there is value in being, you know, a productive contributor to society, but also that it's much bigger than just like you go and work. So like, I think, um, it really helped me think of like education and thus, uh, even parenting is like, we're like shaping humans and we want, what's the full picture of what we want our humans to be. So if like, for my kid's school, it's not just like, okay, is what they're doing valuable? Like the question is not necessarily when are they ever going to use this, but like, is their mind being open to be, um, uh, people who understand the world and are interested in the world and are interested in people and, um, just hopefully having like a bigger orbed perspective on education and even then allowing like education doesn't just mean, you know there's i don't know if it's a real quote but often quoted mark twain i don't let my schooling get interfere with my education but recognize like schooling and education aren't necessarily the same thing and then like the conversations that you have with your kid for 20 minutes before bedtime can be just as much of their education as i'm thinking that's their math lessons.
+
+Brenton:
+[29:42] In dnd like the difference between wisdom and intelligence but.
+
+Tim:
+[29:47] Yeah yeah um i don't know dnd but i i think that that's i think that's a real thing yeah uh we'll come.
+
+Brenton:
+[29:54] Back to the kids and parenting because i got some questions there that i'd just like to.
+
+Tim:
+[29:57] Get more.
+
+Brenton:
+[29:58] Of your perspective on.
+
+Tim:
+[29:59] I think also also i mean to go to the next stage after after college i started a program in the history of math um as a phd program that i i didn't i only stayed in for a year um but that that was definitely a result of sort of my liberal arts education of like being interested not in just um, things as, uh, you know, what, what labor produces value that makes money, but just ideas. And, um, I think, um, some of my professors helped me be interested in history math, but that was also the, just like my own personal development being, just being curious and interested in things came through my college experience that made me interested in that as a topic. Um and i looked at programs also like philosophy of science a lot of departments are like history and philosophy of science together um and it just got got to be i guess i actually did take a class in history of science or philosophy of science in college as well that probably helped influence that um but yeah that just got me interested in kind of exploring ideas for their own sake and not necessarily because they have a specific use for anyone.
+
+Brenton:
+[31:21] Do you have a particular period of history that you are... Most interested in or find yourself studying more?
+
+Tim:
+[31:30] Yeah. Uh, people can fast forward like 10 minutes if they want to get back to the interesting part of the podcast.
+
+Brenton:
+[31:36] But I mean, I'm here to have a conversation with you.
+
+Tim:
+[31:38] So, um, I am really interested in the kind of history of science and history of math. It's been less of something that I pursued, uh, in my early twenties and I started this PhD program. Um, I ended up leaving after a year, uh, cause I, For a number of reasons, but partially because I was like, okay, well, it's good to be interested in ideas, but also like, I want to eat for the rest of my life. And so I should be thinking about what's going to give me a job. Um, and, um, but yeah, and in that I was going to pursue, I was really interested in like, uh, applied math in the 20th century. I mean, so much happened around, uh, like a character I was interested in is like Von Neumann, for example, you're just like such a massive figure and influential in in the manhattan project but also shaped so much of modern mathematics um so i think like the the 20th century math is really interesting i.
+
+Brenton:
+[32:37] Think claude shannon you're a fan of him aren't you.
+
+Tim:
+[32:39] Yeah for sure yeah i mean i i think i think that kind of stuff is just so remarkable like like bell labs and just like so many i mean all the all the players in the Manhattan Project, you know, for better or worse. It's really fascinating. And Feynman, like I used to read Feynman's books back in the day. That era really fascinated me. But also, I mean, earlier stuff. I mean, all the greats, obviously, Gauss and Euler and Fermat and Fourier, like all of that is just really intriguing. And that's kind of 18th, 19th century stuff as well. But yeah, I mean, these days my interest is much more in –.
+
+Tim:
+[33:23] American religious history okay um and i'm interested in kind of my own religious tradition which is presbyterianism and like presbyterian history in particular but i'm also just uh interested in kind of the socio-historical questions like how how uh religion primarily christianity not exclusively but how christianity has like developed in america and like what like the American experiment has enabled us to get like so many variants of Christianity, like what kind of cultural and social and theological perspectives cause that develop. So my like weird nerd habit is I love to drive around. I'm going to have to get probably some new skills here in Indiana, But in North Carolina, like drive around and like see country churches and think about like what the like immigration and different kind of religious movements and stuff like led to that particular type of church to be in a specific area. So, yeah, that's a yeah, that's an interest of mine. of like that's that's kind of my um that's kind of my guilty pleasure hobby at this point is like uh just thinking about those kind of ideas um are.
+
+Brenton:
+[34:47] You exploring i mean probably both but like so there's the history of how things are founded and built and grow and change and then you know different theological perspectives of you know why they're different denominations and and all of that like.
+
+Tim:
+[35:03] Yeah i mean so it's it's very intertwined right between their um uh both dimensions influencing so like you have you definitely have the theological thing but like the the theological influences aren't necessarily separated from, the, the cultural or like the immigration, like, you know, you have, um, you know, if you just look at the U S broadly, like the places that you have Germans immigrated, you have Lutheran churches and the place you have Scots, Irish immigrated, you have, um, Presbyterian churches and the places, the English immigrated, you have Episcopal churches. And then like, but then all of that also morphed into the plethora of, uh, Methodist and Baptist churches. Right. So like, um, Um, it's a super, I mean, the American religious landscape in Christianity and its variants, not to mention like all, you know, other religions as well is so wildly diverse in a way that I think would have been unimaginable 300 years ago. Um, and I just think it's really fascinating to think about kind of why that happened and how that happened. Um, and yeah, that's what I lay in bed and think about at night to take my mind off other things. I actually just became, uh, the official webmaster of the North Carolina Presbyterian, uh, uh, North Carolina Presbyterian historical society.
+
+Brenton:
+[36:27] Just, just in time to leave.
+
+Tim:
+[36:30] Yeah. Well, they, I was like, well, I'm moving. I can still do it if you want. So I've been spending the last few weeks aside from moving, uh, trying to get, um, several elderly people to help me find the password to change the DNS to, to fix the website. It's been my task of late and nobody knows the password to log in, but yeah, and yeah, my family, you know, this is a tangent, but my family is like, part strains of my family, like Presbyterian for 500 years. So, uh, there's also like, um, kind of, uh, uh, personal family history, uh, aspect of it to me that, which is actually really how it started was like as a adult kind of learning more about grandparents and great grandparents that I didn't know. I mean, I can do my, all my grandparents, but great grandparents, I didn't know. And then, um, like kind of piecing together their own stories with like American history uh is fascinating to me so uh, Yeah. Anyway, that's a, that's a topic of interest to a limited audience, but there you go.
+
+Brenton:
+[37:38] All right. Well then we'll come back to the mainstream then. Um, so where are we? You, uh, you finally decided to switch to being a math major. Um, did you graduate as a math major?
+
+Tim:
+[37:54] I did. Yeah. I graduated math with highest honors, which was, uh, no one has ever cared about ever since so i worked too too hard to be a summa cum laude math major actually shared uh there was a math a cash prize for the the highest average grade math major and i shared it with another guy and i wouldn't have if i had studied for my final analysis uh final real analysis my real analysis final if i had studied for it and not gotten a b i would have gotten the full cash prize but i instead shared it with another guy well like.
+
+Brenton:
+[38:31] Most things it's best shared right.
+
+Tim:
+[38:32] Probably but uh being being.
+
+Brenton:
+[38:37] A math major do you have opinions on brands of chalk and whether or not chalk and.
+
+Tim:
+[38:41] Versus whiteboard uh so that's an interesting question because i have always hated handwriting that's interesting yeah from when i was a child i and homeschooled my mom had a hard time with me hating handwriting and she used to ask like what are you going to do when you need to write a note when you're older and i she says when i was like pretty young i told her i would just type it on the computer and now she just laughs about that because that's all we ever do it's what we call a thought leader yeah um again it's really lazy, uh and i still hate handwriting i just had to sign documents to move and and they're like oh well it'd be good if your signature like kind of spelled your name um.
+
+Tim:
+[39:25] So I do like, I know mathematicians are big about chalk and I like in theory writing on a board and I love teaching math, but I've never been that great at it and I find it very tiring and I've never been into ordering chalk off Japan from Japan or something. But when, when I did teach math, I was very poor as a grad student. So, uh, yeah, I actually had, uh, so an, uh, a meaningful experience for me is summer after my junior year, I did a REU program research experience for undergrads, like a, a federally, um, uh, NSF program, you know, U S federal government funds these research programs. And so, uh, that was meaningful partially because I got there wanting to do a math program. And then, um, my advisor, when I got there was like, um, the first question he asked was how good are you at programming?
+
+Tim:
+[40:21] And all we did all summer was write C programs for, um, basically computational graph theory, like generate all these graphs and try to find the properties that you want in the graphs. Um, so I went there to do math and did programming all summer, which was, uh, uh, uh, impactful experience for me. But then I came back to college my senior year and they wanted me to do a research presentation and my, uh, my roommate and one of my, one of the friends who's like a brother to me, And Todd actually came and coached me on writing on a chalkboard because I wanted to do a good job. And he stood behind me and critiqued me as I tried to give my presentation so that I would be able to do a better job.
+
+Brenton:
+[41:00] Just for the way it looked, the handwriting-wise and composition, I guess?
+
+Tim:
+[41:04] Yeah, and just making sure it's not sloping down to the side and that kind of thing. My handwriting's not good. My spelling's not good. It's really not a good thing for me to be doing.
+
+Brenton:
+[41:17] Uh so math major um then grad school uh was that like something you wanted to do immediately or you were convinced to do or.
+
+Tim:
+[41:27] Yeah so like i mean ever since i was like all study physics in college and be a physics professor i was like well i'll just go to grad school i like school i'm good at school is this still the mindset.
+
+Brenton:
+[41:38] Of going to be a professor kind of a thing that's the.
+
+Tim:
+[41:41] Yeah i think that's really what was in my mind um and i mean i think it's a for undergrads who like really enjoy the experience which i did it's very tempting to be like oh these my professors just like have the the ones that you like you really think like oh that's the dream right they're they're like the pinnacle um and so i was going to go to grad school for math i mean i considered a variety of things math uh logic kind of in the philosophy department and then And I visited the University of Pittsburgh History and Philosophy of Math Department. But then I applied and surprisingly got accepted to the University of Virginia's History of Math program, which was –, Uh, seems very esoteric.
+
+Brenton:
+[42:25] Yeah.
+
+Tim:
+[42:25] And it's only one professor and she like is very selective. So it's kind of surprising to me that I got selected and I, I probably shamed her by dropping out after a year. Um, but it's part of the math department. She's probably retired by now. I don't know. Um, you do a, your PhD is basically a math PhD, but you write a dissertation on history topic, but you take the math courses, the math, like qualifying exams. Um, and, uh, then you like do history stuff on, on top of it, plus two foreign languages. Um, so I applied to that and got accepted. And then, uh, during college, um, I had gone for four years every spring during our spring break.
+
+Tim:
+[43:18] College students went on different mission trips around the world. And I went with a group that went to a children's home in Tennessee, a Christian children's home. And we just went and did manual labor projects to help them building trails and building steps and cleaning out barn and that kind of stuff.
+
+Tim:
+[43:41] And I had a really good experience doing that. Uh, it's a small, um, a small children's home for, they say for children in crisis situations, not of their own making. So they're like not kids who have been particularly bad kids, but they're from bad situations. Uh, and they take students, um, either on summer breaks during college or often right after college to come work for one to three years and help you live in the home with the kids and like help teach them and cook for them and just be there with them. Um, so I actually asked, yeah, I asked the university of Virginia if I could defer my admission for a year, which is pretty common in graduate programs in the U S to be able to do. And they said I could. And so I actually went to work at this children's home and, 2008 to 2009 for, um, 12 months and, and lived in a house with nine boys, middle school age boys and did all that stuff like the kind of a, a hybrid homeschool model. They have some classes on site, but then, um, this, they come in with a lot of different, um, they've come from bad situations. Like their schooling is in different, uh, it's not necessarily like grade level. So you're just kind of teaching them to what their ability is. So like teaching math and history and english reading that kind of thing uh yeah so that was a really good experience it sounds really humbling it was yeah my my uncle said to me a very uh helpful thing he's like tim.
+
+Tim:
+[45:08] Uh when you go to grad school you'll learn how to be a mathematician but i think if you do this you'll learn how to be a man uh and i think there's a lot to that that i mean even now being a parent um it was a really helpful experience um and and very hard very tiring um but yeah i'm really glad i did that so i did that for a year and that was in the smoky mountains in tennessee like okay a half mile from the smoky mountain national park.
+
+Brenton:
+[45:31] You keep in touch with any of them at all have you.
+
+Tim:
+[45:35] I have some off and on through the years um uh it's been a while um yeah a few of them, got dismissed not necessarily in good situations although actually one of those who got kicked out actually, was messaging me on Facebook maybe 18 months ago we had some exchanges I actually just found out recently one of them died which was really sad to hear, and a few of I've connected with a few of them on Facebook, but yeah I mean they're all like, like in their probably 30s now is like kind of crazy i mean it kind of frees them in your mind as middle schoolers but um they're grown-ups and have kids and and things so uh yeah so i did that for a year uh at the same time i was like practicing my french because for this history math programs you have to have reading competency in two languages so i was gonna learn how to read english can't be one of them no because you don't want to be able to read like historical documents Yeah.
+
+Brenton:
+[46:39] I was thinking like Latin or something like that, but yeah.
+
+Tim:
+[46:42] Yeah, I mean, Latin could be one of them. I wasn't interested in stuff that old necessarily.
+
+Brenton:
+[46:46] Yeah.
+
+Tim:
+[46:48] But I was practicing French reading, which like reading is a lot easier than speaking or hearing French is the hardest. I can't understand any of it. I know you're speaking French and that's all I can tell.
+
+Brenton:
+[47:00] My grad professor was from France.
+
+Tim:
+[47:03] Yeah. Yeah, so I did that. And then I moved straight to Charlottesville after a year of that and started this history of math program and did pretty well. I mean, um.
+
+Tim:
+[47:15] I think my education was really good, but it was also tough going not necessarily up against, but with students who had gone to bigger universities and where you find out like people went to bigger universities started. If they didn't take graduate classes as undergrad, they sat in on graduate classes, which was just something I didn't have the opportunity for at all. So they just had more exposure to things. But yeah, I think my undergrad, my grad school really convinced him. My undergrad, uh, gave me a really solid foundation and taught me how to think, especially one professor, Dr. Thompson, who like intentionally made his undergrad classes similar to graduate classes. Uh, he would give like these take home tests with really open-ended, we were like learning new material on the take home test. Um, and that was a really good preparation for grad school. Um, but it was, it was still, it was very hard. I did fine. Um, but, uh, yeah, while I was there, I mean, I just kind of was having something of an existential crisis of around like, what am I doing with my life and realizing I would just had, had been a kind of going to grad school. I was just like, Oh, this is what I'm going to do. I hadn't really thought through the implications of it.
+
+Tim:
+[48:33] Um, and started to realize like the history of math isn't actually that marketable of a degree to have and then you spend half your 20s getting that it's like uh and uh.
+
+Tim:
+[48:47] Former students of my advisor who i got to meet some of them they were great was like oh okay so i'm gonna do this and then maybe hopefully get to teach at like some podunk university maybe that's not like the best uh use of my time, Um, so somewhere along, well, I guess late in college, I discovered operations research as a discipline, which is like using math and optimization models, uh, to solve kind of business and industrial problems. Um, I discovered that through like Cornell's, uh, university had a big OR program. And while I was looking at grad schools, I found that I was like, Oh, this sounds really interesting. And that like matched a lot of what, how I think about things like optimizing things and efficiency and math and then do like computation all in one. Um, so I started, I, I basically decided to leave halfway through my first year at UVA and, uh, I applied to an OR program at UVA and then one at North Carolina state university and then a master's program at, um, university of Tennessee where I near where I'd lived before, mostly just cause I love that area.
+
+Tim:
+[50:00] Um and then for a variety of reasons decided to go to north carolina state which my parents had moved from uh west virginia to greensboro north carolina an hour and a half away um when i was in college and then my two of my sisters actually lived in durham which is you know one city over from raleigh where north carolina state is uh and then for for a variety of other reasons i knew some other people down there um decided to go to north carolina state to a phd program in operations research um so did you go straight.
+
+Brenton:
+[50:32] Into a phd from undergrad or like i i think i missed the part of the master's.
+
+Tim:
+[50:38] Yeah so i did i didn't do a master's i did like uh i mean you know in the u.s a phd program you kind of take the master's course work for the first two years but i didn't do an independent master's ahead of that so i graduated from college in 08 went straight to work at the children's home one year later started at uva as a phd student gotcha um but for the first two years you're like doing the coursework um, And then, yeah, do you want me to keep going about grad school?
+
+Brenton:
+[51:11] Yeah. I mean, I'm learning about you. So, I mean, you know, I can talk for, you know, probably a lot longer than you've got. Okay.
+
+Tim:
+[51:21] I'm not allowed to schedule here either.
+
+Brenton:
+[51:22] Okay.
+
+Tim:
+[51:27] Yeah. So, yeah. Yeah. So I finished the, um, I finished the year at UVA. Actually, uh, this, I, I needed to work for the summer. This is the summer of 2010 between being at UVA and North Carolina state, I needed to make money. Um, and I had worked at Chick-fil-A some in Charlottesville cause I'd worked at Chick-fil-A in high school.
+
+Tim:
+[51:54] Um, but then the math department basically got desperate for someone to teach calculus like intensive summer calculus um and i uh the guy basically told me i don't want you to teach this but i don't have anybody else so i'll let you teach it because he like knew i was dropping out and i was a first year student and he said it was the professor in charge he's like i don't want you to teach this but i need and uh so i taught calc one and then calc two both four week sessions that summer at uva and the first the calc one class i mean it's like four hours a day of class you're basically doing a week of calculus every day yeah uh which is a lot and there's a lot of homework the first week half the class dropped out it went from like 16 to 8 and i was really afraid i was gonna have to go back to the um the professor was overseeing and be like so all of my students dropped are you still gonna pay me um thankfully thankfully, seven or eight stayed in and we had a very intense and hopefully satisfactory time uh which was very good good for me like in hindsight one of my favorite parts of grad school was teaching it was really satisfying to me and i got to teach some more at nc state so i did those two classes.
+
+Tim:
+[53:16] Um, and then moved to Raleigh to go to Tennessee state for operations research. Um.
+
+Tim:
+[53:26] Yeah. So I started my second PhD program that, that August of 2010. Do you want me to tell the story of that?
+
+Brenton:
+[53:35] Yeah. Yeah.
+
+Tim:
+[53:38] So that was good.
+
+Brenton:
+[53:39] Yeah. So like, was your, when you were teaching, was that, that was before you started the PhD program or was that part of you, like your deal there? Cause I know sometimes like you can do a TA or whatever and kind of get paid while you're doing stuff.
+
+Tim:
+[53:55] So I was a TA my first year, but usually you don't teach your first year. You're like a, an assistant to another, usually, I mean, often it's an another, uh, under, uh, our grad student, you know, teaching. So I was a TA for calculus one and two, probably my first and second semesters where you're like grading and having office hours, but you're not actually lecturing. So that summer though, I was lecturing not having ever done it before. Uh, and actually there's a funny, funny to me anyway, story that I'd actually never taught i'd never taken calculus two um because in high school like i took calculus early like i said but i did the ab calculus test because that's all we had was like calculus one, i like for ap calculus and we didn't offer calc two and then, Um, I basically signed up for calculus three at that local college where my senior year of high school. And, and then I got my undergrad to waive the fact that I'd never taken a calc two, uh, where you like learn all these like tricks for integration, like, like trig trig substitution. I didn't know any of that. Uh, and by the time I TA it, I had mostly learned it. Um, but this girl came to my office one day when I was TA with a question, I, I did not know the answer to at all. I like knew nothing about Calc 2. She actually ended up dropping the class after she came to my office, which I feel horrified that I ruined her life because I like was doing something I was unqualified for.
+
+Brenton:
+[55:22] I think calculus did that.
+
+Tim:
+[55:25] But when I taught Calc 2, I learned, I mean, you're, you know, teaching a week, a day, it's not only hard for the students, it's hard for me.
+
+Brenton:
+[55:35] I was going to ask, like, did you have to come up with the curriculum and the lessons and all that stuff too?
+
+Tim:
+[55:39] Yeah. I mean, basically the grad students had all these like PDFs of notes that they would pass around to each other. So I would get somebody's notes, but you'd go teach for four hours in the morning and then go home and grade and get ready for the next day. So it was very intense. But I learned so much calculus standing at the board, you know, writing in chalk, explaining it. And I'm like, oh, that's what that means. quietly.
+
+Brenton:
+[56:05] To yourself so the kids don't think you know.
+
+Tim:
+[56:07] You're yeah but discovering a very good life lesson that like teaching is such a great way to learn things and as you know like i still love teaching things when i work uh you know i'm trying to teach my colleagues and then you know through various online resources i make um i still love teaching people think and i think i enjoy other people learning but it also helps me learn as well.
+
+Tim:
+[56:32] So, yeah, so I went to North Carolina State and then –.
+
+Tim:
+[56:38] You know, just started doing classes again. I mean, they didn't really care that I had been in PhD program for a year previously. I didn't get a degree or anything from UVA. Um, so I think some of my coursework was useful, but I basically starting over again at NC state and then, um, a year into it, I found an advisor and honestly, I wasn't sure when I started that program that I was going to do a PhD. Like part of me was like, maybe I'll just get a master's and then go find a job um because i i guess i didn't talk about this but the motivation for doing operations research was okay here's interesting problem solving but also in a something that seems like it has jobs related to it because it's useful i don't know if that's actually true for operations research um but learning useful skills uh and um, So, you know, I was just kind of doing my coursework and then I found this advisor after a year and he asked me if I wanted to work with him. He did like healthcare optimization stuff around, he did like treatment optimization. So you'll use these mathematical models to figure out, you know, um, what's the optimal schedule to give a chemotherapy drug on to treat cancer. Or he also did like, uh, healthcare operations problems. Uh, so like, uh, how do you schedule your patients most efficiently to not have your patient sitting in the waiting room for a long time like happens at doctors is.
+
+Brenton:
+[58:04] That would that be from like clinical trial data and trying to to build out those models that way or how does.
+
+Tim:
+[58:12] Uh yeah it can be from a variety of things so they use real data they make stuff up uh i mean i so i ended up doing the operations side um and so like we partnered with the oncology clinic, and like collected real data on like patient wait times and stuff and then uh built a simulation model at the oncology clinic. Uh, so another part of operations research besides optimization is also like simulations. So you do these discrete event simulations. And so then find out how can you, you know, if you can build a realistic simulation of the, of the situation, then you can modify the simulation and see, can you remove bottlenecks and that kind of thing? Um, you know, similar to like Six Sigma and that kind of like business optimization stuff. Um, and, uh.
+
+Brenton:
+[59:00] Is that what brought about the, uh, PhD downfall with Six Sigma?
+
+Tim:
+[59:04] No, I, so I ended up working on like a semi theoretical problems. My, my advisor was an expert in something called a stochastic, uh, integer linear programming. So, um, a big part of operations research is like, uh, optimization problems where you have like a mathematical, uh, you have this formula that you're trying to optimize, but then you have all these mathematical constraints as well. So you can like describe business problems in that way. But then stochastic optimization, you say like, oh, I'm not just optimizing these, but maybe my coefficients are like random variables. And so I want to like minimize the worst outcome or like maximize the average or something like that, which is mathematically significantly more complicated. And so he worked on a problem on, uh, like patient scheduling. Um, because basically when you schedule, you call your doctor and make an appointment, they're not operating under certainty. They're, they're operating just on the information they have now. They don't know who else is going to schedule. So trying to think through that, like, how can you use that uncertainty, like quantify that uncertainty and make the best decision. And so he made this whole, uh, huge theoretical, uh, optimization problem that he could only solve for three patients so like if your if your clinic sees a total of three patients you can get the optimal solution we call it the.
+
+Brenton:
+[1:00:28] Three body problem.
+
+Tim:
+[1:00:28] Yeah so i worked on essentially like um, uh an approximation solution using what now is like called reinforcement learning i'm a computer scientist had always called it that but in operations research they called approximate dynamic programming but it's essentially the same thing um where you like simulate possible outcomes and then use that to figure out your optimization.
+
+Tim:
+[1:00:53] Which was good. And another strain that's going on at the same time for me was... Uh in 2009 end of 2009 i had gotten on twitter and as a lazy procrastinating grad student spent a lot of time on twitter and like data science in that era was like becoming a thing in no small part because of people who are blogging about it and talking about it on twitter, i was like oh this is really interesting they're like using data and computation and math to solve real problems i was like and i was like this machine learning stuff sounds really interesting I didn't have any exposure to that in college or before.
+
+Tim:
+[1:01:34] Because of the way my program was at NC State, I was able to start taking some machine learning coursework. And then essentially my research was around –, I was turning optimization problems into machine learning, like pattern recognition problems where we're simulating all these possible outcomes and then using machine learning models essentially to learn those patterns and then figure out how to optimize over that. So I was like, this is 2010 to 2012, kind of learning machine learning and data science stuff as it was becoming relevant in a way that had never been before. And that was partially luck, but then also partially me trying to shape my curriculum into things that seemed relevant in industry and useful to me, which is really good. I mean, I think that helps set the stage for a lot of stuff.
+
+Tim:
+[1:02:37] So, yeah, then that summer –, So I did one year at NC State. Then the following summer, I talked my way. Literally, this is the most, I'm not good at talking my way into things, but I talked my way to an internship at Kiva Systems, which is now Amazon Robotics, like warehouse automation. I read about it over Christmas break, halfway through my first year in Wired Magazine, and then found out the head of research at Kiva Systems is Pete Werman, who um was a nc state professor before going to work for his old friend kiva systems so i like cold emailed him and was like can i come work for you for the summer and turned that into an internship which is wild that he hired me to i mean you know only having talked on the phone i drove up to boston that summer and met him on my first day of work and worked on like simulation models for warehouse optimization, um, for the summer, which gave me exposure to like real world.
+
+Brenton:
+[1:03:38] Uh, applications.
+
+Tim:
+[1:03:41] Yeah. Kind of like optimization and basically operations research in the real world. Um, which was a good taste. Uh, and it, I mean, it paid better than grad school did for sure, which is another good taste of, of the future. Uh, so then I did that and then went back and just kept going with grad school. My second year, and then, I guess it was after that summer that I like officially signed up with this professor to work on healthcare optimization stuff. Um, and then the following may, so I had been there for two whole years. Um, well, I guess at the end of the first year, after I came back from Boston and all my free time that summer, I've been studying for my qualifying exams. I came back and passed all my qualifying exams, which is one of the big steps towards the PhD in.
+
+Brenton:
+[1:04:33] And of itself.
+
+Tim:
+[1:04:33] Yeah. Um, and i've always been good at tests which is a completely useless skill but it helps in school i.
+
+Brenton:
+[1:04:42] Mean some people say life is a test.
+
+Tim:
+[1:04:43] Yeah i don't think making taking math tests is a good life skill but i am good at it um.
+
+Tim:
+[1:04:53] And, uh, so I, then I came back and did research for a year and then the following May. So I, after the end of my second year, my advisor, um, called me into his office and it was like, Oh, I'm taking a job at the university of Michigan in Ann Arbor. Uh, I would like for you to stay here at, at NC state and continue working with me on your PhD. Um he was gonna have like a guest appointment so he could continue to advise me, uh and i was like okay that's fine i'll do that and kept working with him through the summer the summer was like a very lonely time um in the office i'm just like staring at a computer in this sterile office doing research uh he was gone actually in china for a lot of that summer, um and you know just doing and there's like doing research and there's nothing to break up the day or like not teaching i would go to the gym which is like talking of hobbies like something to become a hobby in my adult life is is just working out um but uh it was a very lonely and somewhat depressing time so by august i was like he's not even good at working with me from across the hall How is he going to work with me from Michigan to North Carolina, which is far, far away?
+
+Tim:
+[1:06:18] And there are other students who are going to have the same arrangement with him, but I was like the newest student. So I was going to be in it for the longest, probably like this is just not a good situation.
+
+Brenton:
+[1:06:27] You're going to be there for like all the learning and growing pains of trying to do that.
+
+Tim:
+[1:06:30] Yeah. For at least three more years. If I'm lucky. And I was not making much money. It was that, uh, the, the money at NC state was worse as a PhD student than at UVA. Um, and I was just getting more and more tired of being very poor. Uh, you know, it was making like $17,000 a year or something. And I didn't have that many expenses, but that's not a lot of money. Um, and so that August I started looking for jobs. Um and mostly applying for jobs locally but kind of in the data science-ish realm, um and i started doing that all totally on the side i didn't tell my advisor because i needed him to keep paying me in the meantime and he was in michigan so it was okay uh and i think i was taking one class that last semester i took a a bayesian uh networks class like a machine learning class. Um, and, uh.
+
+Tim:
+[1:07:37] So, yeah, I was interviewing for jobs. And I guess, I mean, another part of this story is over those like two years of getting interested in kind of data science stuff, I started teaching myself Python and R as well. And which I learned about from Twitter, basically, from people talking about. And I did my research, my grad school research in Python, which my advisor didn't know and he didn't want me to do. He wanted me to do c++ which he knew but i was like oh python's like the up-and-coming thing and it has this thing called scikit-learn where you can like access all these machine learning models which we could use for for our reinforcement learning which was you know really good that i yeah i did you're very proactive i tried to be yeah um i really think i just got lucky in so many ways but uh well.
+
+Brenton:
+[1:08:30] I mean that's not without effort you know.
+
+Tim:
+[1:08:32] Yeah just my effort was not always I didn't always know what I was doing. I just, I don't think it's always good advice. Like, Oh, just follow your interests and it'll work out. But I think for me, it did in a lot of ways.
+
+Brenton:
+[1:08:44] Yeah.
+
+Tim:
+[1:08:45] Um, so I interviewed for a variety of jobs and I got offered one at a, a local, uh, chain of, um, um, Uh, retirement homes, no local chain of retirement homes in North Carolina had hired a grad student to build an optimization models for their pricing structure of their nursing homes. And she was rolling off the project and they wanted somebody to do it full time. Um, so they offered me a job, which for the amount of money they thought they were going to make, they didn't offer me very much money to do that job.
+
+Brenton:
+[1:09:20] Um, but still more than grad school was paying.
+
+Tim:
+[1:09:23] Yeah and then i also got offered a job at a company called rti international which is a non-profit research company in in the raleigh durham area that um does not uh like government contracts outs it's like not uh not defense stuff but like kind of humanitarian government stuff education economics health that sort of things and i think some executive had read an article in business you know whatever business magazine about um data science and thought we should hire a data scientist and they they basically hired me out of hype um when it was a company that was like essentially doing data science for 50 years like statisticians programmers like doing data analysis surveys all this stuff and they didn't really know what they're hiring me for um and they offered me that job in october of that was october of 2012 and i decided to take it, because it seemed less depressing than working in the the nursing home administrative office, um and yeah so then i did that and that i called my advisor i was like oh i'm dropping out by the way um you.
+
+Brenton:
+[1:10:33] Have to take that news.
+
+Tim:
+[1:10:34] And uh i don't think he was totally surprised i think he was probably disappointed that I hadn't like led onto it anymore. Um, but I, I, I just had to protect myself at that point. Um, so I finished up that semester, finished up the last class and started working like late October of 2012. And I've been in industry ever since then.
+
+Brenton:
+[1:10:55] Yeah. When, um, What year was this? This was 2012 or something like that?
+
+Tim:
+[1:11:03] 2012, yeah.
+
+Brenton:
+[1:11:04] Okay.
+
+Tim:
+[1:11:04] October 2012.
+
+Brenton:
+[1:11:05] When did you meet Maggie?
+
+Tim:
+[1:11:07] I didn't meet Maggie until a few years later, and then we got married in August of 2015. So I was single.
+
+Brenton:
+[1:11:16] It was right before Distill then, right? I guess.
+
+Tim:
+[1:11:19] Yeah, literally right before Distill. I mean, to jump ahead a little bit, right before I got married, I found out I was needing a new job three weeks before I got married. um which was a crazy time and then came to work with you at distill it.
+
+Brenton:
+[1:11:32] Was that i didn't realize it was that soon like those.
+
+Tim:
+[1:11:34] Events were that close together it we got married in august i started working there in october i believe but um three weeks before my wedding my boss was like, called me it's basically like the whole project is falling i worked on a darpa project it's all falling apart yeah um government but yeah so at that point i was single lived alone um ate a lot peanut butter uh gained weight um yeah not actually the best time of my life.
+
+Brenton:
+[1:12:03] Yeah well you know we all go through our ups.
+
+Tim:
+[1:12:06] And downs yeah but.
+
+Brenton:
+[1:12:07] Uh so then okay so distill and then um, i'm debating if we want to talk about your career because you know uh.
+
+Tim:
+[1:12:17] That's we can it's pretty public.
+
+Brenton:
+[1:12:20] I guess.
+
+Tim:
+[1:12:20] I mean, it's on my resume.
+
+Brenton:
+[1:12:22] Sure. Yeah. I'm more interested, I think, in terms of, at least for me, selfishly, I'd like to know more about, like... You becoming a parent um i know you were in terms of hobbies i know you were doing like the workout stuff and you were doing the strongman competition i think at one point yeah um and then uh you know, life outside of work sure um let's i guess start there so instead of going into career stuff let's talk about like life outside of work from you know that point i guess yeah.
+
+Tim:
+[1:12:57] So one thing i discovered late in grad schools, North Carolina state has a, uh, um, place called the craft center or the arts or craft center. I think that it's just a, like a non vote, non-academic, um, place to just for students to just go do stuff and alumni. Uh, and one thing they had is a wood shop. So I actually got into woodworking for a few years there, uh, which is, I wish I had known that all through grad school. I think it probably would have been good for my mental health. Um, maybe my last semester. So I took a wood class, uh, and it's an incredible wood shop too. Like it, it really spoiled me cause I could never have the setup that you have there. Um, and then for a little bit, they had, um, a guy who was just a master woodworker teaching. I think that was actually right after I finished grad school, I continued to take some classes there. Um, and yeah so i had a little foray into uh um to woodworking which was enjoyable what.
+
+Brenton:
+[1:13:59] Did you build there or.
+
+Tim:
+[1:14:00] I mean in the classes made some like bake basic like a shaker shelf and like a little side table uh i had been working on a big project to make a stand a top for a standing desk like a big walnut top and then i was making like a like a monitor stand okay and i never actually totally finished it uh which is unfortunate but i was going to make these really cool like swing out drawers i built these like nice uh walnut drawers and they were just going to be on a single um like these really heavy duty pivot hinges and just like pivot out in one point, to open and then mount it on just like a standard standing desk, legs um and i use the i still have the desktop actually my 3d printer sits on it now but i never finish like the monitor uh hutch part um but i learned a lot and i haven't necessarily used directly since but i think that was really helpful wood is such a interesting complex medium to work in because it's it's so precise but also so, you know, wood is very alive because of moisture things as well.
+
+Brenton:
+[1:15:09] So it's approachable, you know?
+
+Tim:
+[1:15:12] Yeah. But yeah, it makes you learn to appreciate the ability to press the undo button. Cause there's no undo button in woodworking. Uh, I'm trying to think I got more into hiking in that era as well. Um, you know, I've been in boy Scouts, but I didn't really love the outdoors when I was younger. Um, and they go like specific middle school do you think what didn't i like or uh that's a good question i mean the boy scouts.
+
+Brenton:
+[1:15:45] Is their thing is pretty much being outdoors.
+
+Tim:
+[1:15:48] Yeah um i don't know i i just it didn't really you know i think part of it is i just had a very good childhood and like uh you know when i when i used to golf with my dad my dad i think golfed a lot to blow off steam and i just didn't need to blow off steam because i just had a very good that's awesome like a very stable home and like school was very stable is like uh you know i don't think i needed to go blow off steam that that much um but yeah during college i started to really, enjoy the outdoors more um so those those are those days kind of right for grad school got more than hiking and like north carolina just some world-class and it's not like world-class height of mountains but just stunning scenery and things and uh started to explore north carolina more and the mountains more um and i mean that just also became more of an opportunity as i had money to be able to go on trips like that drive myself out of the mountains stay in a hotel and hike it was a thing um speaking.
+
+Brenton:
+[1:16:54] Of driving when did you get your matrix Thanks.
+
+Tim:
+[1:16:57] Yeah, so I bought my Toyota Matrix that I still drive in 2010. Went right after I moved to Raleigh, I had been driving an old Mercury Mountaineer, which is like a Ford Explorer and it was falling apart and it was V eight all wheel drive. So it had horrible gas mileage and gas had just gotten really expensive. Uh, and I, I lived a long way from school and I was like, I can't afford to keep driving this. So I bought a Toyota matrix with 107,000 miles on it that I still drive now with 260,000 miles on it. And it's my pride and joy. I recently joined a, you had a Matrix.
+
+Brenton:
+[1:17:39] I had one and I had to get rid of it mainly because I was commuting 90 miles one way and it was a manual.
+
+Tim:
+[1:17:45] Yeah.
+
+Brenton:
+[1:17:46] And Jolene couldn't drive it. So it just turned out like we just should, we got something else.
+
+Tim:
+[1:17:51] Mine's the automatic and the transmission has been rock solid. I just joined a Toyota Matrix owner's Facebook group. That's awesome.
+
+Brenton:
+[1:17:58] I am redoubled.
+
+Tim:
+[1:17:59] In my love for it because.
+
+Brenton:
+[1:18:00] It's such a good car is so like you, like just, you can do all kinds of stuff. The seats go down and it's got so much room and yeah.
+
+Tim:
+[1:18:08] I hauled 28 bags of mulch from Lowe's last summer in the back. And then, uh, yeah, we just moved. So we had so many moving boxes and I packed the, I folded the seats down and I put an incredible number of boxes flat in there to take to the recycling center. Um, yeah. So I bought that for, for NC state and, uh, I, I'm going to keep driving it until I can't.
+
+Brenton:
+[1:18:32] When I took a fundamentals of engineering course, we did one of those like newspaper bridges or whatever. And we did this like massive suspension bridge and we had to put down the seats on the one side. So that way it would go from the back of the trunk all the way to like the front of the car. So it would actually just kind of transport that way. Yeah. Such a good class. Yeah.
+
+Tim:
+[1:18:49] Um, yeah. Also like right at, as I was finishing grad school, uh, I, I became more involved in my church. I became the treasurer for my church, which I did until three weeks ago, uh, or I guess four weeks ago now, um, for, for a long time. And I became a deacon at the church, which is like in, in the Presbyterian tradition, like a deacon is someone who helps people who have financial needs basically, or other material needs, uh, in the church or outside of the church. Um, so I did that for the deacon. Yeah. yeah it can mean different things in like in like the catholic church and something it can there's different nuances to it but um yeah so that started to take up more of my time um, i can't think like yeah those early days right out of grad school felt very busy for uh you know getting used to having a full-time job and i actually just started living by myself in that era as well for the first time i like didn't have any roommates so i, Couldn't blame anyone for the bathroom not being cleaned or the kitchen being cleaned.
+
+Tim:
+[1:19:53] Yeah. Um, and I actually like to cook a lot too. So I, I, I don't cook much anymore, but I cooked a lot through grad school and those, those early days as well. Um, and I always enjoyed like having people in my house and things. So having friends over and cooking for them and that kind of thing. Uh, and, and getting into reading more, like kind of back into reading in that era like trying to get into history and things like being more deliberate about it uh those those are my good years of reading um kind of reading in solitude yeah before having kids um just yeah having a quiet house to read in yeah um yeah i guess also photography started interested me more in that era too um my dad's always been a I was a big photographer and I'd taken a photography class in high school, um, but hadn't really stuck. Uh, and then I.
+
+Brenton:
+[1:20:50] Was it always nature photography of the interest in particular or just photography and photography in general?
+
+Tim:
+[1:20:55] So my dad has always been really good at like photographing people and events and things that had never really, been my thing. Um, but I think it started to come back more as I started to get more to hiking and being out in nature. Uh, and one of the things that I really, you know, North Carolina has some world-class waterfalls and I would go to waterfalls and, you know, try to take pictures on my, you know, iPhone five or something and like just worthless. I think waterfalls are actually just really hard to photograph and maybe not worth photographing that much, but I was like.
+
+Brenton:
+[1:21:29] Okay, How can I neutral density filter?
+
+Tim:
+[1:21:31] Yeah. Well, I started to like ask, like, well, how can I capture this? Um, uh, and started to learn more about the techniques and bought different cameras and things. Um, uh, so yeah. And then, uh, so it was really more like kind of landscape that at that point. And then, um, it was actually 10 years ago last weekend, um, that i got into uh after i was married we had a an ice storm come through in january of 2016, and i had like a sony 6300 or something like a little uh uh crop i think yeah a little crop sensor camera and i was like photographing birds on this on our bird feeder on the the ice during the ice storm and maggie saw i enjoyed it so much so you should get a nicer camera and that's um that kind of kicked off my interest in in wildlife photography which is now i don't we haven't talked about photography as much in the last few years but it's almost exclusively my wildlife is my children at this point which is harder than any animal um but uh yeah it's still my kind of my love like i i would love to do more wildlife stuff um even more than like nature like landscapes and so i still kind of like but i i think wildlife is what i really love.
+
+Brenton:
+[1:22:59] Yeah speaking of wildlife and kids uh let's talk about becoming a parent did you always want to be a parent.
+
+Tim:
+[1:23:08] Yeah i've always loved kids and uh i guess, In elementary school, my parents were foster parents. So I didn't have younger siblings, but my mom's a pediatric nurse. And so she was specifically a foster parent for babies with medical needs. Because that was her expertise. So we had not for long term. They're mostly short term, but we had 25 different foster kids in my elementary school years. Did that?
+
+Brenton:
+[1:23:41] Sorry. Go ahead.
+
+Tim:
+[1:23:42] Some as short as like a weekend and then some for like maybe months at a time but it wasn't like years at a time um but so like i was just and then my mom was kind of the revolving door of like child care for her friends so like her friends kids were all at our house all the time, um so i just was around a lot of kids growing up and and that was a good experience for me yeah.
+
+Brenton:
+[1:24:05] Did you do you think that might have influenced or motivated you to do the you know that.
+
+Tim:
+[1:24:11] The children's home children's home stuff yeah probably uh yeah i mean yeah those are like older older uh you know like middle school age kids kind of a different demographic in a lot of ways but i'm sure that was uh influential um but yeah i always i always hoped i would have kids and um i i was around a lot of big families growing up and you know i, You know, I grew up in a family of four, which is a big family. It's above average.
+
+Tim:
+[1:24:46] So, yeah, Maggie and I got married in August of 2015.
+
+Tim:
+[1:24:53] And another kind of crazy story you probably don't know, but Maggie is –, her older sister had married one of my best friends from college, uh, two years earlier, which is how we met. Um, and so like my brother-in-law is one of my, my closest friends from college. Um, and she had grown up in a big family as well and always wanted to have kids. So that was on our radar. And so yeah, we had, uh, our first, uh, James, uh, two years and one day after our wedding, um, we were, we checked into the hospital on our second anniversary um uh he was a week late and checked into the hospital so and now we have four yeah uh eight six almost four and two so they're kind of in the in the even gap uh little window here uh two boy boy girl girl uh yeah which is a good distribution it's crazy i mean you could not have planned it any better and it's it's really fun to see the kids get to enjoy i mean they all enjoy each other but like the boys really pair off and do a lot of boy stuff and the girls pair off and and giggle and talk about princesses a lot and uh yeah it's very fun um i don't know what what uh there's a lot of directions that discussion can go what what do you want to know yeah.
+
+Brenton:
+[1:26:18] I think um i'm curious about just your thoughts about like in philosophies of parenting you know you said you had a pretty happy healthy childhood you know what are some.
+
+Tim:
+[1:26:31] Things that.
+
+Brenton:
+[1:26:31] You kind of like take away from your parents that you you know try to mimic with your kids or.
+
+Tim:
+[1:26:37] Yeah you know yeah i guess there's a lot that can be said there but i i think one thing with my parents is i always knew that they, loved and supported us and, um, just like had our backs. And, uh, you know, I think that's, that's a big thing that we, we want our children to see also like, um, that, that we're there for them. And, um, we, we also want them to know we're in charge. Like I, I'm not, uh, as, as much into some of the modern parenting, that's more like you're kind of chummy with your children. Like, uh, we, we really enjoyed the time with them, but it's not, we are in charge in our own, but, uh, they, yeah, hopefully like really know that we're, we're supporting them and, um, you know, giving them, as I was describing my college situation, like, you know, liberal arts education, really opening their minds. My kids are homeschooled for right now. Maggie, Maggie teaches them at home, the boys anyway they're eight and six um and and again like trying to make that um.
+
+Tim:
+[1:27:51] Education not just become a really rote thing like here you just have to follow these steps or, just be like oh you're you're only learning the things that are useful in the sense of you're going to be able to get a job one day which i think is good to be able to get a job We've talked about that. But at the same time...
+
+Tim:
+[1:28:12] Wanting them to just like really understand and uh think you know think deeply and understand the world and even just enjoy the world right there's like um you know teaching your kids to just enjoy, enjoy things which i think you know liberal arts education you know in learning often that's in like like literature and that stuff where it's like really enjoying it but i think also in uh you know for me having studied math i just intrinsically enjoy math i think it's like a really beautiful like people hear that thing like oh arithmetic and i mean arithmetic is in its own way but like math at a higher level is a lot past arithmetic but but um i think really intrinsically, a beautiful thing yeah and trying to teach the kids to embrace that beauty of things yeah.
+
+Brenton:
+[1:29:02] Like the further you go into something the more nuanced it becomes the more you appreciate like you know the challenges or perspectives and it broadens like your perspective in general.
+
+Tim:
+[1:29:10] Yeah and i've Feynman said something like to paraphrase, like nothing's boring enough if you go deep enough into it.
+
+Brenton:
+[1:29:17] Right.
+
+Tim:
+[1:29:18] And I don't know if that's totally true, but I think that there's a lot of truth to that. Like even, you know, you and I both got into quote data science, interested in doing more of the, you know, kind of let's build interesting machine learning models. And then both of us have done a lot of more like infrastructure stuff. I know you think you probably do some model stuff, but I exclusively really do infrastructure type engineering things now. But, and I gave a talk about this a couple of years ago, but like learning to embrace the beauty even of that, um, has been a formative thing for me that, um, you know, I want to, I want to instill in my kids as well, not about programming necessarily, but just about the things that they do are like, uh, it's a great. With all the hardships and like evil in the world, there's like a great world to live in. Like such a, you know, so many beautiful things.
+
+Brenton:
+[1:30:14] There's a, uh, Brandon Sanderson book. And there's a quote in there that I really liked. It's, um, something along the lines of, uh, it's a difficult time to live. It doesn't have to be a difficult time to love.
+
+Tim:
+[1:30:26] Yeah. Yeah. Uh, there's a CS Lewis quote kind of along the same lines of like, where he's like defending writing, writing things during world war two. Who I don't remember exactly how it goes, but like where he basically talks about like, you know, if, if the bombs fall on us while we do it, like we should just be making the most of it while the bombs fall.
+
+Brenton:
+[1:30:47] Right.
+
+Tim:
+[1:30:49] And yeah, I don't know if that's my political philosophy necessarily, but I do think there's like, I, I, I try to look at the world that way. And even in the drudgery of my own work, you know, try to really embrace the, the, the beautiful parts of it. And then also like be able to, um, you know, you and I both love our different hobbies. And I think just like, that's an opportunity to see, um, I like to share hobbies too, but just like hobbies are an opportunity to just like enjoy good things. Even if you're not sharing it, like maybe nobody knows about it. Like you, you do all kinds of things in your own home that, uh, you know, people don't know about.
+
+Brenton:
+[1:31:29] Um, I think that's one of my favorite things about like just different hobbies is learning that things are complicated you know problems are easier when they're not yours kind of a thing and it helps you appreciate that, somebody does something you can appreciate that that took a lot of effort or that took some courage to do I used to watch a lot of Bob Ross and one of the things that he used to talk about was like, uh he would paint like he'd do the whole background and then you want to go put like the big tree in the front like the foreground and it's like okay well now you got to be brave and you got to put this thing and i was just laughing like what is this guy talking about being brave while you're painting it's just a painting you know and i've painted and you have to have some courage to you know mess up the thing that you just spent a lot of time doing to take that risk and put something new in front of it you know and yeah it's just it's just really interesting.
+
+Tim:
+[1:32:22] Yeah. I think that's something that, you know, in my, um, attempt to not just do things in life that I'm good at. Um, I think I've learned it as an adult to really work hard and push through things and just try things as another thing I'm like trying to instill in my kids. One of them, you know, doesn't, doesn't like to do something if it's not going to turn out well. And like, you know, the, I tell them about the, the Edison quote, you know, we've, we've learned a thousand ways that don't work or whatever 100 ways that don't work um i was like that you know that's what i do in my job all day long is like try things see it doesn't work and then try something else just restarted a a failing uh computation job right before you and i uh got although now my my ai tools are pretty good at doing them for me so maybe i'm gonna get back to being lazy but Yeah.
+
+Brenton:
+[1:33:13] I'll ask you a question in a second. But how do you think being a parent has impacted you and just, you know, like... I don't know, thoughts, philosophies in terms of.
+
+Tim:
+[1:33:26] You know, I don't have to give that one some reflection, but I mean, you know, one thing I've definitely experienced that a lot of people, and I think maybe more surprisingly, a lot of fathers talk about just like being a parent, it makes you a lot more emotional. Like you can't, you can't watch like an emotional scene in a movie in the same way. I just like, or like any movie or like a kid gets hurt or something. It's just like impossible to watch um in a way that you just experience differently when you don't have kids yeah um but uh yeah i think there are i mean i think it keeps you young uh in some ways uh also and in uh, um i don't know your kids are at the stage they're at and you you can be an adult most of the time but sometimes you're just like right like you can sit down with a two-year-old we.
+
+Brenton:
+[1:34:20] Experience childhood like vicariously i guess.
+
+Tim:
+[1:34:23] Yeah you know one of the cool things yeah a cool thing is like all my kids and i've seen some people on twitter mentioned this i think it's fairly universal i don't know why but two-year-olds have a stage where they get obsessed with seeing the moon, and like every time they get out of the car it's like look the moon the moon it's like you know like two two years and three months or so and like those kind of things are such a good reminder like oh this is crazy yeah there's this huge rock flying around us every day and we totally take it for granted yeah and there's like so many things that kids are learning for the first time but even just like oh yeah i should stop and appreciate that the moon is up there appreciate the stars are up there it's.
+
+Brenton:
+[1:35:09] One of my favorite things about like astronomy and astrophotography and all that is.
+
+Tim:
+[1:35:12] Yeah it's.
+
+Brenton:
+[1:35:13] Very humbling i think.
+
+Tim:
+[1:35:15] Yeah i i was hoping at our new house you you'd give me some telescope recommendations a while ago my my eight-year-old keeps asking about probably changed by now well i was hoping our new house would be perfect for but, they uh recently installed some new street lights right behind us that i i didn't know were going to be there um it's not as dark as i thought but uh we're kind of like the edge of indianapolis so i'm hoping we can get out in the a little bit more and uh start getting into some astronomy together really.
+
+Brenton:
+[1:35:48] Fun especially with the kids just you know everyone's seen.
+
+Tim:
+[1:35:51] It for.
+
+Brenton:
+[1:35:51] The first time.
+
+Tim:
+[1:35:53] Yeah um yeah there are a lot of things that are are just neat to i mean even like you know talking about reading to the kids that's been one of my favorite things as a parent like um you know some stuff i've been reading to them for the first time it's fun but like getting to read the chronicles of narnia to them which my mom read to us or reading the hobbit to them lord.
+
+Brenton:
+[1:36:15] Of the rings hobbit.
+
+Tim:
+[1:36:16] Yeah i'm i'm a little torn on on when to read the lord of the rings there's a tolkien quote about how like lord of the rings isn't a children's book and you can only read it for the first time once so don't do it too soon and i would love to start it now but i think i want to wait till they're a little older yeah um but even then just like getting to think like oh what other stuff can we read together it's we my boys and i read most most evenings before bed and recently they've gotten to the three stooges they sometimes beg me to watch the three stooges instead of reading to them but um yeah that's been really fun yeah yeah um.
+
+Brenton:
+[1:36:56] I'll go to the ai question i guess i promised or alluded to um, With the way things are, how does that impact you? Well, I guess I should probably give more on that. So AI taking over the world for better or worse. It's a thing. The Pandora's box has been open and all that kind of stuff. But the world is changing very dramatically. How does that impact your hopes and and thoughts of like your kids and their future and you know what kind of perspective or prospects they'll have and.
+
+Tim:
+[1:37:38] Yeah it's a big question um i've thought about some and i i really just don't know the answers to i think the short answer for me is um, for them like not much needs to change yet um my my boys love to make um, like do image generation on chat gpt or gemini and uh it's usually like make a baby riding a motorcycle on mars or something like that um which is quite silly uh and i with my eight-year-old he just has endless questions about things, animals and technology and TV shows and things so we'll have a world book encyclopedia.
+
+Brenton:
+[1:38:25] To flip through.
+
+Tim:
+[1:38:26] Yeah I should get him I try to get him a lot of reference type books because he's a lot like me and likes that kind of stuff, but I've been trying to teach my boys some basic programming stuff using Scratch a similar Scratch like a visual programming thing and there's some iPad stuff, and one of the things with my eight-year-old is, I think we could probably like vibe code a game using like cloud code and some kind of text to speech thing, or he could just talk to the computer and like build some kind of game. And I'm excited to show him something like that. But at the same time, you know, I think it's, uh, it seems to be still really valuable to be learning the fundamentals. Yeah. And I don't know, So I don't want to derail him from learning the fundamentals.
+
+Brenton:
+[1:39:23] Yeah, it makes me think of like in calculus three was the time in which we were allowed to start using a graphing calculator. And that is the moment I stopped learning calculus.
+
+Tim:
+[1:39:32] Yeah. Yeah. Or yeah. And I remember when I was teaching calculus is when, you know, Wolfram Alpha had come out and like Wolfram Alpha was showing the steps on integration and derivation. And, And I'm really glad I was in school in an era where I just had to grind through problems. Like I was talking about this professor who would give us these long, like take homes that you'd spend eight, 12 hours on and just have to like really wrestle through problems that probably now, if you took his take home test, like abstract algebra, chat GPT could one shot solve the entire test, which is awesome. And I use these tools all day, every day, and it's fantastic. But I'm so glad that I am schooled in foundations in a lot of ways.
+
+Brenton:
+[1:40:26] Similarly, I'm glad we, at least I am, I'm glad we grew up before social media and the internet kind of, you know, like it's just, I don't know what it would be like to grow up, you know, just that being in your face all the time.
+
+Tim:
+[1:40:40] Absolutely. Yeah. I completely agree. Um, and I mean, I'm, you know, we're, we're, uh, kind of slow to introduce technology things to my kids. And, um, I, I mean, it seems unquestionable to me that AI stuff is going to have an impact on whatever they choose to do in their careers. And at some point in whatever they choose to do in their schooling if they're going to college um so i don't want to um keep them from learning how to use those tools well but at the same time i think with programming stuff um.
+
+Tim:
+[1:41:29] I, I use AI tools literally, you know, eight plus hours a day. And I think maybe I deceive myself sometimes, but I think I'm better at using them because of a lot of experience prior to having used them and like understanding, you know, I'm, I'm still primarily a Python developer. I understand Python really well and how, how things work, but I understand, you know, I, I, uh, have a lot of.
+
+Tim:
+[1:41:57] Both professional experience and education and fundamentals that are still useful right i can still think about like the you know time complexity of an algorithm that the ai tool generates or something like that um so yeah i i honestly don't know all the what those answers look like but i think it is probably to some degree comparable to you know not rushing to using the graphing calculator or even then like you know the ti 89 that could do integrals for you like symbolic integration right it's like well don't don't rush you like it is worth actually uh grinding through and learning some stuff first um but it's going to be harder and harder for that and i mean i think for kids in uh you know in the in homeschool we have like kind of more ability to detach from it like kids in public school are getting chromebooks and you know once you have a google docs then you're getting access to gemini right maybe um and we still need to keep thinking it seems like the cognitive.
+
+Brenton:
+[1:43:08] Like cognitive offload is you know it's it's pretty real.
+
+Tim:
+[1:43:13] Yeah, absolutely. And I mean, I think all of us are wrestling with that in our own jobs, like what the implications of that are, like what's what's good and bad about that. But even just like writing, right? Like, I don't think I'm an amazing writer, but I went through school having to really write and being graded on, on that and learning from that. And I want my kids to learn how to write well, because I want them to be able to communicate their ideas well and not just, you know, you know, generate. Essays uh so yeah i don't know i honestly don't know all the answers to that but i think that those are going to be big questions and i i think the few you know i've been most of my podcasts recently over the last year have been ai related and i ask everybody kind of about the the future and nobody really knows i don't know either uh.
+
+Brenton:
+[1:44:04] Speaking more about the future i guess um and maybe wrapping up so you know uh i don't know if your kids are already in bed but.
+
+Tim:
+[1:44:12] Yeah i'm in no hurry so whatever you want to ask this is your chance yeah.
+
+Brenton:
+[1:44:16] Um you know you just did a pretty big move uh what are your aspirations you know going from here like what do you want to do from a hobby perspective or you know family perspective.
+
+Tim:
+[1:44:29] Yeah yeah so we moved to indiana to be closer to family my wife's family specifically she grew up in the town that we're living in, um, now and, um, yeah, so, you know, I think, uh, in a lot of ways, just trying to, um, develop that neither of us have really, I briefly, I said, when I moved to North Carolina in 2010, I lived close to my sisters, um, for a little bit, but, um, most, neither of us have really lived. That close to family, you know, in, in the same town as family.
+
+Brenton:
+[1:45:03] As adults, especially being as close with family as you guys are.
+
+Tim:
+[1:45:08] Yeah. And, and with kids, like our kids have not grown up, um, like spending time family. Now they have a cousin who's a mile away, which is like a whole new experience to us. Uh, so we're hoping to lean into that and really make the most of it and, uh, you know, do stuff with them. Maggie and I are currently, if you have any opinions to weigh in on this, Maggie wants us to find a new hobby that she and I can do together in the evenings when the kids are in bed. So we are...
+
+Brenton:
+[1:45:39] I was going to say board games, but we know where that's going to go. Yeah.
+
+Tim:
+[1:45:43] Not a board game player. Our off and on activity has been playing Cat Quest on the Switch.
+
+Brenton:
+[1:45:50] Okay. uh there's a there's a um a studio that makes exclusively two-player games that's a lot of fun the most recent one was called split fiction which was really good i really enjoyed that and then they have like a another one that's called uh it takes two i think which is like a relationship sort of game a lot about it it's it's really good i would recommend that in terms of like video games i don't know if it's on the switch though it is yeah my.
+
+Tim:
+[1:46:15] Buddy's been playing with his wife.
+
+Brenton:
+[1:46:17] Yeah that one and then the most recent one is split fiction which is more like your platformer puzzly kind of thing but okay it's just it does things in such a neat way uh it's a lot of fun, And then, I don't know, painting. I like painting quite a bit, you know, but trying to make sure you're constrained with how much you're trying to do in a given time. So, you know, I get these like four by six kind of little canvas blocks or whatever and just leave it to a small area and try and do something.
+
+Tim:
+[1:46:45] My sister-in-law who lives a mile from us is a very successful professional painter.
+
+Brenton:
+[1:46:52] Well, don't invite them.
+
+Tim:
+[1:46:54] Yeah.
+
+Brenton:
+[1:46:56] You know or get tips and then don't tell maggie and then you can show them off, i like.
+
+Tim:
+[1:47:03] The idea of kind of foraying into something i don't have a lot of ability yeah.
+
+Brenton:
+[1:47:08] We did like um pottery for a while that's not something you can do really readily at home without some investment uh but we did like a pottery class and uh did that for like eight weeks or whatever and then we you know rented studio space and did that for quite a while It was a lot of fun.
+
+Tim:
+[1:47:22] At the place I did woodworking, we took one pottery class before we had kids. That was really enjoyable.
+
+Brenton:
+[1:47:28] Yeah. Yeah. Anything like making or going through that creative process together is always fun.
+
+Tim:
+[1:47:34] Yeah. Yeah. We've just spent like the past eight years, basically, since we've been having kids have been a very intense time of our life and we're not planning to have more. And just like, okay, now we have like a sort of a clean slate. What kind of things can we? We also have a big basement now, which is awesome. I have space to do stuff.
+
+Brenton:
+[1:47:51] For the board game collection.
+
+Tim:
+[1:47:53] Yeah, you know me. Unfortunately, my kids are enjoying games. Unfortunately. I'm not going to get into that. All Maggie's family here loves games too, so... Might have to...
+
+Brenton:
+[1:48:06] I'll have the podcast part two. I'll have to get some more understanding of your perspective there.
+
+Tim:
+[1:48:14] Part of it is I'm not competitive.
+
+Brenton:
+[1:48:17] Okay, that makes sense.
+
+Tim:
+[1:48:18] Part of it is I... I well something we haven't really talked about like i really do love to make stuff like i loved word working uh i'm really one of my main hobbies now is like making websites like putting stuff online so like i i do the my current big project is the python developer tooling handbook yeah um but you know i have a whole bunch of different websites you you uh mentioned the should i get a phd website um the basketball.
+
+Brenton:
+[1:48:47] Thing or is that is that just a chain of like tweets.
+
+Tim:
+[1:48:50] Yeah it was a twitter and instagram account although it's a i've tried to turn it into a website i need to use now that i have uh access to clog code i need to get that one back going but um my do you play ball site um and then i do like some like like uh history uh religious history related stuff like i'm talking about um and i i really love making things and actually that even in uh in loving to read that's actually attention for me and my hobbies like i just find it reading is like your, you're not making anything um and i when i get to sit down and do something i love to just tinker like a website is like an a common outlet for that and even photography i think for me is also like you're making something right you're your photographers an expression yeah yeah photographers talk about making an image right and i i really do think that's true like not just in the way you capture it and how you decide to capture it and then how you choose to edit it and like and even And choosing what images you show versus which ones you delete is part of the making process.
+
+Brenton:
+[1:49:53] People delete pictures now?
+
+Tim:
+[1:49:55] I delete a lot. Quite a bit. So, uh...
+
+Brenton:
+[1:50:01] It sounds like one thing that might be, not necessarily missing, but to add some variety would be the tangible kind of creation, you know? Something that's not on the computer, like the woodworking sort of analogy, I guess, or analogous thing.
+
+Tim:
+[1:50:17] I also like to knit. Do you know about me knitting?
+
+Brenton:
+[1:50:19] I do know about you knitting. I forgot to bring that up, too. But, yeah.
+
+Tim:
+[1:50:22] That's something Maggie and I do.
+
+Brenton:
+[1:50:23] We talked about that.
+
+Tim:
+[1:50:24] Yeah, she and I do sometimes together. She crochets.
+
+Brenton:
+[1:50:26] Mm-hmm.
+
+Tim:
+[1:50:28] And I knit as a hobby. We do that and watch movies or something.
+
+Brenton:
+[1:50:33] And your rocking chairs.
+
+Tim:
+[1:50:35] Yeah. I wish I had a rocking chair.
+
+Brenton:
+[1:50:37] I know someone who's making a rocking chair.
+
+Tim:
+[1:50:40] Oh, yeah? A mutual friend of ours? My boys are actually trying to teach them how to crochet right now, which is fun that's cool um but that's another thing knitting is very slow way to make things but um that's something i i started back in college 20 years ago um and i i picked up again recently you're.
+
+Brenton:
+[1:50:59] Gonna need it for all the cold weather.
+
+Tim:
+[1:51:00] Yeah it has been unbelievably cold here it was six below fahrenheit this morning when i woke up and it's now it's 10 p.m it is four below so or no four above zero it has been so cold for the two weeks i've been here man here's a hat that i knit i never actually really finished but.
+
+Brenton:
+[1:51:20] It's really nice.
+
+Tim:
+[1:51:23] I'm actually a very good knitter. People get intimidated when they see.
+
+Brenton:
+[1:51:28] You could do that. You can go to the knitting circle. Jolene's been eyeing one at the local store to go. Try and encourage her to go.
+
+Tim:
+[1:51:35] It's all ladies, but it's fun. An interesting thing about knitting is knitting patterns are written in a really abstract way. If you're used to programming and math, they're very unintimidating to read. And they're not all it is is concise like it's not even like complicated logic or something it's just really concise um so they can put it on one page um but i think that's why people, like the actual mechanics of complicated things aren't usually that hard it's just are you willing to be patient with the abstract stuff which is like no brainer to me um so there's.
+
+Brenton:
+[1:52:16] Also like the gm like geometry aspect of that too in terms of like crochet uh i think there's like a I'm trying to remember, I can't remember, but.
+
+Tim:
+[1:52:29] Like knitting is like less geometric in the sense that when you're knitting, you basically only, you only are in like one dimension ever at a time and crochet like is sort of more dimensional because you're, it's like less free, but knitting is so constrained that if you can understand the abstraction, it's only like a very, a very like limited scope at any.
+
+Brenton:
+[1:52:57] Given time.
+
+Tim:
+[1:52:58] Because you're like in one.
+
+Brenton:
+[1:52:59] Place and.
+
+Tim:
+[1:53:00] You can't be in other places within i mean there's some exceptions to that um.
+
+Brenton:
+[1:53:05] The other thing that's neat about like crochet too is there's no machine that can crochet yeah so every crochet piece you find somewhere in a store whatever that's been like handmade yeah you know and there's something special there i think yeah but that's what jolene points that out to me all the time no that's cool and she picked up knitting too so she's been doing a lot of that.
+
+Tim:
+[1:53:27] I mean, you can machine knit, too, but to get really intricate stuff, usually you can't machine knit it as well.
+
+Brenton:
+[1:53:33] You like the Ferro Isle stuff where you make the pictures and things.
+
+Tim:
+[1:53:36] Yeah, I enjoy Ferro Isle as well.
+
+Brenton:
+[1:53:38] Or the pixel art sort of stuff.
+
+Tim:
+[1:53:39] Yeah, it's very fun.
+
+Brenton:
+[1:53:41] All right. Hey, buddy. It's been lovely to talk to you. It's been a while.
+
+Tim:
+[1:53:48] Do you feel like you know me better?
+
+Brenton:
+[1:53:49] I feel like I know you better. I feel like there are things we can still talk about. Like i'd like to talk more you know philosophy theology those types of things i think would be a fun conversation to have um so you know if this thing gets like 10 000 likes or something like that we can do that part two sounds good uh where can people find you uh you have anything you want to plug yeah.
+
+Tim:
+[1:54:11] Uh i mean this podcast.
+
+Brenton:
+[1:54:12] Is at tdhopper.com.
+
+Tim:
+[1:54:14] Which is my main website and that links to most of my stuff uh i i'm td hopper on twitter slash x uh instagram um you can email me tim at td hopper.com td hopper is kind of my uh my middle name is david so that's kind of my online identity but uh linkedin i don't usually accept linkedin requests from people who i don't know so if you request i might reject you but i'll be glad to have someone i don't know listen to the podcast so you should let me know.
+
+Brenton:
+[1:54:45] Alright well you know send my love to Maggie and the kids.
+
+Tim:
+[1:54:49] Appreciate spending.
+
+Brenton:
+[1:54:51] More time with you so it's been nice.
+
+Tim:
+[1:54:52] Yeah thanks Brandon thank you bye.
+
