@@ -1,9 +1,9 @@
 ---
-title: Getting to Know Tim Hopper with Brenton Mallon
+title: Getting to Know Tim Hopper with Brenton Mallen
 date: 2026-02-02
-description: >
-  In a role reversal, my friend and former colleague Brenton Mallon interviews me about my life,
-  from growing up in West Virginia to my winding path through grad school, data science, and beyond.
+description: In a role reversal, my friend and former colleague Brenton Mallen
+  interviews me about my life, from growing up in West Virginia to my winding
+  path through grad school, data science, and beyond.
 categories:
   - Podcast
 image: /images/robot-assistant.png
@@ -15,7 +15,7 @@ image: /images/robot-assistant.png
 
 ## Links
 
-- [Brenton Mallon on LinkedIn](https://www.linkedin.com/in/brentonmallon/)
+- [Brenton Mallen on LinkedIn](https://www.linkedin.com/in/brentonmallen/)
 - [Tim Hopper's website](https://tdhopper.com)
 - [Should I Get a PhD?](https://shouldigetaphd.com)
 - [Python Developer Tooling Handbook](https://pydevtools.com)
@@ -38,13 +38,13 @@ image: /images/robot-assistant.png
 
 ## Summary
 
-In this special episode of *Into the Hopper*, the tables are turned as my friend and former colleague Brenton Mallon interviews me. We worked together at two different companies over the years, and Brenton realized that despite knowing me for over a decade, he didn't really know the full Tim Hopper story.
+In this special episode of *Into the Hopper*, the tables are turned as my friend and former colleague Brenton Mallen interviews me. We worked together at two different companies over the years, and Brenton realized that despite knowing me for over a decade, he didn't really know the full Tim Hopper story.
 
 We cover a lot of ground: growing up in southern West Virginia, my winding educational path through physics, computer science, and math, my time working at a children's home in Tennessee, two PhD programs I started but didn't finish, how I stumbled into data science through Twitter and grad school, meeting my wife Maggie, becoming a parent to four kids, hobbies like woodworking, photography, and knitting, and our recent move to Indiana to be closer to family. We also discuss the impact of AI on education and what it means for raising kids in this rapidly changing world.
 
 ## Transcript
 
-**Brenton:** So we don't waste it—take one! Hi, welcome to Into the Hopper. I'm Brenton Mallon, and I'm here with my special guest, Tim Hopper. Thanks for having me.
+**Brenton:** So we don't waste it—take one! Hi, welcome to Into the Hopper. I'm Brenton Mallen, and I'm here with my special guest, Tim Hopper. Thanks for having me.
 
 **Tim:** Thanks for having me.
 
