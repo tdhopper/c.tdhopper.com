@@ -990,10 +990,8 @@ You can machine knit too, but to get really intricate stuff, usually you can't m
 
 Where can people find you? Do you have anything you want to plug?
 
-**Tim:** I mean, this podcast is at **tdhopper.com**, which is my main website, and that links to most of my stuff. I'm **tdhopper** on Twitter/X and Instagram. You can email me at tim@tdhopper.com. "TD Hopper" is kind of my online identity—my middle name is David.
+**Tim:** I mean, this podcast is at [podcast.tdhopper.com](https://podcast.tdhopper.com), which is my main website, and that links to most of my stuff. I'm [tdhopper](https://x.com/tdhopper) on Twitter/X and Instagram. "tdhopper" is kind of my online identity;.
 
-LinkedIn—I don't usually accept LinkedIn requests from people I don't know. So if you request, I might reject you. But I'll be glad to have someone I don't know listen to the podcast. You should let me know.
-
-**Brenton:** All right, well send my love to Maggie and the kids. It's been nice spending more time with you.
+**Brenton:** All right, well, send my love to Maggie and the kids. It's been nice spending more time with you.
 
 **Tim:** Yeah, thanks Brenton. Thank you. Bye.
