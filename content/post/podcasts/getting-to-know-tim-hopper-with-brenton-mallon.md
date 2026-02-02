@@ -7,6 +7,8 @@ description: In a role reversal, my friend and former colleague Brenton Mallen
 categories:
   - Podcast
 image: /images/robot-assistant.png
+aliases:
+  - /blog/getting-to-know-tim-hopper-with-brenton-mallen/
 ---
 
 ## Listen
