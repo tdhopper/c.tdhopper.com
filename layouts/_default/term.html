@@ -45,8 +45,10 @@
     </header>
 
     {{- with .Content -}}
-        <article class="article-content">
-            {{ . }}
+        <article class="main-article">
+            <section class="article-content">
+                {{ . }}
+            </section>
         </article>
     {{- end -}}
 
