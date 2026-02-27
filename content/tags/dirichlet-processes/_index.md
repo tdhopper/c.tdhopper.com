@@ -1,7 +1,7 @@
 ---
 title: "Dirichlet Processes"
 description: "Notes on Dirichlet processes, hierarchical Dirichlet processes, and nonparametric Bayesian methods."
-image: /projects/dirichlet.png
+image: /images/dirichlet-processes-tag-mr-men.png
 ---
 
 I taught myself Dirichlet processes and Hierarchical DPs in the spring of 2015 in order to understand nonparametric Bayesian models and related inference algorithms. I wrote a bunch of code and took a bunch of notes that I published here for the benefit of others trying to learn this material. I also contributed an implementation of [Nonparametric Latent Dirichlet Allocation](https://github.com/datamicroscopes/lda) to the [data microscopes](http://datamicroscopes.github.io) project.
