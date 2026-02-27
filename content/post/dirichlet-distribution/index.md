@@ -6,7 +6,7 @@ math: true
 categories:
   - Article
 tags:
-  - bayesian-statistics
+
   - dirichlet-processes
   - python
 description: "A quick review of the Dirichlet distribution and an introduction to the Dirichlet process by analogy with the Dirichlet distribution."

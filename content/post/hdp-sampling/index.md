@@ -6,7 +6,7 @@ math: true
 categories:
   - Article
 tags:
-  - bayesian-statistics
+
   - dirichlet-processes
   - python
 description: "Code demonstrating how you can sample from a hierarchical Dirichlet process without generating an infinite number of parameters first."

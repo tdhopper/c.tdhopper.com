@@ -6,7 +6,7 @@ math: true
 categories:
   - Article
 tags:
-  - bayesian-statistics
+
   - dirichlet-processes
   - python
 description: "Applying nonparametric latent Dirichlet allocation to discover topics in Econtalk podcast transcripts using a hierarchical Dirichlet process."

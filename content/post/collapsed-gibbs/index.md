@@ -6,7 +6,7 @@ math: true
 categories:
   - Article
 tags:
-  - bayesian-statistics
+
   - dirichlet-processes
   - python
 description: "Derivation of a collapsed Gibbs sampler for a finite mixture model with a uniform Dirichlet prior, and extension to the Dirichlet Process Mixture Model."

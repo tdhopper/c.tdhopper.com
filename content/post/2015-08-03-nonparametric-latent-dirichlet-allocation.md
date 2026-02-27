@@ -6,7 +6,7 @@ math: true
 categories:
   - Article
 tags:
-  - bayesian-statistics
+
   - dirichlet-processes
   - python
 description: "An alternative view of latent Dirichlet allocation using a Dirichlet process, and a demonstration of how it can be easily extended to a nonparametric model using a hierarchical Dirichlet process."

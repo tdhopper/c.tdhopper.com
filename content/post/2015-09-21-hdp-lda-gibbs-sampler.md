@@ -6,7 +6,7 @@ math: true
 categories:
   - Article
 tags:
-  - bayesian-statistics
+
   - dirichlet-processes
   - python
 description: "Notes on applying the equations from the Hierarchical Dirichlet Process paper to nonparametric Latent Dirichlet Allocation."

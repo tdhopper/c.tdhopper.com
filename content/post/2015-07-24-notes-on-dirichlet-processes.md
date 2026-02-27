@@ -11,7 +11,7 @@ Thumbnail: /projects/dirichlet.png
 Portfolio: true
 tags:
   - python
-  - bayesian-statistics
+
   - dirichlet-processes
 ---
 
