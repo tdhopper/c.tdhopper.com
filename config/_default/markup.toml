@@ -6,7 +6,7 @@ unsafe = true
 enable = true
 
 [goldmark.extensions.passthrough.delimiters]
-block = [['$$', '$$'], ['\[', '\]'], ['\begin{equation}', '\end{equation}'], ['\begin{align}', '\end{align}']]
+block = [['$$', '$$'], ['\[', '\]'], ['\begin{equation}', '\end{equation}'], ['\begin{align}', '\end{align}'], ['\begin{align*}', '\end{align*}'], ['\begin{aligned}', '\end{aligned}'], ['\begin{gather}', '\end{gather}'], ['\begin{gather*}', '\end{gather*}']]
 inline = [['$', '$'], ['\(', '\)']]
 
 [tableOfContents]
