@@ -10,6 +10,7 @@ tags:
   - dirichlet-processes
   - python
 description: "Applying nonparametric latent Dirichlet allocation to discover topics in Econtalk podcast transcripts using a hierarchical Dirichlet process."
+image: /images/econtalk-topics-mr-men.png
 ---
 
 *The interactive visualizations in this analysis require a live notebook. [View the original notebook on NBViewer](http://nbviewer.ipython.org/github/tdhopper/notes-on-dirichlet-processes/blob/master/2015-10-07-econtalk-topics.ipynb) for the full interactive experience, including the pyLDAvis topic visualization.*

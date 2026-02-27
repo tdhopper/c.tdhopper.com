@@ -10,6 +10,7 @@ tags:
   - dirichlet-processes
   - python
 description: "Code demonstrating how you can sample from a hierarchical Dirichlet process without generating an infinite number of parameters first."
+image: /images/hdp-sampling-mr-men.png
 ---
 
 [As we saw earlier](/blog/dirichlet-distribution/) the Dirichlet process describes the _distribution_ of a random probability distribution. The Dirichlet process takes two parameters: a base distribution $H_0$ and a dispersion parameter $\alpha$. A sample from the Dirichlet process is itself a probability distribution that _looks like_ $H_0$. On average, the larger $\alpha$ is, the closer a sample from $\text{DP}(\alpha H_0)$ will be to $H_0$.

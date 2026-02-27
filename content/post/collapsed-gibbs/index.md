@@ -10,6 +10,7 @@ tags:
   - dirichlet-processes
   - python
 description: "Derivation of a collapsed Gibbs sampler for a finite mixture model with a uniform Dirichlet prior, and extension to the Dirichlet Process Mixture Model."
+image: /images/collapsed-gibbs-mr-men.png
 ---
 
 [In an earlier notebook](/blog/mixture-model/), I showed how we can fit the parameters of a Bayesian mixture model using a Gibbs sampler. The sampler defines a Markov chain that, in steady state, samples from the posterior distribution of the mixture model. To move the chain forward by one step we:

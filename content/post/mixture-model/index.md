@@ -10,6 +10,7 @@ tags:
   - dirichlet-processes
   - python
 description: "Derivation of a full Gibbs sampler for a finite mixture model with a uniform Dirichlet prior, as a step toward the Dirichlet Process Mixture Model."
+image: /images/mixture-model-mr-men.png
 ---
 
 ```python
