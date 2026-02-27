@@ -21,11 +21,7 @@ The posts below are best read in this order:
 8. [Nomenclature of Dirichlet Processes](/blog/nomenclature/): A discussion of the confusing use of the term "Dirichlet process" in the literature.
 9. [Sample from Antoniak Distribution with Python](/blog/antoniak/): Code for drawing samples from the distribution of tables created by a Chinese restaurant process after `n` patrons are seated.
 
-## Other Resources
-
-* [A collection of links to resources I've found valuable](https://pinboard.in/u:tdhopper/t:%2540Bayes/)
-
-### HDP-LDA Implementations
+## HDP-LDA Implementations
 
 * [Gregor Heinrich's ILDA](http://www.arbylon.net/publications/ilda.pdf): A Java-based implementation of the "Posterior Assignment by Direct Sampling" MCMC algorithm from Teh et al (2005). Includes hyperparameter sampling.
 * [Shuyo's Implementation](https://github.com/shuyo/iir/blob/master/lda/hdplda2.py): Pure Python implementation of "Posterior sampling in the Chinese restaurant franchise" MCMC algorithm. Doesn't include hyperparameter sampling.
