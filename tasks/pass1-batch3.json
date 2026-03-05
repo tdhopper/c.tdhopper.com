@@ -1,0 +1,367 @@
+{
+  "content/post/2017-01-24-your-old-tweets-from-this-day.md": {
+    "title": "Your Old Tweets from This Day",
+    "current_tags": ["Twitter"],
+    "proposed_tags": ["twitter", "aws-lambda", "side-projects"]
+  },
+  "content/post/2017-02-21-logistic-regression-rules-everything-around-me.md": {
+    "title": "Logistic Regression Rules Everything Around Me",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "ab-testing", "career-lessons"]
+  },
+  "content/post/2017-04-13-towards-reducing-distractions-while-working.md": {
+    "title": "Towards Reducing Distractions while Working",
+    "current_tags": [],
+    "proposed_tags": ["productivity", "remote-work", "focus"]
+  },
+  "content/post/2017-04-14-metawork-is-more-interesting-than-work.md": {
+    "title": "Metawork is more interesting than work",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "simplicity", "software-architecture"]
+  },
+  "content/post/2017-04-26-like-most-great-mathematicians,-he-expects-universal-precision.md": {
+    "title": "Like most great mathematicians, he expects universal precision",
+    "current_tags": [],
+    "proposed_tags": ["mathematics", "communication"]
+  },
+  "content/post/2017-05-22-adversarial-learning:-stories-of-degradation-and-humiliation.md": {
+    "title": "Adversarial Learning: Stories of Degradation and Humiliation",
+    "current_tags": ["Interview with me"],
+    "proposed_tags": ["data-science", "interviewing", "career"]
+  },
+  "content/post/2017-05-26-choice-of-hte-name-dynamic-programming.md": {
+    "title": "Choice of the Name Dynamic Programming",
+    "current_tags": [],
+    "proposed_tags": ["mathematics", "history-of-computing", "operations-research"]
+  },
+  "content/post/2017-06-06-condahttperror:-http-401-unauthorized-for-url.md": {
+    "title": "CondaHTTPError: HTTP 401 UNAUTHORIZED for url",
+    "current_tags": [],
+    "proposed_tags": ["python", "conda", "debugging"]
+  },
+  "content/post/2017-06-07-parallelizing-a-python-function-for-the-extremely-lazy.md": {
+    "title": "Parallelizing a Python Function for the Extremely Lazy",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "parallel-computing", "command-line"]
+  },
+  "content/post/2017-06-26-python-plotting-for-exploratory-data-analysis.md": {
+    "title": "Python Plotting for Exploratory Data Analysis",
+    "current_tags": ["Python", "pandas"],
+    "proposed_tags": ["python", "data-visualization", "exploratory-data-analysis", "side-projects"]
+  },
+  "content/post/2017-10-16-neal-ford-on-companies-ignoring-developer-costs.md": {
+    "title": "Neal Ford on Companies Ignoring Developer Costs",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "developer-experience", "tech-management"]
+  },
+  "content/post/2018-02-13-kahneman.md": {
+    "title": "Optimism is essential to scientific success",
+    "current_tags": [],
+    "proposed_tags": ["science", "psychology", "career"]
+  },
+  "content/post/2018-05-22-ds-at-work.md": {
+    "title": "I Basically Can't Hire People Who Don't Know Git",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "software-engineering", "hiring", "git"]
+  },
+  "content/post/2018-05-29-babbage.md": {
+    "title": "Wrong Figures, Right Answers?",
+    "current_tags": [],
+    "proposed_tags": ["history-of-computing", "software-engineering"]
+  },
+  "content/post/2019-02-13-ipython-from-pdb.md": {
+    "title": "Access a IPython repl from pdb",
+    "current_tags": [],
+    "proposed_tags": ["python", "debugging", "ipython"]
+  },
+  "content/post/2019-05-30-installing-python-on-mohave.md": {
+    "title": "Installing Python on Mohave with pyenv",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "macos", "python-environments"]
+  },
+  "content/post/a-builder-of-systems-a-path-to-unveil.md": {
+    "title": "A builder of systems, a path to unveil",
+    "current_tags": [],
+    "proposed_tags": ["career", "machine-learning", "ai"]
+  },
+  "content/post/accessing-my-home-server-around-the-world-with-custom-domain-names.md": {
+    "title": "Accessing my home server around the world with custom domain names",
+    "current_tags": [],
+    "proposed_tags": ["homelab", "networking", "self-hosting", "tailscale"]
+  },
+  "content/post/ai-interpretation-of-tdhopper-com.md": {
+    "title": "AI interpretation of tdhopper.com",
+    "current_tags": [],
+    "proposed_tags": ["ai", "writing", "blogging"]
+  },
+  "content/post/an-infosec-limerick.md": {
+    "title": "An Infosec Limerick",
+    "current_tags": [],
+    "proposed_tags": ["security", "aws"]
+  },
+  "content/post/announcing-the-python-developer-tooling-handbook.md": {
+    "title": "Announcing the Python Developer Tooling Handbook",
+    "current_tags": ["python"],
+    "proposed_tags": ["python", "developer-tooling", "side-projects"]
+  },
+  "content/post/automating-python-with-ansible.md": {
+    "title": "Automating Python with Ansible",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "ansible", "automation", "devops"]
+  },
+  "content/post/bandits.md": {
+    "title": "Bandit Algorithms for Website Optimization",
+    "current_tags": ["math"],
+    "proposed_tags": ["machine-learning", "bandit-algorithms", "statistics"]
+  },
+  "content/post/build-for-the-model-six-months-from-now.md": {
+    "title": "Build for the Model Six Months from Now",
+    "current_tags": ["AI", "Software Engineering"],
+    "proposed_tags": ["ai", "software-engineering", "llms", "product-development"]
+  },
+  "content/post/classes-future-programmers-should-take.md": {
+    "title": "Classes Future Programmers Should Take",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "education", "computer-science"]
+  },
+  "content/post/code-review-guidelines.md": {
+    "title": "Code Review Guidelines for Data Science Teams",
+    "current_tags": ["python"],
+    "proposed_tags": ["code-review", "software-engineering", "data-science", "team-practices"]
+  },
+  "content/post/column-binding-two-pandas-dataframes.md": {
+    "title": "Column binding two Panda's Dataframes",
+    "current_tags": ["Python", "pandas"],
+    "proposed_tags": ["python", "pandas"]
+  },
+  "content/post/cross-entropy-and-kl-divergence.md": {
+    "title": "Cross Entropy and KL Divergence",
+    "current_tags": ["math"],
+    "proposed_tags": ["information-theory", "mathematics", "probability"]
+  },
+  "content/post/data-scientists-need-more-automation.md": {
+    "title": "Data Scientists Need More Automation",
+    "current_tags": ["Python"],
+    "proposed_tags": ["data-science", "automation", "devops", "python"]
+  },
+  "content/post/econtalk.md": {
+    "title": "Econtalk",
+    "current_tags": [],
+    "proposed_tags": ["economics", "podcasts"]
+  },
+  "content/post/entropy-of-a-discrete-probability-distribution.md": {
+    "title": "Entropy of a Discrete Probability Distribution",
+    "current_tags": ["math"],
+    "proposed_tags": ["information-theory", "mathematics", "probability"]
+  },
+  "content/post/faq.md": {
+    "title": "A Subjective and Anecdotal FAQ on Becoming a Data Scientist",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "career", "education"]
+  },
+  "content/post/filter-by-date-in-a-pandas-multiindex.md": {
+    "title": "Filter by date in a Pandas MultiIndex",
+    "current_tags": ["python", "pandas"],
+    "proposed_tags": ["python", "pandas"]
+  },
+  "content/post/george-washington-inbox-zero.md": {
+    "title": "George Washington's Struggle for Inbox Zero",
+    "current_tags": [],
+    "proposed_tags": ["productivity", "history"]
+  },
+  "content/post/good-programming-languages-are-nice-but-not-vital.md": {
+    "title": "Good programming languages are nice but not vital",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "programming-languages", "software-engineering"]
+  },
+  "content/post/goodnight-zoom.md": {
+    "title": "Goodnight Zoom",
+    "current_tags": [],
+    "proposed_tags": ["remote-work", "software-engineering"]
+  },
+  "content/post/how-developers-are-using-llms.md": {
+    "title": "How Developers are Using LLMs",
+    "current_tags": [],
+    "proposed_tags": ["ai", "llms", "software-engineering", "ai-assisted-development"]
+  },
+  "content/post/how-i-am-productive.md": {
+    "title": "How I am Productive",
+    "current_tags": [],
+    "proposed_tags": ["productivity", "tools", "getting-things-done"]
+  },
+  "content/post/how-i-became-a-data-scientist.md": {
+    "title": "How I Became a Data Scientist Despite Having Been a Math Major",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "career", "mathematics", "education"]
+  },
+  "content/post/how-im-using-ai-end-of-2025.md": {
+    "title": "How I'm Using AI at the End of 2025",
+    "current_tags": ["ai"],
+    "proposed_tags": ["ai", "llms", "ai-assisted-development", "tools"]
+  },
+  "content/post/i-like-notebooks-a-response-to-joel-grus.md": {
+    "title": "\"I Like Notebooks\": a response to Joel Grus",
+    "current_tags": [],
+    "proposed_tags": ["jupyter", "python", "data-science"]
+  },
+  "content/post/interview-with-the-pybites-podcast.md": {
+    "title": "Interview with the Pybites podcast",
+    "current_tags": ["Interview With Me"],
+    "proposed_tags": ["python", "developer-tooling", "career"]
+  },
+  "content/post/learning-python.md": {
+    "title": "The Programming Book That Made My Career",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "career", "learning"]
+  },
+  "content/post/lessons-from-developing-a-machine-learning-feature-platform.md": {
+    "title": "Lessons from Developing a Machine Learning Feature Platform",
+    "current_tags": [],
+    "proposed_tags": ["machine-learning", "ml-engineering", "data-engineering", "feature-stores"]
+  },
+  "content/post/lessons-using-claude-code-effectively.md": {
+    "title": "Lessons from Using Claude Code Effectively",
+    "current_tags": [],
+    "proposed_tags": ["ai", "ai-assisted-development", "llms", "developer-tooling"]
+  },
+  "content/post/lspi.md": {
+    "title": "Notes on the Derivation of Least Squares Policy Iteration",
+    "current_tags": ["math"],
+    "proposed_tags": ["reinforcement-learning", "machine-learning", "mathematics"]
+  },
+  "content/post/mentions-of-john-cook-on-github.md": {
+    "title": "Mentions of John Cook on Github",
+    "current_tags": [],
+    "proposed_tags": ["open-source", "blogging", "mathematics"]
+  },
+  "content/post/my-first-strongman-competition.md": {
+    "title": "My first strongman competition",
+    "current_tags": [],
+    "proposed_tags": ["fitness", "strongman"]
+  },
+  "content/post/my-python-environment-workflow-with-conda.md": {
+    "title": "My Python Environment Workflow with Conda",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "conda", "python-environments", "developer-tooling"]
+  },
+  "content/post/my-summer-doing-math-research.md": {
+    "title": "My summer doing math (?) research",
+    "current_tags": [],
+    "proposed_tags": ["mathematics", "graph-theory", "career", "programming"]
+  },
+  "content/post/naive-bayes.md": {
+    "title": "Naive Bayes Meme",
+    "current_tags": [],
+    "proposed_tags": ["machine-learning", "statistics"]
+  },
+  "content/post/nature-article-open-source.md": {
+    "title": "My Tweet in Nature",
+    "current_tags": [],
+    "proposed_tags": ["open-source", "twitter"]
+  },
+  "content/post/no-silver-bullet.md": {
+    "title": "No Silver Bullet",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "software-complexity", "book-review"]
+  },
+  "content/post/on-inspiration.md": {
+    "title": "On Inspiration",
+    "current_tags": [],
+    "proposed_tags": ["creativity", "productivity"]
+  },
+  "content/post/on-ramsey-numbers-for-quadrilaterals-in-3-and-4-colors.md": {
+    "title": "On Ramsey Numbers for Quadrilaterals in 3 and 4 Colors.",
+    "current_tags": ["math"],
+    "proposed_tags": ["mathematics", "graph-theory", "combinatorics"]
+  },
+  "content/post/organizing-research-data-with-intake.md": {
+    "title": "Organizing research data with Intake",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "data-engineering", "data-science", "aws"]
+  },
+  "content/post/philosophy-tweets.md": {
+    "title": "Stanford Encyclopedia of Philosophy Bot",
+    "current_tags": ["twitter"],
+    "proposed_tags": ["twitter", "side-projects", "philosophy"]
+  },
+  "content/post/photography.md": {
+    "title": "dothopper photography",
+    "current_tags": ["Photography"],
+    "proposed_tags": ["photography", "side-projects"]
+  },
+  "content/post/printing-pandas-data-frames-as-html-in-jupyter-notebooks.md": {
+    "title": "Printing Pandas Data Frames as HTML in Jupyter Notebooks",
+    "current_tags": ["Python", "pandas"],
+    "proposed_tags": ["python", "pandas", "jupyter"]
+  },
+  "content/post/problem-of-programming.md": {
+    "title": "Problem of Programming",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "history-of-computing"]
+  },
+  "content/post/querying-data-on-s3-with-amazon-athena.md": {
+    "title": "Querying data on S3 with Amazon Athena",
+    "current_tags": [],
+    "proposed_tags": ["aws", "sql", "data-engineering"]
+  },
+  "content/post/redis.md": {
+    "title": "Pickle and Redis",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "redis", "data-persistence"]
+  },
+  "content/post/safety-first.md": {
+    "title": "Safety first?",
+    "current_tags": [],
+    "proposed_tags": ["risk-taking", "philosophy"]
+  },
+  "content/post/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs.md": {
+    "title": "Some Reflections on Being Turned Down for a Lot of Data Science Jobs",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "career", "interviewing", "job-search"]
+  },
+  "content/post/tallest-data-scientist.md": {
+    "title": "Tallest Data Scientist",
+    "current_tags": ["Interview with me"],
+    "proposed_tags": ["data-science", "career"]
+  },
+  "content/post/ten-year-endeavor.md": {
+    "title": "John Cook's Ten Year Blogging Endeavour",
+    "current_tags": [],
+    "proposed_tags": ["blogging", "mathematics", "software-engineering"]
+  },
+  "content/post/testing-whether-a-python-string-contains-an-integer.md": {
+    "title": "Testing whether a Python string contains an integer",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python"]
+  },
+  "content/post/the-perils-of-thinkism.md": {
+    "title": "The perils of thinkism",
+    "current_tags": [],
+    "proposed_tags": ["learning", "creativity"]
+  },
+  "content/post/tips-for-working-from-home.md": {
+    "title": "Tips for Working from Home",
+    "current_tags": [],
+    "proposed_tags": ["remote-work", "software-engineering"]
+  },
+  "content/post/tweets-in-the-news.md": {
+    "title": "My Tweet in BBC News",
+    "current_tags": [],
+    "proposed_tags": ["twitter"]
+  },
+  "content/post/web-development-and-design-for-the-backend-developer.md": {
+    "title": "Web Development and Design for the Backend Developer",
+    "current_tags": [],
+    "proposed_tags": ["web-development", "javascript", "css", "learning"]
+  },
+  "content/post/welcome-page.md": {
+    "title": "Hey, I'm Tim Hopper!",
+    "current_tags": [],
+    "proposed_tags": ["career", "python", "machine-learning"]
+  },
+  "content/post/zen-of-git.md": {
+    "title": "Zen of Git",
+    "current_tags": [],
+    "proposed_tags": ["git", "python"]
+  }
+}

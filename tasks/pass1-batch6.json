@@ -1,0 +1,37 @@
+{
+  "content/post/collapsed-gibbs/index.md": {
+    "title": "Collapsed Gibbs Sampling for Bayesian Mixture Models (with a Nonparametric Extension)",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["gibbs-sampling", "bayesian-inference", "mixture-models", "dirichlet-processes", "python"]
+  },
+  "content/post/dirichlet-distribution/index.md": {
+    "title": "Dirichlet Distribution and Dirichlet Processes",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["dirichlet-processes", "bayesian-nonparametrics", "probability-distributions", "python"]
+  },
+  "content/post/filter-by-date-in-a-pandas-multiindex.md": {
+    "title": "Filter by date in a Pandas MultiIndex",
+    "current_tags": ["python", "pandas"],
+    "proposed_tags": ["pandas", "python", "dataframes"]
+  },
+  "content/post/hdp-sampling/index.md": {
+    "title": "Sampling from a Hierarchical Dirichlet Process",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["dirichlet-processes", "bayesian-nonparametrics", "stochastic-processes", "python"]
+  },
+  "content/post/mixture-model/index.md": {
+    "title": "Fitting a Mixture Model with Gibbs Sampling",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["gibbs-sampling", "bayesian-inference", "mixture-models", "python"]
+  },
+  "content/post/sonya7iii/index.md": {
+    "title": "The Sony A7 iii after 5 years",
+    "current_tags": [],
+    "proposed_tags": ["photography", "camera-gear", "sony", "parenting"]
+  },
+  "content/post/the-phd-blueprint/index.md": {
+    "title": "The Ph.D. Blueprint: Five Questions to Design Your Future",
+    "current_tags": [],
+    "proposed_tags": ["phd", "career-advice", "academia", "grad-school"]
+  }
+}

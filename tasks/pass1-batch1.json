@@ -1,0 +1,127 @@
+{
+  "content/post/2012-01-09-carrots-oatmeal-operations-research.md": {
+    "title": "Carrots, Oatmeal, Operations Research",
+    "current_tags": ["math"],
+    "proposed_tags": ["operations-research", "linear-programming", "optimization"]
+  },
+  "content/post/2012-01-16-what-do-all-or-folks-know.md": {
+    "title": "What do all operations researchers know?",
+    "current_tags": [],
+    "proposed_tags": ["operations-research", "graduate-school", "mathematics"]
+  },
+  "content/post/2012-01-25-from-nuclear-weapons-to-operations-research.md": {
+    "title": "From Nuclear Weapons to Operations Research",
+    "current_tags": [],
+    "proposed_tags": ["operations-research", "monte-carlo", "simulation", "history-of-science"]
+  },
+  "content/post/2012-01-27-the-efficient-research-hypothesis.md": {
+    "title": "The Efficient Research Hypothesis",
+    "current_tags": [],
+    "proposed_tags": ["graduate-school", "research", "productivity"]
+  },
+  "content/post/2012-02-02-mathematicians-engineers-and-businessmen-on-npc-problems.md": {
+    "title": "Mathematicians, Engineers, and Businessmen on NPC Problems",
+    "current_tags": ["math"],
+    "proposed_tags": ["computational-complexity", "integer-programming", "operations-research", "optimization"]
+  },
+  "content/post/2012-02-10-mathematica-a-love-story.md": {
+    "title": "Mathematica: A Love Story",
+    "current_tags": [],
+    "proposed_tags": ["mathematica", "operations-research", "optimization", "functional-programming"]
+  },
+  "content/post/2012-03-02-the-spelling-corrector-that-got-me-interested-in-machine-learning.md": {
+    "title": "The Spelling Corrector that Got Me Interested in Machine Learning",
+    "current_tags": [],
+    "proposed_tags": ["machine-learning", "probability", "python", "natural-language-processing"]
+  },
+  "content/post/2012-03-05-stephen-wolframs-ama.md": {
+    "title": "Stephen Wolfram's AMA",
+    "current_tags": [],
+    "proposed_tags": ["mathematica", "computational-complexity", "mathematics"]
+  },
+  "content/post/2012-04-03-operations-research-machine-learning-and-optimization.md": {
+    "title": "Operations Research, Machine Learning, and Optimization",
+    "current_tags": [],
+    "proposed_tags": ["operations-research", "machine-learning", "optimization"]
+  },
+  "content/post/2012-04-05-average-area-of-a-random-hull.md": {
+    "title": "Average Area of a Random Hull",
+    "current_tags": ["math"],
+    "proposed_tags": ["monte-carlo", "mathematica", "computational-geometry", "simulation"]
+  },
+  "content/post/2012-04-05-my-email-analytics.md": {
+    "title": "My Email Analytics",
+    "current_tags": [],
+    "proposed_tags": ["data-analysis", "quantified-self", "statistics", "mathematica"]
+  },
+  "content/post/2012-04-13-teaching-students-to-fail.md": {
+    "title": "Teaching Students to Fail",
+    "current_tags": [],
+    "proposed_tags": ["teaching", "calculus", "problem-solving"]
+  },
+  "content/post/2012-05-08-calculus-haikus-and-limericks.md": {
+    "title": "Calculus Haikus and Limericks",
+    "current_tags": [],
+    "proposed_tags": ["teaching", "calculus", "mathematics"]
+  },
+  "content/post/2012-07-12-operations-research-and-computer-programming.md": {
+    "title": "Operations Research and Computer Programming",
+    "current_tags": [],
+    "proposed_tags": ["operations-research", "software-engineering", "git", "testing"]
+  },
+  "content/post/2013-07-23 Guide to Monte Carlo Methods?.md": {
+    "title": "Guide to Monte Carlo Methods?",
+    "current_tags": [],
+    "proposed_tags": ["monte-carlo", "mcmc", "simulation", "book-recommendations"]
+  },
+  "content/post/2013-07-26 Noisy Series and Body Weight.md": {
+    "title": "Noisy Series and Body Weight",
+    "current_tags": [],
+    "proposed_tags": ["quantified-self", "time-series", "statistics", "data-analysis"]
+  },
+  "content/post/2013-10-02 The Incessant Commentary on Being Tall.md": {
+    "title": "The Incessant Commentary on Being Tall",
+    "current_tags": [],
+    "proposed_tags": ["personal"]
+  },
+  "content/post/2013-10-19 Sublime Text 2 and Markdown.md": {
+    "title": "Sublime Text and Markdown",
+    "current_tags": [],
+    "proposed_tags": ["text-editors", "markdown", "developer-tools"]
+  },
+  "content/post/2013-11-08 Tweeting Primes.md": {
+    "title": "Tweeting Primes",
+    "current_tags": ["math"],
+    "proposed_tags": ["mathematics", "number-theory", "twitter"]
+  },
+  "content/post/2013-11-28 Noisy Series and Body Weight.md": {
+    "title": "Noisy Series and Body Weight Part 2",
+    "current_tags": [],
+    "proposed_tags": ["quantified-self", "time-series", "statistics", "data-analysis"]
+  },
+  "content/post/2014-08-28 keeping-ipython-notebooks-running-in-the-background.md": {
+    "title": "Keeping IPython Notebooks Running in the Background",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "jupyter", "macos", "developer-tools"]
+  },
+  "content/post/2014-08-30-tracking-weight-loss-with-r-hazel-withings-and-ifttt.md": {
+    "title": "Tracking Weight Loss with R, Hazel, Withings, and IFTTT",
+    "current_tags": ["Python", "pandas"],
+    "proposed_tags": ["quantified-self", "r-lang", "automation", "time-series", "data-analysis"]
+  },
+  "content/post/2014-09-18-quickly-converting-python-dict-to-json.md": {
+    "title": "Quickly Converting Python Dict to JSON",
+    "current_tags": [],
+    "proposed_tags": ["python", "json", "developer-tools"]
+  },
+  "content/post/2014-10-03-pysparks-aggregatebykey-method.md": {
+    "title": "Pyspark's AggregateByKey Method",
+    "current_tags": [],
+    "proposed_tags": ["python", "spark", "big-data", "distributed-computing"]
+  },
+  "content/post/2014-12-08 Should I Do a Phd.md": {
+    "title": "Should I get a Ph.D.?",
+    "current_tags": [],
+    "proposed_tags": ["graduate-school", "career-advice", "operations-research"]
+  }
+}

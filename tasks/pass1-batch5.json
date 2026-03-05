@@ -1,0 +1,167 @@
+{
+  "content/post/podcasts/001.md": {
+    "title": "Ten Years of Data Science with Josh Wills and Oscar Boykin",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "machine-learning", "career", "data-engineering"]
+  },
+  "content/post/podcasts/002.md": {
+    "title": "Fizz Buzz Book with Joel Grus",
+    "current_tags": [],
+    "proposed_tags": ["python", "programming", "software-engineering"]
+  },
+  "content/post/podcasts/003.md": {
+    "title": "Customer Focused Data Science with Mike Rogers",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "career", "enterprise-software"]
+  },
+  "content/post/podcasts/004.md": {
+    "title": "Evolution of a Data Scientist with Adam Laiacano",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "machine-learning", "career"]
+  },
+  "content/post/podcasts/005.md": {
+    "title": "Feature Stores with Willem Pienaar",
+    "current_tags": [],
+    "proposed_tags": ["machine-learning", "feature-stores", "mlops", "data-engineering"]
+  },
+  "content/post/podcasts/006.md": {
+    "title": "Hiring Data Scientists with Roy Keyes",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "hiring", "career"]
+  },
+  "content/post/podcasts/007.md": {
+    "title": "Ocean Engineering to Data Science",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "career"]
+  },
+  "content/post/podcasts/008.md": {
+    "title": "Apache Pulsar with Jowanza Joseph",
+    "current_tags": [],
+    "proposed_tags": ["apache-pulsar", "distributed-systems", "event-streaming", "data-engineering"]
+  },
+  "content/post/podcasts/009.md": {
+    "title": "AI Assisted Programming with Ravi Mody",
+    "current_tags": [],
+    "proposed_tags": ["llm", "ai-assisted-programming", "developer-tools", "data-science"]
+  },
+  "content/post/podcasts/ai-assisted-sql-generation-with-till-doehmen.md": {
+    "title": "AI-Assisted SQL Generation with Till Döhmen",
+    "current_tags": [],
+    "proposed_tags": ["llm", "sql", "duckdb", "ai-agents", "text-to-sql"]
+  },
+  "content/post/podcasts/building-a-startup-with-ai-with-jowanza-joseph.md": {
+    "title": "Building a Startup with AI with Jowanza Joseph",
+    "current_tags": [],
+    "proposed_tags": ["llm", "ai-assisted-programming", "startups", "developer-tools"]
+  },
+  "content/post/podcasts/getting-to-know-tim-hopper-with-brenton-mallon.md": {
+    "title": "Getting to Know Tim Hopper with Brenton Mallen",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "career", "personal"]
+  },
+  "content/post/podcasts/the-evolution-of-ai-agents-with-ben-labaschin.md": {
+    "title": "The Evolution of AI Agents with Ben Labaschin",
+    "current_tags": [],
+    "proposed_tags": ["ai-agents", "llm", "developer-tools", "productivity"]
+  },
+  "content/post/podcasts/writing-a-math-textbook-with-claude-with-professor-ghrist.md": {
+    "title": "Writing a Math Textbook with Claude with Professor Ghrist",
+    "current_tags": [],
+    "proposed_tags": ["llm", "mathematics", "linear-algebra", "writing"]
+  },
+  "content/post/til/2014-09-10-shortcut-to-switch-to-previous-git-branch.md": {
+    "title": "Shortcut to Switch to Previous Git Branch",
+    "current_tags": [],
+    "proposed_tags": ["git"]
+  },
+  "content/post/til/2015-03-15-concatenate-mp3-files.md": {
+    "title": "Concatenate MP3 Files",
+    "current_tags": [],
+    "proposed_tags": ["command-line", "audio"]
+  },
+  "content/post/til/2016-03-11-galileos-conflict-was-science-vs-science.md": {
+    "title": "Galileo's Conflict was Science vs. Science",
+    "current_tags": [],
+    "proposed_tags": ["history-of-science"]
+  },
+  "content/post/til/2016-03-11-using-rbenv-for-ruby-versions.md": {
+    "title": "Using rbenv for Ruby Versions",
+    "current_tags": [],
+    "proposed_tags": ["ruby", "command-line"]
+  },
+  "content/post/til/2016-03-15-creating-impala-tables-from-pandas-dataframes.md": {
+    "title": "Creating Impala Tables from Pandas Dataframes",
+    "current_tags": ["Python", "pandas"],
+    "proposed_tags": ["python", "pandas", "impala", "data-engineering"]
+  },
+  "content/post/til/2016-03-23-impala-doesnt-have-a-histogram-function.md": {
+    "title": "Impala Doesn't Have a histogram() function",
+    "current_tags": [],
+    "proposed_tags": ["impala", "sql"]
+  },
+  "content/post/til/2016-04-26-dont-buffer-pythons-stdout.md": {
+    "title": "Don't Buffer Python's stdout",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "command-line"]
+  },
+  "content/post/til/2016-05-02-concatenate-files-with-header-row.md": {
+    "title": "Concatenate files with header row",
+    "current_tags": [],
+    "proposed_tags": ["command-line", "csv"]
+  },
+  "content/post/til/2016-05-02-searching-the-tweets-of-people-you-follow.md": {
+    "title": "Searching the tweets of people you follow",
+    "current_tags": [],
+    "proposed_tags": ["twitter", "productivity"]
+  },
+  "content/post/til/2016-05-04-using-conda-with-the-fish-shell.md": {
+    "title": "Using Conda with the Fish Shell",
+    "current_tags": [],
+    "proposed_tags": ["conda", "fish-shell", "python"]
+  },
+  "content/post/til/2016-06-15-configuring-impala-query-results-with-impalarc.md": {
+    "title": "Configuring Impala Query Results with impalarc",
+    "current_tags": [],
+    "proposed_tags": ["impala", "command-line"]
+  },
+  "content/post/til/2016-06-15-faster-ssh-access-to-remote-computers.md": {
+    "title": "Faster SSH Access to Remote Computers",
+    "current_tags": [],
+    "proposed_tags": ["ssh", "command-line"]
+  },
+  "content/post/til/2016-06-22-find-files-modified-in-last-n-minutes.md": {
+    "title": "Find Files Modified in last N Minutes",
+    "current_tags": [],
+    "proposed_tags": ["command-line", "bash"]
+  },
+  "content/post/til/2016-09-20-setting-up-supervisord.md": {
+    "title": "Setting Up supervisord",
+    "current_tags": [],
+    "proposed_tags": ["linux", "process-management", "command-line"]
+  },
+  "content/post/til/2016-11-08-speeding-up-pymc3-nuts-sampler.md": {
+    "title": "Speeding up PyMC3 NUTS Sampler",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "pymc3", "bayesian-statistics"]
+  },
+  "content/post/til/2016-11-18-get-pykafka-to-work-with-rdkafka-on-linux.md": {
+    "title": "Get Pykafka to work with rdkafka on Linux",
+    "current_tags": [],
+    "proposed_tags": ["python", "kafka", "linux"]
+  },
+  "content/post/til/2017-01-06-compare-rsa-key-with-fingerprint-in-github.md": {
+    "title": "Compare RSA Key with Fingerprint in Github",
+    "current_tags": [],
+    "proposed_tags": ["ssh", "git", "github"]
+  },
+  "content/post/til/2025-11-10-streaming-webcam-to-browser-with-mediamtx.md": {
+    "title": "Streaming Webcam to Browser with MediaMTX",
+    "current_tags": [],
+    "proposed_tags": ["video-streaming", "ffmpeg", "homelab"]
+  },
+  "content/post/til/git-check-ignore.md": {
+    "title": "git check-ignore",
+    "current_tags": ["git"],
+    "proposed_tags": ["git"]
+  }
+}

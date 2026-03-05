@@ -1,0 +1,127 @@
+{
+  "content/post/2015-07-22-thinking-at-work.md": {
+    "title": "Thinking at Work",
+    "current_tags": [],
+    "proposed_tags": ["remote-work", "office-culture", "productivity"]
+  },
+  "content/post/2015-07-27-handy-one-off-webpages.md": {
+    "title": "Handy One-off Webpages",
+    "current_tags": ["Python"],
+    "proposed_tags": ["python", "web-development", "open-source"]
+  },
+  "content/post/2015-07-28-10x-engineering.md": {
+    "title": "10x Engineering",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "technical-debt"]
+  },
+  "content/post/2015-07-30-high-quality-code-at-quora.md": {
+    "title": "High Quality Code at Quora",
+    "current_tags": [],
+    "proposed_tags": ["software-engineering", "code-quality", "code-review"]
+  },
+  "content/post/2015-08-03-nonparametric-latent-dirichlet-allocation.md": {
+    "title": "Nonparametric Latent Dirichlet Allocation",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["dirichlet-processes", "topic-modeling", "bayesian-statistics", "python"]
+  },
+  "content/post/2015-08-05-a-programmer's-portfolio.md": {
+    "title": "A Programmer's Portfolio",
+    "current_tags": [],
+    "proposed_tags": ["career-advice", "software-engineering", "job-search"]
+  },
+  "content/post/2015-08-12-on-showing-your-work.md": {
+    "title": "On Showing Your Work",
+    "current_tags": [],
+    "proposed_tags": ["mathematics", "education"]
+  },
+  "content/post/2015-09-01-profile-in-computational-imagination.md": {
+    "title": "Profile in Computational Imagination",
+    "current_tags": ["Interview with me"],
+    "proposed_tags": ["data-science", "career", "remote-work"]
+  },
+  "content/post/2015-09-08-outliers.md": {
+    "title": "Dealing with Outliers",
+    "current_tags": [],
+    "proposed_tags": ["statistics", "data-analysis"]
+  },
+  "content/post/2015-09-17-data-science-and-agriculture.md": {
+    "title": "Data Science and Agriculture",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "agriculture", "startups"]
+  },
+  "content/post/2015-09-21-hdp-lda-gibbs-sampler.md": {
+    "title": "Notes on Gibbs Sampling in Hierarchical Dirichlet Process Models",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["dirichlet-processes", "topic-modeling", "bayesian-statistics", "mcmc"]
+  },
+  "content/post/2015-09-24-a-joke.md": {
+    "title": "A Joke",
+    "current_tags": [],
+    "proposed_tags": ["programming", "twitter"]
+  },
+  "content/post/2015-10-07-econtalk-topics.md": {
+    "title": "Econtalk Topics: Nonparametric LDA in Practice",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["dirichlet-processes", "topic-modeling", "python", "natural-language-processing"]
+  },
+  "content/post/2015-10-13-dirichlet-process-nomenclature.md": {
+    "title": "Nomenclature of Dirichlet Processes",
+    "current_tags": ["dirichlet-processes"],
+    "proposed_tags": ["dirichlet-processes", "bayesian-statistics", "probability-theory"]
+  },
+  "content/post/2015-10-15-antoniak.md": {
+    "title": "Sample from Antoniak Distribution with Python",
+    "current_tags": ["dirichlet-processes", "python"],
+    "proposed_tags": ["dirichlet-processes", "python", "bayesian-statistics"]
+  },
+  "content/post/2015-10-16-tweets-i'm-proud-of.md": {
+    "title": "Tweets I'm Proud Of (2)",
+    "current_tags": [],
+    "proposed_tags": ["twitter", "mcmc", "bayesian-statistics", "programming"]
+  },
+  "content/post/2015-10-16-wrapping-up-on-nonparametric-bayes.md": {
+    "title": "Nonparametric Latent Dirichlet Allocation",
+    "current_tags": ["python"],
+    "proposed_tags": ["dirichlet-processes", "topic-modeling", "python", "open-source"]
+  },
+  "content/post/2015-11-06-my-first-publication.md": {
+    "title": "Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use",
+    "current_tags": [],
+    "proposed_tags": ["data-science", "twitter", "public-health", "natural-language-processing"]
+  },
+  "content/post/2015-11-20-knitting.md": {
+    "title": "Knitting",
+    "current_tags": [],
+    "proposed_tags": ["knitting", "hobbies"]
+  },
+  "content/post/2015-11-21-sequential-minimal-optimization-algorithm-for-support-vector-machines.md": {
+    "title": "Sequential Minimal Optimization Algorithm for Support Vector Machines",
+    "current_tags": [],
+    "proposed_tags": ["machine-learning", "optimization", "support-vector-machines"]
+  },
+  "content/post/2015-12-07-i-love-twitter.md": {
+    "title": "I Love Twitter",
+    "current_tags": [],
+    "proposed_tags": ["twitter"]
+  },
+  "content/post/2016-01-12-quotes-from-former-professors.md": {
+    "title": "Quotes from Former Professors",
+    "current_tags": [],
+    "proposed_tags": ["education", "mathematics"]
+  },
+  "content/post/2016-04-29-backpacking-for-the-very-tall.md": {
+    "title": "Ultralight Backpacking for the Ultratall",
+    "current_tags": [],
+    "proposed_tags": ["backpacking", "hobbies", "outdoors"]
+  },
+  "content/post/2016-07-25-photos-featured-on-smithsonian-magazine.md": {
+    "title": "Photos Featured on Smithsonian Magazine",
+    "current_tags": ["Photography"],
+    "proposed_tags": ["photography", "outdoors", "wildlife"]
+  },
+  "content/post/2016-10-24-undersampled-radio.md": {
+    "title": "Undersampled Radio Interview",
+    "current_tags": ["Interview with me"],
+    "proposed_tags": ["data-science", "cybersecurity"]
+  }
+}
