@@ -3,7 +3,7 @@ title: Installing Python on Mohave with pyenv
 date: 2019-05-30
 slug: installing-python
 categories:
-    - Article
+    - Today I Learned
 description: How to install Python with pyenv on MacOS Mohave
 tags:
   - python

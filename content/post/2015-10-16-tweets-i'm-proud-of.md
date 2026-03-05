@@ -1,7 +1,7 @@
 ---
 title: Tweets I'm Proud Of (2)
 categories:
-    - Article
+    - Personal Update
 date: 2015-10-16
 slug: tweets-i'm-proud-of-2
 aliases: [/blog/2015/Oct/16/tweets-im-proud-of-2/]

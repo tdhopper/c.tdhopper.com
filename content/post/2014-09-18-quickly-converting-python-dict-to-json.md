@@ -1,7 +1,7 @@
 ---
 title: Quickly Converting Python Dict to JSON
 categories:
-    - Article
+    - Today I Learned
 slug: quickly-converting-python-dict-to-json
 aliases: [/blog/2014/Sep/18/quickly-converting-python-dict-to-json/]
 date: 2014-09-18
