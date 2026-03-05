@@ -2,7 +2,7 @@
 title: Mentions of John Cook on Github
 date: Thu, 14 Jan 2016 02:59:00 +0000
 categories:
-  - article
+  - Article
 tags:
   - open-source
   - writing

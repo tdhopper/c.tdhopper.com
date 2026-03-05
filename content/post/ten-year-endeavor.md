@@ -3,7 +3,7 @@ title: John Cook’s Ten Year Blogging Endeavour
 date: Wed, 10 Jan 2018 01:28:00 +0000
 slug: ten-year-endeavor
 categories:
-  - article
+  - Article
 tags:
   - writing
   - mathematics

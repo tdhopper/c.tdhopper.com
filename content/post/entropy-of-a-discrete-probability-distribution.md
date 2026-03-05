@@ -8,7 +8,7 @@ tags:
   - mathematics
   - machine-learning
 categories:
-  - article
+  - Article
 image: entropy.png
 ---
 

@@ -2,7 +2,7 @@
 title: Some Reflections on Being Turned Down for a Lot of Data Science Jobs
 date: Mon, 06 Mar 2017 17:02:00 +0000
 categories:
-  - article
+  - Article
 tags:
   - data-science
   - career

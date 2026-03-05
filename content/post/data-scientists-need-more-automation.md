@@ -2,7 +2,7 @@
 title: Data Scientists Need More Automation
 date: Thu, 17 Nov 2016 02:00:00 +0000
 categories:
-    - article
+    - Article
 tags:
   - data-science
   - productivity

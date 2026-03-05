@@ -3,7 +3,7 @@ title: Cross Entropy and KL Divergence
 date: Mon, 05 Sep 2016 14:12:00 +0000
 math: true
 categories:
-    - article
+    - Article
 tags:
   - mathematics
   - machine-learning

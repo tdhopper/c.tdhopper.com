@@ -2,7 +2,7 @@
 title: Classes Future Programmers Should Take
 date: Sat, 12 Sep 2015 01:55:00 +0000
 categories:
-    - article
+    - Article
 tags:
   - software-engineering
   - education

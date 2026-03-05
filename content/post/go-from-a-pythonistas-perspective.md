@@ -2,7 +2,7 @@
 title: Go from a Pythonista's Perspective
 date: 2020-07-20
 categories:
-  - article
+  - Article
 tags:
   - Python
   - Go
