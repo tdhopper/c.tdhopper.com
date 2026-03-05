@@ -4,7 +4,6 @@ date: Mon, 01 Jul 2019 12:00:00 +0000
 slug: nature-article-open-source
 categories:
     - Personal Update
-    - Humor
 tags:
   - open-source
   - twitter

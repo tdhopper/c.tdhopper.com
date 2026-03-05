@@ -7,7 +7,6 @@ tags:
   - personal
 categories:
     - Personal Update
-    - Humor
 ---
 A few weeks back, I was browsing Google Maps and noticed the word "DEMO"
 written in faint green letters in rural South Sudan. A journalist came across
