@@ -3,6 +3,8 @@ title: 👋 Hey, I'm Tim Hopper!
 date: 2010-01-01
 pinned: true
 slug: welcome
+categories:
+    - Personal Update
 tags:
   - career
   - python
