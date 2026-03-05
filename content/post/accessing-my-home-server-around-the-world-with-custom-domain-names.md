@@ -4,6 +4,9 @@ date: 2024-12-20T11:47:00.000Z
 description: Using Tailscale, Caddy, and Cloudflare to access my Synology home
   server from anywhere in the world
 categories: Article
+tags:
+  - homelab
+  - command-line
 image: /images/network.png
 ---
 Last year, I invested in a [Synology NAS](https://www.synology.com/) as a home server and backup drive. Like many Synology users, I've quickly found it has many more uses than I initially expected. Beyond the usual file storage and Time Machine backups, my Synology has become the backbone of my home technology.

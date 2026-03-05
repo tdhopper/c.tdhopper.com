@@ -4,8 +4,8 @@ date: 2026-01-30
 categories:
   - Article
 tags:
-  - AI
-  - Software Engineering
+  - ai
+  - software-engineering
 ---
 
 Boris Cherny, who built Claude Code at Anthropic, [recently shared](https://www.youtube.com/watch?v=PTkE7eaPJvY) advice he received from Anthropic co-founder Ben Mann:

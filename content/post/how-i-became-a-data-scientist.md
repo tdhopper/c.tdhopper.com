@@ -5,6 +5,11 @@ slug: how-i-became-a-data-scientist
 aliases: [/how/]
 categories:
   - Article
+tags:
+  - data-science
+  - career
+  - mathematics
+  - education
 image: math-class.png
 ---
 Caution: the following post is laden with qualitative extrapolation of

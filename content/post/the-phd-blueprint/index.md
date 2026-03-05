@@ -2,6 +2,9 @@
 title: "The Ph.D. Blueprint: Five Questions to Design Your Future"
 date: 2025-12-10
 slug: the-phd-blueprint
+tags:
+  - education
+  - career
 categories:
     - Article
 description: "A visual guide to help you decide whether to pursue a Ph.D., based on insights from interviews with dozens of Ph.D. holders."

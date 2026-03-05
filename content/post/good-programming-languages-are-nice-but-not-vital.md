@@ -4,7 +4,8 @@ date: 2024-04-03T11:46:00.000Z
 description: While no programming language is perfect with the right tools and
   effort, you can work effectively with any of them.
 tags:
-  - Python
+  - python
+  - software-engineering
 categories: Article
 image: /images/complaining.png
 ---

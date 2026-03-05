@@ -4,6 +4,9 @@ date: 2022-05-20T12:30:00.000Z
 description: Notes from my first strongman competition (which I entered despite
   having a 2 week old baby)!
 categories: Article
+tags:
+  - personal
+  - writing
 image: /images/strongman.png
 featured: false
 ---

@@ -8,6 +8,9 @@ categories: Article
 image: /images/failing.png
 aliases:
   - /blog/2012/Apr/13/teaching-students-to-fail/
+tags:
+  - education
+  - mathematics
 ---
 
 I am teaching the dreaded calculus II this semester. I've known many students who flew through calc I in college (having taken calculus in high school) only to receive a reality check from calc II the next semester. In the US, calc II often involves a significant section on "techniques of integration" where students learn techniques such as partial fractions, trig substitutions, integration by parts. Unlike much of differential calculus, which is taught in calc I, and unlike much of the math taught before college, integration is harder to do algorithmically. That is, a calc II professor cannot simply outline surefire steps guaranteed to give an antiderivative for any function. The inimitable Robert Ghrist explains it this way in his "[funny little calculus text](http://www.math.upenn.edu/~ghrist/FLCT/)":

@@ -4,10 +4,13 @@ date: 2024-11-14T12:00:00.000-05:00
 description: Hard-earned lessons from rebuilding a feature platform for offline
   and online machine learning
 categories: Article
+tags:
+  - machine-learning
+  - data-engineering
 image: /images/featureplat.png
 ---
-Much of my career has been focused on helping machine learning researchers get the data they need, where they need it, and when they need it. 
-Over the past three years, I helped lead the development of a new machine learning feature platform at the bank startup where I worked. 
+Much of my career has been focused on helping machine learning researchers get the data they need, where they need it, and when they need it.
+Over the past three years, I helped lead the development of a new machine learning feature platform at the bank startup where I worked.
 Our platform could serve a variety of machine learning and analytics applications by enabling creation of custom data transformations to generate batch and real time data for model training and inference.
 
 Here are some lessons from my experience:
@@ -38,7 +41,7 @@ You need clear rules about who can modify which data, who can change feature nam
 
 ## Metadata and lineage are debugging lifelines
 
-Tracking where features come from and how they're built is essential for debugging, compliance, and understanding downstream impacts. When (not _if_) something goes wrong, you need to be able to trace the problem back to its source quickly. 
+Tracking where features come from and how they're built is essential for debugging, compliance, and understanding downstream impacts. When (not _if_) something goes wrong, you need to be able to trace the problem back to its source quickly.
 
 ## Monitoring and alerting are essential
 

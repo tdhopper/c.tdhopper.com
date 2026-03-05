@@ -5,6 +5,9 @@ categories:
 slug: sundry-links-for-December-04-2014
 aliases: [/blog/2014/Dec/04/sundry-links-for-December-04-2014/]
 date: 2014-12-04
+tags:
+  - python
+  - machine-learning
 ---
 
 [How do I draw a pair of buttocks?](http://mathematica.stackexchange.com/questions/66538/how-do-i-draw-a-pair-of-buttocks): Have you ever wondered how to plot a pair of buttocks in Mathematica? Of course you have.

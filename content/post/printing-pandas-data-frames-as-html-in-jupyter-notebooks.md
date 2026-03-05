@@ -4,8 +4,8 @@ date: Wed, 23 Mar 2016 14:18:00 +0000
 categories:
     - How To
 tags:
-    - Python
-    - pandas
+  - python
+  - data-science
 image: panda.png
 ---
 Jupyter notebooks nicely render Pandas data frames if they're the last line in

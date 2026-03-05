@@ -4,6 +4,9 @@ date: 2018-12-20T12:30:00.000Z
 description: Mo computers, mo problems
 categories:
   - Quote
+tags:
+  - software-engineering
+  - history
 image: /images/computerweights.png
 ---
 Edsger W. Dijkstra in 1972:

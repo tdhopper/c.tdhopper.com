@@ -5,7 +5,8 @@ description: A comprehensive guide to using Conda environments for Python
   development, detailing the benefits of `environment.yml` files and a
   streamlined workflow for managing dependencies and Python versions.
 tags:
-  - Python
+  - python
+  - developer-tools
 categories: Article
 image: /images/anaconda.png
 aliases:

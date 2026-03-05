@@ -6,9 +6,9 @@ math: true
 categories:
   - Article
 tags:
-
   - dirichlet-processes
-  - python
+  - natural-language-processing
+  - machine-learning
 description: "Notes on applying the equations from the Hierarchical Dirichlet Process paper to nonparametric Latent Dirichlet Allocation."
 image: /images/hdp-lda-gibbs-mr-men.png
 ---

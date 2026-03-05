@@ -6,6 +6,9 @@ date: 2013-10-02
 
 categories:
     - Quote
+tags:
+  - personal
+  - writing
 ---
 
 Ralph Keyes, [The Height of Your Life](http://www.ralphkeyes.com/height/):

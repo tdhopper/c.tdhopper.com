@@ -3,6 +3,11 @@ title: Links for August 30, 2014
 slug: sundry-links-for-August-30-2014
 aliases: [/blog/2014/Aug/30/sundry-links-for-August-30-2014/]
 date: 2014-08-30
+tags:
+  - python
+  - data-science
+  - git
+  - machine-learning
 categories:
     - Link
 ---

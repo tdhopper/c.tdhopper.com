@@ -5,6 +5,9 @@ categories:
 date: 2015-11-21
 slug: sequential-minimal-optimization-algorithm-for-support-vector-machines
 aliases: [/blog/2015/Nov/21/sequential-minimal-optimization-algorithm-for-support-vector-machines/]
+tags:
+  - machine-learning
+  - operations-research
 ---
 
 In my nonlinear optimization class in grad school at North Carolina State University, I wrote a paper on the famed SMO algorithm for support vector machines. In particular, I derive the Lagrangian dual of the classic formulation of the SVM optimization model and show how it can be solved using the stochastic gradient descent algorithm.

@@ -5,6 +5,9 @@ slug: nature-article-open-source
 categories:
     - Personal Update
     - Humor
+tags:
+  - open-source
+  - twitter
 image: /images/computer-fishing.png
 ---
 
@@ -15,4 +18,3 @@ Way back in 2015, I tweeted:
 Today, that tweet appeared in [a Nature article about the challenges of releasing and maintaining open source software](https://www.nature.com/articles/d41586-019-02046-0).
 
 The article opens with the story of how the first-ever image of a black hole was made possible by open-source software like Matplotlib, yet just five days after that historic announcement, the NSF rejected a grant proposal to support that very ecosystem, "saying that the software lacked sufficient impact."
-

@@ -3,7 +3,10 @@ title: Organizing research data with Intake
 date: 2021-11-02T12:20:00.000Z
 description: How a simple data cataloging tool transformed our team's research process
 tags:
-  - Python
+  - python
+  - data-engineering
+  - data-science
+  - aws
 categories: Article
 image: /images/shelves.png
 ---

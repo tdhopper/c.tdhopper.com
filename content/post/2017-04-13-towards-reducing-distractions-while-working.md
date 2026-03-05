@@ -5,6 +5,9 @@ slug: towards-reducing-distractions-while-working
 aliases: [/blog/2017/Apr/13/towards-reducing-distractions-while-working/]
 categories:
     - Article
+tags:
+  - productivity
+  - career
 ---
 
 Staying focused while working in front of a computer and within reach of a smartphone is hard.

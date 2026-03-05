@@ -7,6 +7,10 @@ description: Jowanza Joseph shares how his startup leverages AI tools like
 categories:
   - Podcast
 image: /images/podcast.png
+tags:
+  - ai
+  - career
+  - developer-tools
 ---
 
 ## Listen

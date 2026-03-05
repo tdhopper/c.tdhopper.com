@@ -6,8 +6,8 @@ math: true
 categories:
   - Article
 tags:
-
   - dirichlet-processes
+  - natural-language-processing
   - python
 description: "Applying nonparametric latent Dirichlet allocation to discover topics in Econtalk podcast transcripts using a hierarchical Dirichlet process."
 image: /images/econtalk-topics-mr-men.png

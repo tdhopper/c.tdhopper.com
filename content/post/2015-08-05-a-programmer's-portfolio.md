@@ -5,6 +5,9 @@ categories:
 date: 2015-08-05
 slug: a-programmer's-portfolio
 aliases: [/blog/2015/Aug/05/a-programmers-portfolio/]
+tags:
+  - career
+  - software-engineering
 ---
 
 I am convinced that a programming student hoping to get a job in that field should be actively building a portfolio online. Turn those class projects, presentations, and reports into Github repositories or blog posts! I felt vindicated as I read this anecdote in [Peopleware](https://en.wikipedia.org/wiki/Peopleware:_Productive_Projects_and_Teams):

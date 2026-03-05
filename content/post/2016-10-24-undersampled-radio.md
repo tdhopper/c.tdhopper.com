@@ -3,7 +3,8 @@ title: Undersampled Radio Interview
 categories:
     - Personal Update
 tags:
-    - Interview with me
+  - data-science
+  - career
 date: 2016-10-24
 slug: undersampled-radio
 aliases: [/blog/2016/Oct/24/undersampled-radio/]

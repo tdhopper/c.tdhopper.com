@@ -5,7 +5,8 @@ date: Mon, 05 Sep 2016 16:05:00 +0000
 description: Explaining how Claude Shannon quantified the uncertainty of
   discrete probability distributions
 tags:
-  - math
+  - mathematics
+  - machine-learning
 categories:
   - article
 image: entropy.png

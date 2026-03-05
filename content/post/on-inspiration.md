@@ -4,6 +4,9 @@ date: 2024-02-05T23:48:54.527Z
 description: How your best work might come from getting away from work
 categories:
   - Article
+tags:
+  - personal
+  - productivity
 image: /images/inspiration.png
 featured: false
 ---

@@ -4,6 +4,9 @@ date: 2024-12-31T10:54:00.000Z
 description: Claude.ai's observations on me and my writing style based on 14
   years of blog posts
 categories: Article
+tags:
+  - ai
+  - writing
 image: /images/computer-phone.png
 ---
 I dumped all my posts from the last 14 years into [Claude](https://claude.ai) and asked it to make any conclusions about me from them. These are spot on:

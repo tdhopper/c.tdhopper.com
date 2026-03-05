@@ -2,7 +2,9 @@
 title: The perils of thinkism
 date: 2016-12-24T15:01:00.000Z
 description: Solving problems requires more than just thinking about them
-tags: []
+tags:
+  - education
+  - personal
 categories: Quote
 image: /images/reading.png
 ---

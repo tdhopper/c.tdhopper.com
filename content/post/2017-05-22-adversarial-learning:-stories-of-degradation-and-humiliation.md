@@ -7,7 +7,8 @@ title: "Adversarial Learning: Stories of Degradation and Humiliation"
 date: 2017-05-22
 description: Roundtable on the Adversarial Learning podcast about bad intervew experiences.
 tags:
-  - Interview with me
+  - data-science
+  - career
 categories:
   - Personal Update
 image: /images/interview.png

@@ -3,6 +3,11 @@ title: Links for August 25, 2014
 slug: sundry-links-for-August-25-2014
 aliases: [/blog/2014/Aug/25/sundry-links-for-August-25-2014/]
 date: 2014-08-25
+tags:
+  - python
+  - command-line
+  - data-engineering
+  - developer-tools
 categories:
     - Link
 ---

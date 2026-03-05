@@ -8,7 +8,10 @@ title: Using Twitter Data to Gain Insights into E-cigarette Marketing and
 date: 2015-11-06
 description: My paper in the Journal of Internet Medical Research about
   discussion of electronic cigarettes on Twitter.
-tags: []
+tags:
+  - data-science
+  - twitter
+  - natural-language-processing
 categories:
   - Personal Update
 image: /images/ecig.png

@@ -4,8 +4,8 @@ date: Tue, 08 Nov 2016 22:17:00 +0000
 categories:
     - How To
 tags:
-      - python
-      - pandas
+  - python
+  - data-science
 ---
 I always forget how to do this.
 

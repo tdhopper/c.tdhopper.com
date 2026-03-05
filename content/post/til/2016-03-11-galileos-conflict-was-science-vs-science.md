@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-03-11
+tags:
+  - history
+  - education
 ---
 
 Galileo's conflict with the Church was not as it is often portrayed:

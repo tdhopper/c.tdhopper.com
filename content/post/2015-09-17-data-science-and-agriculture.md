@@ -5,6 +5,9 @@ categories:
 date: 2015-09-17
 slug: data-science-and-agriculture
 aliases: [/blog/2015/Sep/17/data-science-and-agriculture/]
+tags:
+  - data-science
+  - career
 ---
 
 I'm excited to see tools developed for the web being applied to offline domains like agriculture and health. I posed a question on Twitter yesterday:

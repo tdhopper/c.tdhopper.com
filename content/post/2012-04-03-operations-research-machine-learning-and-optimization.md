@@ -6,6 +6,9 @@ date: 2012-04-03
 Author: Tim
 slug: operations-research-machine-learning-and-optimization
 aliases: [/blog/2012/Apr/03/operations-research-machine-learning-and-optimization/]
+tags:
+  - operations-research
+  - machine-learning
 ---
 
 Over the past 18 months, I've been slowly learning some machine learning. One thing I've noticed is that most of the math in machine learning is optimization. Regression is typically minimization of some error term. Support vector machines are a quadratic optimization problem with linear constraints. Learning a neural network is _simply_ solving a nonconvex optimization problem. Clustering often takes the form of expectation-maximization. I'm currently learning Bayesian network structure learning which is an extremely difficult combinatorial optimization problem.

@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-03-11
+tags:
+  - command-line
+  - developer-tools
 ---
 
 I don't use Ruby much, but I wanted to use Jekyll for this blog. I kept getting this error when running `gem install jekyll`:

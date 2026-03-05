@@ -6,6 +6,10 @@ date: 2013-07-23
 categories:
     - Article
 Author: Tim
+tags:
+  - machine-learning
+  - mathematics
+  - education
 ---
 
 I have started to realize that [Monte Carlo methods](http://en.wikipedia.org/wiki/Monte_Carlo_method) of various kinds keep coming up in my work. Despite significant application of Monte Carlo in my grad school research, I think I only know enough to be dangerous. I'd like to get a better grasp on Monte Carlo methods (especially MCMC and simulation).

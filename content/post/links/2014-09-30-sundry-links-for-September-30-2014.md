@@ -3,6 +3,11 @@ title: Links for September 30, 2014
 slug: sundry-links-for-September-30-2014
 aliases: [/blog/2014/Sep/30/sundry-links-for-September-30-2014/]
 date: 2014-09-30
+tags:
+  - python
+  - data-engineering
+  - command-line
+  - web-development
 categories:
     - Link
 ---

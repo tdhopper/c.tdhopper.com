@@ -7,6 +7,10 @@ description: "Tim speaks with Ben Labaschin, principal machine learning engineer
 categories:
   - Podcast
 image: /images/podcast.png
+tags:
+  - ai
+  - developer-tools
+  - productivity
 ---
 ## Listen
 {{< spotify 2IcWcUKJRdjaXsLKh2J4ca >}}

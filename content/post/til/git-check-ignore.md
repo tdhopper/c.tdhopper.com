@@ -4,6 +4,7 @@ date: 2020-09-18T13:10:00.000Z
 description: "Debug your .gitignore "
 tags:
   - git
+  - command-line
 categories:
   - Today I Learned
 image: /images/til.png

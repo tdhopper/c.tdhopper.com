@@ -6,8 +6,9 @@ math: true
 categories:
   - Article
 tags:
-
   - dirichlet-processes
+  - machine-learning
+  - mathematics
   - python
 description: "Code demonstrating how you can sample from a hierarchical Dirichlet process without generating an infinite number of parameters first."
 image: /images/hdp-sampling-mr-men.png

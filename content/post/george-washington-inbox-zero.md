@@ -6,6 +6,9 @@ description: 'Ron Chernow: "Washington devoted far more time to the onerous task
   of draft letters than leading men into battle."'
 categories:
   - Quote
+tags:
+  - productivity
+  - history
 image: /images/george-washington.png
 ---
 {{< quote author="Ron Chernow" source="Washington: A Life" url="https://amzn.to/3e3NppS">}}

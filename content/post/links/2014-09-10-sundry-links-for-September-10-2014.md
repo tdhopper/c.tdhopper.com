@@ -3,6 +3,10 @@ title: Links for September 10, 2014
 slug: sundry-links-for-September-10-2014
 aliases: [/blog/2014/Sep/10/sundry-links-for-September-10-2014/]
 date: 2014-09-10
+tags:
+  - python
+  - web-development
+  - command-line
 categories:
     - Link
 ---

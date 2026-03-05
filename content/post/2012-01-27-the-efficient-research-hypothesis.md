@@ -8,6 +8,9 @@ categories: Article
 image: /images/money.png
 aliases:
   - /blog/2012/Jan/27/the-efficient-research-hypothesis/
+tags:
+  - education
+  - productivity
 ---
 In economics, some have asserted the efficient market hypothesis. The idea is that market prices take into account all the information currently available. If the efficient market hypothesis holds, an investor couldn't consistently beat the market because his knowledge about the markets is no better than anyone else's. An accompanying "joke" is that an economist would never bend over to pick up a $20 bill on the street. If there was really $20 to be taken, someone would have taken it already.
 

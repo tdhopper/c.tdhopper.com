@@ -6,8 +6,9 @@ math: true
 categories:
   - Article
 tags:
-
   - dirichlet-processes
+  - natural-language-processing
+  - machine-learning
   - python
 description: "An alternative view of latent Dirichlet allocation using a Dirichlet process, and a demonstration of how it can be easily extended to a nonparametric model using a hierarchical Dirichlet process."
 image: /images/nonparametric-lda-mr-men.png

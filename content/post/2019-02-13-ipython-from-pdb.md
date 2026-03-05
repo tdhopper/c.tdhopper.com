@@ -5,6 +5,9 @@ slug: ipython-pdb
 categories:
     - Article
 description: How to drop into an IPython repl from the Python debugger
+tags:
+  - python
+  - developer-tools
 ---
 
 I'm a big fan of using [pdb](https://docs.python.org/3/library/pdb.html), the Python interactive debugger in conjunction with Pytest as I'm writing code.[^pdbpp] With the `--pdb` flag, you can have Pytest drop into pdb when a test fails. With `pytest.set_trace()`, you can selectively enter pdb while running your tests. (I use this where I might've just added print statements in the past.)

@@ -6,6 +6,9 @@ date: 2017-02-21
 slug: logistic-regression-rules-everything-around-me
 aliases: [/blog/2017/Feb/21/logistic-regression-rules-everything-around-me/]
 description: Link to Fred Benenson recap on his 6 years of data science at Kickstarter.
+tags:
+  - data-science
+  - career
 ---
 
 [Fred Benenson](https://twitter.com/fredbenenson) spent 6 years doing data science at Kickstarter. When he left last year, he wrote a [fantastic recap](https://hackernoon.com/on-to-the-next-2-271-days-309d6ba672d7) of his experience.

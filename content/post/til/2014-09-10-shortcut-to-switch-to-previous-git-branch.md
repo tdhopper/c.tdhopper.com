@@ -6,6 +6,9 @@ date: 2014-09-10
 categories:
     - Today I Learned
 image: /images/til.png
+tags:
+  - git
+  - command-line
 ---
 
 

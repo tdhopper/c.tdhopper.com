@@ -4,6 +4,9 @@ date: Wed, 28 Dec 2016 02:51:00 +0000
 draft: true
 categories:
     - How To
+tags:
+  - aws
+  - data-engineering
 ---
 ## Athena Setup and Quick Start
 

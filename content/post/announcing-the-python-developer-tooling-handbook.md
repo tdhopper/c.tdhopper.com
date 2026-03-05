@@ -4,6 +4,8 @@ date: 2024-02-10T16:31:16.906Z
 description: "Coming soon: a free ebook about Python developer tooling!"
 tags:
   - python
+  - developer-tools
+  - open-source
 categories:
   - Personal Update
 image: /images/pydevtools-announcement.png

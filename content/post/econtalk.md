@@ -3,6 +3,9 @@ title: Econtalk
 categories:
   - Article
 date: Wed, 13 Apr 2016 01:42:00 +0000
+tags:
+  - data-science
+  - personal
 ---
 Listening to Russ Roberts' [Econtalk](http://www.econtalk.org/) podcast for
 the last 5 years has given me a whole new perspective on the world. Roberts

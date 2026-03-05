@@ -3,6 +3,10 @@ title: Mentions of John Cook on Github
 date: Thu, 14 Jan 2016 02:59:00 +0000
 categories:
   - article
+tags:
+  - open-source
+  - writing
+  - mathematics
 ---
 People mention [John Cook's blog](http://www.johndcook.com) a lot [in Github
 repos](https://github.com/search?q=johndcook.com&type=Code&utf8=%E2%9C%93).

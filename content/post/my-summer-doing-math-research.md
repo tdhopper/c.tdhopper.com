@@ -4,6 +4,10 @@ date: 2024-09-19T13:20:00.000Z
 description: A reflection on the summer I finally got to do math research but
   spent the whole time writing C
 categories: Article
+tags:
+  - mathematics
+  - career
+  - software-engineering
 math: true
 image: /images/graphtheory.jpg
 ---

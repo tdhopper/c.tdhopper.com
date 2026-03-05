@@ -5,6 +5,10 @@ description: "Tim speaks with Till Döhmen, AI Lead at MotherDuck, about AI agen
 categories:
   - Podcast
 image: /images/podcast.png
+tags:
+  - ai
+  - data-engineering
+  - natural-language-processing
 ---
 ## Listen
 {{< spotify 3wJY3GJpSUVNa0Uvw7QNwO >}}

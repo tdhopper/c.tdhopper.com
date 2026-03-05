@@ -5,6 +5,9 @@ categories:
 date: 2015-07-22
 slug: thinking-at-work
 aliases: [/blog/2015/Jul/22/thinking-at-work/]
+tags:
+  - productivity
+  - career
 ---
 
 Having worked from home for the last few years, I have a hard time understanding how people get anything done in open-floor plan offices. I would be overwhelmed and frustrated by the noise and commotion.

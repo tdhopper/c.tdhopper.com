@@ -5,6 +5,9 @@ categories:
     - Humor
 image: goodnight-zoom.png
 description: A parody of the children's book "Goodnight Moon" for the modern tech worker.
+tags:
+  - productivity
+  - software-engineering
 ---
 In the great #general room
 There was idle chatter

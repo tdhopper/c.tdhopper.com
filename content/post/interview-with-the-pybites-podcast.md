@@ -4,7 +4,9 @@ date: 2025-07-30T09:18:00.000-04:00
 description: In which I talk about my career, uv, the Python Developer Tooling
   Handbook, and more
 tags:
-  - Interview With Me
+  - python
+  - developer-tools
+  - career
 categories: Personal Update
 image: /images/podcast-interview-min.png
 ---

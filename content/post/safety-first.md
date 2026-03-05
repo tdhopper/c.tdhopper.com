@@ -4,6 +4,9 @@ date: 2019-10-09T09:13:00.000Z
 description: Thomas Aquinas on the priority of safety
 categories:
   - Quote
+tags:
+  - personal
+  - writing
 image: /images/safetyship.png
 ---
 I'm always annoyed when the pre-flight instructions inform us that the airline's main priority is our safety.

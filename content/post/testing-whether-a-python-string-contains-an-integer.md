@@ -2,7 +2,8 @@
 title: Testing whether a Python string contains an integer
 date: Fri, 29 Apr 2016 15:13:00 +0000
 tags:
-    - Python
+  - python
+  - software-engineering
 categories:
     - How To
 ---

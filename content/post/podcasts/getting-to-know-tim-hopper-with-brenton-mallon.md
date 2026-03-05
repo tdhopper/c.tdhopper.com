@@ -10,6 +10,10 @@ image: /images/robot-assistant.png
 slug: getting-to-know-tim-hopper-with-brenton-mallen
 aliases:
   - /blog/getting-to-know-tim-hopper-with-brenton-mallon/
+tags:
+  - data-science
+  - career
+  - personal
 ---
 
 ## Listen

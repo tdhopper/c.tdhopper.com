@@ -5,6 +5,9 @@ aliases: [/blog/2016/Jun/15/configuring-impala-query-results-with-impalarc/]
 categories:
      - Today I Learned
 date: 2016-06-15
+tags:
+  - data-engineering
+  - command-line
 ---
 
 I routinely run Impala queries on a [remote machine](http://tdhopper.com/notes/faster-ssh-access-to-remote-computers) and want the results to save to a CSV file on that machine.

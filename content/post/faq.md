@@ -4,6 +4,10 @@ date: Mon, 05 Mar 2018 16:59:00 +0000
 slug: faq
 categories:
     - Article
+tags:
+  - data-science
+  - career
+  - education
 image: becoming.png
 ---
 [Three years ago](/blog/how-i-became-a-data-scientist/), I

@@ -6,8 +6,9 @@ math: true
 categories:
   - Article
 tags:
-
   - dirichlet-processes
+  - machine-learning
+  - mathematics
 description: "A discussion of the confusing and sometimes contradictory use of the term 'Dirichlet process' in the nonparametric Bayesian literature."
 image: /images/nomenclature-mr-men.png
 ---

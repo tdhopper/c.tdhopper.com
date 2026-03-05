@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2017-01-06
+tags:
+  - command-line
+  - git
 ---
 
 When you add an SSH key to your Github account, Github shows you the hexadecimal form of the MD5 hash of your public key.

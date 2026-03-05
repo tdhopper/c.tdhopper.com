@@ -6,6 +6,9 @@ date: 2013-07-26
 categories:
     - Article
 Author: Tim
+tags:
+  - data-science
+  - python
 ---
 
 I put on some weight during my time in grad school, and this spring, I decided to do something about it.

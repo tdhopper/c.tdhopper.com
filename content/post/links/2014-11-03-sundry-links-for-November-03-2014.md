@@ -3,6 +3,10 @@ title: Links for November 3, 2014
 slug: sundry-links-for-November-03-2014
 aliases: [/blog/2014/Nov/03/sundry-links-for-November-03-2014/]
 date: 2014-11-03
+tags:
+  - python
+  - web-development
+  - command-line
 categories:
     - Link
 ---

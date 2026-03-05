@@ -3,6 +3,10 @@ title: 👋 Hey, I'm Tim Hopper!
 date: 2010-01-01
 pinned: true
 slug: welcome
+tags:
+  - career
+  - python
+  - machine-learning
 ---
 
 # 👋 Hey, I'm Tim Hopper!

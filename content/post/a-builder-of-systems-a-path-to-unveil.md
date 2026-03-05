@@ -2,7 +2,10 @@
 title: A builder of systems, a path to unveil
 date: 2024-12-05T10:18:00.000Z
 description: A musical introduction to the colorful career of Tim Hopper
-tags: []
+tags:
+  - career
+  - machine-learning
+  - ai
 categories: Humor
 image: /images/singing.jpeg
 ---

@@ -6,7 +6,8 @@ categories:
     - Article
 description: How to install Python with pyenv on MacOS Mohave
 tags:
-    - Python
+  - python
+  - developer-tools
 ---
 
 I use [pyenv](https://github.com/pyenv/pyenv) to manage Python versions on my Mac. I recently have gotten errors like

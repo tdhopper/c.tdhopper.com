@@ -5,7 +5,8 @@ description: "I had the honor of being a technical reviewer for John Myles
   White's outstanding book, \"Bandit Algorithms for Website Optimization:
   Developing, Deploying, and Debugging.\" "
 tags:
-  - math
+  - machine-learning
+  - data-science
 categories:
   - Personal Update
 image: /images/mabandit.png

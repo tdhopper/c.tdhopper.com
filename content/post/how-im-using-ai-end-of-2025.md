@@ -5,6 +5,7 @@ description: A look at how I'm using various AI tools for chat, image
   generation, code, writing, and learning.
 tags:
   - ai
+  - developer-tools
 categories: Article
 image: /images/puppets.png
 ---
@@ -25,7 +26,7 @@ A year ago, I had not used a coding agent. I mostly relied on copying and pastin
 
 Early in the year, I started using [Cursor](https://www.cursor.com) at home and at work. By mid year, I had almost exclusively shifted to [Claude Code](https://www.anthropic.com/claude/code) which I exclusively use in `--dangerously-skip-permissions` mode. [Opus 4.5](https://www.anthropic.com/news/claude-opus-4-5) has made that an even better experience, and I find it reliably helps me refine what I'm asking for and then provide top tier implementations. I live in Claude Code these days.
 
-A lesson I've learned over the past 6 months is that Claude Code isn't just good for code automation but also computer automation. It's far better at using CLI tools than I will ever be, and it's ability to combine them enables automation of lots of work. For example, I rarely use `git` directly any more and let Claude handle it for me (even [opening pull requests](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md)). 
+A lesson I've learned over the past 6 months is that Claude Code isn't just good for code automation but also computer automation. It's far better at using CLI tools than I will ever be, and it's ability to combine them enables automation of lots of work. For example, I rarely use `git` directly any more and let Claude handle it for me (even [opening pull requests](https://github.com/tdhopper/dotfiles2.0/blob/master/.claude/skills/creating-pull-requests/SKILL.md)).
 
 I subscribe to the $20/month pro plan and have [extra usage](https://support.claude.com/en/articles/12429409-extra-usage-for-paid-claude-plans) enabled so I can pay for tokens after hitting the Pro limits.
 
@@ -47,7 +48,7 @@ For code, I have found Claude Code can do excellent breakdowns and patiently fie
 
 I've never been a bit voice to text person, because I mumble with a choppy cadence. However, I'm learning the modern tools do not care how annoying I am. I can stumble through my words for 15 minutes and they carefully transcribe and punctuate.
 
-I have been experimenting with [Whispr Flow](https://wisprflow.ai/) for personal uses; this has largely been using their iOS keyboard for vastly superior text-to-speech that the built in Apple Option. 
+I have been experimenting with [Whispr Flow](https://wisprflow.ai/) for personal uses; this has largely been using their iOS keyboard for vastly superior text-to-speech that the built in Apple Option.
 
 I have [Whisper Memos](https://whispermemos.com/) connect to my iPhone action button. This is a great one-trick-pony tool that starts recording on launch and then can email the transcript somewhere; mine goes to my [Drafts inbox](https://getdrafts.com/).
 

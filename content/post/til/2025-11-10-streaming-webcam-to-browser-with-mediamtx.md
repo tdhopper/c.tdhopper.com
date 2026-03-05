@@ -6,6 +6,9 @@ categories:
 image: /images/til.png
 date: 2025-11-10
 description: How to make your webcam accessible via browser on your local network using ffmpeg and MediaMTX
+tags:
+  - homelab
+  - developer-tools
 ---
 
 I wanted to view my webcam feed from a browser on my local network. This turns out to be useful for testing video conferencing setups, monitoring a room, or checking camera angles before a recording. The challenge is that browsers can't directly access webcam RTSP streams, but they do support WebRTC.

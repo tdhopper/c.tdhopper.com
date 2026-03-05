@@ -5,7 +5,9 @@ slug: learning-python
 description: The post recounts the my journey with Python, highlighting how
   "Learning Python" by Mark Lutz significantly impacted my career.
 tags:
-  - Python
+  - python
+  - career
+  - education
 categories:
   - Article
 image: /images/minimalist-landscape-with-mouse-and-snake.png

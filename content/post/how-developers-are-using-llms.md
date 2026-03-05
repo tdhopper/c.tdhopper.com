@@ -4,6 +4,9 @@ date: 2025-03-11T12:12:00.000Z
 description: Collection of links about how other developers are using LLMs to
   augment their work.
 categories: Article
+tags:
+  - ai
+  - software-engineering
 image: /images/ai-agent-coder.jpg
 ---
 I'm very interested in *how* people are using LLMs to augment their work, especially in software development.

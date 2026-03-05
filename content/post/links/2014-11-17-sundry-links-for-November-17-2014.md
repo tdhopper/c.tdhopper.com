@@ -5,6 +5,9 @@ categories:
 slug: sundry-links-for-November-17-2014
 aliases: [/blog/2014/Nov/17/sundry-links-for-November-17-2014/]
 date: 2014-11-17
+tags:
+  - python
+  - developer-tools
 ---
 
 [There's no magic: virtualenv edition](https://www.hackerschool.com/blog/14-there-is-no-magic-virtualenv-edition): I didn't really get virtualenvs until long after I started programming Python, though they're now an essential part of my toolkit. This is a great post explaining how they work.

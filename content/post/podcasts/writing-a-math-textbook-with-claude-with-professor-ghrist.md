@@ -6,6 +6,10 @@ description: Dr. Robert Ghrist shares how he used Claude to "direct" the writing
 categories:
   - Podcast
 image: /images/podcast.png
+tags:
+  - ai
+  - mathematics
+  - writing
 ---
 In this episode, Professor Robert Ghrist from the University of Pennsylvania discusses his beautiful new linear algebra book created with the help of the Claude LLM in just 55 days. Professor Ghrist explains how he used Claude to assist with the book’s outline, writing style, formatting, and consistency, emphasizing his role as a director guiding the LLM.
 

@@ -2,7 +2,9 @@
 title: How I am Productive
 date: 2024-05-13T14:14:00.000Z
 description: My tips for staying organized and productive.
-tags: []
+tags:
+  - productivity
+  - developer-tools
 categories: Article
 image: /images/todo.png
 ---

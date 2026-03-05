@@ -5,6 +5,11 @@ categories:
 slug: sundry-links-for-January-19-2015
 aliases: [/blog/2015/Jan/19/sundry-links-for-January-19-2015/]
 date: 2015-01-19
+tags:
+  - python
+  - web-development
+  - data-science
+  - developer-tools
 ---
 
 [Matt Blodgett: But Where Do People Work in This Office?](http://www.mattblodgett.com/2015/01/but-where-do-people-work-in-this-office.html): "After looking through tons of cool office photos of many of the hottest companies in the Valley, I started to play a fun game I made up called 'spot the desks’. I’ll show you what I mean."

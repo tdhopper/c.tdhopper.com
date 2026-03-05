@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-05-02
+tags:
+  - command-line
+  - data-engineering
 ---
 
 I needed to concatenate a bunch of CSV files while skipping the header row. There was a nice solution on [Stack Overflow](http://stackoverflow.com/questions/10103619/unix-merge-many-files-while-deleting-first-line-of-all-files):

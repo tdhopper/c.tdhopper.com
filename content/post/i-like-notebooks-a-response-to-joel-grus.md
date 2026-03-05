@@ -3,6 +3,9 @@ title: '"I Like Notebooks": a response to Joel Grus'
 date: 2018-11-13T12:30:00.000Z
 description: Slides from my talk in defense of Jupyter Notebooks
 categories: Personal Update
+tags:
+  - python
+  - data-science
 image: /images/notebook.png
 ---
 At JuypterDay in the Triangle, I gave a response to [Joel Grus's memorable "I Don't Like Notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U) presentation.

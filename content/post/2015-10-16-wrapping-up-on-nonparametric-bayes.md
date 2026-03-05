@@ -9,7 +9,10 @@ description: Summary of my work developing a high-performance Python library for
 Thumbnail: /projects/lda.png
 Portfolio: true
 tags:
+  - dirichlet-processes
+  - natural-language-processing
   - python
+  - open-source
 ---
 
 Today is my last day at [Qadium](http://qadium.com). Next week, I am joining the data science team at [Distil Networks](http://distilnetworks.com).

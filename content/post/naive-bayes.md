@@ -4,6 +4,9 @@ date: Tue, 14 Mar 2017 21:29:00 +0000
 slug: naive-bayes
 categories:
     - article
+tags:
+  - machine-learning
+  - data-science
 ---
 
 {{< figure src="/uploads/naivebayes/nb1.jpg" >}}

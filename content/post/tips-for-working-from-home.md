@@ -3,6 +3,9 @@ title: Tips for Working from Home
 date: 2020-03-16T08:04:00.000Z
 description: Some tips for working from home
 categories: Humor
+tags:
+  - productivity
+  - software-engineering
 image: /images/office_ping_pong_game_illustration.png
 ---
 I've been working remotely for tech startups for six years, so I am sharing some tips for those working from home for the first time.

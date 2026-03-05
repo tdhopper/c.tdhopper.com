@@ -3,7 +3,8 @@ title: On Ramsey Numbers for Quadrilaterals in 3 and 4 Colors.
 date: 2008-01-07T21:00:00.000Z
 description: Overview of my summer research on combinatorial combinatorics
 tags:
-  - math
+  - mathematics
+  - education
 categories: Personal Update
 image: /images/graph.png
 math: true

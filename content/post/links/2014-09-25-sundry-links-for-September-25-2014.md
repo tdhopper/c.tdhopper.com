@@ -3,6 +3,9 @@ title: Links for September 25, 2014
 slug: sundry-links-for-September-25-2014
 aliases: [/blog/2014/Sep/25/sundry-links-for-September-25-2014/]
 date: 2014-09-25
+tags:
+  - data-science
+  - command-line
 categories:
     - Link
 ---

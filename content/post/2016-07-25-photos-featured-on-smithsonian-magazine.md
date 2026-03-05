@@ -3,7 +3,8 @@ title: Photos Featured on Smithsonian Magazine
 categories:
     - Personal Update
 tags:
-    - Photography
+  - photography
+  - personal
 date: 2016-07-25
 slug: photos-featured-on-smithsonian-magazine
 aliases: [/blog/2016/Jul/25/photos-featured-on-smithsonian-magazine/]

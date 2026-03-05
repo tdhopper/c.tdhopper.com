@@ -6,7 +6,8 @@ date: 2016-02-28
 slug: tweet-your-moon
 portfolio: true
 tags:
- - twitter
+  - twitter
+  - open-source
 description: Twitter account that shares random articles from the Stanford Encyclopedia of Philosophy
 Thumbnail: /projects/sep.png
 external: https://twitter.com/sep_articles

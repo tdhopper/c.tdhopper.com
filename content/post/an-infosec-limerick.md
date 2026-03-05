@@ -3,6 +3,9 @@ title: An Infosec Limerick
 date: 2017-12-21T12:00:00.000Z
 description: A limerick about personal information security
 categories: Humor
+tags:
+  - aws
+  - writing
 image: /images/leakybucket.png
 ---
 There once was a man from Nantucket<br>

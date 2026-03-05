@@ -6,6 +6,9 @@ date: 2014-10-03
 categories:
     - Article
 pull_quote: I create an RDD that is a short list of characters. My functions will aggregate the functions together with concatenation. I added brackets to the two types of concatenation to help give you an idea of what `aggregateByKey` is doing.
+tags:
+  - python
+  - data-engineering
 ---
 
 The [pyspark documentation](https://spark.apache.org/docs/2.2.0/rdd-programming-guide.html) doesn't include an example for the aggregateByKey RDD method. I didn't find any nice examples online, so I wrote my own.

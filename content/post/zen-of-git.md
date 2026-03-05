@@ -5,6 +5,9 @@ description: '"In the face of ambiguity, copy and paste from Stack Overflow."'
 categories:
   - humor
 image: /images/zen.png
+tags:
+  - git
+  - python
 ---
 
     $ git checkout this

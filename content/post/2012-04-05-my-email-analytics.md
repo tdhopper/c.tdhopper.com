@@ -6,6 +6,9 @@ date: 2012-04-05
 Author: Tim
 slug: my-email-analytics
 aliases: [/blog/2012/Apr/05/my-email-analytics/]
+tags:
+  - data-science
+  - operations-research
 ---
 
 Last month, Stephen Wolfram did a blog post on the [Personal Analytics](http://blog.stephenwolfram.com/2012/03/the-personal-analytics-of-my-life/) of his life. For years, he's recorded every phone call, keyboard stroke, email, and step. He made beautiful graphs to show his activity over the years. A Wolfram Alpha developer just posted a [Mathematica notebook](http://blog.wolfram.com/2012/04/05/analyzing-your-email-with-mathematica/) on the Wolfram blog allowing anyone to do the same email analysis that Wolfram did with any IMAP email account. Of course, I dropped what I was doing to try it out with my Gmail account. At first, it failed to finish processing my incoming email because the JVM ran out of memory. It took me a while to figure out how to tell JLink to let Java have more memory[^1analytics]. Here's a plot of emails sent by from Gmail me over the last six years:

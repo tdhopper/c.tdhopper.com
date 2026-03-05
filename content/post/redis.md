@@ -7,7 +7,8 @@ title: Pickle and Redis
 date: 2012-10-22
 description: A 2012 talk from PyCarolinas about persisting data with Python
 tags:
-  - Python
+  - python
+  - data-engineering
 categories: Personal Update
 image: /images/pickle.png
 ---

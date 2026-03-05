@@ -3,6 +3,11 @@ title: Links for September 20, 2014
 slug: sundry-links-for-September-20-2014
 aliases: [/blog/2014/Sep/20/sundry-links-for-September-20-2014/]
 date: 2014-09-20
+tags:
+  - python
+  - open-source
+  - data-engineering
+  - git
 categories:
     - Link
 ---

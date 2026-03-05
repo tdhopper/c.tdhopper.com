@@ -6,6 +6,10 @@ slug: what-do-all-or-folks-know
 aliases: [/blog/2012/Jan/16/what-do-all-or-folks-know/]
 categories:
     - Article
+tags:
+  - operations-research
+  - education
+  - mathematics
 ---
 
 My friend [John Cook](http://www.johndcook.com/blog/) asked me an interesting question recently:

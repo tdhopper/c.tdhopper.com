@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-05-02
+tags:
+  - twitter
+  - productivity
 ---
 
 This is more of a Today I Taught.

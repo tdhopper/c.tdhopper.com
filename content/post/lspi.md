@@ -5,7 +5,8 @@ categories:
   - Article
 image: /images/lspi.png
 tags:
-    - math
+  - machine-learning
+  - mathematics
 ---
 
 [Here are my notes](/uploads/lspi.pdf) on the derivation of the Least Squares Policy Iteration (LSPI) algorithm. The notes are based on the [original paper by Lagoudakis and Parr](https://users.cs.duke.edu/~parr/jmlr03.pdf).

@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-06-22
+tags:
+  - command-line
+  - developer-tools
 ---
 
 I've been using Bash's [`find`](http://www.freebsd.org/cgi/man.cgi?find(1)) command a lot more regularly lately. I've always been scared off by its syntax, but it's great once you've learned it.

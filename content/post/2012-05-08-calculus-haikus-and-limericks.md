@@ -8,6 +8,9 @@ categories: Article
 image: /images/poems.png
 aliases:
   - /blog/2012/May/08/calculus-haikus-and-limericks/
+tags:
+  - education
+  - mathematics
 ---
 
 I offered my calculus students bonus points to write a limerick or haiku on their final exam. I got some great answers! And the students seem to enjoy it. My favorite limerick (on improper integrals):

@@ -8,7 +8,9 @@ slug: average-area-of-a-random-hull
 aliases: [/blog/2012/Apr/05/average-area-of-a-random-hull/]
 math: true
 tags:
-    - math
+  - mathematics
+  - operations-research
+  - machine-learning
 ---
 
 Yesterday, someone on MathOverflow asked

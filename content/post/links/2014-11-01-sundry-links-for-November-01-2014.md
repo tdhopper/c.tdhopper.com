@@ -3,6 +3,9 @@ title: Links for November 1, 2014
 slug: sundry-links-for-November-01-2014
 aliases: [/blog/2014/Nov/01/sundry-links-for-November-01-2014/]
 date: 2014-11-01
+tags:
+  - python
+  - command-line
 categories:
     - Link
 ---

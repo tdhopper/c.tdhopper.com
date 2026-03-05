@@ -6,6 +6,10 @@ date: 2012-07-12
 Author: Tim
 slug: operations-research-and-computer-programming
 aliases: [/blog/2012/Jul/12/operations-research-and-computer-programming/]
+tags:
+  - operations-research
+  - software-engineering
+  - git
 ---
 
 For part of my sophomore year of college, I was a computer science major. When I realized that I loved my CS theory courses while my classmates hated them, I decide to major in math instead. I enjoyed the programming classes enough, but programming is not what I wanted to spend my time doing.

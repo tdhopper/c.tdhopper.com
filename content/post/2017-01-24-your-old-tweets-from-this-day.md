@@ -8,7 +8,9 @@ aliases: [/blog/2017/Jan/24/your-old-tweets-from-this-day/]
 portfolio: true
 description: Twitter bot that shows you your old tweets from this date in previous years.
 tags:
- - Twitter
+  - twitter
+  - aws
+  - open-source
 Thumbnail: /projects/tweets.png
 external: https://twitter.com/your_old_tweets
 ---

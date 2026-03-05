@@ -6,6 +6,9 @@ date: 2012-02-10
 Author: Tim
 slug: mathematica-a-love-story
 aliases: [/blog/2012/Feb/10/mathematica-a-love-story/]
+tags:
+  - operations-research
+  - software-engineering
 ---
 
 As an undergraduate, our math department used Wolfram Research's [Mathematica](http://www.wolfram.com/mathematica/) heavily for instruction in a number of classes. Initially, I found it perplexing and frustrating. While most of my peers remained in that state (and never used it again after those classes), I soon found myself ordering and reading [An Introduction to Programming with Mathematica](http://www.amazon.com/Introduction-Programming-Mathematica-Paul-Wellin/dp/0521846781/ref=sr_1_4?ie=UTF8&qid=1328824356&sr=8-4).

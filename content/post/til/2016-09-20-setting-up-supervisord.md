@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-09-20
+tags:
+  - command-line
+  - productivity
 ---
 
 First run `$ sudo pip install supervisor`.

@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-03-23
+tags:
+  - data-engineering
+  - data-science
 ---
 
 [Impala Doesn't Have a histogram() function](https://groups.google.com/a/cloudera.org/d/msg/impala-user/O8u5JFfKJPk/V0ZR1muNBAAJ).

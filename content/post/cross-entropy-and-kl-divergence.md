@@ -5,7 +5,8 @@ math: true
 categories:
     - article
 tags:
-    - math
+  - mathematics
+  - machine-learning
 
 ---
 [As we saw in an earlier post](https://tdhopper.com/blog/entropy-of-a-discrete-probability-distribution/), the entropy of a discrete probability distribution is defined to be

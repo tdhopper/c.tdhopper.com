@@ -7,7 +7,8 @@ title: dothopper photography
 date: 2018-02-09
 description: A website devoted to my photography
 tags:
-  - Photography
+  - photography
+  - open-source
 categories:
   - Personal Update
 image: /images/camera.png

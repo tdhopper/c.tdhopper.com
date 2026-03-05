@@ -6,6 +6,9 @@ categories:
     - Today I Learned
 image: /images/til.png
 date: 2016-05-04
+tags:
+  - python
+  - command-line
 ---
 
 I'm trying out the beautiful [Fish shell](https://fishshell.com/). I've been a Bash user up until now.

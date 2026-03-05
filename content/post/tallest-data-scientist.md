@@ -8,7 +8,8 @@ date: 2016-12-08
 description: An interview with me on the Adversarial Learning podcast about
   being the tallest data scientist and other things.
 tags:
-  - Interview with me
+  - data-science
+  - career
 categories:
   - Personal Update
 image: /images/datascientist.png

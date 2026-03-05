@@ -5,6 +5,10 @@ categories:
 slug: sundry-links-for-November-24-2014
 aliases: [/blog/2014/Nov/25/sundry-links-for-November-24-2014/]
 date: 2014-11-24
+tags:
+  - machine-learning
+  - software-engineering
+  - data-engineering
 ---
 
 [brushfire](https://github.com/stripe/brushfire): Avi Bryant has been building a 'Brushfire is a framework for distributed supervised learning of decision tree ensemble models in Scala.' Fun stuff!

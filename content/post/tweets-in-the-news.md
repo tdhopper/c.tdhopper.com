@@ -3,6 +3,8 @@ title: My Tweet in BBC News
 date: Mon, 01 Jul 2019 13:40:00 +0000
 slug: tweets-in-the-news
 tags:
+  - twitter
+  - personal
 categories:
     - Personal Update
     - Humor

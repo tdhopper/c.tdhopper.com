@@ -5,7 +5,10 @@ date: 2014-12-08
 description: Free collection of interviews with nine thoughtful people answering
   the question as to whether a young college graduate should consider getting a
   Ph.D. in fields of science and engineering.
-tags: []
+tags:
+  - education
+  - career
+  - operations-research
 categories: Personal Update
 image: /images/crossroads2.png
 aliases:

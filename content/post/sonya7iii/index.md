@@ -2,7 +2,9 @@
 title: The Sony A7 iii after 5 years
 date: 2025-01-12
 description: A parent's review of the Sony A7 iii
-tags: []
+tags:
+  - photography
+  - personal
 categories: Article
 slug: sonya7iii
 image: /blog/sonya7iii/20210215-DSC02383.jpg
