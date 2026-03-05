@@ -1,0 +1,1352 @@
+{
+  "content/post/2012-01-09-carrots-oatmeal-operations-research.md": {
+    "title": "Carrots, Oatmeal, Operations Research",
+    "tags": [
+      "operations-research",
+      "mathematics"
+    ]
+  },
+  "content/post/2012-01-16-what-do-all-or-folks-know.md": {
+    "title": "What do all operations researchers know?",
+    "tags": [
+      "operations-research",
+      "education",
+      "mathematics"
+    ]
+  },
+  "content/post/2012-01-25-from-nuclear-weapons-to-operations-research.md": {
+    "title": "From Nuclear Weapons to Operations Research",
+    "tags": [
+      "operations-research",
+      "machine-learning",
+      "history"
+    ]
+  },
+  "content/post/2012-01-27-the-efficient-research-hypothesis.md": {
+    "title": "The Efficient Research Hypothesis",
+    "tags": [
+      "education",
+      "productivity"
+    ]
+  },
+  "content/post/2012-02-02-mathematicians-engineers-and-businessmen-on-npc-problems.md": {
+    "title": "Mathematicians, Engineers, and Businessmen on NPC Problems",
+    "tags": [
+      "mathematics",
+      "operations-research"
+    ]
+  },
+  "content/post/2012-02-10-mathematica-a-love-story.md": {
+    "title": "Mathematica: A Love Story",
+    "tags": [
+      "operations-research",
+      "software-engineering"
+    ]
+  },
+  "content/post/2012-03-02-the-spelling-corrector-that-got-me-interested-in-machine-learning.md": {
+    "title": "The Spelling Corrector that Got Me Interested in Machine Learning",
+    "tags": [
+      "machine-learning",
+      "python",
+      "natural-language-processing"
+    ]
+  },
+  "content/post/2012-03-05-stephen-wolframs-ama.md": {
+    "title": "Stephen Wolfram's AMA",
+    "tags": [
+      "operations-research",
+      "mathematics"
+    ]
+  },
+  "content/post/2012-04-03-operations-research-machine-learning-and-optimization.md": {
+    "title": "Operations Research, Machine Learning, and Optimization",
+    "tags": [
+      "operations-research",
+      "machine-learning"
+    ]
+  },
+  "content/post/2012-04-05-average-area-of-a-random-hull.md": {
+    "title": "Average Area of a Random Hull",
+    "tags": [
+      "mathematics",
+      "operations-research",
+      "machine-learning"
+    ]
+  },
+  "content/post/2012-04-05-my-email-analytics.md": {
+    "title": "My Email Analytics",
+    "tags": [
+      "data-science",
+      "operations-research"
+    ]
+  },
+  "content/post/2012-04-13-teaching-students-to-fail.md": {
+    "title": "Teaching Students to Fail",
+    "tags": [
+      "education",
+      "mathematics"
+    ]
+  },
+  "content/post/2012-05-08-calculus-haikus-and-limericks.md": {
+    "title": "Calculus Haikus and Limericks",
+    "tags": [
+      "education",
+      "mathematics"
+    ]
+  },
+  "content/post/2012-07-12-operations-research-and-computer-programming.md": {
+    "title": "Operations Research and Computer Programming",
+    "tags": [
+      "operations-research",
+      "software-engineering",
+      "git"
+    ]
+  },
+  "content/post/2013-07-23 Guide to Monte Carlo Methods?.md": {
+    "title": "Guide to Monte Carlo Methods?",
+    "tags": [
+      "machine-learning",
+      "mathematics",
+      "education"
+    ]
+  },
+  "content/post/2013-07-26 Noisy Series and Body Weight.md": {
+    "title": "Noisy Series and Body Weight",
+    "tags": [
+      "data-science",
+      "python"
+    ]
+  },
+  "content/post/2013-10-02 The Incessant Commentary on Being Tall.md": {
+    "title": "The Incessant Commentary on Being Tall",
+    "tags": [
+      "personal",
+      "writing"
+    ]
+  },
+  "content/post/2013-10-19 Sublime Text 2 and Markdown.md": {
+    "title": "Sublime Text and Markdown",
+    "tags": [
+      "developer-tools",
+      "productivity"
+    ]
+  },
+  "content/post/2013-11-08 Tweeting Primes.md": {
+    "title": "Tweeting Primes",
+    "tags": [
+      "mathematics",
+      "twitter"
+    ]
+  },
+  "content/post/2013-11-28 Noisy Series and Body Weight.md": {
+    "title": "Noisy Series and Body Weight Part 2",
+    "tags": [
+      "data-science",
+      "python"
+    ]
+  },
+  "content/post/2014-08-28 keeping-ipython-notebooks-running-in-the-background.md": {
+    "title": "Keeping IPython Notebooks Running in the Background",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/2014-08-30-tracking-weight-loss-with-r-hazel-withings-and-ifttt.md": {
+    "title": "Tracking Weight Loss with R, Hazel, Withings, and IFTTT",
+    "tags": [
+      "data-science",
+      "productivity"
+    ]
+  },
+  "content/post/2014-09-18-quickly-converting-python-dict-to-json.md": {
+    "title": "Quickly Converting Python Dict to JSON",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/2014-10-03-pysparks-aggregatebykey-method.md": {
+    "title": "Pyspark's AggregateByKey Method",
+    "tags": [
+      "python",
+      "data-engineering"
+    ]
+  },
+  "content/post/2014-12-08 Should I Do a Phd.md": {
+    "title": "Should I get a Ph.D.?",
+    "tags": [
+      "education",
+      "career",
+      "operations-research"
+    ]
+  },
+  "content/post/2015-07-22-thinking-at-work.md": {
+    "title": "Thinking at Work",
+    "tags": [
+      "productivity",
+      "career"
+    ]
+  },
+  "content/post/2015-07-27-handy-one-off-webpages.md": {
+    "title": "Handy One-off Webpages",
+    "tags": [
+      "python",
+      "web-development",
+      "open-source"
+    ]
+  },
+  "content/post/2015-07-28-10x-engineering.md": {
+    "title": "10x Engineering",
+    "tags": [
+      "software-engineering",
+      "career"
+    ]
+  },
+  "content/post/2015-07-30-high-quality-code-at-quora.md": {
+    "title": "High Quality Code at Quora",
+    "tags": [
+      "software-engineering",
+      "career"
+    ]
+  },
+  "content/post/2015-08-03-nonparametric-latent-dirichlet-allocation.md": {
+    "title": "Nonparametric Latent Dirichlet Allocation",
+    "tags": [
+      "dirichlet-processes",
+      "natural-language-processing",
+      "machine-learning",
+      "python"
+    ]
+  },
+  "content/post/2015-08-05-a-programmer's-portfolio.md": {
+    "title": "A Programmer's Portfolio",
+    "tags": [
+      "career",
+      "software-engineering"
+    ]
+  },
+  "content/post/2015-08-12-on-showing-your-work.md": {
+    "title": "On Showing Your Work",
+    "tags": [
+      "mathematics",
+      "education"
+    ]
+  },
+  "content/post/2015-09-01-profile-in-computational-imagination.md": {
+    "title": "Profile in Computational Imagination",
+    "tags": [
+      "data-science",
+      "career",
+      "productivity"
+    ]
+  },
+  "content/post/2015-09-08-outliers.md": {
+    "title": "Dealing with Outliers",
+    "tags": [
+      "data-science",
+      "machine-learning"
+    ]
+  },
+  "content/post/2015-09-17-data-science-and-agriculture.md": {
+    "title": "Data Science and Agriculture",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/2015-09-21-hdp-lda-gibbs-sampler.md": {
+    "title": "Notes on Gibbs Sampling in Hierarchical Dirichlet Process Models",
+    "tags": [
+      "dirichlet-processes",
+      "natural-language-processing",
+      "machine-learning"
+    ]
+  },
+  "content/post/2015-09-24-a-joke.md": {
+    "title": "A Joke",
+    "tags": [
+      "software-engineering",
+      "twitter"
+    ]
+  },
+  "content/post/2015-10-07-econtalk-topics.md": {
+    "title": "Econtalk Topics: Nonparametric LDA in Practice",
+    "tags": [
+      "dirichlet-processes",
+      "natural-language-processing",
+      "python"
+    ]
+  },
+  "content/post/2015-10-13-dirichlet-process-nomenclature.md": {
+    "title": "Nomenclature of Dirichlet Processes",
+    "tags": [
+      "dirichlet-processes",
+      "machine-learning",
+      "mathematics"
+    ]
+  },
+  "content/post/2015-10-15-antoniak.md": {
+    "title": "Sample from Antoniak Distribution with Python",
+    "tags": [
+      "dirichlet-processes",
+      "python",
+      "machine-learning"
+    ]
+  },
+  "content/post/2015-10-16-tweets-i'm-proud-of.md": {
+    "title": "Tweets I'm Proud Of (2)",
+    "tags": [
+      "twitter",
+      "machine-learning"
+    ]
+  },
+  "content/post/2015-10-16-wrapping-up-on-nonparametric-bayes.md": {
+    "title": "Nonparametric Latent Dirichlet Allocation",
+    "tags": [
+      "dirichlet-processes",
+      "natural-language-processing",
+      "python",
+      "open-source"
+    ]
+  },
+  "content/post/2015-11-06-my-first-publication.md": {
+    "title": "Using Twitter Data to Gain Insights into E-cigarette Marketing and Locations of Use",
+    "tags": [
+      "data-science",
+      "twitter",
+      "natural-language-processing"
+    ]
+  },
+  "content/post/2015-11-20-knitting.md": {
+    "title": "Knitting",
+    "tags": [
+      "personal",
+      "writing"
+    ]
+  },
+  "content/post/2015-11-21-sequential-minimal-optimization-algorithm-for-support-vector-machines.md": {
+    "title": "Sequential Minimal Optimization Algorithm for Support Vector Machines",
+    "tags": [
+      "machine-learning",
+      "operations-research"
+    ]
+  },
+  "content/post/2015-12-07-i-love-twitter.md": {
+    "title": "I Love Twitter",
+    "tags": [
+      "twitter",
+      "personal"
+    ]
+  },
+  "content/post/2016-01-12-quotes-from-former-professors.md": {
+    "title": "Quotes from Former Professors",
+    "tags": [
+      "education",
+      "mathematics"
+    ]
+  },
+  "content/post/2016-04-29-backpacking-for-the-very-tall.md": {
+    "title": "Ultralight Backpacking for the Ultratall",
+    "tags": [
+      "personal",
+      "writing"
+    ]
+  },
+  "content/post/2016-07-25-photos-featured-on-smithsonian-magazine.md": {
+    "title": "Photos Featured on Smithsonian Magazine",
+    "tags": [
+      "photography",
+      "personal"
+    ]
+  },
+  "content/post/2016-10-24-undersampled-radio.md": {
+    "title": "Undersampled Radio Interview",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/2017-01-24-your-old-tweets-from-this-day.md": {
+    "title": "Your Old Tweets from This Day",
+    "tags": [
+      "twitter",
+      "aws",
+      "open-source"
+    ]
+  },
+  "content/post/2017-02-21-logistic-regression-rules-everything-around-me.md": {
+    "title": "Logistic Regression Rules Everything Around Me",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/2017-04-13-towards-reducing-distractions-while-working.md": {
+    "title": "Towards Reducing Distractions while Working",
+    "tags": [
+      "productivity",
+      "career"
+    ]
+  },
+  "content/post/2017-04-14-metawork-is-more-interesting-than-work.md": {
+    "title": "Metawork is more interesting than work",
+    "tags": [
+      "software-engineering",
+      "productivity"
+    ]
+  },
+  "content/post/2017-04-26-like-most-great-mathematicians,-he-expects-universal-precision.md": {
+    "title": "Like most great mathematicians, he expects universal precision",
+    "tags": [
+      "mathematics",
+      "writing"
+    ]
+  },
+  "content/post/2017-05-22-adversarial-learning:-stories-of-degradation-and-humiliation.md": {
+    "title": "Adversarial Learning: Stories of Degradation and Humiliation",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/2017-05-26-choice-of-hte-name-dynamic-programming.md": {
+    "title": "Choice of the Name Dynamic Programming",
+    "tags": [
+      "mathematics",
+      "history",
+      "operations-research"
+    ]
+  },
+  "content/post/2017-06-06-condahttperror:-http-401-unauthorized-for-url.md": {
+    "title": "CondaHTTPError: HTTP 401 UNAUTHORIZED for url",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/2017-06-07-parallelizing-a-python-function-for-the-extremely-lazy.md": {
+    "title": "Parallelizing a Python Function for the Extremely Lazy",
+    "tags": [
+      "python",
+      "command-line"
+    ]
+  },
+  "content/post/2017-06-26-python-plotting-for-exploratory-data-analysis.md": {
+    "title": "Python Plotting for Exploratory Data Analysis",
+    "tags": [
+      "python",
+      "data-science",
+      "open-source"
+    ]
+  },
+  "content/post/2017-10-16-neal-ford-on-companies-ignoring-developer-costs.md": {
+    "title": "Neal Ford on Companies Ignoring Developer Costs",
+    "tags": [
+      "software-engineering",
+      "career"
+    ]
+  },
+  "content/post/2018-02-13-kahneman.md": {
+    "title": "Optimism is essential to scientific success",
+    "tags": [
+      "education",
+      "career"
+    ]
+  },
+  "content/post/2018-05-22-ds-at-work.md": {
+    "title": "I Basically Can't Hire People Who Don't Know Git",
+    "tags": [
+      "data-science",
+      "software-engineering",
+      "career",
+      "git"
+    ]
+  },
+  "content/post/2018-05-29-babbage.md": {
+    "title": "Wrong Figures, Right Answers?",
+    "tags": [
+      "history",
+      "software-engineering"
+    ]
+  },
+  "content/post/2019-02-13-ipython-from-pdb.md": {
+    "title": "Access a IPython repl from pdb",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/2019-05-30-installing-python-on-mohave.md": {
+    "title": "Installing Python on Mohave with pyenv",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/a-builder-of-systems-a-path-to-unveil.md": {
+    "title": "A builder of systems, a path to unveil",
+    "tags": [
+      "career",
+      "machine-learning",
+      "ai"
+    ]
+  },
+  "content/post/accessing-my-home-server-around-the-world-with-custom-domain-names.md": {
+    "title": "Accessing my home server around the world with custom domain names",
+    "tags": [
+      "homelab",
+      "command-line"
+    ]
+  },
+  "content/post/ai-interpretation-of-tdhopper-com.md": {
+    "title": "AI interpretation of tdhopper.com",
+    "tags": [
+      "ai",
+      "writing"
+    ]
+  },
+  "content/post/an-infosec-limerick.md": {
+    "title": "An Infosec Limerick",
+    "tags": [
+      "aws",
+      "writing"
+    ]
+  },
+  "content/post/announcing-the-python-developer-tooling-handbook.md": {
+    "title": "Announcing the Python Developer Tooling Handbook",
+    "tags": [
+      "python",
+      "developer-tools",
+      "open-source"
+    ]
+  },
+  "content/post/automating-python-with-ansible.md": {
+    "title": "Automating Python with Ansible",
+    "tags": [
+      "python",
+      "homelab",
+      "productivity"
+    ]
+  },
+  "content/post/bandits.md": {
+    "title": "Bandit Algorithms for Website Optimization",
+    "tags": [
+      "machine-learning",
+      "data-science"
+    ]
+  },
+  "content/post/build-for-the-model-six-months-from-now.md": {
+    "title": "Build for the Model Six Months from Now",
+    "tags": [
+      "ai",
+      "software-engineering"
+    ]
+  },
+  "content/post/classes-future-programmers-should-take.md": {
+    "title": "Classes Future Programmers Should Take",
+    "tags": [
+      "software-engineering",
+      "education"
+    ]
+  },
+  "content/post/code-review-guidelines.md": {
+    "title": "Code Review Guidelines for Data Science Teams",
+    "tags": [
+      "software-engineering",
+      "data-science"
+    ]
+  },
+  "content/post/collapsed-gibbs/index.md": {
+    "title": "Collapsed Gibbs Sampling for Bayesian Mixture Models (with a Nonparametric Extension)",
+    "tags": [
+      "machine-learning",
+      "dirichlet-processes",
+      "python"
+    ]
+  },
+  "content/post/column-binding-two-pandas-dataframes.md": {
+    "title": "Column binding two Panda's Dataframes",
+    "tags": [
+      "python",
+      "data-science"
+    ]
+  },
+  "content/post/cross-entropy-and-kl-divergence.md": {
+    "title": "Cross Entropy and KL Divergence",
+    "tags": [
+      "mathematics",
+      "machine-learning"
+    ]
+  },
+  "content/post/data-scientists-need-more-automation.md": {
+    "title": "Data Scientists Need More Automation",
+    "tags": [
+      "data-science",
+      "productivity",
+      "python"
+    ]
+  },
+  "content/post/dirichlet-distribution/index.md": {
+    "title": "Dirichlet Distribution and Dirichlet Processes",
+    "tags": [
+      "dirichlet-processes",
+      "machine-learning",
+      "mathematics",
+      "python"
+    ]
+  },
+  "content/post/econtalk.md": {
+    "title": "Econtalk",
+    "tags": [
+      "data-science",
+      "personal"
+    ]
+  },
+  "content/post/entropy-of-a-discrete-probability-distribution.md": {
+    "title": "Entropy of a Discrete Probability Distribution",
+    "tags": [
+      "mathematics",
+      "machine-learning"
+    ]
+  },
+  "content/post/faq.md": {
+    "title": "A Subjective and Anecdotal FAQ on Becoming a Data Scientist",
+    "tags": [
+      "data-science",
+      "career",
+      "education"
+    ]
+  },
+  "content/post/filter-by-date-in-a-pandas-multiindex.md": {
+    "title": "Filter by date in a Pandas MultiIndex",
+    "tags": [
+      "python",
+      "data-science"
+    ]
+  },
+  "content/post/george-washington-inbox-zero.md": {
+    "title": "George Washington's Struggle for Inbox Zero",
+    "tags": [
+      "productivity",
+      "history"
+    ]
+  },
+  "content/post/good-programming-languages-are-nice-but-not-vital.md": {
+    "title": "Good programming languages are nice but not vital",
+    "tags": [
+      "python",
+      "software-engineering"
+    ]
+  },
+  "content/post/goodnight-zoom.md": {
+    "title": "Goodnight Zoom",
+    "tags": [
+      "productivity",
+      "software-engineering"
+    ]
+  },
+  "content/post/hdp-sampling/index.md": {
+    "title": "Sampling from a Hierarchical Dirichlet Process",
+    "tags": [
+      "dirichlet-processes",
+      "machine-learning",
+      "mathematics",
+      "python"
+    ]
+  },
+  "content/post/how-developers-are-using-llms.md": {
+    "title": "How Developers are Using LLMs",
+    "tags": [
+      "ai",
+      "software-engineering"
+    ]
+  },
+  "content/post/how-i-am-productive.md": {
+    "title": "How I am Productive",
+    "tags": [
+      "productivity",
+      "developer-tools"
+    ]
+  },
+  "content/post/how-i-became-a-data-scientist.md": {
+    "title": "How I Became a Data Scientist Despite Having Been a Math Major",
+    "tags": [
+      "data-science",
+      "career",
+      "mathematics",
+      "education"
+    ]
+  },
+  "content/post/how-im-using-ai-end-of-2025.md": {
+    "title": "How I'm Using AI at the End of 2025",
+    "tags": [
+      "ai",
+      "developer-tools"
+    ]
+  },
+  "content/post/i-like-notebooks-a-response-to-joel-grus.md": {
+    "title": "\"I Like Notebooks\": a response to Joel Grus",
+    "tags": [
+      "python",
+      "data-science"
+    ]
+  },
+  "content/post/interview-with-the-pybites-podcast.md": {
+    "title": "Interview with the Pybites podcast",
+    "tags": [
+      "python",
+      "developer-tools",
+      "career"
+    ]
+  },
+  "content/post/learning-python.md": {
+    "title": "The Programming Book That Made My Career",
+    "tags": [
+      "python",
+      "career",
+      "education"
+    ]
+  },
+  "content/post/lessons-from-developing-a-machine-learning-feature-platform.md": {
+    "title": "Lessons from Developing a Machine Learning Feature Platform",
+    "tags": [
+      "machine-learning",
+      "data-engineering"
+    ]
+  },
+  "content/post/lessons-using-claude-code-effectively.md": {
+    "title": "Lessons from Using Claude Code Effectively",
+    "tags": [
+      "ai",
+      "developer-tools"
+    ]
+  },
+  "content/post/links/2014-08-23-link-post.md": {
+    "title": "Links for August 23, 2014",
+    "tags": [
+      "python",
+      "command-line",
+      "data-engineering"
+    ]
+  },
+  "content/post/links/2014-08-25 sundry-links-for-August-25-2014.md": {
+    "title": "Links for August 25, 2014",
+    "tags": [
+      "python",
+      "command-line",
+      "data-engineering",
+      "developer-tools"
+    ]
+  },
+  "content/post/links/2014-08-28 sundry-links-for-August-28-2014.md": {
+    "title": "Links for August 28, 2014",
+    "tags": [
+      "python",
+      "data-engineering",
+      "developer-tools",
+      "mathematics"
+    ]
+  },
+  "content/post/links/2014-08-30-sundry-links-for-August-30-2014.md": {
+    "title": "Links for August 30, 2014",
+    "tags": [
+      "python",
+      "data-science",
+      "git",
+      "machine-learning"
+    ]
+  },
+  "content/post/links/2014-09-10-sundry-links-for-September-10-2014.md": {
+    "title": "Links for September 10, 2014",
+    "tags": [
+      "python",
+      "web-development",
+      "command-line"
+    ]
+  },
+  "content/post/links/2014-09-20-sundry-links-for-September-20-2014.md": {
+    "title": "Links for September 20, 2014",
+    "tags": [
+      "python",
+      "open-source",
+      "data-engineering",
+      "git"
+    ]
+  },
+  "content/post/links/2014-09-25-sundry-links-for-September-25-2014.md": {
+    "title": "Links for September 25, 2014",
+    "tags": [
+      "data-science",
+      "command-line"
+    ]
+  },
+  "content/post/links/2014-09-30-sundry-links-for-September-30-2014.md": {
+    "title": "Links for September 30, 2014",
+    "tags": [
+      "python",
+      "data-engineering",
+      "command-line",
+      "web-development"
+    ]
+  },
+  "content/post/links/2014-11-01-sundry-links-for-November-01-2014.md": {
+    "title": "Links for November 1, 2014",
+    "tags": [
+      "python",
+      "command-line"
+    ]
+  },
+  "content/post/links/2014-11-03-sundry-links-for-November-03-2014.md": {
+    "title": "Links for November 3, 2014",
+    "tags": [
+      "python",
+      "web-development",
+      "command-line"
+    ]
+  },
+  "content/post/links/2014-11-12-sundry-links-for-November-12-2014.md": {
+    "title": "Links for November 12, 2014",
+    "tags": [
+      "python",
+      "data-engineering"
+    ]
+  },
+  "content/post/links/2014-11-17-sundry-links-for-November-17-2014.md": {
+    "title": "Links for November 17, 2014",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/links/2014-11-25-sundry-links-for-November-24-2014.md": {
+    "title": "Links for November 24, 2014",
+    "tags": [
+      "machine-learning",
+      "software-engineering",
+      "data-engineering"
+    ]
+  },
+  "content/post/links/2014-12-04-sundry-links-for-December-04-2014.md": {
+    "title": "Links for December 4, 2014",
+    "tags": [
+      "python",
+      "machine-learning"
+    ]
+  },
+  "content/post/links/2014-12-06-sundry-links-for-December-06-2014.md": {
+    "title": "Links for December 6, 2014",
+    "tags": [
+      "mathematics",
+      "data-science",
+      "python",
+      "command-line"
+    ]
+  },
+  "content/post/links/2014-12-22-sundry-links-for-December-22-2014.md": {
+    "title": "Links for December 22, 2014",
+    "tags": [
+      "machine-learning",
+      "python",
+      "git",
+      "software-engineering"
+    ]
+  },
+  "content/post/links/2014-12-29-sundry-links-for-December-29-2014.md": {
+    "title": "Links for December 29, 2014",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/links/2015-01-19-sundry-links-for-January-19-2015.md": {
+    "title": "Links for January 19, 2015",
+    "tags": [
+      "python",
+      "web-development",
+      "data-science",
+      "developer-tools"
+    ]
+  },
+  "content/post/links/2015-03-13-sundry-links-for-March-13-2015.md": {
+    "title": "Links for March 13, 2015",
+    "tags": [
+      "python",
+      "data-science"
+    ]
+  },
+  "content/post/links/2015-03-23-sundry-links-for-March-23-2015.md": {
+    "title": "Links for March 23, 2015",
+    "tags": [
+      "aws",
+      "software-engineering",
+      "developer-tools",
+      "mathematics"
+    ]
+  },
+  "content/post/lspi.md": {
+    "title": "Notes on the Derivation of Least Squares Policy Iteration",
+    "tags": [
+      "machine-learning",
+      "mathematics"
+    ]
+  },
+  "content/post/mentions-of-john-cook-on-github.md": {
+    "title": "Mentions of John Cook on Github",
+    "tags": [
+      "open-source",
+      "writing",
+      "mathematics"
+    ]
+  },
+  "content/post/mixture-model/index.md": {
+    "title": "Fitting a Mixture Model with Gibbs Sampling",
+    "tags": [
+      "machine-learning",
+      "python"
+    ]
+  },
+  "content/post/my-first-strongman-competition.md": {
+    "title": "My first strongman competition",
+    "tags": [
+      "personal",
+      "writing"
+    ]
+  },
+  "content/post/my-python-environment-workflow-with-conda.md": {
+    "title": "My Python Environment Workflow with Conda",
+    "tags": [
+      "python",
+      "developer-tools"
+    ]
+  },
+  "content/post/my-summer-doing-math-research.md": {
+    "title": "My summer doing math (?) research",
+    "tags": [
+      "mathematics",
+      "career",
+      "software-engineering"
+    ]
+  },
+  "content/post/naive-bayes.md": {
+    "title": "Naive Bayes Meme",
+    "tags": [
+      "machine-learning",
+      "data-science"
+    ]
+  },
+  "content/post/nature-article-open-source.md": {
+    "title": "My Tweet in Nature",
+    "tags": [
+      "open-source",
+      "twitter"
+    ]
+  },
+  "content/post/no-silver-bullet.md": {
+    "title": "No Silver Bullet",
+    "tags": [
+      "software-engineering",
+      "writing"
+    ]
+  },
+  "content/post/on-inspiration.md": {
+    "title": "On Inspiration",
+    "tags": [
+      "personal",
+      "productivity"
+    ]
+  },
+  "content/post/on-ramsey-numbers-for-quadrilaterals-in-3-and-4-colors.md": {
+    "title": "On Ramsey Numbers for Quadrilaterals in 3 and 4 Colors.",
+    "tags": [
+      "mathematics",
+      "education"
+    ]
+  },
+  "content/post/organizing-research-data-with-intake.md": {
+    "title": "Organizing research data with Intake",
+    "tags": [
+      "python",
+      "data-engineering",
+      "data-science",
+      "aws"
+    ]
+  },
+  "content/post/philosophy-tweets.md": {
+    "title": "Stanford Encyclopedia of Philosophy Bot",
+    "tags": [
+      "twitter",
+      "open-source"
+    ]
+  },
+  "content/post/photography.md": {
+    "title": "dothopper photography",
+    "tags": [
+      "photography",
+      "open-source"
+    ]
+  },
+  "content/post/podcasts/001.md": {
+    "title": "Ten Years of Data Science with Josh Wills and Oscar Boykin",
+    "tags": [
+      "data-science",
+      "machine-learning",
+      "career",
+      "data-engineering"
+    ]
+  },
+  "content/post/podcasts/002.md": {
+    "title": "Fizz Buzz Book with Joel Grus",
+    "tags": [
+      "python",
+      "software-engineering"
+    ]
+  },
+  "content/post/podcasts/003.md": {
+    "title": "Customer Focused Data Science with Mike Rogers",
+    "tags": [
+      "data-science",
+      "career",
+      "software-engineering"
+    ]
+  },
+  "content/post/podcasts/004.md": {
+    "title": "Evolution of a Data Scientist with Adam Laiacano",
+    "tags": [
+      "data-science",
+      "machine-learning",
+      "career"
+    ]
+  },
+  "content/post/podcasts/005.md": {
+    "title": "Feature Stores with Willem Pienaar",
+    "tags": [
+      "machine-learning",
+      "data-engineering"
+    ]
+  },
+  "content/post/podcasts/006.md": {
+    "title": "Hiring Data Scientists with Roy Keyes",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/podcasts/007.md": {
+    "title": "Ocean Engineering to Data Science",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/podcasts/008.md": {
+    "title": "Apache Pulsar with Jowanza Joseph",
+    "tags": [
+      "data-engineering",
+      "software-engineering"
+    ]
+  },
+  "content/post/podcasts/009.md": {
+    "title": "AI Assisted Programming with Ravi Mody",
+    "tags": [
+      "ai",
+      "developer-tools",
+      "data-science"
+    ]
+  },
+  "content/post/podcasts/ai-assisted-sql-generation-with-till-doehmen.md": {
+    "title": "AI-Assisted SQL Generation with Till Döhmen",
+    "tags": [
+      "ai",
+      "data-engineering",
+      "natural-language-processing"
+    ]
+  },
+  "content/post/podcasts/building-a-startup-with-ai-with-jowanza-joseph.md": {
+    "title": "Building a Startup with AI with Jowanza Joseph",
+    "tags": [
+      "ai",
+      "career",
+      "developer-tools"
+    ]
+  },
+  "content/post/podcasts/getting-to-know-tim-hopper-with-brenton-mallon.md": {
+    "title": "Getting to Know Tim Hopper with Brenton Mallen",
+    "tags": [
+      "data-science",
+      "career",
+      "personal"
+    ]
+  },
+  "content/post/podcasts/the-evolution-of-ai-agents-with-ben-labaschin.md": {
+    "title": "The Evolution of AI Agents with Ben Labaschin",
+    "tags": [
+      "ai",
+      "developer-tools",
+      "productivity"
+    ]
+  },
+  "content/post/podcasts/writing-a-math-textbook-with-claude-with-professor-ghrist.md": {
+    "title": "Writing a Math Textbook with Claude with Professor Ghrist",
+    "tags": [
+      "ai",
+      "mathematics",
+      "writing"
+    ]
+  },
+  "content/post/printing-pandas-data-frames-as-html-in-jupyter-notebooks.md": {
+    "title": "Printing Pandas Data Frames as HTML in Jupyter Notebooks",
+    "tags": [
+      "python",
+      "data-science"
+    ]
+  },
+  "content/post/problem-of-programming.md": {
+    "title": "Problem of Programming",
+    "tags": [
+      "software-engineering",
+      "history"
+    ]
+  },
+  "content/post/querying-data-on-s3-with-amazon-athena.md": {
+    "title": "Querying data on S3 with Amazon Athena",
+    "tags": [
+      "aws",
+      "data-engineering"
+    ]
+  },
+  "content/post/redis.md": {
+    "title": "Pickle and Redis",
+    "tags": [
+      "python",
+      "data-engineering"
+    ]
+  },
+  "content/post/safety-first.md": {
+    "title": "Safety first?",
+    "tags": [
+      "personal",
+      "writing"
+    ]
+  },
+  "content/post/some-reflections-on-being-turned-down-for-a-lot-of-data-science-jobs.md": {
+    "title": "Some Reflections on Being Turned Down for a Lot of Data Science Jobs",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/sonya7iii/index.md": {
+    "title": "The Sony A7 iii after 5 years",
+    "tags": [
+      "photography",
+      "personal"
+    ]
+  },
+  "content/post/tallest-data-scientist.md": {
+    "title": "Tallest Data Scientist",
+    "tags": [
+      "data-science",
+      "career"
+    ]
+  },
+  "content/post/ten-year-endeavor.md": {
+    "title": "John Cook's Ten Year Blogging Endeavour",
+    "tags": [
+      "writing",
+      "mathematics",
+      "software-engineering"
+    ]
+  },
+  "content/post/testing-whether-a-python-string-contains-an-integer.md": {
+    "title": "Testing whether a Python string contains an integer",
+    "tags": [
+      "python",
+      "software-engineering"
+    ]
+  },
+  "content/post/the-perils-of-thinkism.md": {
+    "title": "The perils of thinkism",
+    "tags": [
+      "education",
+      "personal"
+    ]
+  },
+  "content/post/the-phd-blueprint/index.md": {
+    "title": "The Ph.D. Blueprint: Five Questions to Design Your Future",
+    "tags": [
+      "education",
+      "career"
+    ]
+  },
+  "content/post/til/2014-09-10-shortcut-to-switch-to-previous-git-branch.md": {
+    "title": "Shortcut to Switch to Previous Git Branch",
+    "tags": [
+      "git",
+      "command-line"
+    ]
+  },
+  "content/post/til/2015-03-15-concatenate-mp3-files.md": {
+    "title": "Concatenate MP3 Files",
+    "tags": [
+      "command-line",
+      "developer-tools"
+    ]
+  },
+  "content/post/til/2016-03-11-galileos-conflict-was-science-vs-science.md": {
+    "title": "Galileo's Conflict was Science vs. Science",
+    "tags": [
+      "history",
+      "education"
+    ]
+  },
+  "content/post/til/2016-03-11-using-rbenv-for-ruby-versions.md": {
+    "title": "Using rbenv for Ruby Versions",
+    "tags": [
+      "command-line",
+      "developer-tools"
+    ]
+  },
+  "content/post/til/2016-03-15-creating-impala-tables-from-pandas-dataframes.md": {
+    "title": "Creating Impala Tables from Pandas Dataframes",
+    "tags": [
+      "python",
+      "data-engineering"
+    ]
+  },
+  "content/post/til/2016-03-23-impala-doesnt-have-a-histogram-function.md": {
+    "title": "Impala Doesn't Have a histogram() function",
+    "tags": [
+      "data-engineering",
+      "data-science"
+    ]
+  },
+  "content/post/til/2016-04-26-dont-buffer-pythons-stdout.md": {
+    "title": "Don't Buffer Python's stdout",
+    "tags": [
+      "python",
+      "command-line"
+    ]
+  },
+  "content/post/til/2016-05-02-concatenate-files-with-header-row.md": {
+    "title": "Concatenate files with header row",
+    "tags": [
+      "command-line",
+      "data-engineering"
+    ]
+  },
+  "content/post/til/2016-05-02-searching-the-tweets-of-people-you-follow.md": {
+    "title": "Searching the tweets of people you follow",
+    "tags": [
+      "twitter",
+      "productivity"
+    ]
+  },
+  "content/post/til/2016-05-04-using-conda-with-the-fish-shell.md": {
+    "title": "Using Conda with the Fish Shell",
+    "tags": [
+      "python",
+      "command-line"
+    ]
+  },
+  "content/post/til/2016-06-15-configuring-impala-query-results-with-impalarc.md": {
+    "title": "Configuring Impala Query Results with impalarc",
+    "tags": [
+      "data-engineering",
+      "command-line"
+    ]
+  },
+  "content/post/til/2016-06-15-faster-ssh-access-to-remote-computers.md": {
+    "title": "Faster SSH Access to Remote Computers",
+    "tags": [
+      "command-line",
+      "developer-tools"
+    ]
+  },
+  "content/post/til/2016-06-22-find-files-modified-in-last-n-minutes.md": {
+    "title": "Find Files Modified in last N Minutes",
+    "tags": [
+      "command-line",
+      "developer-tools"
+    ]
+  },
+  "content/post/til/2016-09-20-setting-up-supervisord.md": {
+    "title": "Setting Up supervisord",
+    "tags": [
+      "command-line",
+      "productivity"
+    ]
+  },
+  "content/post/til/2016-11-08-speeding-up-pymc3-nuts-sampler.md": {
+    "title": "Speeding up PyMC3 NUTS Sampler",
+    "tags": [
+      "python",
+      "machine-learning"
+    ]
+  },
+  "content/post/til/2016-11-18-get-pykafka-to-work-with-rdkafka-on-linux.md": {
+    "title": "Get Pykafka to work with rdkafka on Linux",
+    "tags": [
+      "python",
+      "data-engineering",
+      "command-line"
+    ]
+  },
+  "content/post/til/2017-01-06-compare-rsa-key-with-fingerprint-in-github.md": {
+    "title": "Compare RSA Key with Fingerprint in Github",
+    "tags": [
+      "command-line",
+      "git"
+    ]
+  },
+  "content/post/til/2025-11-10-streaming-webcam-to-browser-with-mediamtx.md": {
+    "title": "Streaming Webcam to Browser with MediaMTX",
+    "tags": [
+      "homelab",
+      "developer-tools"
+    ]
+  },
+  "content/post/til/git-check-ignore.md": {
+    "title": "git check-ignore",
+    "tags": [
+      "git",
+      "command-line"
+    ]
+  },
+  "content/post/tips-for-working-from-home.md": {
+    "title": "Tips for Working from Home",
+    "tags": [
+      "productivity",
+      "software-engineering"
+    ]
+  },
+  "content/post/tweets-in-the-news.md": {
+    "title": "My Tweet in BBC News",
+    "tags": [
+      "twitter",
+      "personal"
+    ]
+  },
+  "content/post/web-development-and-design-for-the-backend-developer.md": {
+    "title": "Web Development and Design for the Backend Developer",
+    "tags": [
+      "web-development",
+      "education"
+    ]
+  },
+  "content/post/welcome-page.md": {
+    "title": "Hey, I'm Tim Hopper!",
+    "tags": [
+      "career",
+      "python",
+      "machine-learning"
+    ]
+  },
+  "content/post/zen-of-git.md": {
+    "title": "Zen of Git",
+    "tags": [
+      "git",
+      "python"
+    ]
+  }
+}
