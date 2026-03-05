@@ -1,6 +1,6 @@
 ---
 title: "Articles"
-description: ""
+description: "In-depth posts on technical topics, career reflections, and ideas."
 slug: "article"
 image: "article.png"
 style:
