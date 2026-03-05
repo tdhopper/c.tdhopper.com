@@ -2,7 +2,8 @@
 title: '"I Like Notebooks": a response to Joel Grus'
 date: 2018-11-13T12:30:00.000Z
 description: Slides from my talk in defense of Jupyter Notebooks
-categories: Personal Update
+categories:
+    - Personal Update
 tags:
   - python
   - data-science

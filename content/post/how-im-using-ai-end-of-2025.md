@@ -6,7 +6,8 @@ description: A look at how I'm using various AI tools for chat, image
 tags:
   - ai
   - developer-tools
-categories: Article
+categories:
+    - Article
 image: /images/puppets.png
 ---
 

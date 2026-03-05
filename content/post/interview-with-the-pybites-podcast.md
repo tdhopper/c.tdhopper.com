@@ -7,7 +7,8 @@ tags:
   - python
   - developer-tools
   - career
-categories: Personal Update
+categories:
+    - Personal Update
 image: /images/podcast-interview-min.png
 ---
 [Bob Belderbos](https://www.linkedin.com/in/bbelderbos/) invited me on the [Pybites podcast](https://www.pybitespodcast.com/1501156/episodes/17574426-198-tim-hopper-on-uv-and-smarter-python-development) to talk about my career, the [Python Developer Tooling Handbook](https://pydevtools.com/handbook/), [uv](https://pydevtools.com/handbook/reference/uv/), [photography](https://photos.tdhopper.com/), and more. Bob was a great interviewer and I hope you enjoy.

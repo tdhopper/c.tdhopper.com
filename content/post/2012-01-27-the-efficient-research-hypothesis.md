@@ -4,7 +4,8 @@ slug: the-efficient-research-hypothesis
 title: The Efficient Research Hypothesis
 date: 2012-01-27
 description: The progression of knowledge isn't efficient!
-categories: Article
+categories:
+    - Article
 image: /images/money.png
 aliases:
   - /blog/2012/Jan/27/the-efficient-research-hypothesis/

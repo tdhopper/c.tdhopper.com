@@ -9,7 +9,8 @@ tags:
   - education
   - career
   - operations-research
-categories: Personal Update
+categories:
+    - Personal Update
 image: /images/crossroads2.png
 aliases:
   - /blog/2014/Dec/08/shouldigetaphdcom/

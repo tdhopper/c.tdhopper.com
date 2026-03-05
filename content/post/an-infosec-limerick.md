@@ -2,7 +2,8 @@
 title: An Infosec Limerick
 date: 2017-12-21T12:00:00.000Z
 description: A limerick about personal information security
-categories: Humor
+categories:
+    - Humor
 tags:
   - aws
   - writing

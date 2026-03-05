@@ -5,7 +5,8 @@ description: A parent's review of the Sony A7 iii
 tags:
   - photography
   - personal
-categories: Article
+categories:
+    - Article
 slug: sonya7iii
 image: /blog/sonya7iii/20210215-DSC02383.jpg
 ---

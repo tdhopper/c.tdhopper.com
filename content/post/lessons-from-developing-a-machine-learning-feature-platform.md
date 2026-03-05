@@ -3,7 +3,8 @@ title: Lessons from Developing a Machine Learning Feature Platform
 date: 2024-11-14T12:00:00.000-05:00
 description: Hard-earned lessons from rebuilding a feature platform for offline
   and online machine learning
-categories: Article
+categories:
+    - Article
 tags:
   - machine-learning
   - data-engineering

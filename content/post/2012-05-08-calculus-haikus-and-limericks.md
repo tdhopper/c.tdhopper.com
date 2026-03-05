@@ -4,7 +4,8 @@ slug: calculus-haikus-and-limericks
 title: Calculus Haikus and Limericks
 date: 2012-05-08
 description: Limericks and haikus written by my calculus students
-categories: Article
+categories:
+    - Article
 image: /images/poems.png
 aliases:
   - /blog/2012/May/08/calculus-haikus-and-limericks/

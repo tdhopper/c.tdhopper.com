@@ -4,7 +4,8 @@ slug: teaching-students-to-fail
 title: Teaching Students to Fail
 date: 2012-04-13
 description: Students need to learn to take risks, fail, and rebound
-categories: Article
+categories:
+    - Article
 image: /images/failing.png
 aliases:
   - /blog/2012/Apr/13/teaching-students-to-fail/

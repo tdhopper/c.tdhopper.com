@@ -3,7 +3,8 @@ title: AI interpretation of tdhopper.com
 date: 2024-12-31T10:54:00.000Z
 description: Claude.ai's observations on me and my writing style based on 14
   years of blog posts
-categories: Article
+categories:
+    - Article
 tags:
   - ai
   - writing

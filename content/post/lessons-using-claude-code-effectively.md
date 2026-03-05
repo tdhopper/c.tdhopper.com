@@ -5,7 +5,8 @@ description: Practical lessons learned from months of using Claude Code as my pr
 tags:
   - ai
   - developer-tools
-categories: Article
+categories:
+    - Article
 image: /images/mr-men-claude-code.png
 ---
 

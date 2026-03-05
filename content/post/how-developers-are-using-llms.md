@@ -3,7 +3,8 @@ title: How Developers are Using LLMs
 date: 2025-03-11T12:12:00.000Z
 description: Collection of links about how other developers are using LLMs to
   augment their work.
-categories: Article
+categories:
+    - Article
 tags:
   - ai
   - software-engineering

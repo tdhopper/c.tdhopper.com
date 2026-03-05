@@ -5,7 +5,8 @@ description: My tips for staying organized and productive.
 tags:
   - productivity
   - developer-tools
-categories: Article
+categories:
+    - Article
 image: /images/todo.png
 ---
 I consider myself a productive and organized person. At a minimum, people come to me for things because they know I get things done. This doesn't come naturally to me, and it's a skill I've developed over the past 15 years.

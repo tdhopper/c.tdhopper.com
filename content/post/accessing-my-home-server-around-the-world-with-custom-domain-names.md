@@ -3,7 +3,8 @@ title: Accessing my home server around the world with custom domain names
 date: 2024-12-20T11:47:00.000Z
 description: Using Tailscale, Caddy, and Cloudflare to access my Synology home
   server from anywhere in the world
-categories: Article
+categories:
+    - Article
 tags:
   - homelab
   - command-line

@@ -5,7 +5,8 @@ description: Solving problems requires more than just thinking about them
 tags:
   - education
   - personal
-categories: Quote
+categories:
+    - Quote
 image: /images/reading.png
 ---
 From [Daniel Lemire](https://lemire.me/blog/2016/12/20/what-is-a-useful-theory/):

@@ -5,7 +5,8 @@ description: Overview of my summer research on combinatorial combinatorics
 tags:
   - mathematics
   - education
-categories: Personal Update
+categories:
+    - Personal Update
 image: /images/graph.png
 math: true
 ---

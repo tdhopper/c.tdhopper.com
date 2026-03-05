@@ -6,7 +6,8 @@ tags:
   - career
   - machine-learning
   - ai
-categories: Humor
+categories:
+    - Humor
 image: /images/singing.jpeg
 ---
 I recently joined the Spotify [Audio Intelligence](https://research.atspotify.com/audio-intelligence/) team as a machine learning infrastructure engineer. At our team offsite, we did lightning round introductions of ourselves, so I used [ChatGPT](https://www.linkedin.com/company/aichatgpt/) and [tad.ai](https://www.linkedin.com/company/tad-ai/) to generate a song about my career history.

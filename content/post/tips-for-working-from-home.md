@@ -2,7 +2,8 @@
 title: Tips for Working from Home
 date: 2020-03-16T08:04:00.000Z
 description: Some tips for working from home
-categories: Humor
+categories:
+    - Humor
 tags:
   - productivity
   - software-engineering

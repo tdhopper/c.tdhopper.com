@@ -7,7 +7,8 @@ tags:
   - data-engineering
   - data-science
   - aws
-categories: Article
+categories:
+    - Article
 image: /images/shelves.png
 ---
 As someone providing engineering and infrastructure support for a small data science team, I've seen firsthand how the right tool can dramatically improve team productivity. Our team recently discovered [Intake](https://intake.readthedocs.io/en/latest/), a data cataloging tool by Anaconda that transformed how we work with Python-based data science projects.

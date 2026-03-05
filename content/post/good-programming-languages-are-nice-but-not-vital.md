@@ -6,7 +6,8 @@ description: While no programming language is perfect with the right tools and
 tags:
   - python
   - software-engineering
-categories: Article
+categories:
+    - Article
 image: /images/complaining.png
 ---
 > When someone says, “I want a programming language in which I need only say what I wish done,” give him a lollipop. (Alan Perlis, [Epigrams in Programming](https://cpsc.yale.edu/epigrams-programming))

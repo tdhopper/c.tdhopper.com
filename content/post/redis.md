@@ -9,7 +9,8 @@ description: A 2012 talk from PyCarolinas about persisting data with Python
 tags:
   - python
   - data-engineering
-categories: Personal Update
+categories:
+    - Personal Update
 image: /images/pickle.png
 ---
 
