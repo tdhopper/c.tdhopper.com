@@ -1,7 +1,10 @@
 <div class="main-article">
     <div class="article-content">
         <span class="site-description">Feedback</span>
-        <form class="feedback-form" style="margin: auto;" netlify netlify-honeypot="anything-else">
+        <form class="feedback-form" style="margin: auto;" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="18709fd3-3b8c-4957-924f-de6c466ef3de">
+            <input type="hidden" name="subject" value="tdhopper.com feedback">
+            <input type="hidden" name="from_name" value="tdhopper.com">
             <div class="form-group">
                 <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; margin: 10px 0;" placeholder="Name">
             </div>
@@ -12,7 +15,7 @@
                 <textarea id="comment" name="comment" required style="width: 100%; padding: 10px; margin: 10px 0;" rows="6" placeholder="Comment"></textarea>
             </div>
             <input type="hidden" name="page" value="{{ .Permalink }}">
-            <input type="hidden" id="anything-else" name="anything-else" style="display: none;">
+            <label style="display: none;" aria-hidden="true">Leave this field empty: <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></label>
 
             <button type="submit" style="background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Submit</button>
         </form>
