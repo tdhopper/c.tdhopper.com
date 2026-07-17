@@ -1,6 +1,6 @@
 ---
 title: "How Do U Sound?"
-date: 2026-07-17T09:00:00.000-04:00
+date: 2026-07-16
 description: A little side project for figuring out which of your microphones actually sounds best.
 categories:
   - Personal Update
