@@ -11,6 +11,8 @@ tags:
 description: "A paper I wrote as a Grove City College physics undergrad in 2005, revised two decades later to incorporate my professor's handwritten feedback."
 ---
 
+<link rel="stylesheet" href="/css/small-angle-viz.css">
+
 ## Abstract
 
 Most undergraduate textbooks on classical mechanics cover the simple pendulum as an example of simple harmonic motion by making a small-angle approximation that yields an amplitude-independent period. Some authors even state that the small-angle approximation is an appropriate estimation for many oscillating systems besides simple pendulums. It can be shown that this estimation will not work for many systems; in fact, there are infinitely many simple oscillating systems whose oscillation is *intrinsically* nonlinear. The periods of these systems depend on the amplitude of oscillation, so methods other than the small-angle approximation must be used to describe their motion — otherwise the resulting equations of motion may be incorrect. Where a system does yield to approximation, one or two standard techniques suffice, and a careful writer notes which ones and why. Care must be taken when evaluating oscillating systems to be sure they are correctly solved.
@@ -37,6 +39,8 @@ $$\theta = \theta_{0}\cos(\omega t + \delta), \qquad \omega = \sqrt{\frac{g}{\el
 
 and a period that is independent of the amplitude. For small angles this approximation is very close: a plot of $\theta$ versus $\sin\theta$ shows that up to about 0.5 radians the two values are almost identical. But for angles greater than this, the approximation falls apart.
 
+<div data-viz="approx"></div>
+
 ## A better approximation
 
 Millet suggests a correction to the small-angle formula. Instead of
@@ -54,6 +58,8 @@ $$\sin\theta = 2\sin\!\frac{\theta}{2}\cos\!\frac{\theta}{2},$$
 and then approximating $\sin\frac{\theta}{2} \approx \frac{\theta}{2}$ and $\cos\frac{\theta}{2} \approx \cos\frac{\theta_{0}}{2}$.
 
 Millet notes that at $\theta_{0} = 30^{\circ}$ his approximation gives a period with a percent error of 0.0075%, while the standard approximation gives an error of 1.7%. At $\theta_{0} = 90^{\circ}$ his approximation has an error of 0.75% and the standard approximation an error of 15%. He strongly suggests that this new formula be included in textbooks, so that students "will be able to find more realistic values for some current textbook problems" (Millet 163).
+
+<div data-viz="pendulum"></div>
 
 ## The exact solution
 
@@ -79,6 +85,8 @@ $$\tau = 2\pi\sqrt{\frac{\ell}{g}}\left(1 + \frac{1}{16}\theta_{0}^{2} + \frac{1
 
 This form clearly shows how the small-angle approximation functions. For example, in calculating the period of a pendulum with a maximum oscillation of fifteen degrees, the last two terms in the parenthesis total about 0.0042, which is clearly dominated by the leading $1$.
 
+<div data-viz="period"></div>
+
 ## Intrinsically nonlinear oscillators
 
 While the simple pendulum can be correctly estimated for small angles, there turn out to be infinitely many systems for which the approximation is not at all accurate. In his paper "Theory and Examples of Intrinsically Nonlinear Oscillators," Mohazzabi demonstrates this fact. He begins by explaining that the potential energy of an oscillator — assuming it is continuous at its equilibrium point ($x = 0$) and that the potential energy there is zero — is given by
@@ -94,6 +102,8 @@ The total energy of the system is therefore
 $$E = \frac{1}{2}\left[m\left(\frac{dx}{dt}\right)^{2} + V_{0}^{(2)}x^{2} + \frac{1}{3}V_{0}^{(3)}x^{3} + \cdots\right],$$
 
 which is equivalent to the equation for harmonic oscillation when the third- and higher-order terms of the potential-energy series vanish and the equation is differentiated with respect to time. But, Mohazzabi notes, this cannot always be taken as true or even approximately true. First, it is not always the case that the potential-energy function of an oscillating system can be expanded about its equilibrium configuration in a Taylor series. Second, even when such an expansion is possible, there are cases where the coefficient of the quadratic term vanishes and the series begins with a term higher than second order (Mohazzabi 492). This is the inadequacy of the small-angle approximation: some highly regarded texts even claim, incorrectly, that all oscillators can be estimated with it — Mohazzabi cites *Classical Mechanics* by Barger and Olsson as an example.
+
+<div data-viz="potential"></div>
 
 ### A tethered mass
 
@@ -156,3 +166,5 @@ Mohazzabi, Pirooz. "[Theory and Examples of Intrinsically Nonlinear Oscillators]
 Thornton, Stephen T., and Jerry B. Marion. *[Classical Dynamics of Particles and Systems](https://openlibrary.org/books/OL3696658M).* Ch. 4, "Nonlinear Oscillations." Belmont: Thomson Brooks/Cole, 2004.
 
 Tipler, Paul A., and Gene Mosca. *[Physics for Scientists and Engineers](https://openlibrary.org/search?q=Tipler+Mosca+Physics+for+Scientists+and+Engineers),* vol. 1B, p. 441. New York: W. H. Freeman, 2004.
+
+<script src="/js/small-angle-viz.js" defer></script>

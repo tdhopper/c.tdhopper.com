@@ -1,0 +1,115 @@
+/* Interactive visualizations for "The Shortcomings of the Small Angle Approximation".
+   Self-contained, theme-aware (reads the Stack theme's data-scheme). */
+
+.saviz {
+  --saviz-exact:  #3b7df0;   /* exact solution      */
+  --saviz-millet: #16a085;   /* Millet correction   */
+  --saviz-small:  #e8853b;   /* small-angle approx  */
+  --saviz-alert:  #e0553e;   /* error / emphasis    */
+  --saviz-neutral: #9aa4b0;
+
+  margin: 2.2em 0;
+  padding: 18px 18px 16px;
+  border: 1px solid var(--card-separator-color, rgba(128,128,128,0.25));
+  border-radius: 12px;
+  background: var(--card-background, #fff);
+  color: var(--card-text-color-main, #111);
+  box-shadow: var(--shadow-l1, 0 1px 3px rgba(0,0,0,0.08));
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.saviz__title {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin: 0 0 2px;
+  letter-spacing: -0.01em;
+}
+.saviz__sub {
+  margin: 0 0 14px;
+  color: var(--card-text-color-secondary, #666);
+  font-size: 0.92em;
+}
+
+.saviz__canvas-wrap { position: relative; width: 100%; }
+.saviz canvas { display: block; width: 100%; height: auto; touch-action: none; }
+
+.saviz__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  align-items: center;
+  margin-top: 14px;
+}
+.saviz__control { display: flex; flex-direction: column; gap: 4px; min-width: 190px; flex: 1 1 210px; }
+.saviz__control label {
+  font-size: 0.82em;
+  color: var(--card-text-color-secondary, #666);
+  display: flex; justify-content: space-between; gap: 10px;
+}
+.saviz__control label b { color: var(--card-text-color-main, #111); font-variant-numeric: tabular-nums; }
+
+.saviz input[type=range] {
+  -webkit-appearance: none; appearance: none;
+  width: 100%; height: 4px; border-radius: 4px;
+  background: var(--card-separator-color, #d8d8d8);
+  outline: none; margin: 6px 0;
+}
+.saviz input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none; appearance: none;
+  width: 17px; height: 17px; border-radius: 50%;
+  background: var(--saviz-exact); cursor: pointer;
+  border: 2px solid var(--card-background, #fff);
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.15);
+}
+.saviz input[type=range]::-moz-range-thumb {
+  width: 15px; height: 15px; border-radius: 50%;
+  background: var(--saviz-exact); cursor: pointer; border: 2px solid var(--card-background,#fff);
+}
+
+.saviz__buttons { display: flex; gap: 8px; flex: 0 0 auto; }
+.saviz__btn {
+  font: inherit; font-size: 0.86em; font-weight: 600;
+  padding: 6px 14px; border-radius: 7px; cursor: pointer;
+  border: 1px solid var(--card-separator-color, #ccc);
+  background: var(--card-background-selected, #eee);
+  color: var(--card-text-color-main, #111);
+}
+.saviz__btn:hover { border-color: var(--saviz-exact); }
+.saviz__btn:active { transform: translateY(1px); }
+
+.saviz__readout {
+  display: grid; gap: 8px 18px; margin-top: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+.saviz__stat {
+  padding: 9px 11px; border-radius: 8px;
+  background: var(--blockquote-background-color, rgba(128,128,128,0.08));
+}
+.saviz__stat .k { font-size: 0.76em; color: var(--card-text-color-secondary, #666); display:block; }
+.saviz__stat .v { font-size: 1.18em; font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing:-0.01em; }
+
+.saviz__legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 2px 0 12px; font-size: 0.86em; }
+.saviz__legend span { display: inline-flex; align-items: center; gap: 6px; color: var(--card-text-color-secondary,#666); }
+.saviz__legend span::before {
+  content: ""; width: 15px; height: 3px; border-radius: 2px; background: currentColor;
+}
+.saviz__legend .l-exact::before  { background: var(--saviz-exact); }
+.saviz__legend .l-millet::before { background: var(--saviz-millet); }
+.saviz__legend .l-small::before  { background: var(--saviz-small); }
+.saviz__legend .l-alert::before  { background: var(--saviz-alert); }
+
+.saviz__seg { display: inline-flex; border: 1px solid var(--card-separator-color,#ccc); border-radius: 8px; overflow: hidden; }
+.saviz__seg button {
+  font: inherit; font-size: 0.84em; padding: 6px 12px; border: none; cursor: pointer;
+  background: var(--card-background, #fff); color: var(--card-text-color-secondary, #666);
+}
+.saviz__seg button[aria-pressed="true"] { background: var(--saviz-exact); color: #fff; font-weight: 600; }
+
+.saviz__note { margin: 12px 0 0; font-size: 0.9em; color: var(--card-text-color-secondary, #666); }
+.saviz__note b { color: var(--card-text-color-main, #111); }
+
+@media (max-width: 520px) {
+  .saviz { font-size: 1.3rem; padding: 14px; }
+  .saviz__control { min-width: 100%; }
+}
