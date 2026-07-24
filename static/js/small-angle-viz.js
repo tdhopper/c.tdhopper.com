@@ -143,80 +143,6 @@
     }, { threshold: 0.01 }).observe(node);
   }
 
-  /* ============================================================ 1. theta vs sin */
-  function vizApprox(mount) {
-    const body = card(mount,
-      "The approximation itself: sin&thinsp;&theta; &asymp; &theta;",
-      "Drag the angle. The straight line is the approximation used in the textbook derivation; the curve is the truth. Watch the gap open up.");
-    body.appendChild(el("div", "saviz__legend",
-      '<span class="l-small">y = &theta; (approximation)</span>' +
-      '<span class="l-exact">y = sin&thinsp;&theta; (exact)</span>' +
-      '<span class="l-alert">error</span>'));
-    const wrap = el("div", "saviz__canvas-wrap");
-    const canvas = el("canvas"); wrap.appendChild(canvas); body.appendChild(wrap);
-
-    const controls = el("div", "saviz__controls");
-    const c1 = el("div", "saviz__control");
-    const lab = el("label", null, '<span>Amplitude &theta;</span><b></b>');
-    const sl = slider(1, 120, 0.5, 35);
-    c1.appendChild(lab); c1.appendChild(sl); controls.appendChild(c1);
-    body.appendChild(controls);
-
-    const readout = el("div", "saviz__readout"); body.appendChild(readout);
-    readout.innerHTML =
-      '<div class="saviz__stat"><span class="k">&theta; (radians)</span><span class="v" data-r="rad"></span></div>' +
-      '<div class="saviz__stat"><span class="k">sin&thinsp;&theta;</span><span class="v" data-r="sin"></span></div>' +
-      '<div class="saviz__stat"><span class="k">relative error &theta; vs sin&thinsp;&theta;</span><span class="v" data-r="err"></span></div>';
-
-    function draw(ctx, w, h) {
-      const p = palette(mount);
-      ctx.clearRect(0, 0, w, h);
-      const t0 = +sl.value * DEG;
-      const xmax = 120 * DEG;
-      const m = mapper(46, 14, w - 62, h - 40, 0, xmax, 0, xmax);
-
-      // grid + axes
-      ctx.strokeStyle = p.sep; ctx.lineWidth = 1;
-      ctx.beginPath();
-      for (let d = 0; d <= 120; d += 30) {
-        const x = m.X(d * DEG); ctx.moveTo(x, m.py); ctx.lineTo(x, m.py + m.ph);
-        label(ctx, d + "°", x, m.py + m.ph + 15, p.dim, "11px sans-serif", "center");
-      }
-      for (let v = 0; v <= 2; v += 0.5) {
-        const y = m.Y(v); if (y < m.py) continue;
-        ctx.moveTo(m.px, y); ctx.lineTo(m.px + m.pw, y);
-        label(ctx, v.toFixed(1), m.px - 7, y, p.dim, "11px sans-serif", "right", "middle");
-      }
-      ctx.stroke();
-
-      // error band between the curves up to t0
-      ctx.save(); ctx.beginPath();
-      const N = 80;
-      for (let i = 0; i <= N; i++) { const x = t0 * i / N; ctx[i ? "lineTo" : "moveTo"](m.X(x), m.Y(x)); }
-      for (let i = N; i >= 0; i--) { const x = t0 * i / N; ctx.lineTo(m.X(x), m.Y(Math.sin(x))); }
-      ctx.closePath(); ctx.fillStyle = p.alert + "33"; ctx.fill(); ctx.restore();
-
-      line(ctx, m, x => x, p.small, 2.5);           // y = theta
-      line(ctx, m, x => Math.sin(x), p.exact, 2.5); // y = sin theta
-
-      // markers at t0
-      const yA = m.Y(t0), yS = m.Y(Math.sin(t0)), xM = m.X(t0);
-      ctx.strokeStyle = p.alert; ctx.lineWidth = 2; ctx.setLineDash([4, 4]);
-      ctx.beginPath(); ctx.moveTo(xM, yA); ctx.lineTo(xM, yS); ctx.stroke(); ctx.setLineDash([]);
-      dot(ctx, xM, yA, 4.5, p.small); dot(ctx, xM, yS, 4.5, p.exact);
-
-      const err = (t0 - Math.sin(t0)) / Math.sin(t0) * 100;
-      readout.querySelector('[data-r="rad"]').textContent = t0.toFixed(3);
-      readout.querySelector('[data-r="sin"]').textContent = Math.sin(t0).toFixed(3);
-      const ev = readout.querySelector('[data-r="err"]');
-      ev.textContent = fmtPct(err);
-      ev.style.color = err > 5 ? p.alert : err > 1 ? p.small : p.millet;
-      lab.querySelector("b").textContent = (+sl.value).toFixed(1) + "°";
-    }
-    const r = responsive(body, canvas, 0.62, draw);
-    sl.addEventListener("input", r.relayout);
-  }
-
   /* ========================================================= 2. animated pendulum */
   function vizPendulum(mount) {
     const body = card(mount,
@@ -356,78 +282,6 @@
     bPlay.addEventListener("click", () => { userPaused = !running ? false : true; });
     reset();
   }
-
-  /* ======================================================= 3. period vs amplitude */
-  function vizPeriod(mount) {
-    const body = card(mount,
-      "The payoff: how the period grows with amplitude",
-      "The textbook says the period never changes with amplitude (flat orange line). It does. Drag the cursor to compare the flat approximation, Millet's correction, and the exact elliptic-integral period.");
-    body.appendChild(el("div", "saviz__legend",
-      '<span class="l-small">small-angle (constant)</span>' +
-      '<span class="l-millet">Millet correction</span>' +
-      '<span class="l-exact">exact</span>'));
-    const wrap = el("div", "saviz__canvas-wrap");
-    const canvas = el("canvas"); wrap.appendChild(canvas); body.appendChild(wrap);
-
-    const controls = el("div", "saviz__controls");
-    const c1 = el("div", "saviz__control");
-    const lab = el("label", null, '<span>Amplitude &theta;&#8320;</span><b></b>');
-    const sl = slider(1, 179, 1, 90);
-    c1.appendChild(lab); c1.appendChild(sl); controls.appendChild(c1);
-    body.appendChild(controls);
-
-    const readout = el("div", "saviz__readout"); body.appendChild(readout);
-    readout.innerHTML =
-      '<div class="saviz__stat"><span class="k">exact T / T&#8320;</span><span class="v" data-r="ex"></span></div>' +
-      '<div class="saviz__stat"><span class="k">small-angle error</span><span class="v" data-r="es"></span></div>' +
-      '<div class="saviz__stat"><span class="k">Millet error</span><span class="v" data-r="em"></span></div>';
-
-    function draw(ctx, w, h) {
-      const p = palette(mount);
-      ctx.clearRect(0, 0, w, h);
-      const xmax = 180, ymax = 2.6;
-      const m = mapper(48, 14, w - 64, h - 40, 0, xmax, 1, ymax);
-
-      ctx.strokeStyle = p.sep; ctx.lineWidth = 1; ctx.beginPath();
-      for (let d = 0; d <= 180; d += 30) {
-        const x = m.X(d); ctx.moveTo(x, m.py); ctx.lineTo(x, m.py + m.ph);
-        label(ctx, d + "°", x, m.py + m.ph + 15, p.dim, "11px sans-serif", "center");
-      }
-      for (let v = 1; v <= 2.5; v += 0.5) {
-        const y = m.Y(v); ctx.moveTo(m.px, y); ctx.lineTo(m.px + m.pw, y);
-        label(ctx, v.toFixed(1), m.px - 7, y, p.dim, "11px sans-serif", "right", "middle");
-      }
-      ctx.stroke();
-      label(ctx, "T / T₀", m.px - 7, m.py - 2, p.dim, "11px sans-serif", "right", "bottom");
-
-      line(ctx, m, () => 1, p.small, 2.5);
-      line(ctx, m, d => Tmillet(d * DEG), p.millet, 2.5);
-      line(ctx, m, d => Texact(d * DEG), p.exact, 2.5);
-
-      // reference dots from the paper (30, 90 deg)
-      [30, 90].forEach(d => dot(ctx, m.X(d), m.Y(Texact(d * DEG)), 3, p.exact));
-
-      // cursor
-      const d0 = +sl.value;
-      const xC = m.X(d0);
-      ctx.strokeStyle = p.dim; ctx.lineWidth = 1; ctx.setLineDash([4, 4]);
-      ctx.beginPath(); ctx.moveTo(xC, m.py); ctx.lineTo(xC, m.py + m.ph); ctx.stroke(); ctx.setLineDash([]);
-      const ex = Texact(d0 * DEG), mi = Tmillet(d0 * DEG);
-      dot(ctx, xC, m.Y(1), 5, p.small);
-      dot(ctx, xC, m.Y(Math.min(ymax, mi)), 5, p.millet);
-      dot(ctx, xC, m.Y(Math.min(ymax, ex)), 5, p.exact);
-
-      readout.querySelector('[data-r="ex"]').textContent = ex.toFixed(4);
-      const es = readout.querySelector('[data-r="es"]');
-      es.textContent = fmtPct(Math.abs(1 - ex) / ex * 100); es.style.color = p.small;
-      const em = readout.querySelector('[data-r="em"]');
-      em.textContent = fmtPct(Math.abs(mi - ex) / ex * 100); em.style.color = p.millet;
-      lab.querySelector("b").textContent = d0 + "°";
-    }
-    const r = responsive(body, canvas, 0.6, draw);
-    sl.addEventListener("input", r.relayout);
-  }
-
   /* ===================================================== 4. nonlinear potentials */
   function vizPotential(mount) {
     const SYS = {
@@ -528,7 +382,7 @@
   }
 
   /* -------------------------------------------------------------------- bootstrap */
-  const REG = { approx: vizApprox, pendulum: vizPendulum, period: vizPeriod, potential: vizPotential };
+  const REG = { pendulum: vizPendulum, potential: vizPotential };
   function boot() {
     document.querySelectorAll("[data-viz]").forEach(node => {
       const fn = REG[node.getAttribute("data-viz")];

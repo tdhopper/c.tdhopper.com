@@ -39,8 +39,6 @@ $$\theta = \theta_{0}\cos(\omega t + \delta), \qquad \omega = \sqrt{\frac{g}{\el
 
 and a period that is independent of the amplitude. For small angles this approximation is very close: a plot of $\theta$ versus $\sin\theta$ shows that up to about 0.5 radians the two values are almost identical. But for angles greater than this, the approximation falls apart.
 
-<div data-viz="approx"></div>
-
 ## A better approximation
 
 Millet suggests a correction to the small-angle formula. Instead of
@@ -85,8 +83,6 @@ $$\tau = 2\pi\sqrt{\frac{\ell}{g}}\left(1 + \frac{1}{16}\theta_{0}^{2} + \frac{1
 
 This form clearly shows how the small-angle approximation functions. For example, in calculating the period of a pendulum with a maximum oscillation of fifteen degrees, the last two terms in the parenthesis total about 0.0042, which is clearly dominated by the leading $1$.
 
-<div data-viz="period"></div>
-
 ## Intrinsically nonlinear oscillators
 
 While the simple pendulum can be correctly estimated for small angles, there turn out to be infinitely many systems for which the approximation is not at all accurate. In his paper "Theory and Examples of Intrinsically Nonlinear Oscillators," Mohazzabi demonstrates this fact. He begins by explaining that the potential energy of an oscillator — assuming it is continuous at its equilibrium point ($x = 0$) and that the potential energy there is zero — is given by
@@ -115,6 +111,15 @@ It is clear that this system is not a simple harmonic oscillator, because the lo
 
 ### Two charged rings
 
+<figure class="osc-fig"><svg viewBox="0 0 300 170" role="img" aria-label="Two concentric charged rings with a charge oscillating along the central axis.">
+<ellipse class="s" cx="150" cy="98" rx="115" ry="26"/><ellipse class="s" cx="150" cy="98" rx="60" ry="14"/>
+<line class="dash" x1="150" y1="20" x2="150" y2="152"/><text x="150" y="16" text-anchor="middle" class="lbl-i">z</text>
+<line class="mv" x1="150" y1="54" x2="150" y2="74"/><polygon class="mvf" points="150,48 145,58 155,58"/>
+<line class="mv" x1="150" y1="122" x2="150" y2="142"/><polygon class="mvf" points="150,148 145,138 155,138"/>
+<circle class="mvf" cx="150" cy="98" r="5"/><text x="162" y="93" class="lbl-i" style="fill:var(--saviz-exact)">q</text>
+<text x="88" y="102" text-anchor="middle">+Q</text><text x="33" y="102" text-anchor="middle">−βQ</text>
+</svg><figcaption>Two concentric rings of radii <span class="lbl-i">R</span> and <span class="lbl-i">αR</span> carry charges +Q and −βQ; a charge <span class="lbl-i">q</span> oscillates along the axis. Tuned so β = α³, the potential is ∝ z⁴.</figcaption></figure>
+
 Next, Mohazzabi provides an example from electrodynamics. He considers two thin concentric circular rings of radii $R$ and $\alpha R$, with $\alpha > 1$, lying in the $xy$-plane. Electric charges $Q$ and $-\beta Q$ (with $\beta > 0$) are uniformly distributed over the two rings, and a particle of mass $m$ and charge $q$ is placed on the $z$-axis near the center of the rings ($z \ll R$) and released (Mohazzabi 494). When the charges are chosen so that $\beta = \alpha^{3}$, the quadratic term of the potential vanishes and its leading behavior is quartic:
 
 $$V(z) = \frac{3Qq}{32\pi\epsilon_{0}R^{5}}\left(1 - \frac{1}{\alpha^{2}}\right)z^{4}. \tag{2}$$
@@ -122,6 +127,17 @@ $$V(z) = \frac{3Qq}{32\pi\epsilon_{0}R^{5}}\left(1 - \frac{1}{\alpha^{2}}\right)
 Once again the leading power is four, not two, so the motion of the particle is intrinsically nonlinear.
 
 ### A tunnel through a sphere
+
+<figure class="osc-fig"><svg viewBox="0 0 300 205" role="img" aria-label="A sphere with a tunnel through its center and a mass dropped inside.">
+<circle class="s" cx="150" cy="100" r="78"/>
+<circle class="dash" cx="150" cy="100" r="52"/><circle class="dash" cx="150" cy="100" r="26"/>
+<line class="dash" x1="150" y1="14" x2="150" y2="186"/>
+<line class="mv" x1="150" y1="70" x2="150" y2="90"/><polygon class="mvf" points="150,96 145,86 155,86"/>
+<line class="mv" x1="150" y1="130" x2="150" y2="110"/><polygon class="mvf" points="150,104 145,114 155,114"/>
+<circle class="mvf" cx="150" cy="100" r="5.5"/><text x="163" y="95" class="lbl-i" style="fill:var(--saviz-exact)">m</text>
+<line class="s" x1="150" y1="100" x2="215" y2="67"/><text x="197" y="72" class="lbl-i">R</text>
+<text x="150" y="200" text-anchor="middle">ρ ∝ (r/R)ˢ</text>
+</svg><figcaption>A mass dropped through a tunnel in a sphere whose density varies as <span class="lbl-i">ρ ∝ (r/R)ˢ</span>. Only <span class="lbl-i">s</span> = 0 (uniform density) gives simple harmonic motion.</figcaption></figure>
 
 Mohazzabi also gives an example reminiscent of a favorite problem in elementary gravitational field theory. He considers a sphere of radius $R$ with a small tunnel along an axis through its center, into which a small mass is dropped. The sphere has a radially symmetric mass distribution with density
 
@@ -135,6 +151,14 @@ For all values of $s$ not equal to zero, the motion is, once again, intrinsicall
 
 ### A bouncing ball
 
+<figure class="osc-fig"><svg viewBox="0 0 300 165" role="img" aria-label="A ball bouncing on a horizontal floor under gravity.">
+<line class="s" x1="58" y1="140" x2="242" y2="140"/>
+<line class="s" x1="64" y1="140" x2="56" y2="150"/><line class="s" x1="84" y1="140" x2="76" y2="150"/><line class="s" x1="104" y1="140" x2="96" y2="150"/><line class="s" x1="124" y1="140" x2="116" y2="150"/><line class="s" x1="144" y1="140" x2="136" y2="150"/><line class="s" x1="164" y1="140" x2="156" y2="150"/><line class="s" x1="184" y1="140" x2="176" y2="150"/><line class="s" x1="204" y1="140" x2="196" y2="150"/><line class="s" x1="224" y1="140" x2="216" y2="150"/>
+<circle class="mvf" cx="150" cy="58" r="15"/><text x="150" y="62" text-anchor="middle" style="fill:var(--card-background)">m</text>
+<line class="dash" x1="118" y1="58" x2="118" y2="140"/><text x="110" y="103" text-anchor="end" class="lbl-i">x</text>
+<line class="mv" x1="190" y1="48" x2="190" y2="82"/><polygon class="mvf" points="190,88 185,78 195,78"/><text x="202" y="70" style="fill:var(--saviz-exact)" class="lbl-i">g</text>
+</svg><figcaption>A ball under gravity has <span class="lbl-i">V = mgx</span> for x ≥ 0: a sharp corner at the floor, so no Taylor series can be written about the minimum.</figcaption></figure>
+
 The paper also gives an example where the potential cannot be expanded in a Taylor series at all. When an elastic ball bounces freely up and down on a horizontal plane, the potential energy (taking $x$ positive upward) is
 
 $$V(x) = mgx \;\; (x \ge 0), \qquad V(x) = \infty \;\; (x < 0). \tag{5}$$
@@ -142,6 +166,14 @@ $$V(x) = mgx \;\; (x \ge 0), \qquad V(x) = \infty \;\; (x < 0). \tag{5}$$
 This function has a minimum at $x = 0$, but it has a sharp corner there and so is not smoothly continuous — it is not differentiable at that point. Because it is not differentiable, the Taylor series cannot be expanded about it.
 
 ### A bead on a wire
+
+<figure class="osc-fig"><svg viewBox="0 0 300 170" role="img" aria-label="A bead sliding on a curved wire under gravity.">
+<path class="s" d="M40,38 C88,42 122,150 150,150 C178,150 212,42 260,38"/>
+<line class="dash" x1="150" y1="150" x2="150" y2="28"/>
+<circle class="mvf" cx="184" cy="117" r="6"/><text x="195" y="114" class="lbl-i" style="fill:var(--saviz-exact)">m</text>
+<line class="mv" x1="184" y1="129" x2="184" y2="151"/><polygon class="mvf" points="184,155 179,145 189,145"/>
+<text x="250" y="32" text-anchor="middle" class="lbl-i">y = c|x|ⁿ</text>
+</svg><figcaption>A bead sliding on the wire <span class="lbl-i">y = c|x|ⁿ</span>. Its potential energy is ∝ |s|ⁿ, simple-harmonic only when n = 2.</figcaption></figure>
 
 A fifth example imagines a bead sliding along a wire of shape $y = c|x|^{n}$, where $c$ and $n$ are constants. For small oscillations of the particle on this curve, using the differential relation $ds^{2} = dx^{2} + dy^{2}$, one can verify that along the curve the gravitational potential energy $V(y) = mgy$ can be written as $V(s) = mgc|s|^{n}$, so that the total energy of the particle is
 
