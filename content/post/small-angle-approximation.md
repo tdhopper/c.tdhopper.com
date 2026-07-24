@@ -1,6 +1,6 @@
 ---
 title: "The Shortcomings of the Small Angle Approximation for Oscillating Systems"
-date: 2026-07-24
+date: 2005-12-13
 slug: small-angle-approximation
 draft: true
 math: true
@@ -11,8 +11,6 @@ tags:
   - mathematics
 description: "A paper I wrote as a Grove City College physics undergrad in 2005, revised two decades later to incorporate my professor's handwritten feedback."
 ---
-
-> *This is a paper I wrote in December 2005 for Classical Mechanics (PHYS&nbsp;303) at Grove City College. I recently came across the graded copy — 93/100, "Great job, Tim," and dense red-pen notes in the margins — and revised it to incorporate my professor's feedback: tightening the prose, putting the sources in my own words instead of block-quoting them, defining terms more carefully, and cleaning up the citations, all as he suggested. The physics is unchanged.*
 
 ## Abstract
 
