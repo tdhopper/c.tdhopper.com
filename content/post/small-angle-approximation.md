@@ -108,7 +108,7 @@ It is clear that this system is not a simple harmonic oscillator, because the lo
 
 ### Two charged rings
 
-Next, Mohazzabi provides an example from electrodynamics. He considers two thin concentric circular rings of radii $R$ and $\alpha R$, with $\alpha > 1$, lying in the $xy$-plane. Electric charges $Q$ and $-\beta Q$ (with $\beta > 0$) are uniformly distributed over the two rings, and a particle of mass $m$ and charge $q$ is placed on the $z$-axis near the center of the rings ($z \ll R$) and released (Mohazzabi 494). The potential energy of this system is
+Next, Mohazzabi provides an example from electrodynamics. He considers two thin concentric circular rings of radii $R$ and $\alpha R$, with $\alpha > 1$, lying in the $xy$-plane. Electric charges $Q$ and $-\beta Q$ (with $\beta > 0$) are uniformly distributed over the two rings, and a particle of mass $m$ and charge $q$ is placed on the $z$-axis near the center of the rings ($z \ll R$) and released (Mohazzabi 494). When the charges are chosen so that $\beta = \alpha^{3}$, the quadratic term of the potential vanishes and its leading behavior is quartic:
 
 $$V(z) = \frac{3Qq}{32\pi\epsilon_{0}R^{5}}\left(1 - \frac{1}{\alpha^{2}}\right)z^{4}. \tag{2}$$
 
