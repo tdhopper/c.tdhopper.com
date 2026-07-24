@@ -1,0 +1,25 @@
+<figure class="mdp-fig">
+<svg viewBox="0 0 520 250" role="img" aria-label="State diagram of the transplant Markov decision process">
+  <defs>
+    <marker id="mdp-ah" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z"/></marker>
+    <marker id="mdp-ah-t" markerWidth="9" markerHeight="9" refX="6.5" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z"/></marker>
+  </defs>
+  <path class="edge-t" marker-end="url(#mdp-ah-t)" d="M104,88 C240,150 350,150 448,128"/>
+  <path class="edge-t" marker-end="url(#mdp-ah-t)" d="M244,94 C320,138 400,138 449,124"/>
+  <path class="edge-t" marker-end="url(#mdp-ah-t)" d="M408,84 C430,100 440,110 452,116"/>
+  <path class="edge" marker-end="url(#mdp-ah)" d="M92,96 C130,140 170,164 198,178"/>
+  <path class="edge" marker-end="url(#mdp-ah)" d="M228,102 C228,130 228,148 228,166"/>
+  <path class="edge" marker-end="url(#mdp-ah)" d="M368,98 C320,142 285,160 258,176"/>
+  <path class="edge" marker-end="url(#mdp-ah)" d="M112,64 C150,52 180,52 199,60"/>
+  <path class="edge" marker-end="url(#mdp-ah)" d="M262,64 C300,52 330,52 349,60"/>
+  <circle class="node" cx="80" cy="72" r="30"/><text x="80" y="76" text-anchor="middle">Good</text>
+  <circle class="node" cx="230" cy="72" r="30"/><text x="230" y="76" text-anchor="middle">Fair</text>
+  <circle class="node" cx="380" cy="72" r="30"/><text x="380" y="76" text-anchor="middle">Poor</text>
+  <circle class="node node-absorb" cx="480" cy="122" r="32"/><text x="480" y="119" text-anchor="middle">Trans-</text><text x="480" y="133" text-anchor="middle">planted</text>
+  <circle class="node node-absorb" cx="228" cy="196" r="28"/><text x="228" y="200" text-anchor="middle">Death</text>
+  <text class="lbl-dim" x="150" y="40" text-anchor="middle">health declines</text>
+  <text class="lbl-dim" x="470" y="180" text-anchor="middle">transplant: r = 100 / 75 / 60</text>
+  <text class="lbl-dim" x="120" y="150" text-anchor="middle">wait: r = 17</text>
+</svg>
+<figcaption>The decision states are Good, Fair, and Poor. Waiting (gray) keeps the patient alive but risks decline or death; transplanting (green) ends the process with a health-dependent payoff. Exact transition probabilities appear below.</figcaption>
+</figure>
