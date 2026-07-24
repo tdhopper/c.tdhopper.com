@@ -46,8 +46,6 @@ $$V(s) = \max_{a \in \{\text{wait},\, \text{transplant}\}} \left[\, r(s, a) + \l
 
 Value iteration turns this equation into an algorithm. Start from $V_0 = 0$ and apply the right-hand side as an update, $V_{k+1} = \mathcal{T} V_k$. Because $\lambda < 1$, the update $\mathcal{T}$ is a contraction, so the $V_k$ converge to the unique fixed point $V^\star$ regardless of where they start. The optimal policy reads off greedily: in each state, pick the action attaining the maximum.
 
-<div data-mdp="value-iteration"></div>
-
 ## The result: the healthiest patient waits
 
 Value iteration converges to
@@ -63,12 +61,18 @@ Q(\text{Good}, \text{transplant}) &= 100, \qquad\text{so waiting wins.}
 
 That gap is the **option value of waiting**. A healthy patient is likely to stay healthy, collecting the $17$ per-period reward and keeping the choice open, so holding the organ in reserve beats spending it now. This is a [control-limit policy](https://en.wikipedia.org/wiki/Optimal_stopping): wait while you are above a health threshold, act once you cross it. Such thresholds show up throughout optimal stopping, from equipment replacement to exercising an option.
 
+## Play it yourself
+
+The numbers make the case, but the tradeoff is easier to feel than to read. You are the patient, starting in Good health. Each period you choose: wait for a better moment, or accept the organ in front of you. The panel shows the odds you face and what the optimal policy would do; your job is to beat its long-run average of 112.40. Wait too long in a declining state and you will learn firsthand why the threshold exists.
+
+<div data-mdp="play"></div>
+
 ## What the discount factor decides
 
 The whole story hinges on how much the future is worth. The discount factor $\lambda$ trades immediate payoff against the option value of waiting. Drag it and watch the policy move: a patient future keeps Good on the list, while a heavily discounted future tips every state toward transplanting now.
 
 <div data-mdp="discount"></div>
 
-I built the model in Mathematica for the seminar and animated the convergence with `Manipulate` over a hand-drawn state diagram; the version here tells the same story. The interaction is the teaching: value iteration is three lines of algebra, but watching the values climb and the policy snap into place makes the fixed point feel inevitable. For the theory behind scaling these ideas well past five states, Warren Powell's *Approximate Dynamic Programming* is where I first met the subject.
+I built the model in Mathematica for the seminar and explored the policy with an interactive `Manipulate`; the playable version here tells the same story. The interaction is the teaching: the optimal policy is three lines of algebra, but having to choose, and sometimes losing a patient to waiting, makes the control limit feel earned. For the theory behind scaling these ideas well past five states, Warren Powell's *Approximate Dynamic Programming* is where I first met the subject.
 
 <script src="/js/mdp-viz.js" defer></script>

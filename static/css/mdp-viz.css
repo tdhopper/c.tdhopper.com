@@ -76,6 +76,14 @@
 }
 .mdpviz__btn:hover { border-color: var(--mdpviz-wait); }
 .mdpviz__btn:active { transform: translateY(1px); }
+.mdpviz__btn:disabled { opacity: 0.4; cursor: default; transform: none; }
+
+.mdpviz__odds {
+  margin: 10px 0 0;
+  font-size: 0.9em;
+  color: var(--card-text-color-main, #111);
+}
+.mdpviz__odds b { font-weight: 700; }
 
 .mdpviz__readout {
   display: grid; gap: 8px 18px; margin-top: 14px;
