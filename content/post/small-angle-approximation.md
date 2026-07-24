@@ -2,7 +2,6 @@
 title: "The Shortcomings of the Small Angle Approximation for Oscillating Systems"
 date: 2005-12-13
 slug: small-angle-approximation
-draft: true
 math: true
 categories:
   - Article
@@ -146,14 +145,14 @@ The small-angle approximation is a powerful tool in physics, but it must be used
 
 ## Works Cited
 
-Cadwell, L. H., and E. R. Boyko. "Linearization of the Simple Pendulum." *American Journal of Physics*, Nov. 1991.
+Cadwell, L. H., and E. R. Boyko. "[Linearization of the Simple Pendulum](https://doi.org/10.1119/1.16655)." *American Journal of Physics*, vol. 59, no. 11, 1991, pp. 979–981.
 
 Grattan-Guinness, I. *Companion Encyclopedia of the History and Philosophy of the Mathematical Sciences.* New York: Routledge, 1994.
 
-Millet, L. Edwards. "The Large-Angle Pendulum Period." *The Physics Teacher*, Mar. 2003, p. 163.
+Millet, L. Edward. "[The Large-Angle Pendulum Period](https://doi.org/10.1119/1.1557505)." *The Physics Teacher*, vol. 41, no. 3, 2003, pp. 162–163.
 
-Mohazzabi, Pirooz. "Theory and Examples of Intrinsically Nonlinear Oscillators." *American Journal of Physics*, Apr. 2004, pp. 492–498.
+Mohazzabi, Pirooz. "[Theory and Examples of Intrinsically Nonlinear Oscillators](https://doi.org/10.1119/1.1624114)." *American Journal of Physics*, vol. 72, no. 4, 2004, pp. 492–498.
 
-Thornton, Stephen T., and Jerry B. Marion. *Classical Dynamics of Particles and Systems.* Ch. 4, "Nonlinear Oscillations." Belmont: Thomson, 2004.
+Thornton, Stephen T., and Jerry B. Marion. *[Classical Dynamics of Particles and Systems](https://openlibrary.org/books/OL3696658M).* Ch. 4, "Nonlinear Oscillations." Belmont: Thomson Brooks/Cole, 2004.
 
-Tipler, Paul A., and Gene Mosca. *Physics for Scientists and Engineers,* vol. 1B, p. 441. New York: Freeman, 2004.
+Tipler, Paul A., and Gene Mosca. *[Physics for Scientists and Engineers](https://openlibrary.org/search?q=Tipler+Mosca+Physics+for+Scientists+and+Engineers),* vol. 1B, p. 441. New York: W. H. Freeman, 2004.
