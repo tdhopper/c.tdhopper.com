@@ -199,7 +199,7 @@
       '<div class="mdpviz__stat"><span class="k">reward this run</span><span class="v" data-r="reward"></span></div>' +
       '<div class="mdpviz__stat"><span class="k">optimal policy would</span><span class="v" data-r="hint"></span></div>' +
       '<div class="mdpviz__stat"><span class="k">your average (runs)</span><span class="v" data-r="avg"></span></div>' +
-      '<div class="mdpviz__stat"><span class="k">best run (optimal 112.40)</span><span class="v" data-r="best"></span></div>';
+      '<div class="mdpviz__stat"><span class="k">best run</span><span class="v" data-r="best"></span></div>';
     const logEl = el("p", "mdpviz__note"); body.appendChild(logEl);
 
     function nodePix(i, w, h) { return [POS[i][0] * w, POS[i][1] * h]; }
@@ -233,6 +233,8 @@
         }
         const t = nodePix(4, w, h);
         edge(ctx, src[0], src[1], t[0], t[1], rad, p.trans, "+" + R[TRANSPLANT][health]);
+        const stay = row[health];
+        if (stay) label(ctx, (stay * 100).toFixed(0) + "% stay", src[0], src[1] - rad - 8, p.dim, "10.5px -apple-system, sans-serif", "center", "bottom");
       }
 
       // nodes
@@ -366,7 +368,7 @@
       ctx.clearRect(0, 0, w, h);
       const lambda = (+sl.value) / 100;
       const sol = solve(lambda);
-      const YMAX = 130;
+      const YMAX = 140;
 
       const padL = 16, padR = 12, padT = 16, padB = 42;
       const plotW = w - padL - padR, plotH = h - padT - padB;

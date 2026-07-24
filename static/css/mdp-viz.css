@@ -1,6 +1,9 @@
 /* Interactive visualizations for "When to Transplant: Value Iteration and Optimal Stopping".
    Self-contained, theme-aware (reads the Stack theme's data-scheme). */
 
+/* Keep wide KaTeX display equations from overflowing the viewport on narrow screens. */
+.main-article .katex-display { overflow-x: auto; overflow-y: hidden; }
+
 .mdpviz {
   --mdpviz-wait:   #3b7df0;   /* action: wait          */
   --mdpviz-trans:  #16a085;   /* action: transplant    */

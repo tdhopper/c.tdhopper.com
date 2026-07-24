@@ -55,7 +55,7 @@ $$V^\star = (\,112.40,\ 75,\ 60,\ 0,\ 0\,), \qquad \pi^\star = (\,\text{wait},\ 
 The Fair and Poor states transplant immediately: their values equal the transplant payoffs $75$ and $60$ exactly, because acting now is best and the process ends. The interesting state is **Good**. Its value, $112.40$, is larger than the $100$ it would earn by transplanting today:
 
 $$\begin{aligned}
-Q(\text{Good}, \text{wait}) &= 17 + 0.95\big(0.8 \cdot 112.40 + 0.1 \cdot 75 + 0.05 \cdot 60\big) = 112.40, \\
+Q(\text{Good}, \text{wait}) &= 17 + 0.95\big(0.8 \cdot 112.40 + 0.1 \cdot 75 + 0.05 \cdot 60 + 0.05 \cdot 0\big) = 112.40, \\
 Q(\text{Good}, \text{transplant}) &= 100, \qquad\text{so waiting wins.}
 \end{aligned}$$
 
