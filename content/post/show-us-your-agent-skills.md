@@ -19,7 +19,7 @@ tags:
 
 The show is a livestream series from [Vanishing Gradients](https://www.youtube.com/@vanishinggradients) where practitioners open up the systems they use: how their agents plan, hand off context, review one another, and recover when something breaks.
 
-Everything from the episodes lives in the [companion repo](https://github.com/hugobowne/show-us-your-agent-skills), and the conversation continues in the [Discord](https://discord.gg/JZ2WGdFDU). Past guests include [Wes McKinney](https://wesmckinney.com/), [Hamel Husain](https://hamel.dev/), [Matt Rocklin](https://matthewrocklin.com/), and [Vincent Warmerdam](https://koaning.io/). I've found nothing better for seeing how people work rather than how they say they work.
+[The show's site](https://hugobowne.github.io/show-us-your-agent-skills/agent-skills) is the best way in. It collects every episode, a dossier page for each guest, and a searchable library of the skills and workflows people have demoed, 65 skills across 24 builders as of this episode. The raw material lives in the [companion repo](https://github.com/hugobowne/show-us-your-agent-skills), and the conversation continues in the [Discord](https://discord.gg/JZ2WGdFDU). Past guests include [Wes McKinney](https://wesmckinney.com/), [Hamel Husain](https://hamel.dev/), [Matt Rocklin](https://matthewrocklin.com/), and [Vincent Warmerdam](https://koaning.io/). I've found nothing better for seeing how people work rather than how they say they work.
 
 My portion, cleaned up and reorganized by Claude:
 
@@ -129,7 +129,8 @@ One thing I didn't get to demo: I've been assembling teams of persona-based suba
 
 ## More from the show
 
-- [Show Us Your (Agent) Skills repository](https://github.com/hugobowne/show-us-your-agent-skills), with notes and guest dossiers from every episode
+- [The Show Us Your (Agent) Skills site](https://hugobowne.github.io/show-us-your-agent-skills/agent-skills), with guest dossiers and the skills and workflows library
+- [The companion repository](https://github.com/hugobowne/show-us-your-agent-skills), where the raw material from every episode lives
 - [Vanishing Gradients on YouTube](https://www.youtube.com/@vanishinggradients) and [the newsletter](https://hugobowne.substack.com/)
 - [Upcoming livestreams and workshops](https://luma.com/calendar/cal-8ImWFDQ3IEIxNWk)
 
