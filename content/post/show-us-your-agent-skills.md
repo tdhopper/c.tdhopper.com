@@ -11,7 +11,7 @@ tags:
   - side-projects
 ---
 
-[Hugo Bowne-Anderson](https://hugobowne.github.io/) and [Thomas Wiecki](https://twiecki.io/) invited me onto the season two finale of *Show Us Your (Agent) Skills*, alongside [Chip Huyen](https://huyenchip.com/). I demoed my setup, Chip showed the multi-agent runner she's built, and Thomas closed with a framework for agentic data science.
+[Hugo Bowne-Anderson](https://hugobowne.github.io/) and [Thomas Wiecki](https://twiecki.io/) invited me onto the season two finale of [*Show Us Your (Agent) Skills*](https://hugobowne.github.io/show-us-your-agent-skills/agent-skills), alongside [Chip Huyen](https://huyenchip.com/). I demoed my setup, Chip showed the multi-agent runner she's built, and Thomas closed with a framework for agentic data science.
 
 ## Watch
 
