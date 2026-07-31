@@ -4,7 +4,7 @@ date: 2026-07-30
 description: I joined Hugo Bowne-Anderson, Thomas Wiecki, and Chip Huyen on Show Us Your (Agent) Skills to walk through my setup, from side projects I build on my phone to what I've learned reviewing code I didn't write.
 categories:
   - Article
-image: /images/ai-agent-coder.jpg
+image: /images/how-im-using-agents.png
 tags:
   - ai
   - developer-tools

@@ -141,7 +141,7 @@ def main():
 
     # Save to static/images/
     script_dir = Path(__file__).parent
-    project_root = script_dir.parent.parent  # Go up from .claude/skills/generate-image to project root
+    project_root = script_dir.parent.parent.parent  # Go up from .claude/skills/generate-image to project root
     output_path = project_root / "static" / "images" / filename
 
     if save_image(image_data, output_path):
