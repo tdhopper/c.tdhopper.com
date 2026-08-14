@@ -130,6 +130,7 @@ One thing I didn't get to demo: I've been assembling teams of persona-based suba
 ## More from the show
 
 - [The Show Us Your (Agent) Skills site](https://hugobowne.github.io/show-us-your-agent-skills/agent-skills), with guest dossiers and the skills and workflows library
+- [My guest page](https://hugobowne.github.io/show-us-your-agent-skills/agent-skills/guests/tim-hopper/), the show's dossier on my setup and the skills I demoed
 - [The companion repository](https://github.com/hugobowne/show-us-your-agent-skills), where the raw material from every episode lives
 - [Vanishing Gradients on YouTube](https://www.youtube.com/@vanishinggradients) and [the newsletter](https://hugobowne.substack.com/)
 - [Upcoming livestreams and workshops](https://luma.com/calendar/cal-8ImWFDQ3IEIxNWk)
