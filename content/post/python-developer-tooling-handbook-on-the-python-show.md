@@ -15,7 +15,7 @@ tags:
 
 [Mike Driscoll](https://blog.pythonlibrary.org/) invited me onto [The Python Show](https://www.pythonshow.com/podcast) to talk about the [Python Developer Tooling Handbook](https://pydevtools.com/handbook/). We covered how I got into Python, why I built the handbook, the current type checker race, Ruff's autofixes, and why I still think you should have a blog.
 
-Mike has been writing about Python at [Mouse vs Python](https://blog.pythonlibrary.org/) for close to twenty years and has written a stack of Python [books](https://driscollis.gumroad.com/). His show is one of the few Python podcasts that gets into the tooling weeds. [Subscribe to it](https://www.pythonshow.com/podcast) and go read his blog.
+Mike has been writing about Python at [Mouse vs Python](https://blog.pythonlibrary.org/) for close to twenty years and has written a stack of Python [books](https://driscollis.gumroad.com/). [Subscribe to it](https://www.pythonshow.com/podcast) and go read his blog.
 
 ## Listen
 
@@ -37,8 +37,6 @@ Mike has been writing about Python at [Mouse vs Python](https://blog.pythonlibra
 - [Anthropic Agent SDK](https://docs.claude.com/en/api/agent-sdk/overview) and [Claude Code](https://www.claude.com/product/claude-code)
 
 ## Transcript
-
-Lightly edited for readability.
 
 ### Getting into Python
 
