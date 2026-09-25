@@ -22,8 +22,6 @@ My friends [Andrew](http://www.twitter.com/akm) and [Joel](http://www.twitter.co
 
 ## Transcript
 
-This transcript was generated from the original recording with AssemblyAI speaker diarization and lightly edited for readability while preserving each speaker's voice.
-
 **[00:00] Tim Hopper:** Welcome to Adversarial Learning.
 
 **[00:03] Andrew Therriault:** Welcome to Adversarial Learning. This is Andrew and Joel, as always, and we have a returning guest, Tim Hopper, who is— since this is his second time, that officially makes him a regular. So Tim, how does that make you feel?

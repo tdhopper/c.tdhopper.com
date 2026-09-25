@@ -22,8 +22,6 @@ I was flattered to be asked to be on a burgeoning data science podcast called Un
 
 ## Transcript
 
-This transcript was generated from the original recording with AssemblyAI speaker diarization and lightly edited for readability while preserving each speaker's voice.
-
 **[00:00] Matt Hall:** Oh, we are live.
 
 **[00:01] Gram Ganssle:** We're live. Hi, Matt.

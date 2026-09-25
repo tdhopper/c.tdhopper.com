@@ -20,8 +20,6 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 ## Transcript
 
-This transcript was generated from the original recording with AssemblyAI speaker diarization and lightly edited for readability while preserving each speaker's voice.
-
 **[00:00] Joel Grus:** Welcome to episode 2 of Adversarial Learning. Joel here. Welcome to episode 2. We're glad to have you with us. We're glad to be here. I hope you enjoyed the new theme music this week. I worked pretty hard on it. And today we've got a really interesting episode for you. We've got the tallest data scientist, Tim Hopper, with us.
 
 **[00:53] Tim Hopper:** Hi, Tim.

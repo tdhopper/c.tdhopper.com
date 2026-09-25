@@ -20,8 +20,6 @@ I recently had the honor of being interviewed by [Michael Swenson](http://comput
 
 ## Archived interview
 
-The original site is no longer online, so I have preserved the interview below. It was originally published by Michael Swenson on August 18, 2015, and was recovered from [the Internet Archive](https://web.archive.org/web/20160304120901/http://computationalimagination.com/interview_tim_hopper.php). The wording reflects the original written Q&A.
-
 ## Transcript
 
 ### Domain

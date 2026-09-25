@@ -22,8 +22,6 @@ image: /images/podcast-interview-min.png
 
 ## Transcript
 
-This transcript was generated from the original recording with AssemblyAI speaker diarization and lightly edited for readability while preserving each speaker's voice. The prerecorded show intro and ad contain voices that the two-speaker diarization occasionally groups with the interview speakers.
-
 **[00:00] Tim Hopper / Pybites intro:** One of my most popular pages right now is how to use uv and pytest together. Two great tools. And that's something Astral totally could write about, and maybe they will in the future. But that's not in the core of their documentation. And that's the kind of thing that I wanna help people be able to do. Hello, and welcome to the Pybites podcast, where we talk about Python, career, and mindset. We're your hosts. I'm Julian Sequeira.
 
 **[00:27] Bob Belderbos:** And I am Bob Belderbos. If you're looking to improve your Python, your career, and learn the mindset for success, this is the podcast for you. Let's get started. Welcome back, everybody. This is Bob Belderbos. Welcome back to the Pybites podcast. I'm here with Tim Hopper for this very special episode. Tim, how are you doing?
