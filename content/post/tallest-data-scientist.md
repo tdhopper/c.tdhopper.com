@@ -22,8 +22,6 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[00:00] Joel Grus:** Welcome to episode 2 of Adversarial Learning. Joel here. Welcome to episode 2. We're glad to have you with us. We're glad to be here. I hope you enjoyed the new theme music this week. I worked pretty hard on it. And today we've got a really interesting episode for you. We've got the tallest data scientist, Tim Hopper, with us.
 
-**[00:53] Tim Hopper:** Hi, Tim.
-
 **[00:53] Joel Grus:** And we're going to talk about data science and about being tall and about a variety of other things that are all pretty good. So let's do a word from our sponsor and then we'll get into things. Adversarial Learning is brought to you by Data Science from Scratch: First Principles with Python. If you're looking for a book about data science and you'd like it to be from scratch and you want it to be about first principles and you'd like it to be in Python, then Data Science from Scratch: First Principles with Python is the book you're looking for, available from Amazon.com, O’Reilly.com, or wherever books are sold. Data Science from Scratch. One of these days we’ll get a real sponsor and then we won’t have to have my book being the sponsor, although I like recording those sponsorship things, so maybe we’ll keep doing that too. Okay, on to the episode.
 
 **[01:50] Andrew Musselman:** Rolling.
@@ -36,7 +34,7 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[02:02] Andrew Musselman:** Yeah, we met you through the community, and we found that you were fun to talk to, so we're very happy to have you on the show.
 
-**[02:11] Joel Grus:** Thank you.
+**[02:11] Tim Hopper:** Thank you.
 
 **[02:12] Andrew Musselman:** Tell us about yourself.
 
@@ -194,7 +192,9 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[13:15] Andrew Musselman:** So is that an expression of your ambivalence about advanced degrees?
 
-**[13:18] Tim Hopper:** Well, so more to the story is there's a companion website, which is shouldigetaphd.com, where I interviewed 9 basically Twitter friends, some of whom have PhDs and some of whom don't, and kind of asked them the questions I wished I had asked before starting a PhD program. Yeah, I read some of those.
+**[13:18] Tim Hopper:** Well, so more to the story is there's a companion website, which is shouldigetaphd.com, where I interviewed 9 basically Twitter friends, some of whom have PhDs and some of whom don't, and kind of asked them the questions I wished I had asked before starting a PhD program.
+
+**[13:43] Andrew Musselman:** Yeah, I read some of those.
 
 **[13:46] Andrew Musselman:** That's a nice site.
 
@@ -382,7 +382,7 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[33:11] Tim Hopper:** Yeah, it was. Yeah, but for the money, I was like, well, if they, you know, if I get 10 days a year, that's a lot of money. So I even pulled up the email so I can read to you the very simple question I asked. It said, "Hi, [name]— a few questions. I see no mention of PTO, company holidays, vacation, sick days, etc. Can you please send me the current policy on that?" You know, not adversarial, not, you know, and I asked a few other questions about equipment and, you know, what are the number of outstanding shares? Those kind of things. Oh, okay.
 
-**[33:54] Andrew Musselman:** But nothing within bounds, right?
+**[33:54] Andrew Musselman:** But nothing out of bounds, right?
 
 **[33:57] Tim Hopper:** Very within bounds. It was there.
 
@@ -476,17 +476,17 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[43:20] Joel Grus:** Actually, I didn't look at that. I should have.
 
-**[43:23] Andrew Musselman:** It's doyplayball.tumblr.com. There was another thing that we wanted to ask you, and that was: why is your blog called Stigler Diet?
+**[43:23] Andrew Musselman:** It's doyouplayball.tumblr.com. There was another thing that we wanted to ask you, and that was: why is your blog called Stigler Diet?
 
 **[43:34] Tim Hopper:** Oh yeah. So the Stigler Diet problem—George Stigler, who was the economist at the University of Chicago—worked on it in the early days when people were studying linear optimization, like linear constraint optimization. They were thinking, like, could you design a diet that's optimally, like, cheap and healthy? And so that's what Stigler Diet is all about. I think there's a paper that George Stigler published. I think it's largely just a way to demonstrate how linear programming can be used. But actually, as with all good things in life, that name came through Twitter. I tweeted back in 2011—I was looking for a blog name—and David Curran, whose name—I Am Red Dave—who's my favorite Irishman, who I think works for IBM on Watson and studied operations research, was suggesting some great blog names, and he said stiglerdiet.com is available or something. I thought it sounded catchy. So I think one of my first blog posts actually is about an optimization-based diet model.
 
 **[44:58] Andrew Musselman:** Yeah.
 
-**[44:59] Tim Hopper:** Yeah, May 9th, 2000—sorry, January 9th, 2012: "Carrots, Oatmeal, and Operations Research." I wrote a blog post about my classmate at UvA.
+**[44:59] Tim Hopper:** Yeah, May 9th, 2000—sorry, January 9th, 2012: "Carrots, Oatmeal, and Operations Research." I wrote a blog post about my classmate at UVA.
 
 **[45:09] Joel Grus:** Sounds delicious.
 
-**[45:10] Tim Hopper:** My classmate at UvA in the math department, his skin was turning orange because all he was eating was carrots and oatmeal and beer and marijuana and amphetamines.
+**[45:10] Tim Hopper:** My classmate at UVA in the math department, his skin was turning orange because all he was eating was carrots and oatmeal and beer and marijuana and amphetamines.
 
 **[45:23] Andrew Musselman:** You're not supposed to eat that.
 
@@ -542,7 +542,7 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[48:34] Andrew Musselman:** And, you know, it's probably easy for people to find you on social media.
 
-**[48:43] Tim Hopper:** We gave them one URL if you want to. TD Hopper—yeah, you can find me on twitter.com/tdhopper, tdhopper.com, instagram.com/tdhopper, linkedinhopper.com/tdhopper.
+**[48:43] Tim Hopper:** We gave them one URL if you want to. TD Hopper—yeah, you can find me on twitter.com/tdhopper, tdhopper.com, instagram.com/tdhopper, linkedin.com/in/tdhopper.
 
 **[48:57] Joel Grus:** Pinterest, Snapchat?
 
@@ -562,4 +562,4 @@ I was honored to [join my friends Joel and Andrew on the Adversarial Learning](h
 
 **[49:40] Andrew Musselman:** Joking.
 
-**[49:40] Joel Grus:** And so that's a wrap. Make sure to tell your friends to listen. Make sure to check out our website, adversariallearning.com, and make sure to follow us on Twitter, adversarial_L. If you'd like to follow us individually, I'm @JoelGroose on Twitter, Andrew is @akm, and today's guest Tim Hopper is @TimHopper. TD Hopper. So thanks again, and I know you want to hear that theme music again, so here it is.
+**[49:40] Joel Grus:** And so that's a wrap. Make sure to tell your friends to listen. Make sure to check out our website, adversariallearning.com, and make sure to follow us on Twitter, adversarial_L. If you'd like to follow us individually, I'm @joelgrus on Twitter, Andrew is @akm, and today's guest Tim Hopper is @TimHopper. TD Hopper. So thanks again, and I know you want to hear that theme music again, so here it is.
