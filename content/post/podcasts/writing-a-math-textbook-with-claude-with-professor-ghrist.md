@@ -42,13 +42,13 @@ In this episode, Professor Robert Ghrist from the University of Pennsylvania dis
 
 **[01:10] Tim:** So your mathematical background is applied topology, which that means you turn coffee cups into donuts or something like that?
 
-**[01:18] Robert Ghrist:** Something like that. My actual original background is in mechanical engineering. That's what I did my undergrad in, but I fell in love with the mathematics that I was learning there. So much so that I went to graduate school, got a PhD in applied math, and when I got to grad school, I took a topology course, algebraic topology, and found that that is the thing that just really got me. And so I spent the rest of my career working on finding applications of topology, algebraic, geometric, otherwise, to interesting engineering problems all over the, all over the place.
+**[01:18] Robert Ghrist:** Something like that. My original background is in mechanical engineering. That's what I did my undergrad in, but I fell in love with the mathematics that I was learning there. So much so that I went to graduate school, got a PhD in applied math, and when I got to grad school, I took a topology course—algebraic topology—and found that was the thing that really got me. And so I spent the rest of my career finding applications of topology—algebraic, geometric, otherwise—to interesting engineering problems all over the place.
 
 **[01:52] Tim:** Very cool. And you also, I think teaching seems to be a passion of yours as well. It is.
 
 **[01:58] Robert Ghrist:** The teaching and the research really go together. I find that the more I teach the basics to students, the more it just opens up new vistas, even in the most advanced research stuff that I wind up doing.
 
-**[02:12] Tim:** Oh, well, that's, that's an interesting statement. That would be an interesting podcast of its own, but I won't, I won't go down that rabbit trail. I know you've gotten a lot of notoriety, at least on social media in the past for your, your calculus book was written, that's maybe 15 years ago now in somewhat of a whimsical way. Maybe you could tell a little bit about that book or just some of your book writing history.
+**[02:12] Tim:** Oh, well, that's an interesting statement. That would be an interesting podcast of its own, but I won't go down that rabbit trail. I know you've gotten a lot of notoriety, at least on social media, for your calculus book, which was written maybe 15 years ago now in a somewhat whimsical way. Maybe you could tell us a little bit about that book or some of your book-writing history.
 
 **[02:35] Robert Ghrist:** Yeah. So I have an unusual oeuvre of publications. I find it difficult to write. I get writer's block and then I just can't do anything. And so the way that I have gotten out of that in the past is I'll, I'll draw pictures. And, you know, sometimes it's doodling, sometimes it's a little more serious, but I got no training. So it's, you know, it's basically just doodling. So at one point, oh my gosh, yeah, it must be like 15 years ago, something like that, maybe more. I was doodling up some notes for the calculus course that I was teaching, and I decided, hey, I've got this, this cool tablet where I can, you you know, use a pen and draw on it. Why not make an electronic calculus book that's just all cartoon-like? Not exactly a comic book, 'cause I didn't know how to draw comic books, but, you know, just something whimsical and fun. And that was the Funny Little Calculus Text, or the FLCT, which I just put out there and, you know, let's see where it goes. And some people found it useful.
 
@@ -158,7 +158,7 @@ And that's not going to be a perfect process, but I think folks are going to kee
 
 **[29:43] Tim:** Right.
 
-**[29:43] Robert Ghrist:** I'm interested in just pushing the envelope, seeing what can be done. Mathematicians tend to judge things using the inf norm. That is, the worth of x, where x is a paper, book, or mathematician, equals the, the inf norm, like the, the The worst bit of it. That is the value of the work. I would argue more for a, you know, like an L2 norm for how you value things. But a lot of mathematicians are very, very conservative and they will judge things based on, you know, what's the worst mistake that appears in here? So I, I, I bet there's probably some math colleagues of mine who would not like this because it is possible to make mistakes and I'm sure there are mistakes in there.
+**[29:43] Robert Ghrist:** I'm interested in just pushing the envelope, seeing what can be done. Mathematicians tend to judge things using the L-infinity norm. That is, the worth of x, where x is a paper, book, or mathematician, equals the L-infinity norm—the worst bit of it. That is the value of the work. I would argue more for an L2 norm for how you value things. But a lot of mathematicians are very conservative, and they will judge things based on the worst mistake that appears. So I bet there are probably some math colleagues of mine who would not like this because it is possible to make mistakes, and I'm sure there are mistakes in there.
 
 **[30:36] Tim:** Yeah. And mathematicians, so I spent one year as a math PhD student at the University of Virginia. And if my experience is any, any generalizability, mathematicians are not necessarily the most technologically advanced or eager to keep up with technological trends. So I could, I could see a lot of folks scratching their heads at this, and I imagine there are many out there who haven't even tried these tools at all yet.
 
@@ -168,7 +168,7 @@ And that's not going to be a perfect process, but I think folks are going to kee
 
 **[32:05] Robert Ghrist:** Yes.
 
-**[32:06] Tim:** So it seems to me one obvious concern is that someone comes along and said, oh, well, you know, Dr. Grice did this and I could just go generate something, but not put the same attention in it. Yeah. I don't know. What are your, what are your conservative thoughts as a mathematician?
+**[32:06] Tim:** So it seems to me one obvious concern is that someone comes along and says, oh, well, Dr. Ghrist did this, and I could just go generate something, but not put the same attention into it. What are your concerns or thoughts as a mathematician?
 
 **[32:24] Robert Ghrist:** Right. So those 55 days were pretty intense. I was hitting my rate limits every day. It was a lot of work trying to keep all the parts moving and in my head, but it was working as a director. And direction is difficult work. I have had some people ask me, so, you know, who's the real author on this? Is it you or is it Claude? Maybe, maybe you should add Claude as a co-author. Was it ghostwritten? Is that the way you think about it? And my response is, I am the director of this work, and as such, it's my work. With Claude as an absolutely amazing assistant. You could look at a movie and you could say, ah, that's a Spielberg movie. And everyone knows that he wasn't running the camera. He wasn't running the audio. He wasn't doing the special effects himself. He was directing. Similar thing here. Directing well is hard work. Anyone can go out and make a movie. It's not necessarily going to be a high-quality movie. even if they have access to a full production studio and cool special effects, it's all about the vision and the execution. Similar thing here with getting an LLM to help with writing a book.
 
@@ -202,7 +202,7 @@ Get stuck, maybe get somewhere, then talk to their friends, upload things to the
 
 **[42:44] Tim:** Do you have predictions about where the tools are gonna go in terms of, you know, how maybe 2 years from now LLMs are gonna be different in how they assist you here, or is it one day at a time?
 
-**[42:56] Robert Ghrist:** 2 years is an immense Immense time difference in this new world. Yep. I, yep. I hesitate going more than a year out.
+**[42:56] Robert Ghrist:** Two years is an immense amount of time in this new world. I hesitate to go more than a year out.
 
 **[43:08] Tim:** Yeah. Yeah.
 
