@@ -5,7 +5,7 @@ external: http://adversariallearning.com/episode-10-stories-of-degradation-and-h
 Thumbnail: /projects/al10.png
 title: "Adversarial Learning: Stories of Degradation and Humiliation"
 date: 2017-05-22
-description: Roundtable on the Adversarial Learning podcast about bad intervew experiences.
+description: Roundtable on the Adversarial Learning podcast about bad interview experiences.
 tags:
   - data-science
   - career
@@ -424,7 +424,7 @@ And that was my last bad interview. I mean, I have a bunch of other stories that
 
 **[57:37] Tim Hopper:** I'm sorry for being helpful.
 
-**[57:39] Joel Grus:** No, no, it’s good. You’re listening to this, so you found us. But as always, our website is adversarilearning.com. You can go there and find the latest episodes. You can find us on iTunes, or Stitcher, or I don’t know, whatever it is—any of those other podcast sites that I don’t know what they’re called. We love it if you write reviews for us, as long as they’re good reviews. If you write bad reviews, we don’t love it. It makes us sad. And you can follow us on Twitter @Adversarial_L. You can follow Tim on Twitter at—was it TD Hopper?
+**[57:39] Joel Grus:** No, no, it’s good. You’re listening to this, so you found us. But as always, our website is adversariallearning.com. You can go there and find the latest episodes. You can find us on iTunes, or Stitcher, or I don’t know, whatever it is—any of those other podcast sites that I don’t know what they’re called. We love it if you write reviews for us, as long as they’re good reviews. If you write bad reviews, we don’t love it. It makes us sad. And you can follow us on Twitter @Adversarial_L. You can follow Tim on Twitter at—was it TD Hopper?
 
 **[58:12] Tim Hopper:** That is correct. TD Hopper. TDHopper.com.
 
